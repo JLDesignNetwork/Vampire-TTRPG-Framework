@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.24.0-as"
+    "version": "2608.25.0-as"
   },
   "todo": [
     {
@@ -165,12 +165,107 @@
       "protection": "protected",
       "existed_since": "2608.24.0-as",
       "details": "Codified Structural Intactness requirement for Creation, Wooden Stake Catatonic Torpor Paralysis vs True Death, Anchor Empathy Shielding, Post-Feeding animal panic reduction, Daywalker UV immunity, Sci-Fi soil containment, Re-Rooting interruption tiers, and Millennial Scaling override."
+    },
+    {
+      "id": "TODO-17",
+      "section": "## Powers -> Advanced Mental & Illusion",
+      "title": "Audit Phantasm Mental Illusion vs Cybernetic Optic Implants & Digital HUDs",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Cybernetic Optic Interaction: Phantasm affects organic mind, but raw digital HUD overlays display un-distorted feeds, inflicting a -2 perceptual disorientation penalty."
+    },
+    {
+      "id": "TODO-18",
+      "section": "## Powers -> Necromancy & Grave Arts",
+      "title": "Audit Corpse Siphon Interrogation Scope on Living / Torpid Decapitated Heads",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Undead Head Interrogation Scope: Corpse Siphon targets ONLY deceased mortal/host corpses; living or torpid decapitated vampire heads are immune and require Mind Tear."
+    },
+    {
+      "id": "TODO-19",
+      "section": "## Social -> Secrecy, Covens, and Thralls",
+      "title": "Audit Law of the Sanguine Tithe Hardship Deferral & Forced Draining Rules",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Tithe Hardship Exemption: 0-harvest weeks due to injury/stasis grant a 1-week deferral; 2 unpaid weeks allow Apex Elder forced vein draining (2 reserves) or punitive labor."
+    },
+    {
+      "id": "TODO-20",
+      "section": "## Powers -> Immunities & Alteration",
+      "title": "Audit Daywalker's Grace Solar Timer Drain During Swarm Pocket-Realm Shift",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Solar Swarm Transference Timer: sunlight on manifested swarm transfers solar burn into Pocket-Realm body, continuously burning the 3-minute timer until forced Stage 4 Torpor."
+    },
+    {
+      "id": "TODO-21",
+      "section": "## Powers -> Behavioral Powers (Sensory)",
+      "title": "Audit Sub-Auditory Tremor Echo Airborne & Levitating Target Blind Spot",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Airborne & Levitating Blind Spot: Sub-Auditory Tremor Echo senses surface vibrations only; flying/levitating targets do not touch surfaces and are completely invisible to Tremor Echo."
+    },
+    {
+      "id": "TODO-22",
+      "section": "## Powers -> Combat & Elemental Evocation",
+      "title": "Audit Nerve Lightning Bio-Electrical Target Scope vs Kinetic Barrier Deflection",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.25.0-as",
+      "details": "Audit Nerve Lightning vs Kinetic Barrier: clarify that physical force barriers (Kinetic Barrier) deflect solid/supernatural projectiles, but non-physical bio-electrical nervous attacks (Nerve Lightning) bypass telekinetic shields, requiring Psychic Fortress or total cover."
+    },
+    {
+      "id": "TODO-23",
+      "section": "## Powers -> Alteration (Forms & Shifting)",
+      "title": "Audit Chameleon Facade Thermal FLIR Signature Lock",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.25.0-as",
+      "details": "Audit Chameleon Facade under FLIR thermal inspection: clarify that while physical facial features and voice pitch shift like wet clay, internal body heat is not generated, causing impostors to still appear as cold blue/violet silhouettes under thermal FLIR optics."
+    },
+    {
+      "id": "TODO-24",
+      "section": "## Powers -> Necromancy & Grave Arts",
+      "title": "Audit Soul Bind Incorporeal Daylight Anchor Protection",
+      "status": "in-progress:audit",
+      "priority": "low",
+      "existed_since": "2608.25.0-as",
+      "details": "Audit Soul Bind phantom sentry daylight survival: clarify that bound spirits retreat inside their physical anchor object (grave marker, terminal node) during daylight hours; destroying the anchor object permanently banishes the bound spirit."
+    },
+    {
+      "id": "TODO-25",
+      "section": "## Mechanics -> Blood Surge",
+      "title": "Audit Blood Surge Single-Stat Duration Overwrite Cap",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.25.0-as",
+      "details": "Audit Blood Surge stat stacking across consecutive rounds: clarify that executing a new Blood Surge overwrites previous surge stat bonuses, allowing a vampire to maintain only a single +2 stat bonus (+2 Strength OR +2 Speed OR +2 Initiative) at any given moment."
+    },
+    {
+      "id": "TODO-26",
+      "section": "## Powers -> Behavioral Powers (Emotional)",
+      "title": "Audit Visage of the Abyssal Nightmare Fear Stun Immunity Cooldown",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.25.0-as",
+      "details": "Audit Visage of the Abyssal Nightmare fear stun locking: clarify that a target successfully affected by Visage gains an immediate 1-Scene immunity window against subsequent fear stuns from Visage, preventing infinite fear stun locking."
     }
   ]
 }
 ---
 
-# Vampire Ruleset v2608.24.0-as
+# Vampire Ruleset v2608.25.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -678,7 +773,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 * **Electromagnetic Shroud Gaze `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You shift your vision into the electromagnetic spectrum. Physical reality dims into shades of grey while electrical currents, camera lenses, radio waves, and security lasers glow in brilliant neon blue. Automatically highlights digital surveillance lenses, hidden wiretaps, infrared laser tripwires, and electronic security nodes, allowing you to trace wire runs through plaster walls and bypass security laser grids undetected.
 * **Nyctophilous Apex Sight `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your pupils absorb every stray photon in the atmosphere, granting crystal-clear, full-color vision in absolute pitch-black void environments without needing ambient light. Renders the vampire completely immune to darkness penalties, flashbang blinding flares, and optical disorientation spells.
 * **Echolocation Pulse `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit high-frequency, sub-audible acoustic pulses from your throat—mimicking the ultrasonic bio-sonar of cave bats. The sound waves bounce off surrounding geometry, mapping a 3D acoustic blueprint of enclosed building layouts, hidden rooms, vault dimensions, and moving targets behind solid concrete walls up to **100 feet**. Completely bypasses visual illusions (*Phantasm*), smoke, and darkness, revealing invisible or cloaked enemies by their acoustic disruption. *Medium Requirement:* Requires a physical atmospheric medium (air, water, gas) to transmit sound waves; fails completely in hard vacuums or sound-dampened dead zones created by *The Cold Hush*.
-* **Sub-Auditory Tremor Echo `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Microscopic barbs in your inner ear and sole membranes feel sub-audible micro-vibrations echoing through floors, load-bearing beams, and stone foundations. You automatically sense the location, gait, and weight of any moving entity touching the floor or walls within **60 feet**—even through multiple floors or solid granite slabs—preventing stealth ambushes from behind walls, ceiling vents, or beneath floorboards.
+* **Sub-Auditory Tremor Echo `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Microscopic barbs in your inner ear and sole membranes feel sub-audible micro-vibrations echoing through floors, load-bearing beams, and stone foundations. You automatically sense the location, gait, and weight of any moving entity touching the floor or walls within **60 feet**—even through multiple floors or solid granite slabs—preventing stealth ambushes from behind walls, ceiling vents, or beneath floorboards. *Airborne & Levitating Blind Spot:* Sub-Auditory Tremor Echo detects physical kinetic micro-vibrations transmitted through solid surfaces only. Entities completely airborne or levitating (*Abyssal Levitation*, *Vesper Canopy*) do not touch solid surfaces and are **completely invisible** to Tremor Echo (requiring *Echolocation Pulse* or *Thermal Vitae Vision* to detect).
 * **Cardiac Resonance `[Activated - 1 Reserve | Duration: 1 Scene]`:** Your hearing locks onto the rhythmic thumping of mortal hearts. You can isolate and listen to a single heartbeat across a crowded room, operating as a supernatural lie detector where any micro-spike in a target's heart rate or arrhythmia immediately alerts you to lies, panic, or deceit (+2 social interrogation bonus).
 * **Omni-Sensory Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of nocturnal perception. You possess *Crimson Scent*, *Thermal Vitae Vision*, *Nyctophilous Apex Sight*, *Echolocation Pulse*, and *Sub-Auditory Tremor Echo*, granting complete multi-spectral mastery over sight, sound, vibration, flashbang immunity, and scent in a single Master power slot.
 
@@ -689,7 +784,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 * **Telekinetic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of psychokinesis. You possess *Mind Grip*, *Kinetic Barrier*, and *Kinetic Crush*, granting absolute mastery over telekinetic lifting, projectile defense, and force crushing in a single Master power slot.
 
 **Advanced Mental & Illusion**
-* **Phantasm `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project vivid sensory illusions directly into a target's mind. You can make an ally appear as a monstrous threat, project false gunshots, or create an illusionary wall to hide your escape. *Mental Scope:* Because Phantasm projects directly into the target's brain rather than bending light in physical space, it affects all senses (visual, auditory, olfactory) of the targeted host mind. Automated non-sentient physical machines or optical security cameras are completely immune.
+* **Phantasm `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project vivid sensory illusions directly into a target's mind. You can make an ally appear as a monstrous threat, project false gunshots, or create an illusionary wall to hide your escape. *Mental Scope:* Because Phantasm projects directly into the target's brain rather than bending light in physical space, it affects all senses (visual, auditory, olfactory) of the targeted host mind. Automated non-sentient physical machines or optical security cameras are completely immune. *Cybernetic Optic Interaction:* If a target possesses cybernetic camera eyes or digital HUDs wired into their visual cortex, Phantasm affects the organic mind, but raw digital HUD overlays display un-distorted feeds. This visual clash inflicts a severe **-2 perceptual disorientation penalty** for 1 round as the host mind struggles to reconcile the mental illusion with the digital HUD.
 * **Puppet Master `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You violently seize control of a target's motor nervous system like a marionette. The victim remains conscious but helpless as you force their body to pull a trigger, unlock a security vault, or drop their weapons. *Motor Nervous Scope:* Puppet Master seizes physical motor muscles only (forcing movement, weapon drops, walking). It does **NOT** grant access to the victim's internal brain thoughts, blood reserves, or supernatural power activations; the conscious victim may still attempt mental defenses (*Psychic Fortress*, *Mind Tear*) on their turn.
 * **Psychic Fortress `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You build an impenetrable psychic barrier around your own mind. You are completely immune to mental probes (*Mind Tear*), emotional siphons, and memory wipes (*Lethe's Touch*) attempted by rival vampires. (Sustaining costs 1 Blood Reserve per combat round).
 
@@ -729,6 +824,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 **Immunities & Resistances**
 * **Daywalker's Grace `[Activated - 1 Reserve | Duration: Up to 3 Minutes Solar Shield]`:** Ancient protective sigils woven into your blood shield you from the holy fury of the sun. While mortals sizzle in seconds, your skin merely emits a faint vapor, allowing you to walk beneath unfiltered sunlight for up to **3 precious minutes** per exposure to escape death (inflicting dermal steam burns and a persistent -2 action penalty while exposed).
   * **Required Recovery Window:** After direct solar exposure, the vampire MUST complete a **Recovery Window of 1 full night of undisturbed Native Soil slumber** (or 6 hours in total shadow) before *Daywalker's Grace* can be activated again. Re-exposure before completing the recovery window causes the power to fail, advancing immediately into Round 2 Flesh Ignition! *Strict Recovery Reset:* Any solar exposure before completing the 6-hour shadow / 1-night Native Soil recovery window immediately resets the recovery timer back to 0.
+  * **Solar Swarm Transference Timer:** Sunlight shining upon a manifested swarm transfers 100% solar radiation into the Pocket-Realm body, **continuously consuming** the 3-minute Daywalker's Grace timer. Once the 3-minute timer expires, solar combustion erupts inside the Pocket-Realm, forcibly ejecting the vampire into Stage 4 Torpor.
 * **Unholy Primacy `[Innate Passive - 0 Reserves | Duration: Permanent]`:** A rare and powerful trait inherited directly at Creation via bloodline latency. The pinnacle of bane immunity—your blood becomes dense and unyielding. You gain total, combined immunity to holy water, garlic, and crucifixes; holy water rolls off your skin like oil on glass, garlic smells like sweet perfume, and sacred symbols fail to repel or paralyze your march.
 * **Anointed Flesh `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your outer dermis develops a mystical resistance to consecrated liquids. Holy water no longer causes skin-melting burns or persistent *Scared Wound* debuffs upon contact.
 * **Alchemical Assimilation `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your internal physiology neutralizes divine and botanical toxins. Ingesting garlic or wolfsbane causes zero nausea, internal blistering, or organ failure.
@@ -766,7 +862,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Nerve Lightning `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You hijack the target's neural bio-electrical network, causing a sudden violent electrical short-circuit. The victim suffers blinding pain and muscular spasms, dropping held weapons and collapsing to their knees. *Bio-Neural Target Scope:* Nerve Lightning specifically targets biological neural nervous systems (living mortals, animals, vampires, Reapers). Purely mechanical, non-biological entities (drones, computer mainframes, security cameras) lack a biological neural network and are unaffected.
 
 **Necromancy & Grave Arts**
-* **Corpse Siphon `[Activated - 1 Reserve | Duration: 1 Scene (60s Memory Extraction)]`:** By placing your hand upon a corpse (or dead neural host) deceased within the last 24 hours, you commune with the cold residual echo of the soul/brain, viewing their final 60 seconds of memories or extracting 1 truthful answer to a spoken question. *Skull Contact Requirement:* Corpse Siphon requires direct physical hand contact upon the skull/brain of the deceased host to extract residual neural memories.
+* **Corpse Siphon `[Activated - 1 Reserve | Duration: 1 Scene (60s Memory Extraction)]`:** By placing your hand upon a corpse (or dead neural host) deceased within the last 24 hours, you commune with the cold residual echo of the soul/brain, viewing their final 60 seconds of memories or extracting 1 truthful answer to a spoken question. *Skull Contact Requirement:* Corpse Siphon requires direct physical hand contact upon the skull/brain of the deceased host to extract residual neural memories. *Undead Head Interrogation Scope:* Corpse Siphon targets ONLY non-living, truly deceased mortal/host corpses. Invoking Corpse Siphon on a living or torpid decapitated vampire head fails automatically; probing an undead mind requires active mental powers (*Mind Tear*) and must overcome the target's mental defenses.
 * **Rise of the Slumbering `[Activated - 1 Reserve | Duration: 1 Scene]`:** You inject a stream of black, necrotic vitae into a freshly deceased body. The corpse re-animates as a mindless, pain-immune minion under your direct command for 1 scene to fight, block doorways, or perform manual labor.
 * **Aura of the Slumbering Legion `[Activated / Sustained - 1 Reserve Activation (1 Scene) | Upkeep: 1 Reserve/Round]`:** You pulse a shockwave of necrotic energy outward. This power re-animates up to **ROUND(VAMPIRE_AGE / 100)** dead human/mortal corpses within a **[10 + ROUND(VAMPIRE_AGE / 100)]** feet diameter sphere centered on yourself. The animated corpses rise as mindless, pain-immune minions under your direct command for **1 scene**. *Optional Sustained Maintenance:* If you burn **1 Blood Reserve per round** to sustain the aura, the re-animation field moves with you as an active aura sphere; any newly slain corpses entering or falling within the sphere during combat are automatically re-animated without spending additional activation blood! *Active Minion Cap & Trailing Minions:* A vampire can only maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active re-animated corpses at any given time. Re-animated corpses that fall outside the trailing edge of a moving aura sphere remain active for the remainder of the 1-scene duration, provided total active minions do not exceed the active minion cap. Recasting the aura while at the cap replaces older minions; any excess animated corpses beyond the cap immediately collapse back into lifeless, inanimate remains.
 * **Grave Rot `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You emit a chilling aura of rapid decay. Organic flesh rots, iron/steel rusts, wood splinters, and synthetic armor degrades instantly within your immediate proximity. *Relic & Anchor Immunity:* Grave Rot degrades mundane physical materials (flesh, iron, wood, Kevlar). Sacred relics, blood archives, and supernatural artifacts possess mystical resilience and are immune to passive Grave Rot decay.
@@ -806,7 +902,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
   * **The Four Sacred Laws of the Coven:**
     1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is treason, punishable by immediate True Death.
     2. **The Law of Haven Sanctuary:** All internal bloodletting or physical violence between Coven members within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
-    3. **The Law of the Sanguine Tithe:** Fledglings and lower members must yield a mandatory portion of their hunting yields and stored blood reserves to the Apex Elder. *Tithe Quantity Math:* Requires yielding **1 Blood Reserve per 5 reserves harvested** during hunts (or a minimum of 1 stored draft per week) to the Apex Elder's vault.
+    3. **The Law of the Sanguine Tithe:** Fledglings and lower members must yield a mandatory portion of their hunting yields and stored blood reserves to the Apex Elder. *Tithe Quantity Math:* Requires yielding **1 Blood Reserve per 5 reserves harvested** during hunts (or a minimum of 1 stored draft per week) to the Apex Elder's vault. *Hardship Deferral & Forced Draining:* If a neonate harvests 0 blood due to severe injury, stasis, or active haven lockdown, the 1-draft minimum tithe is **deferred** for 1 week. If unpaid for 2 consecutive weeks, the Apex Elder may collect the tithe by force (draining 2 reserves directly from the neonate's veins) or assign punitive Coven labor.
     4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Bloodline Memory*](#behavioral-powers)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
       * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
       * **The Blood Archive Ritual (Action Economy, Overload & Archiver Immunity):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload. *Archiver Immunity:* Arch-Chroniclers and Blood Scribes (*Archivers*) possess conditioned psychic capacity to digest memory streams seamlessly; Archivers are completely **immune** to sensory flood and suffer **0 combat penalties** when ingesting Archive phials.

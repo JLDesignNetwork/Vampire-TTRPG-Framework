@@ -8,6 +8,23 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.25.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 17 Red Team Audit fixes: Phantasm Cybernetic Optic Interaction, Corpse Siphon Undead Head Interrogation Scope, Law of the Sanguine Tithe Hardship Deferral, Daywalker Solar Swarm Transference Timer, and Sub-Auditory Tremor Echo Airborne Blind Spot.**
+
+#### Added
+- **Phantasm Cybernetic Optic Interaction:** Codified rule specifying that while Phantasm affects the organic visual cortex, raw digital HUD overlays display un-distorted feeds, inflicting a -2 perceptual disorientation penalty.
+- **Corpse Siphon Undead Head Interrogation Scope:** Codified restriction specifying that Corpse Siphon targets ONLY deceased mortal/host corpses; living or torpid decapitated vampire heads are immune and require Mind Tear.
+- **Sanguine Tithe Hardship Deferral:** Codified 1-week deferral for neonates harvesting 0 blood due to injury or stasis; unpaid tithes after 2 consecutive weeks allow Apex Elder forced vein draining (2 reserves) or punitive labor.
+- **Daywalker Solar Swarm Transference Timer:** Codified rule specifying that sunlight shining on a manifested swarm transfers 100% solar radiation into the Pocket-Realm body, continuously burning the 3-minute Daywalker timer until forced Stage 4 Torpor.
+- **Sub-Auditory Tremor Echo Airborne Blind Spot:** Clarified that airborne or levitating targets (Abyssal Levitation, Vesper Canopy) do not touch solid surfaces and are completely invisible to Tremor Echo.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.25.0-as`.
+- Completed tasks `TODO-17` through `TODO-21` in frontmatter and registered Round 18 audit tasks `TODO-22` through `TODO-26` in `in-progress:audit` status.
+
+---
+
 ### 2608.24.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 16 Red Team Audit fixes: Sci-Fi Native Soil Structural Containment & Sabotage, Re-Rooting Interruption Tiers, Millennial Scaling Override Clarification, and Unified Torpor Stasis Scope.**
