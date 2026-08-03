@@ -8,6 +8,22 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.21.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 14 Red Team Audit fixes: Dual-Master Bloodline Duel, Thrall Reaper Contagion Resistance, Blood Archive Action Economy & Overload Penalty, Primary Spliced Reaper Lifespan, and Tabula Rasa Discipline Tiers.**
+
+#### Added
+- **Dual-Master Bloodline Duel System:** Codified rule resolving second-bloodline Thrall enthrallment as a direct Bloodline Duel between Original Master and Intruder Vampire using Age Tier Superiority modifiers (Master Win = intruder blood purged; Intruder Win = master bond shattered + Thrall takes 2 Direct Core Damage on Brink of Death).
+- **Thrall Reaper Contagion Response:** Specified that Thralls receive a +2 Resistance bonus against Reaper contagion due to master vitae; however, because human blood remains susceptible to viral taint, a failed check transforms the Thrall into a Secondary Reaper/Husk.
+- **Blood Archive Action Economy & Overload Penalty:** Standardized Archive phial drinking to 1 Action with effects taking effect on the following round; codified a -2 concentration penalty for 1 round when ingesting Archive phials mid-combat due to sensory overload.
+- **Primary Spliced Reaper Lifespan:** Clarified that the original Primary Spliced Reaper (Patient Zero) possesses a laboratory-stabilized bloodline and does NOT suffer cellular breakdown, unlike Secondary contagions.
+- **Tabula Rasa Discipline Tiers:** Standardized Coven penalties for Tabula Rasa violations: Minor/Accidental = 30-Day Power Lockout + 50% Reserve Drain; Major/Intentional = Forced Stage 3 Torpor for 1 Year + destruction of all records.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.21.0-as`.
+
+---
+
 ### 2608.20.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 13 Red Team Audit fixes: Native Soil Torpor Stasis, Stage 4 Torpor petrification clarification, Nyctophilous Apex Sight in Omni-Sensory Primacy, Trailing Minion Boundary Rules, Natural Critical Success Luck Guarantee, and Digital Shroud thermal counter-power cross-reference fix.**
