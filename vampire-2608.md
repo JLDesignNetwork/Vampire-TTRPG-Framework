@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.28.0-as"
+    "version": "2608.29.0-as"
   },
   "todo": [
     {
@@ -290,10 +290,11 @@
       "id": "TODO-29",
       "section": "## Social -> Bloodline Dynamics & Telepathy",
       "title": "Audit Centenary Compulsion Contradictory Sire Command Supremacy",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.26.0-as",
-      "details": "Audit Centenary Compulsion command overlap: clarify that contradictory Sire commands do not cause paralysis loops; the Sire's most recent explicit command immediately supersedes all previous conflicting directives."
+      "details": "Codified Contradictory Command Supremacy: contradictory Sire commands do not cause paralysis loops; the Sire's most recent explicit command immediately supersedes all previous conflicting directives."
     },
     {
       "id": "TODO-30",
@@ -317,7 +318,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.28.0-as
+# Vampire Ruleset v2608.29.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -950,7 +951,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
 * **Blood Resonance & Synergies:** When vampires of the same bloodline come into close proximity, they instinctively taste and feel the resonance of their shared ancestry.
   * **Lineage Harmonization (Bonus):** Mental and emotional behavioral powers (such as *Siren’s Cadence*, *Imperious Word*, and *Mind Tear*, see [Behavioral Powers](#behavioral-powers)) are significantly more potent when targeting vampires of your own direct bloodline (sires, fledglings, or blood-siblings). The shared blood frequencies make their minds far easier to influence (+2 mechanical success bonus). *Modifier Stacking & Natural Critical Guarantee:* Lineage Harmonization (+2 bonus against direct bloodline) explicitly **STACKS** with [Universal Age Tier Superiority](#mechanics) modifiers (+1 or +2), reflecting how ancient sires possess near-absolute mental dominance over their direct progeny. However, in all mental/social resistance tests, the defending target always retains a minimum **Natural Critical Success Chance (1-in-20 / Natural 20 or Critical Pair)** to resist or break free against impossible odds, ensuring a defender can never be completely counted out regardless of numerical modifier gaps.
   * **Rival Lineage Static (Penalty):** Vampires from rival Old World lineages possess natural mystical static against one another. Attempting to use mind-control powers against a rival bloodline suffers a -2 penalty unless the attacker has previously ingested blood from that rival lineage.
-* **The Centenary Compulsion:** For the first 100 years of their post-change existence, New World vampires suffer from an involuntary psychological and mystical imperative. They will unconsciously do almost anything to please, protect, or obey their sires, making independent rebellion nearly impossible during their first century. *Command Medium Scope:* The Centenary Compulsion forces obedience to a Sire's explicit intent regardless of medium (spoken voice in person, written letter/note, or third-party messenger), provided the fledgling recognizes the command as originating from their Sire.
+* **The Centenary Compulsion:** For the first 100 years of their post-change existence, New World vampires suffer from an involuntary psychological and mystical imperative. They will unconsciously do almost anything to please, protect, or obey their sires, making independent rebellion nearly impossible during their first century. *Command Medium Scope:* The Centenary Compulsion forces obedience to a Sire's explicit intent regardless of medium (spoken voice in person, written letter/note, or third-party messenger), provided the fledgling recognizes the command as originating from their Sire. *Contradictory Command Supremacy:* If a Sire issues contradictory or opposing commands in rapid succession (e.g., *"Attack"* followed immediately by *"Halt"*), the fledgling does not enter a psychological paralysis loop; the Sire's **most recent explicit command** immediately supersedes and replaces all previous conflicting directives.
   * **Breaking the Compulsion (The Shatter Attempt):** A fledgling can attempt a Near-Impossible **Self-Control** check (greatly aided by the *Sovereign Temperament* power, see [Behavioral Powers](#behavioral-powers)) to break their sire's command for a single scene.
   * **Low-Reserve Shatter Degradation System (Trauma & Cost):** Defying the blood bond forces the fledgling's blood to boil backward against the ancestral tether. If attempted while Blood Reserves are at half capacity or less, the violent shockwave inflicts severe physiological and magical degradation based on stored reserves:
     * **High Reserves (>50% Capacity):** Burns **50% of remaining Blood Reserves** + physical agony and bleeding for 1 scene.

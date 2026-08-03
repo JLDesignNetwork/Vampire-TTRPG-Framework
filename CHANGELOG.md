@@ -8,6 +8,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.29.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release codifying `TODO-29` Contradictory Sire Command Supremacy under Centenary Compulsion.**
+
+#### Added
+- **Centenary Compulsion Contradictory Command Supremacy:** Codified rule specifying that contradictory or opposing Sire commands issued in rapid succession do not paralyze a fledgling; the Sire's most recent explicit command immediately supersedes and replaces all previous conflicting directives.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.29.0-as`.
+- Completed task `TODO-29` in frontmatter (`"status": "completed"`, `"protection": "protected"`).
+
+---
+
 ### 2608.28.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release codifying `TODO-28` Anatomical Motor Scope & Vocal Prohibition for Puppet Master.**
