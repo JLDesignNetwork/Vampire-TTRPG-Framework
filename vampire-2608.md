@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.27.0-as"
+    "version": "2608.28.0-as"
   },
   "todo": [
     {
@@ -280,10 +280,11 @@
       "id": "TODO-28",
       "section": "## Powers -> Advanced Mental & Illusion",
       "title": "Audit Puppet Master Motor Control vs Vocal Cord Compliance",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.26.0-as",
-      "details": "Audit Puppet Master motor control scope: clarify that Puppet Master controls physical skeletal muscles (walking, shooting, dropping items), but cannot force vocal cords to speak words or reveal passwords."
+      "details": "Codified Anatomical Motor Scope & Vocal Prohibition: Puppet Master controls external push-pull and stabilizer muscles only; it cannot manipulate internal organs, diaphragmatic respiration, or vocal cords, preventing forced speech or password recitation."
     },
     {
       "id": "TODO-29",
@@ -316,7 +317,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.27.0-as
+# Vampire Ruleset v2608.28.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -856,7 +857,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 
 **Advanced Mental & Illusion**
 * **Phantasm `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project vivid sensory illusions directly into a target's mind. You can make an ally appear as a monstrous threat, project false gunshots, or create an illusionary wall to hide your escape. *Mental Scope:* Because Phantasm projects directly into the target's brain rather than bending light in physical space, it affects all senses (visual, auditory, olfactory) of the targeted host mind. Automated non-sentient physical machines or optical security cameras are completely immune. *Cybernetic Optic Interaction:* If a target possesses cybernetic camera eyes or digital HUDs wired into their visual cortex, Phantasm affects the organic mind, but raw digital HUD overlays display un-distorted feeds. This visual clash inflicts a severe **-2 perceptual disorientation penalty** for 1 round as the host mind struggles to reconcile the mental illusion with the digital HUD.
-* **Puppet Master `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You violently seize control of a target's motor nervous system like a marionette. The victim remains conscious but helpless as you force their body to pull a trigger, unlock a security vault, or drop their weapons. *Motor Nervous Scope:* Puppet Master seizes physical motor muscles only (forcing movement, weapon drops, walking). It does **NOT** grant access to the victim's internal brain thoughts, blood reserves, or supernatural power activations; the conscious victim may still attempt mental defenses (*Psychic Fortress*, *Mind Tear*) on their turn.
+* **Puppet Master `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You violently seize control of a target's motor nervous system like a marionette. The victim remains conscious but helpless as you force their body to pull a trigger, unlock a security vault, or drop their weapons. *Motor Nervous & Anatomical Scope:* Puppet Master operates strictly upon external skeletal push-pull and stabilizer muscles (forcing movement, weapon drops, pulling triggers). It cannot manipulate internal involuntary organs, diaphragmatic respiratory compression, or vocal cord air passage patterns. Consequently, Puppet Master **cannot force vocal compliance, speech, or password recitation** (forcing vocal speech requires *Imperious Word* or mental probe powers like *Mind Tear*). It does NOT grant access to internal brain thoughts, blood reserves, or supernatural power activations; the conscious victim may still attempt mental defenses (*Psychic Fortress*, *Mind Tear*) on their turn.
 * **Psychic Fortress `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You build an impenetrable psychic barrier around your own mind. You are completely immune to mental probes (*Mind Tear*), emotional siphons, and memory wipes (*Lethe's Touch*) attempted by rival vampires. (Sustaining costs 1 Blood Reserve per combat round).
 
 #### Supernatural Powers

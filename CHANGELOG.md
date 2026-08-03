@@ -8,6 +8,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.28.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release codifying `TODO-28` Anatomical Motor Scope & Vocal Prohibition for Puppet Master.**
+
+#### Added
+- **Puppet Master Anatomical Motor Scope & Vocal Prohibition:** Codified rule specifying that Puppet Master operates strictly on external skeletal push-pull and stabilizer muscles; it cannot manipulate internal organs, diaphragmatic respiratory compression, or vocal cord air passage patterns, preventing forced speech or password recitation.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.28.0-as`.
+- Completed task `TODO-28` in frontmatter (`"status": "completed"`, `"protection": "protected"`).
+
+---
+
 ### 2608.27.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release locking in `TODO-27` and codifying Coven Power Ritual Nexuses with Sequential Round-Robin Rotation Upkeep.**
