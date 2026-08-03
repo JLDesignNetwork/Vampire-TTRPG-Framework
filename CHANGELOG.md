@@ -8,6 +8,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.32.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying `TODO-31` Silence Suppression & Faded Mental Map Memory for Echolocation Pulse and registering Round 20 Red Team Audit tasks.**
+
+#### Added
+- **Echolocation Pulse Silence Suppression & Faded Mental Map Memory:** Codified rule specifying that entering a silence dead zone or vacuum suppresses active sonar pings; pre-scanned terrain remains stored in memory as a faded, generalized mental layout map, losing real-time movement tracking.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.32.0-as`.
+- Completed task `TODO-31` in frontmatter (`"status": "completed"`, `"protection": "protected"`) and registered Round 20 audit tasks `TODO-32` through `TODO-36` in `in-progress:audit` status.
+
+---
+
 ### 2608.31.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release enforcing JLDN Todo Schema v2608.14.0-as compliance by restoring mandatory `existed_since` key alongside `blocked_since` for `TODO-30`.**

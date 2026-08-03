@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.31.0-as"
+    "version": "2608.32.0-as"
   },
   "todo": [
     {
@@ -310,16 +310,62 @@
       "id": "TODO-31",
       "section": "## Powers -> Behavioral Powers (Sensory)",
       "title": "Audit Echolocation Pulse Active Sonar Cancellation in Silence Dead Zones",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2608.26.0-as",
+      "details": "Codified Silence Suppression & Faded Mental Map Memory: entering a silence dead zone or vacuum suppresses active sonar pings, but pre-scanned terrain remains in memory as a faded, generalized mental layout map, losing real-time movement tracking."
+    },
+    {
+      "id": "TODO-32",
+      "section": "## Powers -> Travel",
+      "title": "Audit Abyssal Levitation Airborne Melee Recoil & Grapple Stability",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.32.0-as",
+      "details": "Audit levitation recoil: clarify that physical grapples or heavy two-handed weapons mid-air suffer a -1 Recoil Instability penalty unless anchored to a solid surface or supported by Mind Grip."
+    },
+    {
+      "id": "TODO-33",
+      "section": "## Powers -> Advanced Mental & Illusion",
+      "title": "Audit Bloodline Memory Distant Sire Historical Scope Lock",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.32.0-as",
+      "details": "Audit Bloodline Memory scope: clarify that Bloodline Memory accesses past historical memories only and cannot function as a real-time remote camera or live spy feed into a living Sire's present activities."
+    },
+    {
+      "id": "TODO-34",
+      "section": "## Powers -> Behavioral Powers (Charismatic)",
+      "title": "Audit Siren's Cadence Audio Recording Playback Immunity",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.32.0-as",
+      "details": "Audit Siren's Cadence audio playback: clarify that Siren's Cadence relies on live vocal presence and aura; recorded audio played through speakers loses all supernatural compel properties."
+    },
+    {
+      "id": "TODO-35",
+      "section": "## Powers -> Necromancy & Grave Arts",
+      "title": "Audit Corpse Siphon Decapitated Host Head-Touch Requirement",
       "status": "in-progress:audit",
       "priority": "low",
-      "existed_since": "2608.26.0-as",
-      "details": "Audit Echolocation Pulse in silence fields: clarify that entering or being engulfed by The Cold Hush or a vacuum immediately suppresses and cancels active Echolocation Pulse sonar mapping for the duration of the dead zone."
+      "existed_since": "2608.32.0-as",
+      "details": "Audit Corpse Siphon on decapitated corpses: clarify that neural residual memories require skin-to-skin contact with the decapitated head itself (touching a headless torso yields 0 memories)."
+    },
+    {
+      "id": "TODO-36",
+      "section": "## Powers -> Behavioral Powers (Sensory)",
+      "title": "Audit Electromagnetic Shroud Gaze Passive Optical Fiber Blindspot",
+      "status": "in-progress:audit",
+      "priority": "low",
+      "existed_since": "2608.32.0-as",
+      "details": "Audit EM Shroud Gaze passive optics: clarify that unpowered glass fiber-optic tubes emit zero EM radiation, remaining hidden from EM Shroud Gaze unless inspected via thermal or apex sight."
     }
   ]
 }
 ---
 
-# Vampire Ruleset v2608.31.0-as
+# Vampire Ruleset v2608.32.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -846,7 +892,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 * **Thermal Vitae Vision `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** Your retinas dilate into shimmering crimson optics, mapping heat signatures and internal blood circulation in thermal FLIR gradient hues. You see living targets through thick smoke, pitch-black darkness, thermal camouflage, and thin drywall or wooden doors. Living bodies glow in vivid reds/yellows (highlighting concealed handguns, body armor plates, or internal organ trauma), while undead vampires appear as cold blue/violet silhouettes.
 * **Electromagnetic Shroud Gaze `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You shift your vision into the electromagnetic spectrum. Physical reality dims into shades of grey while electrical currents, camera lenses, radio waves, and security lasers glow in brilliant neon blue. Automatically highlights digital surveillance lenses, hidden wiretaps, infrared laser tripwires, and electronic security nodes, allowing you to trace wire runs through plaster walls and bypass security laser grids undetected.
 * **Nyctophilous Apex Sight `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your pupils absorb every stray photon in the atmosphere, granting crystal-clear, full-color vision in absolute pitch-black void environments without needing ambient light. Renders the vampire completely immune to darkness penalties, flashbang blinding flares, and optical disorientation spells.
-* **Echolocation Pulse `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit high-frequency, sub-audible acoustic pulses from your throat—mimicking the ultrasonic bio-sonar of cave bats. The sound waves bounce off surrounding geometry, mapping a 3D acoustic blueprint of enclosed building layouts, hidden rooms, vault dimensions, and moving targets behind solid concrete walls up to **100 feet**. Completely bypasses visual illusions (*Phantasm*), smoke, and darkness, revealing invisible or cloaked enemies by their acoustic disruption. *Medium Requirement:* Requires a physical atmospheric medium (air, water, gas) to transmit sound waves; fails completely in hard vacuums or sound-dampened dead zones created by *The Cold Hush*.
+* **Echolocation Pulse `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit high-frequency, sub-audible acoustic pulses from your throat—mimicking the ultrasonic bio-sonar of cave bats. The sound waves bounce off surrounding geometry, mapping a 3D acoustic blueprint of enclosed building layouts, hidden rooms, vault dimensions, and moving targets behind solid concrete walls up to **100 feet**. Completely bypasses visual illusions (*Phantasm*), smoke, and darkness, revealing invisible or cloaked enemies by their acoustic disruption. *Medium Requirement & Silence Suppression:* Requires a physical atmospheric medium (air, water, gas) to transmit sound waves; fails completely in hard vacuums or sound-dampened dead zones created by *The Cold Hush*. Entering or being engulfed by a silence dead zone immediately suppresses active acoustic sonar pings. However, terrain geometry scanned prior to suppression remains stored in the vampire's memory as a **faded, generalized mental layout map**, losing real-time tracking of moving targets or environmental alterations until atmospheric sound transmission is restored.
 * **Sub-Auditory Tremor Echo `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Microscopic barbs in your inner ear and sole membranes feel sub-audible micro-vibrations echoing through floors, load-bearing beams, and stone foundations. You automatically sense the location, gait, and weight of any moving entity touching the floor or walls within **60 feet**—even through multiple floors or solid granite slabs—preventing stealth ambushes from behind walls, ceiling vents, or beneath floorboards. *Airborne & Levitating Blind Spot:* Sub-Auditory Tremor Echo detects physical kinetic micro-vibrations transmitted through solid surfaces only. Entities completely airborne or levitating (*Abyssal Levitation*, *Vesper Canopy*) do not touch solid surfaces and are **completely invisible** to Tremor Echo (requiring *Echolocation Pulse* or *Thermal Vitae Vision* to detect).
 * **Cardiac Resonance `[Activated - 1 Reserve | Duration: 1 Scene]`:** Your hearing locks onto the rhythmic thumping of mortal hearts. You can isolate and listen to a single heartbeat across a crowded room, operating as a supernatural lie detector where any micro-spike in a target's heart rate or arrhythmia immediately alerts you to lies, panic, or deceit (+2 social interrogation bonus).
 * **Omni-Sensory Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of nocturnal perception. You possess *Crimson Scent*, *Thermal Vitae Vision*, *Nyctophilous Apex Sight*, *Echolocation Pulse*, and *Sub-Auditory Tremor Echo*, granting complete multi-spectral mastery over sight, sound, vibration, flashbang immunity, and scent in a single Master power slot.
