@@ -3,13 +3,13 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.23.0-as"
+    "version": "2608.24.0-as"
   },
   "todo": []
 }
 ---
 
-# Vampire Ruleset v2608.23.0-as
+# Vampire Ruleset v2608.24.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -217,6 +217,7 @@ Because a vampire's life force is tethered to their 3kg of Native Soil, compromi
 * **Holy Water Dousing:** Soaking a vampire's Native Soil in holy water corrupts the tether. Slumbering near holy-doused soil prevents rest, inflicts continuous holy burns while sleeping, and forces "[The Bleed](#the-home-sickness-regression-track-the-bleed)" progression to advance every 24 hours instead of every 3 days.
 * **Chemical / Poison Contamination:** Salting or poisoning the soil destroys the living micro-ecosystem. Earthworms and insects die immediately, causing the soil to lose its potency in **6 days** instead of 30 days.
 * **Parasitic / Diseased Infestation:** Introducing cursed or diseased parasites into the soil causes them to feed on the sleeping vampire's blood reserves during daytime slumber. The vampire wakes up at Stage 2 [Blood Starvation](#sustenance--blood-starvation-rules) with no stored blood reserves remaining.
+* **Structural Containment Breach (Sci-Fi / Modern):** Native Soil preserved in high-tech containers (cryo-capsules, hydroponic terrariums) requires an intact structural seal. Shattering the glass casing, puncturing cryo-seal valves, or introducing toxic liquid chemicals breaks the 3kg soil threshold, causing the soil micro-ecosystem to die and initiating [The Bleed](#the-home-sickness-regression-track-the-bleed) after 48 hours.
 
 #### The Home Sickness Regression Track (The Bleed)
 A vampire can survive away from their preserved Native Soil for exactly 7 days. On the 8th consecutive day of absence, "Home Sickness" sets in, triggering a progressive mechanical and narrative decay known as **The Bleed**. Starting on Day 8, and every 3 days thereafter, the vampire suffers a permanent reduction in their capabilities across four distinct stages:
@@ -252,11 +253,10 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
   * **Stage 1 -> Fully Healed (1 Day):** Re-awakens all remaining [Supernatural](#supernatural-powers) and [Behavioral](#behavioral-powers) powers, fully restoring the supernatural tether and resetting the 7-day safe timer.
 * **Metabolic Stasis (Blood Starvation Suspension):** Complete head-to-toe burial in Native Soil places the vampire into a mystical metabolic stasis. This freezes the [Blood Starvation](#sustenance--blood-starvation-rules) clock entirely while underground, preventing nutritional decay during the 10-day recovery process.
 * **Thrall Blood Sacrifice (Accelerated Recovery):** If multiple [Thralls](#social) drain their blood directly into the soil surrounding the buried vampire, the total burial time is **cut in half (5 days total)** (2 days for Stage 4, 1.5 days for Stage 3, 1 day for Stage 2, and 12 hours for Stage 1).
-* **Interruption Penalty (Immutable 24-Hour Addition):** If the vampire is unburied or pulled from the native soil for more than 1 hour:
-  * Recovery halts immediately at the current progress.
-  * The disruption inflicts metaphysical shock, adding **1 additional day (24 hours)** of required burial time to the remaining recovery duration.
-  * **Immunity to Thrall Acceleration:** This +1 day (24-hour) penalty is static and locked in stone. It is **completely immune to the Thrall Blood Sacrifice acceleration** and cannot be halved or reduced by Thralls under any circumstances.
-  * If left unburied for prolonged periods, [The Bleed](#the-home-sickness-regression-track-the-bleed) resumes decaying downward.
+* **Interruption Penalty (Short, Moderate & Prolonged Tiers):** If a buried vampire is unburied or removed from their Native Soil during recovery:
+  * **Brief Interruption ($\le$1 Hour):** Pauses Re-Rooting progress without penalty.
+  * **Moderate Interruption (1 to 24 Hours):** Halts recovery at current progress and inflicts metaphysical shock, adding **1 additional day (24 hours)** of required burial time to the remaining recovery duration. This +24hr penalty is static and immune to Thrall acceleration.
+  * **Prolonged Interruption (>24 Hours):** Resets current Re-Rooting progress for the active stage back to Day 0, and [The Bleed](#the-home-sickness-regression-track-the-bleed) resumes decaying downward.
 
 ### Dismemberment & Decapitation
 
@@ -360,7 +360,7 @@ All newly turned vampires begin with a baseline heart reservoir pool of **10 Blo
     * **1,750 Years:** 20 Blood Reserves (+1 from 250yr cycle)
     * **2,000 Years:** 22 Blood Reserves (+1 from 250yr cycle + 1 from 500yr milestone = 22 total)
   
-  4. **Millennial Scaling (After 2,000 Years Post-Change):** Once a vampire survives past 2,000 years, the heart reservoir scales at a rapid, terrifying rate—gaining a flat **+2 Blood Reserves every 250 years** (e.g. 2,250 years = 24 Reserves; 2,500 years = 26 Reserves; 3,000 years = 30 Reserves).
+  4. **Millennial Scaling (After 2,000 Years Post-Change):** Once a vampire survives past 2,000 years, the heart reservoir scales at a flat rate of **+2 Blood Reserves every 250 years**. 500-year milestone bonuses no longer apply after 2,000 years (e.g. 2,250 years = 24 Reserves; 2,500 years = 26 Reserves; 2,750 years = 28 Reserves; 3,000 years = 30 Reserves).
 
 * **Physiological Rationale (Power, Siring & Thrall Dominance):** This mathematical expansion of blood reserves directly explains the staggering dominance of Elders and Ancients:
   * *Multi-Power Maintenance:* Holding 16 to 22+ reserves allows an Ancient to sustain multiple continuous powers (*Kinetic Barrier*, *Psychic Fortress*, *Pyre Aura*) simultaneously for an entire night without risking exhaustion.
@@ -538,7 +538,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 
 **Alteration (Forms & Shifting)**
 * **Pocket-Realm Shift Mechanism:** Shifting into a Swarm Form (*Bat Primacy*, *Verminous Primacy*, *Arachnid Primacy*, *Crimson Mist*, *Primal Shift*) does NOT physically compress or dissolve the vampire's body. Instead, the vampire's true physical form and all carried inventory instantly teleport into a personal **Pocket-Realm dimension**—an isolated, safe-haven realm unique to that vampire. Simultaneously, a physical manifestation of the swarm appears in reality. The vampire gains full sensory consciousness and telepathic control over the swarm. Re-coalescing exits the Pocket-Realm back into reality at the swarm's location. If 100% of the swarm is destroyed, the vampire is forcibly ejected from the Pocket-Realm into reality at the swarm's last position in **Stage 4 Torpor** (Petrified Slumber; granite calcification). *Note:* Stage 4 Torpor is a petrified granite state; turning to ash represents absolute, unrecoverable True Death.
-  * **Native Soil Torpor Stasis:** Vampires in Stage 3 or Stage 4 Torpor enter a subterranean metabolic stasis that **SUSPENDS** [The Bleed](#the-home-sickness-regression-track-the-bleed) regression track until the vampire is re-awakened or moved into 3kg Native Soil contact.
+  * **Native Soil Torpor Stasis:** Vampires in ANY form of Torpor (Stage 3 Catatonic Torpor, Stage 4 Petrified Slumber, or Starvation Desiccation Torpor) enter a subterranean metabolic stasis that **SUSPENDS** [The Bleed](#the-home-sickness-regression-track-the-bleed) regression track until the vampire is roused or awakened.
   * **Solar Transference & Maintenance:** Sunlight shining upon the manifested swarm in reality transmits 100% of solar radiation/thermal burn through the dimensional tether into the body inside the Pocket-Realm. Sustaining a Pocket-Realm dimension consumes **1 Blood Reserve per hour**; if reserves drop to 0, the vampire is forcibly ejected into reality.
   * **Swarm Form Structural Clearance Specs:** Manifested swarms are physically constrained by structural opening clearances:
     * **Rat Swarms (*Trench Plague*, *Gnawing Scourge*):** Require a minimum opening diameter of **2 inches (5cm)** to squeeze through structural gaps or drain pipes.

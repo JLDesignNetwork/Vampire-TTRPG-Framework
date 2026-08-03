@@ -8,6 +8,21 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.24.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 16 Red Team Audit fixes: Sci-Fi Native Soil Structural Containment & Sabotage, Re-Rooting Interruption Tiers, Millennial Scaling Override Clarification, and Unified Torpor Stasis Scope.**
+
+#### Added
+- **Sci-Fi Native Soil Containment & Sabotage:** Codified rule specifying that shattering glass or breaking valves on high-tech Native Soil containers (cryo-capsules, hydroponic terrariums) breaches soil containment, causing soil micro-ecosystem death and initiating [The Bleed] after 48 hours.
+- **Re-Rooting Interruption Tiers:** Standardized Re-Rooting interruption consequences: Brief ($\le$1 hour) = pauses progress without penalty; Moderate (1-24 hours) = +1 day (24hr) static penalty; Prolonged (>24 hours) = resets current stage progress back to Day 0.
+- **Millennial Scaling Override Clarification:** Explicitly confirmed that after 2,000 years post-change, Millennial Scaling replaces previous 250yr/500yr cycles with a single flat rate (+2 Reserves every 250 years; no 500yr milestone bonus).
+- **Unified Torpor Stasis Scope:** Unified metabolic Torpor Stasis to cover ALL forms of Torpor (Stage 3 Catatonic Torpor, Stage 4 Petrified Slumber, and Starvation Desiccation Torpor), suspending [The Bleed] decay while in Torpor.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.24.0-as`.
+
+---
+
 ### 2608.23.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 15 Red Team Audit fixes: Structural Intactness Requirement for Creation, Wooden Stake Cardiac Lock & Torpor Paralysis, Anchor Empathy Shielding Rule, Post-Feeding Animal Reaction, and Artificial UV Light Immunity under Daywalker's Grace.**
