@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.26.0-as"
+    "version": "2608.27.0-as"
   },
   "todo": [
     {
@@ -270,10 +270,11 @@
       "id": "TODO-27",
       "section": "## Powers -> Combined Power Usage & Synergistic Scaling",
       "title": "Codify Combined Power Usage, Synergistic Bonuses, and Age Tier Synergy Scaling Matrix",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.26.0-as",
-      "details": "Codify combined power invocation rules, synergy bonuses (+1 effect on complementary power pairs), opposing elemental cancellation, and Age Tier synergy range/duration multipliers."
+      "details": "Codified Coven Power Ritual Nexus (Multi-Caster Stacking, Age Tier Caster Caps up to 7, Sequential Round-Robin Rotation Upkeep of 1 Reserve/Round Total, and Disruption Counterplay) alongside Synergistic Pair Bonus (+1) and Age Tier Synergy Multipliers."
     },
     {
       "id": "TODO-28",
@@ -315,7 +316,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.26.0-as
+# Vampire Ruleset v2608.27.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -778,7 +779,7 @@ Every power within the [Behavioral Powers](#behavioral-powers) and [Supernatural
    * *Per-Round Limit:* Subject to the **Total Per-Round Expenditure Cap** (max 2 reserves spent per round across all actions). If reserves reach 0, sustained powers immediately collapse.
 
 ##### Combined Power Usage & Synergistic Scaling Matrix
-When a vampire invokes two or more powers simultaneously, their supernatural effects interweave:
+When a vampire invokes two or more powers simultaneously (or multiple vampires pool their magic), their supernatural effects interweave:
 
 1. **Per-Round Expenditure Cap Constraints:** Combining multiple active or sustained powers in combat MUST strictly respect the [Total Per-Round Expenditure Cap](#blood-capacity--passive-awakening-drain) for the vampire's age tier (Neonate = max 2 reserves/round; Elder = max 3 reserves/round; Ancient = max 4 reserves/round).
 2. **Synergistic Pair Bonus (+1 Mechanical Enhancement):** Activating two complementary powers within the same scene or combat round unlocks a **+1 Synergy Bonus** to checks, range, or damage for both powers:
@@ -790,6 +791,12 @@ When a vampire invokes two or more powers simultaneously, their supernatural eff
    * **Elders (500–1,199 Years):** **+50% Range & Area Multiplier:** Synergy pairs invoked by Elders expand their effective range or blast radius by +50% (e.g. *Kinetic Blast* knockback expands to 30 feet).
    * **Ancients (1,200+ Years):** **Doubled Range & Area Multiplier (+100%):** Synergy pairs invoked by Ancients double their effective range or area radius, and grant a **+2 Synergy Bonus** instead of +1.
 4. **Opposing Power Neutralization (Elemental Cancellation):** Invoking diametrically opposed supernatural elements simultaneously (*Grave Chill* ice wave vs *Pyre Aura* hellfire) causes thermal shock collapse, instantly **extinguishing and neutralizing both powers** with zero mechanical effect.
+5. **Coven Power Ritual Nexus (Multi-Caster Stacking & Sequential Rotation):**
+   When multiple vampires of the same Coven or bloodline simultaneously cast or sustain the exact same power on the same target, they form a **Coven Power Ritual Nexus**:
+   * **Coven Stacking Math:** The Lead Caster establishes the baseline power check/DC. Each assisting caster adds a **+1 Coven Stacking Bonus** to the Lead Caster's check/DC (+1 per assisting member).
+   * **Age Tier Caster Caps:** Neonate-led Coven = max **3 Casters** (Max +2 Bonus); Elder-led Coven = max **5 Casters** (Max +4 Bonus); Ancient-led Coven = max **7 Casters** (Max +6 Bonus).
+   * **Sequential Rotation Upkeep (1 Reserve/Round Total):** The ritual nexus consumes **1 Blood Reserve per round in total** to maintain. Participating members take turns in sequential round-robin rotation (1 member pays 1 Reserve on their turn while the remaining members pay 0 Reserves that round). Because each member pays 1 Reserve once every $N$ rounds, all members remain under their per-round expenditure caps, retaining cap space for combat actions.
+   * **Target Disruption Counterplay:** Disrupting an assisting member (damage, stun, knockback) removes their **+1 Coven Stacking Bonus** and skips them in the rotation sequence. If the current round's paying member is disrupted before paying their 1 Reserve, the next member in the rotation sequence must immediately pay 1 Reserve to prevent the ritual from collapsing.
 
 **Power Fade & Inheritance**
 Because all newly created vampires are born into the modern era, they generate their starting power slots using the [New World](#new-world) base. However, the creation process inherently causes a degradation of power from Maker to fledgling known as the "Power Fade." To determine a fledgling's starting powers, follow this process:

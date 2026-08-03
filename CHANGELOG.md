@@ -8,6 +8,20 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.27.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release locking in `TODO-27` and codifying Coven Power Ritual Nexuses with Sequential Round-Robin Rotation Upkeep.**
+
+#### Added
+- **Coven Power Ritual Nexus (Multi-Caster Stacking):** Codified rules for multi-vampire ritual power stacking, including +1 Coven Stacking Bonus per assisting caster, Age Tier Caster Caps (Neonates = 3 casters / +2 bonus; Elders = 5 casters / +4 bonus; Ancients = 7 casters / +6 bonus), and Target Disruption Counterplay.
+- **Sequential Round-Robin Rotation Upkeep:** Codified 1 Blood Reserve per round TOTAL upkeep cost paid in round-robin rotation, guaranteeing zero expenditure cap violations for participating members while enabling extended siege/interrogation durations.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.27.0-as`.
+- Completed task `TODO-27` in frontmatter (`"status": "completed"`, `"protection": "protected"`).
+
+---
+
 ### 2608.26.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 18 Red Team Audit fixes and codifying the Combined Power Usage & Synergistic Scaling Matrix.**
