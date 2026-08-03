@@ -8,6 +8,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.30.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release codifying the Judicial Punishment Exception under Law of Haven Sanctuary and updating `TODO-30` status to blocked.**
+
+#### Added
+- **Law of Haven Sanctuary Judicial Punishment Exception:** Codified rule specifying that while internal bloodletting on haven grounds is strictly forbidden in casual/aggressive conflicts, it may be explicitly authorized as judicial punishment by the ruling Coven Council during formal Coven Trials.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.30.0-as`.
+- Updated task `TODO-30` status to `"blocked"` (`"blocked-since": "2608.30.0-as"`) pending future Coven rules refactoring.
+
+---
+
 ### 2608.29.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release codifying `TODO-29` Contradictory Sire Command Supremacy under Centenary Compulsion.**

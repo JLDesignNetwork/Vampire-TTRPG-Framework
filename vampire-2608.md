@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.29.0-as"
+    "version": "2608.30.0-as"
   },
   "todo": [
     {
@@ -300,10 +300,10 @@
       "id": "TODO-30",
       "section": "## Social -> Secrecy, Covens, and Thralls",
       "title": "Audit Apex Vault Blood Theft Penalty under Coven Governance",
-      "status": "in-progress:audit",
+      "status": "blocked",
       "priority": "high",
-      "existed_since": "2608.26.0-as",
-      "details": "Audit tithe blood theft inside haven grounds: clarify that stealing stored blood from the Apex Elder's vault does not violate Haven Sanctuary (no bloodletting), but constitutes High Theft under Coven Governance, punished by 30-Day Power Lockout and doubling tithes for 1 year."
+      "blocked_since": "2608.30.0-as",
+      "details": "Blocked pending modification, refactor, and implementation of new Coven rules."
     },
     {
       "id": "TODO-31",
@@ -318,7 +318,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.29.0-as
+# Vampire Ruleset v2608.30.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -974,7 +974,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * **The Fledgling / Neonate:** Bound progeny undergoing their 100-year Centenary Compulsion, serving the Coven while learning the night.
   * **The Four Sacred Laws of the Coven:**
     1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is treason, punishable by immediate True Death.
-    2. **The Law of Haven Sanctuary:** All internal bloodletting or physical violence between Coven members within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
+    2. **The Law of Haven Sanctuary:** All internal bloodletting or physical violence between Coven members within haven grounds is strictly forbidden under penalty of forced Torpor or exile. *Judicial Punishment Exception:* Internal bloodletting on haven grounds is strictly forbidden in casual or aggressive conflicts, BUT may be explicitly authorized as judicial punishment by the ruling Coven Council during formal Coven Trials (such as executing forced blood draining or physical branding for High Theft or treason).
     3. **The Law of the Sanguine Tithe:** Fledglings and lower members must yield a mandatory portion of their hunting yields and stored blood reserves to the Apex Elder. *Tithe Quantity Math:* Requires yielding **1 Blood Reserve per 5 reserves harvested** during hunts (or a minimum of 1 stored draft per week) to the Apex Elder's vault. *Hardship Deferral & Forced Draining:* If a neonate harvests 0 blood due to severe injury, stasis, or active haven lockdown, the 1-draft minimum tithe is **deferred** for 1 week. If unpaid for 2 consecutive weeks, the Apex Elder may collect the tithe by force (draining 2 reserves directly from the neonate's veins) or assign punitive Coven labor.
     4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Bloodline Memory*](#behavioral-powers)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
       * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
