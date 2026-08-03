@@ -11,6 +11,7 @@
       "section": "## Behavior & Physiology -> Cardiac Hyper-Focus",
       "title": "Codify Cardiac Hyper-Focus Mechanic",
       "status": "completed",
+      "priority": "high",
       "details": "Detail the mechanical execution of Cardiac Hyper-Focus: spending 1 Blood Reserve grants +1 to all perception/tracking checks for 1 scene, but imposes a -1 social penalty due to predator eye glint."
     },
     {
@@ -18,6 +19,7 @@
       "section": "## Creation -> Siring Fledglings",
       "title": "Establish Fledgling Creation & Sire-Bond Mechanics",
       "status": "completed",
+      "priority": "high",
       "details": "Codify the 3-step turning process (Drain, Infuse Vitae, Sanguine Awakening), Sire-Fledgling telepathic compass, and 100-year Centenary Compulsion rules."
     },
     {
@@ -25,6 +27,7 @@
       "section": "## Death -> Solar Track & Decapitation",
       "title": "Detail Sunlight Disintegration & Decapitation Torpor Rules",
       "status": "completed",
+      "priority": "critical",
       "details": "Expand the 4-round Solar Track (Dermal Steam, Flesh Ignition, Structural Disintegration, Ash Dissolution), Native Soil dependency, and Decapitation Brain Torpor rules."
     },
     {
@@ -32,6 +35,7 @@
       "section": "## Mechanics -> Blood Capacity & Aging",
       "title": "Codify Age Tiers & Blood Reserve Caps",
       "status": "completed",
+      "priority": "critical",
       "details": "Define Blood Capacity scaling across Neonates (<500 yrs = 10 max), Elders (500-1,199 yrs = 15 max), and Ancients (1,200+ yrs = 20 max)."
     },
     {
@@ -39,6 +43,7 @@
       "section": "## Mechanics -> Brink of Death",
       "title": "Define Brink of Death Stages & Torpor Eras",
       "status": "completed",
+      "priority": "high",
       "details": "Codify Stage 1 (Sluggish Flesh), Stage 2 (Cardiac Arrest), Stage 3 (Catatonic Torpor), and Stage 4 (Petrified Ashes)."
     },
     {
@@ -46,6 +51,7 @@
       "section": "## Powers -> Behavioral & Supernatural",
       "title": "Expand Power Categories & Innate Framework",
       "status": "completed",
+      "priority": "critical",
       "details": "Categorize Innate (0-cost passive/toggle), Activated (1 reserve), Sustained (1 reserve + 1/round), and Master Composite powers."
     },
     {
@@ -53,6 +59,7 @@
       "section": "## Social -> Covens & Laws",
       "title": "Establish Coven Laws & Sanctuary Traditions",
       "status": "completed",
+      "priority": "high",
       "details": "Codify The Shroud, Haven Sanctuary, Sanguine Tithe, and Tabula Rasa Coven Laws."
     },
     {
@@ -60,6 +67,7 @@
       "section": "## Social -> Blood Archives & Thralls",
       "title": "Detail Blood Archive Phials & Thrall Blood Bonds",
       "status": "completed",
+      "priority": "high",
       "details": "Define Blood Archive psychic memory phials, Thrall blood bonding (1 draft per month), and Thrall aging suspension."
     },
     {
@@ -67,6 +75,7 @@
       "section": "## Types -> Mutations & Reapers",
       "title": "Codify Mutant Types, Feral Husks & Spliced Reapers",
       "status": "completed",
+      "priority": "high",
       "details": "Define Feral Husks, Hollow Abominations, and Spliced Reaper epidemic creation rules."
     },
     {
@@ -74,6 +83,7 @@
       "section": "## Behavior & Physiology",
       "title": "Deepen Historical Lore & Cultural Divide Between Eras",
       "status": "completed",
+      "priority": "medium",
       "details": "Enrich New World vs Old World lore detailing historical shifts, societal expectations, age milestone ceremonies, and the ideological divide between ancient traditionalists and modern neonates."
     },
     {
@@ -81,6 +91,7 @@
       "section": "## Mechanics -> Drinking & Sustenance",
       "title": "Establish Ancient Vitae, Permanent Power Gain & Soul Strain Mechanics",
       "status": "completed",
+      "priority": "critical",
       "details": "Add Tier 5 Ancient Vitae (1,200+ years) granting 4 Blood Reserves, 1 Permanent Power Slot per draft (once per century), Soul Strain Risk (Hard Self-Control check), and Full Diablerie rules (2 chosen slots, Near-Impossible Soul Possession Risk)."
     },
     {
@@ -88,6 +99,7 @@
       "section": "## Creation",
       "title": "Implement Creation Limitations & Anti-Mass Siring Rules",
       "status": "completed",
+      "priority": "high",
       "details": "Add 5 Blood Reserves siring cost, 30-Day Bloodline Cooldown (Sanguine Exhaustion), 3-Year Psychic Rebound (emotional static bleed & Psychic Overload Hazard), and Progeny Capacity Caps based on age tier."
     },
     {
@@ -95,6 +107,7 @@
       "section": "## Types",
       "title": "Formalize 3-Tier Age Hierarchy (Neonates, Elders, Ancients)",
       "status": "completed",
+      "priority": "high",
       "details": "Structure vampire types into 3 formal age categories: Neonates (<500 yrs), Elders (500-1,199 yrs), and Ancients (1,200+ yrs), defining starting NPC pools, species perks, and societal roles for each."
     }
   ]
