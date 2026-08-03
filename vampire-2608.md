@@ -315,7 +315,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.25.0-as
+# Vampire Ruleset v2608.26.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
