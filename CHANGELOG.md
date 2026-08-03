@@ -1,0 +1,90 @@
+# Changelog - Vampire TTRPG Framework
+
+All notable changes to the Vampire Ruleset framework are documented in this file.
+
+The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
+
+---
+
+## Generation 2608
+
+### 2608.19.0-as (2026-08-03) - Public Alpha
+
+**Public Alpha release applying Round 12 Red Team Audit fixes: Mind Grip mass caps by Age Tier, Soul Bind sentry caps, Puppet Master motor vs mental power scope, Chameleon Facade bio-testing limits, Lineage Harmonization modifier stacking, and Nerve Lightning bio-neural target scope.**
+
+#### Added
+- **Mind Grip Mass Caps:** Codified lifting/hurling weight limits based on Age Tier: Neonates (<500 yrs) = 250kg (550lbs); Elders (500-1,199 yrs) = 500kg (1,100lbs); Ancients (1,200+ yrs) = 1,000kg (1 Ton).
+- **Soul Bind Active Sentry Cap:** Hard-capped active bound spirits at `ROUND(VAMPIRE_AGE / 100)` (minimum 1); codified incorporeal warning-only sentry status (no physical attack damage).
+- **Puppet Master Motor Scope:** Clarified that Puppet Master controls physical motor muscles only, without granting access to the victim's brain thoughts, blood reserves, or supernatural power activations.
+- **Chameleon Facade Bio-Limits:** Clarified that Chameleon Facade alters physical dermal contours and fingerprints, but deep biological markers (blood DNA sequencing, non-circulating blood) are revealed by lab tests.
+- **Lineage & Age Tier Modifier Stacking:** Codified that Lineage Harmonization (+2 bonus against direct bloodline) explicitly STACKS with Universal Age Tier Superiority modifiers (+1 or +2).
+- **Nerve Lightning Target Scope:** Specified that Nerve Lightning targets biological neural networks exclusively; non-biological mechanical entities (drones, computer mainframes) are unaffected.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `Vampire Ruleset v2608.19.0-as`.
+
+#### Fixed
+- Eliminated unlimited telekinetic weight lifting exploits.
+- Resolved infinite necromantic spirit surveillance army exploits.
+- Standardized mind-control modifier stacking and bio-electrical target scope.
+
+---
+
+### 2608.18.0-as (2026-08-03) - Public Alpha
+
+**Public Alpha release introducing the Formal Action Economy Framework and Tiered Blood Reserve Expenditure Caps scaling by Age Tiers.**
+
+#### Added
+- **Formal Action Economy Framework:** Codified combat turn structure consisting of 1 Main Action (attack, activated power, skill check), 1 Movement/Minor Action (move, draw item, toggle innate power), Continuous Upkeep (sustained powers upkeep at start of turn), and 1 Off-Turn Reaction/Defense (dodge, reactive teleport).
+- **Tiered Blood Reserve Expenditure Caps:** Replaced flat 2-reserve cap with Age-Tiered spending limits per combat round: Neonates (<500 yrs) = 2 Reserves/Round; Elders (500-1,199 yrs) = 3 Reserves/Round; Ancients (1,200+ yrs) = 4 Reserves/Round.
+- **Action Economy Perks:** Codified Blood Surge bonuses (+2 Strength/Speed OR +1 Extra Minor Action) and Master Power 0-Cost initial activation advantages.
+
+#### Modified
+- Updated Categorized Per-Round Expenditure Caps under Mechanics to scale with Age Tiers.
+- Updated H1 title in `vampire-2608.md` to `Vampire Ruleset v2608.18.0-as`.
+
+#### Fixed
+- Eliminated the Ancient Expenditure Bottleneck exploit, allowing Elders and Ancients to utilize expanded blood pools effectively in combat.
+
+---
+
+### 2608.17.0-as (2026-08-03) - Public Alpha
+
+**Public Alpha release applying Round 10 Red Team Audit fixes: Combust Vitae Age Tier Scaling Table, Petrified Slumber Hibernation Scale, Centenary Compulsion command mediums, Weaver's Eclipse web counterplay, and Sanguine Spike/Umbral Blade structural damage math.**
+
+#### Added
+- **Combust Vitae Age Tier Scaling Table:** Delta=+2: Total Incineration & instant Round 2 Flesh Ignition; Delta=+1: Severe Combustive Burst (+2 bonus damage); Delta=0: Standard Internal Flame; Delta=-1: Resisted Fizzle (0 wounds); Delta=-2: Complete Immunity (spell smothers completely).
+- **Petrified Slumber Hibernation Scale:** Bare minimum 30-Day lock-in duration (with optional 1-Year or 100-Year Centenary Slumber tiers). Detailed early awakening rituals (3 drafts of vampire blood onto statue lips or >50 structural shock damage) and Native Soil maintenance requirements for vampires without Earthbreaker.
+- **Centenary Compulsion Command Mediums:** Codified that Centenary Compulsion forces obedience to a Sire's explicit intent regardless of medium (spoken, written letter, or third-party messenger).
+- **Weaver's Eclipse Web Counterplay:** Codified Hard Strength check to break free from web traps; fire (Pyromancy/Pyre Aura) or Kinetic Blasts destroy webs instantly.
+- **Structural Barrier Damage Math:** Clarified that Sanguine Spikes and Umbral Blades deal standard physical damage against Structural Integrity HP on heavy barriers (vault doors, tank hulls).
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `Vampire Ruleset v2608.17.0-as`.
+
+#### Fixed
+- Eliminated quick combat-shield exploits on Petrified Slumber.
+- Resolved Pyromancy damage scaling disputes against Ancient targets.
+- Standardized web trap escape checks and structural barrier damage math.
+
+---
+
+### 2608.16.0-as (2026-08-03) - Public Alpha
+
+**Public Alpha release applying Round 9 Red Team Audit fixes: Low-Reserve Shatter Degradation System, strict self-only Healing scope, Blood Archive phial zero-nutrition & crystallization, Kinetic Barrier evocation deflection, Primal Shift solar tissue combustion, and Grave Rot relic immunity.**
+
+#### Added
+- **Low-Reserve Shatter Degradation System:** Codified escalating penalties for Shatter Attempts at half reserves or less (>50% reserves: 50% reserve burn; <=50% reserves: 1 major consequence; <=2 reserves: 2 severe consequences; 0 reserves: 3 catastrophic consequences including permanent power loss, 3 core health damage, and immediate Torpor).
+- **Blood Archive Phial & Crystallization Rules:** Codified that Blood Archive phials yield 0 Blood Reserves (zero nutrition) and naturally crystallize into red glass over centuries while retaining 100% psychic history.
+- **Strict Self-Only Healing Scope:** Codified that Sanguine Knit and Grand Harmonization of Vitae heal ONLY the invoking vampire; Anti-Healing (Necrotic Vitae) affects rival vampires.
+- **Primal Shift Physical Solar Combustion:** Classified Primal Shift as direct physical tissue transformation (not a Swarm Pocket-Realm), causing sunlight shining on wolf/bat forms to directly ignite flesh.
+- **Grave Rot Relic & Anchor Immunity:** Exempted sacred relics, blood archives, and supernatural artifacts from passive Grave Rot decay.
+
+#### Modified
+- Updated Kinetic Barrier to confirm complete deflection of Sanguine Spikes and Umbral Blades.
+- Updated H1 title in `vampire-2608.md` to `Vampire Ruleset v2608.16.0-as`.
+
+#### Fixed
+- Eliminated 0-reserve Shatter Attempt bypass exploits.
+- Resolved healing target scope ambiguities across self and allies.
+- Standardized Blood Archive nutritional zero-value and crystallization properties.
