@@ -8,6 +8,24 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.26.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 18 Red Team Audit fixes and codifying the Combined Power Usage & Synergistic Scaling Matrix.**
+
+#### Added
+- **Combined Power Usage & Synergistic Scaling Matrix:** Codified rules for invoking combined powers, including per-round expenditure cap enforcement, +1 Synergistic Pair Bonus for complementary powers, Age Tier Synergy Scaling multipliers (+50% range for Elders, 2x range / +2 bonus for Ancients), and Opposing Power Elemental Cancellation.
+- **Blood Surge Single-Stat Overwrite Cap:** Codified rule specifying that executing a new Blood Surge overwrites previous surge stat bonuses, maintaining a single +2 stat bonus (+2 Strength OR +2 Speed OR +2 Initiative) at any given moment under per-round expenditure caps.
+- **Visage Fear Stun Immunity & Age Tier Superiority:** Codified rule specifying that Visage checks are modified by Age Tier Superiority (+1 vs Neonates, +2 vs Elders); targets successfully affected gain a 1-Scene immunity window against subsequent fear stuns.
+- **Nerve Lightning Bio-Neural Target Scope vs Force Barriers:** Clarified that Kinetic Barrier deflects solid projectiles, but non-physical bio-electrical attacks (Nerve Lightning) pass through telekinetic barriers.
+- **Chameleon Facade Thermal FLIR Signature Lock:** Clarified that Chameleon Facade alters physical facial features and voice pitch like wet clay, but does not generate body heat, remaining visible as a cold blue/violet silhouette under FLIR thermal optics.
+- **Soul Bind Incorporeal Daylight Anchor Protection:** Clarified that bound spirits retreat inside their physical anchor object during daylight hours.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.26.0-as`.
+- Completed tasks `TODO-22` through `TODO-26` in frontmatter and registered Round 19 audit tasks `TODO-27` through `TODO-31` in `in-progress:audit` status.
+
+---
+
 ### 2608.25.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 17 Red Team Audit fixes: Phantasm Cybernetic Optic Interaction, Corpse Siphon Undead Head Interrogation Scope, Law of the Sanguine Tithe Hardship Deferral, Daywalker Solar Swarm Transference Timer, and Sub-Auditory Tremor Echo Airborne Blind Spot.**

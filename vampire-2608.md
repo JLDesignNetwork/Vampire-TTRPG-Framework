@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.25.0-as"
+    "version": "2608.26.0-as"
   },
   "todo": [
     {
@@ -220,46 +220,96 @@
       "id": "TODO-22",
       "section": "## Powers -> Combat & Elemental Evocation",
       "title": "Audit Nerve Lightning Bio-Electrical Target Scope vs Kinetic Barrier Deflection",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.25.0-as",
-      "details": "Audit Nerve Lightning vs Kinetic Barrier: clarify that physical force barriers (Kinetic Barrier) deflect solid/supernatural projectiles, but non-physical bio-electrical nervous attacks (Nerve Lightning) bypass telekinetic shields, requiring Psychic Fortress or total cover."
+      "details": "Codified Bio-Neural Scope & Force Barriers: Kinetic Barrier deflects solid projectiles, but non-physical bio-electrical attacks (Nerve Lightning) pass through force barriers, requiring Psychic Fortress or total cover."
     },
     {
       "id": "TODO-23",
       "section": "## Powers -> Alteration (Forms & Shifting)",
       "title": "Audit Chameleon Facade Thermal FLIR Signature Lock",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.25.0-as",
-      "details": "Audit Chameleon Facade under FLIR thermal inspection: clarify that while physical facial features and voice pitch shift like wet clay, internal body heat is not generated, causing impostors to still appear as cold blue/violet silhouettes under thermal FLIR optics."
+      "details": "Codified Thermal Signature Lock: Chameleon Facade alters physical facial features and voice, but does not generate internal body heat, displaying as a cold blue/violet silhouette under FLIR optics."
     },
     {
       "id": "TODO-24",
       "section": "## Powers -> Necromancy & Grave Arts",
       "title": "Audit Soul Bind Incorporeal Daylight Anchor Protection",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "low",
+      "protection": "protected",
       "existed_since": "2608.25.0-as",
-      "details": "Audit Soul Bind phantom sentry daylight survival: clarify that bound spirits retreat inside their physical anchor object (grave marker, terminal node) during daylight hours; destroying the anchor object permanently banishes the bound spirit."
+      "details": "Codified Incorporeal Daylight Anchor Protection: bound spirits retreat inside their physical anchor object during daylight hours; destroying the physical anchor object permanently banishes the bound spirit."
     },
     {
       "id": "TODO-25",
       "section": "## Mechanics -> Blood Surge",
       "title": "Audit Blood Surge Single-Stat Duration Overwrite Cap",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.25.0-as",
-      "details": "Audit Blood Surge stat stacking across consecutive rounds: clarify that executing a new Blood Surge overwrites previous surge stat bonuses, allowing a vampire to maintain only a single +2 stat bonus (+2 Strength OR +2 Speed OR +2 Initiative) at any given moment."
+      "details": "Codified Single-Stat Overwrite Cap: executing a new Blood Surge on a subsequent combat round immediately overwrites previous surge stat bonuses, maintaining a single +2 stat bonus (+2 Strength OR +2 Speed OR +2 Initiative) at any given moment under per-round expenditure caps."
     },
     {
       "id": "TODO-26",
       "section": "## Powers -> Behavioral Powers (Emotional)",
       "title": "Audit Visage of the Abyssal Nightmare Fear Stun Immunity Cooldown",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.25.0-as",
+      "details": "Codified Fear Stun Immunity & Age Tier Superiority: Visage checks are modified by Age Tier Superiority (+1 vs Neonates, +2 vs Elders); a target successfully affected gains an immediate 1-Scene immunity window against subsequent Visage fear stuns."
+    },
+    {
+      "id": "TODO-27",
+      "section": "## Powers -> Combined Power Usage & Synergistic Scaling",
+      "title": "Codify Combined Power Usage, Synergistic Bonuses, and Age Tier Synergy Scaling Matrix",
       "status": "in-progress:audit",
       "priority": "high",
-      "existed_since": "2608.25.0-as",
-      "details": "Audit Visage of the Abyssal Nightmare fear stun locking: clarify that a target successfully affected by Visage gains an immediate 1-Scene immunity window against subsequent fear stuns from Visage, preventing infinite fear stun locking."
+      "existed_since": "2608.26.0-as",
+      "details": "Codify combined power invocation rules, synergy bonuses (+1 effect on complementary power pairs), opposing elemental cancellation, and Age Tier synergy range/duration multipliers."
+    },
+    {
+      "id": "TODO-28",
+      "section": "## Powers -> Advanced Mental & Illusion",
+      "title": "Audit Puppet Master Motor Control vs Vocal Cord Compliance",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.26.0-as",
+      "details": "Audit Puppet Master motor control scope: clarify that Puppet Master controls physical skeletal muscles (walking, shooting, dropping items), but cannot force vocal cords to speak words or reveal passwords."
+    },
+    {
+      "id": "TODO-29",
+      "section": "## Social -> Bloodline Dynamics & Telepathy",
+      "title": "Audit Centenary Compulsion Contradictory Sire Command Supremacy",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.26.0-as",
+      "details": "Audit Centenary Compulsion command overlap: clarify that contradictory Sire commands do not cause paralysis loops; the Sire's most recent explicit command immediately supersedes all previous conflicting directives."
+    },
+    {
+      "id": "TODO-30",
+      "section": "## Social -> Secrecy, Covens, and Thralls",
+      "title": "Audit Apex Vault Blood Theft Penalty under Coven Governance",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.26.0-as",
+      "details": "Audit tithe blood theft inside haven grounds: clarify that stealing stored blood from the Apex Elder's vault does not violate Haven Sanctuary (no bloodletting), but constitutes High Theft under Coven Governance, punished by 30-Day Power Lockout and doubling tithes for 1 year."
+    },
+    {
+      "id": "TODO-31",
+      "section": "## Powers -> Behavioral Powers (Sensory)",
+      "title": "Audit Echolocation Pulse Active Sonar Cancellation in Silence Dead Zones",
+      "status": "in-progress:audit",
+      "priority": "low",
+      "existed_since": "2608.26.0-as",
+      "details": "Audit Echolocation Pulse in silence fields: clarify that entering or being engulfed by The Cold Hush or a vacuum immediately suppresses and cancels active Echolocation Pulse sonar mapping for the duration of the dead zone."
     }
   ]
 }
@@ -638,7 +688,7 @@ To prevent physical vascular burnout while allowing ancient vampires to unleash 
 * **Ancient Tier (1,200+ Years):** Maximum **4 Blood Reserves / Combat Round** across all actions (e.g. 2 Sustained + 1 Surge + 1 Healing, or 3 Sustained + 1 Activated Power).
 
 * **Sub-Cap Allocations & Perks:**
-  * **Blood Surge Cap (1 Reserve):** Grants a **+2 bonus** to Strength, Speed, or Initiative for 1 round **OR** grants **1 Extra Minor/Movement Action** on your turn.
+  * **Blood Surge Cap (1 Reserve):** Grants a **+2 bonus** to Strength, Speed, or Initiative for 1 round **OR** grants **1 Extra Minor/Movement Action** on your turn. *Single-Stat Overwrite Cap:* Executing a new Blood Surge on a subsequent combat round immediately overwrites previous surge stat bonuses. Subject to the per-round expenditure cap, a vampire can only maintain a single +2 Blood Surge stat bonus (+2 Strength OR +2 Speed OR +2 Initiative) at any given moment.
   * **Active Power Maintenance Cost:** Ongoing `Sustained` powers consume **1 Blood Reserve per power per combat round** to sustain after activation.
   * **Sanguine Knit Healing Cap (1 Reserve):** Heals **1 physical wound** per round (max 1 wound/round, strictly affecting self).
   * **Master Power 0-Cost Advantage:** Because Master Powers possess a **0-Reserve initial activation cost**, invoking a Master Power does NOT count toward the per-round expenditure cap on the turn it is cast (blood is spent strictly for subsequent sustained upkeep).
@@ -727,6 +777,20 @@ Every power within the [Behavioral Powers](#behavioral-powers) and [Supernatural
    * **Cost & Duration:** **1 Blood Reserve to activate + 1 Blood Reserve per upkeep cycle** (1 Reserve/Round in combat, 1 Reserve/Hour for Swarm Pocket-Realms, 1 Reserve/Day for Petrified Slumber).
    * *Per-Round Limit:* Subject to the **Total Per-Round Expenditure Cap** (max 2 reserves spent per round across all actions). If reserves reach 0, sustained powers immediately collapse.
 
+##### Combined Power Usage & Synergistic Scaling Matrix
+When a vampire invokes two or more powers simultaneously, their supernatural effects interweave:
+
+1. **Per-Round Expenditure Cap Constraints:** Combining multiple active or sustained powers in combat MUST strictly respect the [Total Per-Round Expenditure Cap](#blood-capacity--passive-awakening-drain) for the vampire's age tier (Neonate = max 2 reserves/round; Elder = max 3 reserves/round; Ancient = max 4 reserves/round).
+2. **Synergistic Pair Bonus (+1 Mechanical Enhancement):** Activating two complementary powers within the same scene or combat round unlocks a **+1 Synergy Bonus** to checks, range, or damage for both powers:
+   * *Sensory Synergy (*Thermal Vitae Vision* + *Nyctophilous Apex Sight*):* Grants FLIR heat-mapping in pitch-black void with +1 perception tracking bonus.
+   * *Psychic Dread Synergy (*Visage of the Abyssal Nightmare* + *Blood Harmonic*):* Injects terror directly into the victim's nervous system, imposing an additional **-1 penalty** on the target's fear resistance check.
+   * *Elemental Force Synergy (*Pyre Aura* + *Umbral Blade*):* Ignites shadow whips in hellfire, adding **+1 fire damage** to shadow strike hits.
+3. **Age Tier Synergy Scaling:**
+   * **Neonates (<500 Years):** Standard +1 synergy bonus; standard power ranges.
+   * **Elders (500–1,199 Years):** **+50% Range & Area Multiplier:** Synergy pairs invoked by Elders expand their effective range or blast radius by +50% (e.g. *Kinetic Blast* knockback expands to 30 feet).
+   * **Ancients (1,200+ Years):** **Doubled Range & Area Multiplier (+100%):** Synergy pairs invoked by Ancients double their effective range or area radius, and grant a **+2 Synergy Bonus** instead of +1.
+4. **Opposing Power Neutralization (Elemental Cancellation):** Invoking diametrically opposed supernatural elements simultaneously (*Grave Chill* ice wave vs *Pyre Aura* hellfire) causes thermal shock collapse, instantly **extinguishing and neutralizing both powers** with zero mechanical effect.
+
 **Power Fade & Inheritance**
 Because all newly created vampires are born into the modern era, they generate their starting power slots using the [New World](#new-world) base. However, the creation process inherently causes a degradation of power from Maker to fledgling known as the "Power Fade." To determine a fledgling's starting powers, follow this process:
 
@@ -751,7 +815,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 **Emotional**
 * **The Cold Hush `[Activated - 1 Reserve | Duration: 1 Scene]`:** You reach outward with invisible cold tendrils to freeze a target's emotional core into silent marble. Panicked screaming crowds instantly fall into an unnatural, glassy-eyed hush; angry violent attackers drop their weapons as their rage vanishes into a hollow void of absolute indifference.
 * **Blood Harmonic `[Activated - 1 Reserve | Duration: 1 Scene]`:** By locking eyes with a target, you inject a sudden surge of violent emotional frequency directly into their nervous system. You can force a calm mortal into a screaming frenzy or twist an enemy's hatred into weeping, subservient adoration within a single heartbeat.
-* **Visage of the Abyssal Nightmare `[Activated - 1 Reserve | Duration: 1 Scene (1-Round Fear Stun)]`:** You project pure, unadulterated dread. For a split second, your shadow stretches unnaturally and your iris turns into a pitch-black void. The target experiences a sudden drop in ambient room temperature and a roaring ringing in their ears, frozen in place by the absolute horror of staring directly into a primordial predator.
+* **Visage of the Abyssal Nightmare `[Activated - 1 Reserve | Duration: 1 Scene (1-Round Fear Stun)]`:** You project pure, unadulterated dread. For a split second, your shadow stretches unnaturally and your iris turns into a pitch-black void. The target experiences a sudden drop in ambient room temperature and a roaring ringing in their ears, frozen in place by the absolute horror of staring directly into a primordial predator. *Fear Stun Immunity & Age Tier Superiority:* Resisting Visage is modified by [Universal Age Tier Superiority](#universal-age-tier-superiority-modifier-system) (+1 penalty against Elders, -2 against Ancients). A target successfully affected by Visage gains an immediate **1-Scene immunity window** against subsequent fear stuns from Visage, preventing infinite fear stun locking.
 * **Resonance Tasting `[Innate Passive - 0 Reserves | Duration: Permanent]`:** You inhale deeply, "tasting" the emotional atmosphere of a room as distinct metallic flavors on your tongue. Fear tastes like bitter copper, lust like sweet honey, and isolation like dry ash, allowing you to instantly isolate vulnerable prey in a dense crowd.
 
 **Thought**
