@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.30.0-as"
+    "version": "2608.31.0-as"
   },
   "todo": [
     {
@@ -302,6 +302,7 @@
       "title": "Audit Apex Vault Blood Theft Penalty under Coven Governance",
       "status": "blocked",
       "priority": "high",
+      "existed_since": "2608.26.0-as",
       "blocked_since": "2608.30.0-as",
       "details": "Blocked pending modification, refactor, and implementation of new Coven rules."
     },
@@ -318,7 +319,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.30.0-as
+# Vampire Ruleset v2608.31.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)

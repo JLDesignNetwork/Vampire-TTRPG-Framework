@@ -8,6 +8,16 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.31.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release enforcing JLDN Todo Schema v2608.14.0-as compliance by restoring mandatory `existed_since` key alongside `blocked_since` for `TODO-30`.**
+
+#### Modified
+- Restored mandatory `"existed_since": "2608.26.0-as"` key to `TODO-30` alongside `"blocked_since": "2608.30.0-as"`.
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.31.0-as`.
+
+---
+
 ### 2608.30.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release codifying the Judicial Punishment Exception under Law of Haven Sanctuary and updating `TODO-30` status to blocked.**
