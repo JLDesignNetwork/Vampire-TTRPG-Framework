@@ -6,43 +6,43 @@
     "version": "2608.19.0-as"
   },
   "changelog": [
-      {
-        "version": "2608.19.0-as",
-        "date": "2026-08-03",
-        "summary": "Public Alpha release applying Round 12 Red Team Audit fixes: Mind Grip mass caps by Age Tier, Soul Bind sentry caps, Puppet Master motor vs mental power scope, Chameleon Facade bio-testing limits, Lineage Harmonization modifier stacking, and Nerve Lightning bio-neural target scope.",
-        "added": [
-          "Mind Grip Mass Caps: Codified lifting/hurling weight limits based on Age Tier: Neonates (<500 yrs) = 250kg (550lbs); Elders (500-1,199 yrs) = 500kg (1,100lbs); Ancients (1,200+ yrs) = 1,000kg (1 Ton).",
-          "Soul Bind Active Sentry Cap: Hard-capped active bound spirits at ROUND(VAMPIRE_AGE / 100) (minimum 1); codified incorporeal warning-only sentry status (no physical attack damage).",
-          "Puppet Master Motor Scope: Clarified that Puppet Master controls physical motor muscles only, without granting access to the victim's brain thoughts, blood reserves, or supernatural power activations.",
-          "Chameleon Facade Bio-Limits: Clarified that Chameleon Facade alters physical dermal contours and fingerprints, but deep biological markers (blood DNA sequencing, non-circulating blood) are revealed by lab tests.",
-          "Lineage & Age Tier Modifier Stacking: Codified that Lineage Harmonization (+2 bonus against direct bloodline) explicitly STACKS with Universal Age Tier Superiority modifiers (+1 or +2).",
-          "Nerve Lightning Target Scope: Specified that Nerve Lightning targets biological neural networks exclusively; non-biological mechanical entities (drones, computer mainframes) are unaffected."
-        ],
-        "modified": [
-          "Updated H1 title in vampire-2608.md to Vampire Ruleset v2608.19.0-as."
-        ],
-        "fixed": [
-          "Eliminated unlimited telekinetic weight lifting exploits.",
-          "Resolved infinite necromantic spirit surveillance army exploits.",
-          "Standardized mind-control modifier stacking and bio-electrical target scope."
-        ]
-      },
-      {
-        "version": "2608.18.0-as",
-        "date": "2026-08-03",
-        "summary": "Public Alpha release introducing the Formal Action Economy Framework and Tiered Blood Reserve Expenditure Caps scaling by Age Tiers.",
-        "added": [
-          "Formal Action Economy Framework: Codified combat turn structure consisting of 1 Main Action (attack, activated power, skill check), 1 Movement/Minor Action (move, draw item, toggle innate power), Continuous Upkeep (sustained powers upkeep at start of turn), and 1 Off-Turn Reaction/Defense (dodge, reactive teleport).",
-          "Tiered Blood Reserve Expenditure Caps: Replaced flat 2-reserve cap with Age-Tiered spending limits per combat round: Neonates (<500 yrs) = 2 Reserves/Round; Elders (500-1,199 yrs) = 3 Reserves/Round; Ancients (1,200+ yrs) = 4 Reserves/Round.",
-          "Action Economy Perks: Codified Blood Surge bonuses (+2 Strength/Speed OR +1 Extra Minor Action) and Master Power 0-Cost initial activation advantages."
-        ],
-        "modified": [
-          "Updated Categorized Per-Round Expenditure Caps under Mechanics to scale with Age Tiers.",
-          "Updated H1 title in vampire-2608.md to Vampire Ruleset v2608.18.0-as."
-        ],
-        "fixed": [
-          "Eliminated the Ancient Expenditure Bottleneck exploit, allowing Elders and Ancients to utilize expanded blood pools effectively in combat."
-        ]
+    {
+      "version": "2608.19.0-as",
+      "date": "2026-08-03",
+      "summary": "Public Alpha release applying Round 12 Red Team Audit fixes: Mind Grip mass caps by Age Tier, Soul Bind sentry caps, Puppet Master motor vs mental power scope, Chameleon Facade bio-testing limits, Lineage Harmonization modifier stacking, and Nerve Lightning bio-neural target scope.",
+      "added": [
+        "Mind Grip Mass Caps: Codified lifting/hurling weight limits based on Age Tier: Neonates (<500 yrs) = 250kg (550lbs); Elders (500-1,199 yrs) = 500kg (1,100lbs); Ancients (1,200+ yrs) = 1,000kg (1 Ton).",
+        "Soul Bind Active Sentry Cap: Hard-capped active bound spirits at ROUND(VAMPIRE_AGE / 100) (minimum 1); codified incorporeal warning-only sentry status (no physical attack damage).",
+        "Puppet Master Motor Scope: Clarified that Puppet Master controls physical motor muscles only, without granting access to the victim's brain thoughts, blood reserves, or supernatural power activations.",
+        "Chameleon Facade Bio-Limits: Clarified that Chameleon Facade alters physical dermal contours and fingerprints, but deep biological markers (blood DNA sequencing, non-circulating blood) are revealed by lab tests.",
+        "Lineage & Age Tier Modifier Stacking: Codified that Lineage Harmonization (+2 bonus against direct bloodline) explicitly STACKS with Universal Age Tier Superiority modifiers (+1 or +2).",
+        "Nerve Lightning Target Scope: Specified that Nerve Lightning targets biological neural networks exclusively; non-biological mechanical entities (drones, computer mainframes) are unaffected."
+      ],
+      "modified": [
+        "Updated H1 title in vampire-2608.md to Vampire Ruleset v2608.19.0-as."
+      ],
+      "fixed": [
+        "Eliminated unlimited telekinetic weight lifting exploits.",
+        "Resolved infinite necromantic spirit surveillance army exploits.",
+        "Standardized mind-control modifier stacking and bio-electrical target scope."
+      ]
+    },
+    {
+      "version": "2608.18.0-as",
+      "date": "2026-08-03",
+      "summary": "Public Alpha release introducing the Formal Action Economy Framework and Tiered Blood Reserve Expenditure Caps scaling by Age Tiers.",
+      "added": [
+        "Formal Action Economy Framework: Codified combat turn structure consisting of 1 Main Action (attack, activated power, skill check), 1 Movement/Minor Action (move, draw item, toggle innate power), Continuous Upkeep (sustained powers upkeep at start of turn), and 1 Off-Turn Reaction/Defense (dodge, reactive teleport).",
+        "Tiered Blood Reserve Expenditure Caps: Replaced flat 2-reserve cap with Age-Tiered spending limits per combat round: Neonates (<500 yrs) = 2 Reserves/Round; Elders (500-1,199 yrs) = 3 Reserves/Round; Ancients (1,200+ yrs) = 4 Reserves/Round.",
+        "Action Economy Perks: Codified Blood Surge bonuses (+2 Strength/Speed OR +1 Extra Minor Action) and Master Power 0-Cost initial activation advantages."
+      ],
+      "modified": [
+        "Updated Categorized Per-Round Expenditure Caps under Mechanics to scale with Age Tiers.",
+        "Updated H1 title in vampire-2608.md to Vampire Ruleset v2608.18.0-as."
+      ],
+      "fixed": [
+        "Eliminated the Ancient Expenditure Bottleneck exploit, allowing Elders and Ancients to utilize expanded blood pools effectively in combat."
+      ]
       },
       {
         "version": "2608.17.0-as",
