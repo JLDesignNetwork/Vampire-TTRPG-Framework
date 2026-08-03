@@ -5,7 +5,168 @@
     "rulesetName": "Vampire",
     "version": "2608.24.0-as"
   },
-  "todo": []
+  "todo": [
+    {
+      "id": "TODO-01",
+      "section": "## Behavior & Physiology -> Cardiac Hyper-Focus",
+      "title": "Codify Cardiac Hyper-Focus Mechanic",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Detail the mechanical execution of Cardiac Hyper-Focus: spending 1 Blood Reserve grants +1 to all perception/tracking checks for 1 scene, but imposes a -1 social penalty due to predator eye glint."
+    },
+    {
+      "id": "TODO-02",
+      "section": "## Creation -> Siring Fledglings",
+      "title": "Establish Fledgling Creation & Sire-Bond Mechanics",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Codify the 3-step turning process (Drain, Infuse Vitae, Sanguine Awakening), Sire-Fledgling telepathic compass, and 100-year Centenary Compulsion rules."
+    },
+    {
+      "id": "TODO-03",
+      "section": "## Death -> Solar Track & Decapitation",
+      "title": "Detail Sunlight Disintegration & Decapitation Torpor Rules",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Expand the 3-round Solar Track (Dermal Vaporization, Flesh Ignition, Ash Collapse), Native Soil dependency, and Decapitation Brain Torpor rules."
+    },
+    {
+      "id": "TODO-04",
+      "section": "## Mechanics -> Blood Capacity & Aging",
+      "title": "Codify Age Tiers & Blood Reserve Caps",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Define Blood Capacity scaling across Neonates (<500 yrs = 10 max), Elders (500-1,199 yrs = 13-16 max), and Ancients (1,200+ yrs = 17-22+ max)."
+    },
+    {
+      "id": "TODO-05",
+      "section": "## Mechanics -> Brink of Death",
+      "title": "Define Brink of Death Stages & Torpor Eras",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Codify Stage 1 (Color Fade), Stage 2 (Sunken Skin), Stage 3 (Lack of Breath), and Stage 4 (Lack of Heartbeat)."
+    },
+    {
+      "id": "TODO-06",
+      "section": "## Powers -> Behavioral & Supernatural",
+      "title": "Expand Power Categories & Innate Framework",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Categorize Innate (0-cost passive/toggle), Activated (1 reserve), Sustained (1 reserve + 1/round), and Master Composite powers."
+    },
+    {
+      "id": "TODO-07",
+      "section": "## Social -> Covens & Laws",
+      "title": "Establish Coven Laws & Sanctuary Traditions",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Codify The Shroud, Haven Sanctuary, Sanguine Tithe, and Tabula Rasa Coven Laws."
+    },
+    {
+      "id": "TODO-08",
+      "section": "## Social -> Blood Archives & Thralls",
+      "title": "Detail Blood Archive Phials & Thrall Blood Bonds",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Define Blood Archive psychic memory phials, Thrall blood bonding (1 draft per 14 days), and Thrall aging suspension."
+    },
+    {
+      "id": "TODO-09",
+      "section": "## Types -> Mutations & Reapers",
+      "title": "Codify Mutant Types, Feral Husks & Spliced Reapers",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.1.0-s",
+      "details": "Define Feral Husks, Hollow Abominations, and Spliced Reaper epidemic creation rules."
+    },
+    {
+      "id": "TODO-10",
+      "section": "## Behavior & Physiology",
+      "title": "Deepen Historical Lore & Cultural Divide Between Eras",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.2.0-as",
+      "details": "Enrich New World vs Old World lore detailing historical shifts, societal expectations, age milestone ceremonies, and the ideological divide between ancient traditionalists and modern neonates."
+    },
+    {
+      "id": "TODO-11",
+      "section": "## Mechanics -> Drinking & Sustenance",
+      "title": "Establish Ancient Vitae, Permanent Power Gain & Soul Strain Mechanics",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.11.0-as",
+      "details": "Add Tier 5 Ancient Vitae (1,200+ years) granting 4 Blood Reserves, 1 Permanent Power Slot per draft (once per century), Soul Strain Risk (Hard Self-Control check), and Full Diablerie rules (Eternal Petrified Torpor)."
+    },
+    {
+      "id": "TODO-12",
+      "section": "## Creation",
+      "title": "Implement Creation Limitations & Anti-Mass Siring Rules",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.12.0-as",
+      "details": "Add 5 Blood Reserves siring cost, 30-Day Bloodline Cooldown (Sanguine Exhaustion), 3-Year Psychic Rebound (emotional static bleed & Psychic Overload Hazard), and Progeny Capacity Caps based on age tier."
+    },
+    {
+      "id": "TODO-13",
+      "section": "## Types",
+      "title": "Formalize 3-Tier Age Hierarchy (Neonates, Elders, Ancients)",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.13.0-as",
+      "details": "Structure vampire types into 3 formal age categories: Neonates (<500 yrs), Elders (500-1,199 yrs), and Ancients (1,200+ yrs), defining starting NPC pools, species perks, and societal roles for each."
+    },
+    {
+      "id": "TODO-14",
+      "section": "## Powers -> Alteration & Sensory",
+      "title": "Integrate Round 13 Audit Fixes (Torpor Stasis, Omni-Sensory Flashbang Immunity, Trailing Minions, Natural Critical Guarantee)",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.20.0-as",
+      "details": "Codified Native Soil Torpor Stasis, Stage 4 petrification vs ash distinction, Nyctophilous Apex Sight in Omni-Sensory Primacy, Trailing Minion Boundary Rules, and Natural Critical Success Guarantee."
+    },
+    {
+      "id": "TODO-15",
+      "section": "## Social -> Thralls & Blood Archives",
+      "title": "Integrate Round 14 & Archiver Audit Fixes (Bloodline Duel, Reaper Contagion Thrall +2 Bonus, Archiver Immunity)",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.22.0-as",
+      "details": "Codified Dual-Master Bloodline Duel system, Thrall Reaper contagion +2 resistance bonus, Blood Archive 1-action + combat overload penalty, Archiver immunity, Primary Reaper lifespan, and Tabula Rasa discipline tiers."
+    },
+    {
+      "id": "TODO-16",
+      "section": "## Creation & Death -> Banes & Native Soil",
+      "title": "Integrate Round 15 & 16 Audit Fixes (Structural Intactness Creation, Wooden Stake Torpor Paralysis, Sci-Fi Soil Containment, Millennial Scaling)",
+      "status": "completed",
+      "priority": "critical",
+      "protection": "protected",
+      "existed_since": "2608.24.0-as",
+      "details": "Codified Structural Intactness requirement for Creation, Wooden Stake Catatonic Torpor Paralysis vs True Death, Anchor Empathy Shielding, Post-Feeding animal panic reduction, Daywalker UV immunity, Sci-Fi soil containment, Re-Rooting interruption tiers, and Millennial Scaling override."
+    }
+  ]
 }
 ---
 
