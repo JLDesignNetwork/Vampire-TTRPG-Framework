@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.21.0-as"
+    "version": "2608.22.0-as"
   },
   "todo": [
     {
@@ -114,7 +114,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.21.0-as
+# Vampire Ruleset v2608.22.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -752,7 +752,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     3. **The Law of the Sanguine Tithe:** Fledglings and lower members must yield a mandatory portion of their hunting yields and stored blood reserves to the Apex Elder. *Tithe Quantity Math:* Requires yielding **1 Blood Reserve per 5 reserves harvested** during hunts (or a minimum of 1 stored draft per week) to the Apex Elder's vault.
     4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Bloodline Memory*](#behavioral-powers)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
       * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
-      * **The Blood Archive Ritual (Action Economy & Overload Penalty):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload.
+      * **The Blood Archive Ritual (Action Economy, Overload & Archiver Immunity):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload. *Archiver Immunity:* Arch-Chroniclers and Blood Scribes (*Archivers*) possess conditioned psychic capacity to digest memory streams seamlessly; Archivers are completely **immune** to sensory flood and suffer **0 combat penalties** when ingesting Archive phials.
       * **Zero Nutritional Value & Crystallization:** Blood Archive phials are small historical records and **provide zero nutritional value (0 Blood Reserves)**; they cannot be consumed for sustenance or used to stave off starvation. As centuries pass, the blood inside the phial naturally crystallizes into red glass-like mineral. Crystallized blood retains 100% of its recorded psychic history indefinitely; dissolving or ingesting the red crystal allows a vampire to read that era's memories, but confers zero nutritional reserves or physical buffs.
       * **Mortal Ingestion Profile:** Only vampires can process psychic memories stored in Blood Archive phials. A mortal who drinks an Archive draft gains no memories; instead, they suffer severe vitae poisoning or become instantly enthralled as a [Thrall](#social).
       * **Lethe's Touch Archive Interaction:** Drinking a Blood Archive draft allows a vampire to experience recorded memories as a third-person observer, but does **NOT** remove or unlock a [*Lethe's Touch*](#behavioral-powers) memory block from their own personal brain.

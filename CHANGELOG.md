@@ -8,6 +8,18 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.22.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release adding Archiver Immunity to Blood Archive sensory overload penalties.**
+
+#### Added
+- **Archiver Immunity to Sensory Flood:** Codified rule granting Arch-Chroniclers and Blood Scribes (*Archivers*) full immunity to sensory flood and combat concentration penalties when ingesting Blood Archive phials.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.22.0-as`.
+
+---
+
 ### 2608.21.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 14 Red Team Audit fixes: Dual-Master Bloodline Duel, Thrall Reaper Contagion Resistance, Blood Archive Action Economy & Overload Penalty, Primary Spliced Reaper Lifespan, and Tabula Rasa Discipline Tiers.**
