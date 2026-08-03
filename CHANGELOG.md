@@ -8,6 +8,20 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.33.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release locking in `TODO-30`, establishing The Five Sacred Laws of the Coven, system-agnostic Blood Tithing Protocols, and The Law of Sanguine Justice.**
+
+#### Added
+- **The Fifth Sacred Law (The Law of Sanguine Justice):** Codified the supreme legal framework governing Coven trials, legal disputes, Apex Vault High Theft penalties (30-Day Power Lockout + 1-Year Double Tithes), and exclusive Coven Tribunal judicial exemptions to Haven Sanctuary.
+- **System-Agnostic Blood Tithing Protocols:** Codified multi-genre tithing methods across Medieval/Fantasy (sealed amphorae / silver spigot chalice altars), Gothic/Modern (glass carboys / syringe conduit nodes), and Sci-Fi (vacuum bio-canisters / bio-extraction ports), eliminating technology hardcoding.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.33.0-as`.
+- Completed task `TODO-30` in frontmatter (`"status": "completed"`, `"protection": "protected"`).
+
+---
+
 ### 2608.32.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying `TODO-31` Silence Suppression & Faded Mental Map Memory for Echolocation Pulse and registering Round 20 Red Team Audit tasks.**

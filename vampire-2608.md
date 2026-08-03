@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.32.0-as"
+    "version": "2608.33.0-as"
   },
   "todo": [
     {
@@ -300,11 +300,11 @@
       "id": "TODO-30",
       "section": "## Social -> Secrecy, Covens, and Thralls",
       "title": "Audit Apex Vault Blood Theft Penalty under Coven Governance",
-      "status": "blocked",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.26.0-as",
-      "blocked_since": "2608.30.0-as",
-      "details": "Blocked pending modification, refactor, and implementation of new Coven rules."
+      "details": "Codified 5th Sacred Coven Law (The Law of Sanguine Justice), system-agnostic Blood Tithing Protocols (Sealed Tithe Vessels & Closed-Conduit Donations across Fantasy/Modern/Sci-Fi), Apex Vault High Theft penalties (30-Day Power Lockout & 1-Year Double Tithe), and Judicial Exemptions to Haven Sanctuary."
     },
     {
       "id": "TODO-31",
@@ -365,7 +365,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.32.0-as
+# Vampire Ruleset v2608.33.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -1019,16 +1019,23 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * **The Arch-Chronicler / Blood Scribe:** Preserves the Coven's unwritten lineage histories, ancestral genealogies, and memory records.
     * **The Sanguine Steward:** Oversees mortal Thrall networks, medical blood bank infiltrations, and dietary supply chains.
     * **The Fledgling / Neonate:** Bound progeny undergoing their 100-year Centenary Compulsion, serving the Coven while learning the night.
-  * **The Four Sacred Laws of the Coven:**
-    1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is treason, punishable by immediate True Death.
-    2. **The Law of Haven Sanctuary:** All internal bloodletting or physical violence between Coven members within haven grounds is strictly forbidden under penalty of forced Torpor or exile. *Judicial Punishment Exception:* Internal bloodletting on haven grounds is strictly forbidden in casual or aggressive conflicts, BUT may be explicitly authorized as judicial punishment by the ruling Coven Council during formal Coven Trials (such as executing forced blood draining or physical branding for High Theft or treason).
-    3. **The Law of the Sanguine Tithe:** Fledglings and lower members must yield a mandatory portion of their hunting yields and stored blood reserves to the Apex Elder. *Tithe Quantity Math:* Requires yielding **1 Blood Reserve per 5 reserves harvested** during hunts (or a minimum of 1 stored draft per week) to the Apex Elder's vault. *Hardship Deferral & Forced Draining:* If a neonate harvests 0 blood due to severe injury, stasis, or active haven lockdown, the 1-draft minimum tithe is **deferred** for 1 week. If unpaid for 2 consecutive weeks, the Apex Elder may collect the tithe by force (draining 2 reserves directly from the neonate's veins) or assign punitive Coven labor.
+  * **The Five Sacred Laws of the Coven:**
+    1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is high treason, punishable by immediate True Death.
+    2. **The Law of Haven Sanctuary (Absolute Non-Violence):** All unsanctioned internal bloodletting, physical assault, or combat between vampires within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
+    3. **The Law of the Sanguine Tithe (Vault Contribution & Tithing Protocols):** Fledglings and lower members must yield a mandatory portion of their hunting yields to the Apex Elder's vault (**1 Blood Reserve per 5 reserves harvested** during hunts, or a minimum of 1 stored draft per week).
+       * *Sealed Tithe Vessel Deposit (Universal Primary Method — All Eras):* Members harvest mortal blood during hunts outside haven grounds and store it in sealed tithe vessels matching setting technology (clay amphorae/flasks in Fantasy, glass carboys/phials in Gothic/Modern, vacuum bio-canisters in Sci-Fi). Deposits into the vault chamber require **0 bloodletting inside haven grounds**.
+       * *In-Haven Voluntary Donation (Genre-Agnostic Closed-Conduit Protocol):* If a member donates directly from their own body inside haven grounds, open blood dripping is strictly forbidden under Law 2. Transfers must utilize setting-appropriate closed conduits (consecrated spigot/chalice altar in Fantasy, syringe conduit node in Modern, bio-extraction port in Sci-Fi) that seal the puncture upon removal.
+       * *Tithe Default & Judicial Escalation:* If a member harvests 0 blood due to severe injury or stasis, a 1-week **Hardship Deferral** is granted automatically. If unpaid for 2 consecutive weeks, the matter escalates to [The Law of Sanguine Justice](#secrecy-covens-and-thralls).
     4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Bloodline Memory*](#behavioral-powers)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
-      * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
-      * **The Blood Archive Ritual (Action Economy, Overload & Archiver Immunity):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload. *Archiver Immunity:* Arch-Chroniclers and Blood Scribes (*Archivers*) possess conditioned psychic capacity to digest memory streams seamlessly; Archivers are completely **immune** to sensory flood and suffer **0 combat penalties** when ingesting Archive phials.
-      * **Zero Nutritional Value & Crystallization:** Blood Archive phials are small historical records and **provide zero nutritional value (0 Blood Reserves)**; they cannot be consumed for sustenance or used to stave off starvation. As centuries pass, the blood inside the phial naturally crystallizes into red glass-like mineral. Crystallized blood retains 100% of its recorded psychic history indefinitely; dissolving or ingesting the red crystal allows a vampire to read that era's memories, but confers zero nutritional reserves or physical buffs.
-      * **Mortal Ingestion Profile:** Only vampires can process psychic memories stored in Blood Archive phials. A mortal who drinks an Archive draft gains no memories; instead, they suffer severe vitae poisoning or become instantly enthralled as a [Thrall](#social).
-      * **Lethe's Touch Archive Interaction:** Drinking a Blood Archive draft allows a vampire to experience recorded memories as a third-person observer, but does **NOT** remove or unlock a [*Lethe's Touch*](#behavioral-powers) memory block from their own personal brain.
+       * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
+       * **The Blood Archive Ritual (Action Economy, Overload & Archiver Immunity):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload. *Archiver Immunity:* Arch-Chroniclers and Blood Scribes (*Archivers*) possess conditioned psychic capacity to digest memory streams seamlessly; Archivers are completely **immune** to sensory flood and suffer **0 combat penalties** when ingesting Archive phials.
+       * **Zero Nutritional Value & Crystallization:** Blood Archive phials are small historical records and **provide zero nutritional value (0 Blood Reserves)**; they cannot be consumed for sustenance or used to stave off starvation. As centuries pass, the blood inside the phial naturally crystallizes into red glass-like mineral. Crystallized blood retains 100% of its recorded psychic history indefinitely; dissolving or ingesting the red crystal allows a vampire to read that era's memories, but confers zero nutritional reserves or physical buffs.
+       * **Mortal Ingestion Profile:** Only vampires can process psychic memories stored in Blood Archive phials. A mortal who drinks an Archive draft gains no memories; instead, they suffer severe vitae poisoning or become instantly enthralled as a [Thrall](#social).
+       * **Lethe's Touch Archive Interaction:** Drinking a Blood Archive draft allows a vampire to experience recorded memories as a third-person observer, but does **NOT** remove or unlock a [*Lethe's Touch*](#behavioral-powers) memory block from their own personal brain.
+    5. **The Law of Sanguine Justice (Judicial Authority & Penal Code):** The supreme legal framework governing all Coven trials, legal disputes, vault theft, tithe defaults, and treason.
+       * *Judicial Exemption to Haven Sanctuary:* The Coven Tribunal (Apex Elder, Regent Enforcer, and Coven Council) holds the **exclusive lawful authority** to suspend [The Law of Haven Sanctuary](#secrecy-covens-and-thralls) for judicial enforcement inside haven grounds.
+       * *Apex Vault High Theft Penalties:* Stealing stored blood reserves or relics from the Apex Elder's vault constitutes High Theft under Sanguine Justice, punished by an immediate **30-Day Power Lockout** AND **doubling the offender's tithe requirement for 1 full year**.
+       * *Sanctioned Judicial Punishments:* Forced vein draining (extracting 2 reserves via judicial conduit for unpaid tithes or theft reparations), corporal branding, 30-Day Power Lockouts, forced Torpor, or True Death. Unsanctioned bloodletting by non-tribunal members remains a severe crime under Law 2.
   * **Territorial Conflict & Treaties:** Covens aggressively mark hunting boundaries. Invading a rival Coven's established hunting grounds without a formal Blood Treaty grants defending vampires a **+1 home-field ambush bonus** on their own turf.
 * **Thralls & Vitae Addiction:** Mortals who are fed upon and given small drafts of vampire blood (vitae) become deeply bound to their vampire master.
   * **Capacity & Sire Bond Restriction:** A newly created New World vampire begins with **0 Thralls** and lacks the mystical capacity to bind mortals. Furthermore, a fledgling cannot possess a Thrall while bound in servitude to their sire (during the 100-year Centenary Compulsion).
