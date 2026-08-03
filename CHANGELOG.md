@@ -8,7 +8,26 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
-### 2608.19.0-as (2026-08-03) - Public Alpha
+### 2608.20.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 13 Red Team Audit fixes: Native Soil Torpor Stasis, Stage 4 Torpor petrification clarification, Nyctophilous Apex Sight in Omni-Sensory Primacy, Trailing Minion Boundary Rules, Natural Critical Success Luck Guarantee, and Digital Shroud thermal counter-power cross-reference fix.**
+
+#### Added
+- **Native Soil Torpor Stasis:** Codified rule suspending [The Bleed] regression track while a vampire is in Stage 3 or Stage 4 Torpor (Petrified Slumber), preventing unrecoverable Bleed death while calcified.
+- **Stage 4 Torpor Petrification Clarification:** Clarified that Stage 4 Torpor is a petrified granite state; turning to ash represents absolute, unrecoverable True Death.
+- **Omni-Sensory Primacy Trait Update:** Included *Nyctophilous Apex Sight* in *Omni-Sensory Primacy* composite traits, granting flashbang blinding flare immunity to Master perception hosts.
+- **Trailing Minion Boundary Rules:** Specified that re-animated corpses falling outside a moving *Aura of the Slumbering Legion* sphere remain active for the 1-scene duration up to the active minion cap `ROUND(VAMPIRE_AGE / 100)`.
+- **Natural Critical Success Luck Guarantee:** Codified that all defender targets in mental/social tests retain a minimum 1-in-20 Natural Critical Success chance to resist or break free against superior odds, ensuring a defender can never be completely counted out regardless of modifier gaps.
+
+#### Fixed
+- **The Digital Shroud Sensor Cross-Reference:** Corrected sensor counter-power cross-reference from *Thermal Vitae Vision* (a sight power) to *Crimson Mist* or *Veil Flicker*.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.20.0-as`.
+
+---
+
+### 2608.19.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release applying Round 12 Red Team Audit fixes: Mind Grip mass caps by Age Tier, Soul Bind sentry caps, Puppet Master motor vs mental power scope, Chameleon Facade bio-testing limits, Lineage Harmonization modifier stacking, and Nerve Lightning bio-neural target scope.**
 
