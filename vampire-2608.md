@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.22.0-as"
+    "version": "2608.23.0-as"
   },
   "todo": [
     {
@@ -114,7 +114,7 @@
 }
 ---
 
-# Vampire Ruleset v2608.22.0-as
+# Vampire Ruleset v2608.23.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -176,7 +176,7 @@ A vampire's supernatural apex nature destabilizes living beings in their immedia
 
 * **Animal Instinct (30-Foot Panic Radius):** Domesticated animals (dogs, horses, cats, livestock) smell the absence of living pheromones and notice the unnatural, silent locomotion. Animals become violently hostile or flee in terror when an unmasked vampire enters within **30 feet**.
 * **The Uncanny Valley Effect on Mortals:** Living humans rarely recognize a vampire as undead on sight, but their subconscious mind senses the lack of breathing and statue-like stillness. This creates an unexplainable skin chill and subconscious dread, imposing a **+1 difficulty penalty** on mundane social/persuasion checks against un-enthralled mortals.
-* **Post-Feeding Camouflage (1–2 Hours):** During the 1–2 hours immediately following a living blood meal, the warm skin flush and reflex breathing eliminate the Uncanny Valley penalty, allowing the vampire to blend flawlessly into mortal crowds.
+* **Post-Feeding Camouflage (1–2 Hours):** During the 1–2 hours immediately following a living blood meal, the warm skin flush and reflex breathing eliminate the Uncanny Valley social penalty AND reduce the Animal Panic Radius from 30 feet down to **5 feet**, allowing the vampire to blend flawlessly into mortal crowds and briefly interact with trained animals.
 
 ### Night-Stalking & Hunting Psychology
 * **Cardiac Hyper-Focus:** When actively stalking prey, the vampire's cognitive focus filters out ambient city noise to lock onto the target's heartbeat pulse, lung movement, and blood volume.
@@ -189,6 +189,7 @@ Vampires mark their hunting grounds by leaving microscopic vitae scents on archi
 As decades turn to centuries, vampires experience profound psychological alienation from sunlit mortal society:
 * **Empathy Decay:** Living human routines (careers, money, mortal romance) come to resemble a fleeting "Mayfly Theater," causing Old World vampires to treat mortals as temporary livestock.
 * **The Daylight Void:** Centuries of enforced daylight slumber distort time perception. Decades feel like passing months, and mortal generations bloom and wither like autumn leaves.
+* **Anchor Empathy Shielding Rule:** Maintaining an active, intact Pre-Change Anchor (a living descendant, cherished heirloom, or sacred oath) **shields** the vampire from automatic Empathy Decay, allowing Elders and Ancients to retain human empathy for as long as their Anchor remains uncorrupted.
 
 ### Physical Attributes & Speed
 Vampires automatically possess supernatural physical enhancements compared to mortals, scaling as their blood matures:
@@ -204,7 +205,7 @@ Metaphysically and biologically, transformation progresses through three distinc
 ### Phase 1: The Death Threshold
 Before new immortal life can take root, the victim's mortal vessel must undergo true biological death.
 * **Biological Shutdown:** As mortal blood volume drops to zero during draining, the heart seizes, respiration halts, body temperature plunges to match ambient room temperature, and brain activity ceases.
-* **The 3-Minute Window:** Transformation requires entering complete brain death without incurring cellular necrosis. The Sire has a strict **3-minute biological window** from the moment the victim's heart stops to administer Sire vitae. If blood is not supplied within 3 minutes, irreversible brain rot sets in and the victim dies permanently as a mundane corpse.
+* **The 3-Minute Window:** Transformation requires entering complete brain death without incurring cellular necrosis. The Sire has a strict **3-minute biological window** from the moment the victim's heart stops to administer Sire vitae. If blood is not supplied within 3 minutes, irreversible brain rot sets in and the victim dies permanently as a mundane corpse. *Structural Intactness Requirement:* The victim's body MUST be structurally intact (head connected to torso, heart undamaged) during the 3-minute transfusion window. Transfusing vitae into a decapitated or heart-destroyed corpse fails automatically, producing a dead, inanimate corpse.
 
 ### Phase 2: The Sanguine Transfusion
 Once Sire vitae enters the deceased body, it acts as superheated, dark biological mercury—igniting dead nervous tissue, liquefying bone marrow, and violently rewriting the victim's genetic essence across seconds.
@@ -267,16 +268,16 @@ Solar lethality depends directly upon the intensity and filtering of ambient lig
 
 #### Artificial UV Light Weapons (Dual-Genre)
 High-intensity artificial ultraviolet light sources operate differently from natural solar radiation:
-* **Hunter UV Spotlights / Military UV Lasers / UV Flashbangs:** Trigger **Round 1 (Dermal Vaporization)** upon impact, causing steam burns and -2 action penalties while exposed. However, artificial UV light does **not** trigger Round 2 combustion or Round 3 ash collapse unless enhanced by solar incantations (*Mytharios*) or orbital UV focal lenses (*The Multiverse*).
+* **Hunter UV Spotlights / Military UV Lasers / UV Flashbangs:** Trigger **Round 1 (Dermal Vaporization)** upon impact, causing steam burns and -2 action penalties while exposed. However, artificial UV light does **not** trigger Round 2 combustion or Round 3 ash collapse unless enhanced by solar incantations (*Mytharios*) or orbital UV focal lenses (*The Multiverse*). *Daywalker's Grace Immunity:* Vampires actively invoking [*Daywalker's Grace*](#supernatural-powers) are completely **immune** to artificial UV light weapons without consuming their 3-minute daily solar shield timer.
 
 ### Banes & Weaknesses
 
 Vampires are vulnerable to specific ancient banes, sacred symbols, and botanical toxins that disrupt their supernatural biology:
 
-#### 1. Wooden Stake (Instant Ash Destruction)
-Driving a wooden stake (crafted from oak, rowan, hawthorn, or ash wood) directly through the heart of a vampire is universally and irrevocably fatal.
-* **Instant Disintegration:** The moment a wooden stake pierces the cardiac chamber, the vampire's supernatural life tether is severed instantly. The body erupts into a flash of white flame, disintegrating into fine grey ash within milliseconds (**True Death**).
-* **Immunity & Exceptions:** No power (including *Vitreous Blood*) can protect a vampire from instant ash destruction if a wooden stake penetrates their heart.
+#### 1. Wooden Stake (Cardiac Lock & Torpor)
+Driving a wooden stake (crafted from oak, rowan, hawthorn, or ash wood) directly through the cardiac chamber of a vampire inflicts instant paralysis.
+* **Instant Cardiac Lock (Catatonic Torpor):** The moment a wooden stake pierces the cardiac chamber, the vampire's blood flow and power transmission instantly freeze. The vampire collapses into an immediate **Catatonic Torpor (Paralysis)**, remaining conscious but completely immobilized and unable to invoke powers or burn blood reserves until the stake is physically extracted.
+* **True Death Conditions:** Staking inflicts catatonic torpor paralysis. Staking only causes **True Death (Ash Disintegration)** if combined with decapitation, direct solar exposure, or burning the staked heart in fire.
 
 #### 2. Garlic & Allium Toxicity (Botanical Repulsion)
 Garlic contains concentrated botanical compounds that act as a volatile poison against vampiric biology.

@@ -8,6 +8,22 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.23.0-as (2026-08-03) - Public Alpha Release
+
+**Public Alpha release applying Round 15 Red Team Audit fixes: Structural Intactness Requirement for Creation, Wooden Stake Cardiac Lock & Torpor Paralysis, Anchor Empathy Shielding Rule, Post-Feeding Animal Reaction, and Artificial UV Light Immunity under Daywalker's Grace.**
+
+#### Added
+- **Structural Intactness Requirement for Creation:** Codified rule requiring the victim's body to be structurally intact (head attached, heart undamaged) during the 3-minute transfusion window; transfusing a decapitated/heart-destroyed body fails automatically.
+- **Wooden Stake Cardiac Lock & Torpor Paralysis:** Clarified that cardiac staking inflicts immediate **Catatonic Torpor (Paralysis)**; staking only causes True Death (Ash Disintegration) if combined with decapitation, solar exposure, or fire.
+- **Anchor Empathy Shielding Rule:** Codified that maintaining an active, intact Pre-Change Anchor shields Elders and Ancients from automatic Empathy Decay.
+- **Post-Feeding Animal Reaction:** Specified that Post-Feeding Camouflage (1–2 hrs post-meal) reduces the Animal Panic Radius from 30 feet down to 5 feet, enabling interaction with trained animals.
+- **Artificial UV Immunity under Daywalker's Grace:** Clarified that vampires actively using *Daywalker's Grace* are completely immune to artificial UV light weapons without consuming their 3-minute daily solar shield timer.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.23.0-as`.
+
+---
+
 ### 2608.22.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release adding Archiver Immunity to Blood Archive sensory overload penalties.**
