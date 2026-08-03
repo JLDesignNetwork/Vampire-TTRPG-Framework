@@ -3,8 +3,9 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.19.0-as",
-    "changelog": [
+    "version": "2608.19.0-as"
+  },
+  "changelog": [
       {
         "version": "2608.19.0-as",
         "date": "2026-08-03",
@@ -472,7 +473,6 @@
         "details": "Structure vampire types into 3 formal age categories: Neonates (<500 yrs), Elders (500-1,199 yrs), and Ancients (1,200+ yrs), defining starting NPC pools, species perks, and societal roles for each."
       }
     ]
-  }
 }
 ---
 
