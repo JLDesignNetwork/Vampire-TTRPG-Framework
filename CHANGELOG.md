@@ -8,6 +8,23 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.34.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 20 Red Team Audit fixes (`TODO-32` through `TODO-36`) and registering Round 21 audit tasks.**
+
+#### Added
+- **Abyssal Levitation Kinetic Air Recoil & Stability:** Codified rule specifying that levitation maintains stability for standard strikes, but physical grapples or firing heavy anti-materiel weapons mid-air suffer a -1 Recoil Instability penalty unless anchored or supported by Mind Grip.
+- **Bloodline Memory Historical Scope Lock:** Codified restriction specifying that Bloodline Memory accesses past historical memories only, preventing real-time camera/spy feed usage into a living Sire's present activities.
+- **Siren's Cadence Live Vocal Presence Requirement:** Codified rule specifying that Siren's Cadence relies on live vocal presence and aura; recorded audio played through speakers loses all supernatural compel properties.
+- **Corpse Siphon Head-Touch Neural Requirement:** Clarified that Corpse Siphon extracts neural residual memories from the brain cortex; the vampire must make direct skin contact with the decapitated head itself (touching a headless torso yields 0 memories).
+- **EM Shroud Gaze Passive Optical Blindspot:** Clarified that unpowered glass fiber-optic tubes emit zero EM radiation, remaining hidden from EM Shroud Gaze unless inspected via thermal or apex sight.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.34.0-as`.
+- Completed tasks `TODO-32` through `TODO-36` in frontmatter (`"status": "completed"`, `"protection": "protected"`) and registered Round 21 audit tasks `TODO-37` through `TODO-41` in `in-progress:audit` status.
+
+---
+
 ### 2608.33.0-as (2026-08-03) - Public Alpha Release
 
 **Public Alpha release locking in `TODO-30`, establishing The Five Sacred Laws of the Coven, system-agnostic Blood Tithing Protocols, and The Law of Sanguine Justice.**

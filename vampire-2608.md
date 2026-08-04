@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.33.0-as"
+    "version": "2608.34.0-as"
   },
   "todo": [
     {
@@ -320,52 +320,102 @@
       "id": "TODO-32",
       "section": "## Powers -> Travel",
       "title": "Audit Abyssal Levitation Airborne Melee Recoil & Grapple Stability",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.32.0-as",
-      "details": "Audit levitation recoil: clarify that physical grapples or heavy two-handed weapons mid-air suffer a -1 Recoil Instability penalty unless anchored to a solid surface or supported by Mind Grip."
+      "details": "Codified Kinetic Air Recoil & Stability: levitation maintains air stability for standard melee strikes, but physical grapples or heavy anti-materiel firearms suffer a -1 Recoil Instability penalty unless anchored or supported by Mind Grip."
     },
     {
       "id": "TODO-33",
       "section": "## Powers -> Advanced Mental & Illusion",
       "title": "Audit Bloodline Memory Distant Sire Historical Scope Lock",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.32.0-as",
-      "details": "Audit Bloodline Memory scope: clarify that Bloodline Memory accesses past historical memories only and cannot function as a real-time remote camera or live spy feed into a living Sire's present activities."
+      "details": "Codified Historical Scope Lock: Bloodline Memory accesses past historical memories only, preventing real-time camera/spy feed usage into a living Sire's present activities."
     },
     {
       "id": "TODO-34",
       "section": "## Powers -> Behavioral Powers (Charismatic)",
       "title": "Audit Siren's Cadence Audio Recording Playback Immunity",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.32.0-as",
-      "details": "Audit Siren's Cadence audio playback: clarify that Siren's Cadence relies on live vocal presence and aura; recorded audio played through speakers loses all supernatural compel properties."
+      "details": "Codified Live Vocal Presence Requirement: Siren's Cadence relies on live vocal presence and aura; recorded audio played through speakers loses all supernatural compel properties."
     },
     {
       "id": "TODO-35",
       "section": "## Powers -> Necromancy & Grave Arts",
       "title": "Audit Corpse Siphon Decapitated Host Head-Touch Requirement",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "low",
+      "protection": "protected",
       "existed_since": "2608.32.0-as",
-      "details": "Audit Corpse Siphon on decapitated corpses: clarify that neural residual memories require skin-to-skin contact with the decapitated head itself (touching a headless torso yields 0 memories)."
+      "details": "Codified Head-Touch Neural Requirement: Corpse Siphon extracts neural residual memories from the brain cortex; the vampire must make direct skin contact with the decapitated head itself."
     },
     {
       "id": "TODO-36",
       "section": "## Powers -> Behavioral Powers (Sensory)",
       "title": "Audit Electromagnetic Shroud Gaze Passive Optical Fiber Blindspot",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2608.32.0-as",
+      "details": "Codified Passive Optical Blindspot: unpowered glass fiber-optic tubes emit zero EM radiation, remaining hidden from EM Shroud Gaze unless inspected via thermal or apex sight."
+    },
+    {
+      "id": "TODO-37",
+      "section": "## Powers -> Necromancy & Grave Arts",
+      "title": "Audit Grave Rot Synthetic Cybernetic & Polymer Degradation Scope",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.34.0-as",
+      "details": "Audit Grave Rot scope: clarify that Grave Rot degrades physical structural integrity across all tech eras (iron, steel, Kevlar, synthetic polymers, cybernetic joints), excepting sacred relics, blood archives, and artifacts."
+    },
+    {
+      "id": "TODO-38",
+      "section": "## Powers -> Behavioral Powers (Emotional)",
+      "title": "Audit Blood Harmonic Direct Visual Line-of-Sight CCTV Limit",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.34.0-as",
+      "details": "Audit Blood Harmonic line-of-sight: clarify that Blood Harmonic requires direct unmediated visual gaze in physical space; digital screens, mirrors, and CCTV camera feeds filter out the gaze harmonic."
+    },
+    {
+      "id": "TODO-39",
+      "section": "## Powers -> Combat & Elemental Evocation",
+      "title": "Audit Sanguine Spike Underwater Solidification Integrity",
       "status": "in-progress:audit",
       "priority": "low",
-      "existed_since": "2608.32.0-as",
-      "details": "Audit EM Shroud Gaze passive optics: clarify that unpowered glass fiber-optic tubes emit zero EM radiation, remaining hidden from EM Shroud Gaze unless inspected via thermal or apex sight."
+      "existed_since": "2608.34.0-as",
+      "details": "Audit Sanguine Spike underwater: clarify that blood javelins solidify instantly via supernatural pressure magic and do not dissolve in water, mud, or liquid atmospheres."
+    },
+    {
+      "id": "TODO-40",
+      "section": "## Powers -> Behavioral Powers (Thought)",
+      "title": "Audit The Collective Whisper Supernatural Entity Exclusion",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.34.0-as",
+      "details": "Audit Collective Whisper crowd scope: clarify that Collective Whisper affects unconditioned mortal minds only; vampires or supernaturals in the crowd are immune and alerted to the caster's location."
+    },
+    {
+      "id": "TODO-41",
+      "section": "## Powers -> Travel",
+      "title": "Audit Veil Flicker Line-of-Sight Destination & Solid Obstacle Bounce-Back",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.34.0-as",
+      "details": "Audit Veil Flicker destination safety: clarify that Veil Flicker requires visual line-of-sight or active sensor mapping; attempting blind teleports into unmapped solid terrain causes spatial bounce-back and 1 Direct Damage."
     }
   ]
 }
 ---
 
-# Vampire Ruleset v2608.33.0-as
+# Vampire Ruleset v2608.34.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -865,7 +915,7 @@ Because all newly created vampires are born into the modern era, they generate t
 These powers project inward to control the vampire’s Beast or outward to manipulate the minds, memories, and emotions of mortals and weaker vampires.
 
 **Charismatic**
-* **Siren’s Cadence `[Activated - 1 Reserve | Duration: 1 Scene]`:** Your voice vibrates at a subconscious harmonic. Mortals hear your words like distant velvet music; their eyes grow heavy with agreeable compliance, instinctively rationalizing your suggestions as their own original thoughts while a faint scent of jasmine and ozone lingers in the air.
+* **Siren’s Cadence `[Activated - 1 Reserve | Duration: 1 Scene]`:** Your voice vibrates at a subconscious harmonic. Mortals hear your words like distant velvet music; their eyes grow heavy with agreeable compliance, instinctively rationalizing your suggestions as their own original thoughts while a faint scent of jasmine and ozone lingers in the air. *Live Vocal Presence Requirement:* Siren's Cadence relies on live supernatural vitae harmonics projected directly from the vampire's living vocal cords and aura. Digital or analog audio recordings stripped of the vampire's physical aura lose all supernatural compel properties, functioning as ordinary recorded speech.
 * **Glamour of the Velvet Apex `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You project an irresistible, intoxicating aura of primordial beauty and absolute safety. Mortals in your presence feel a sudden rise in body temperature, hyper-fixating on your gaze while their heartbeats race with a mixture of romantic infatuation and subconscious surrender.
 
 **Emotional**
@@ -885,12 +935,12 @@ These powers project inward to control the vampire’s Beast or outward to manip
 
 **Memory**
 * **Lethe’s Touch `[Activated - 1 Reserve | Duration: Permanent Memory Edit]`:** Passing your fingers over a mortal's forehead leaves a faint, cooling mist. You erase the violent trauma of a feeding or an accidental slip of the shroud, replacing the terror with the pleasant, hazy memory of a heavy glass of wine or a fleeting dream.
-* **Bloodline Memory `[Activated - 1 Reserve | Duration: 1 Scene]`:** You close your eyes and listen to the ancient pulse of your own blood, experiencing vivid, first-person memories of your Sire or Grand-Sire from centuries past. *Scope & Limits:* Provides situational narrative context, language fluency, or ancient layout insights for 1 scene (or grants a +2 bonus to relevant lore/knowledge checks). It does **NOT** permanently grant combat skills, mechanical proficiencies, or new power slots.
+* **Bloodline Memory `[Activated - 1 Reserve | Duration: 1 Scene]`:** You close your eyes and listen to the ancient pulse of your own blood, experiencing vivid, first-person memories of your Sire or Grand-Sire from centuries past. *Historical Scope Lock:* Bloodline Memory accesses **past historical memories only** (events experienced prior to the current scene or ancestral history). It CANNOT function as a real-time remote camera or live telepathic spy feed into a living Sire's present activities. *Scope & Limits:* Provides situational narrative context, language fluency, or ancient layout insights for 1 scene (or grants a +2 bonus to relevant lore/knowledge checks). It does **NOT** permanently grant combat skills, mechanical proficiencies, or new power slots.
 
 **Sensory**
 * **Crimson Scent `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your olfactory sense expands into a multi-dimensional map. Every living mortal emits a unique crimson trail in the air—you can smell blood volume, heart rate, immune diseases, and track a bleeding target across miles of rain-soaked city streets. *Creation Benefit:* Grants Unlearned Sires an automatic success when navigating the [Brink of Death Progression](#draining) during Creation.
 * **Thermal Vitae Vision `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** Your retinas dilate into shimmering crimson optics, mapping heat signatures and internal blood circulation in thermal FLIR gradient hues. You see living targets through thick smoke, pitch-black darkness, thermal camouflage, and thin drywall or wooden doors. Living bodies glow in vivid reds/yellows (highlighting concealed handguns, body armor plates, or internal organ trauma), while undead vampires appear as cold blue/violet silhouettes.
-* **Electromagnetic Shroud Gaze `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You shift your vision into the electromagnetic spectrum. Physical reality dims into shades of grey while electrical currents, camera lenses, radio waves, and security lasers glow in brilliant neon blue. Automatically highlights digital surveillance lenses, hidden wiretaps, infrared laser tripwires, and electronic security nodes, allowing you to trace wire runs through plaster walls and bypass security laser grids undetected.
+* **Electromagnetic Shroud Gaze `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You shift your vision into the electromagnetic spectrum. Physical reality dims into shades of grey while electrical currents, camera lenses, radio waves, and security lasers glow in brilliant neon blue. Automatically highlights digital surveillance lenses, hidden wiretaps, infrared laser tripwires, and electronic security nodes, allowing you to trace wire runs through plaster walls and bypass security laser grids undetected. *Passive Optical Blindspot:* EM Shroud Gaze detects active electrical currents, RF signals, and metallic camera optics. Passive, unpowered glass fiber-optic light tubes or non-electronic periscopes emit zero electromagnetic radiation, remaining hidden from EM Shroud Gaze unless inspected via *Thermal Vitae Vision* or *Nyctophilous Apex Sight*.
 * **Nyctophilous Apex Sight `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Your pupils absorb every stray photon in the atmosphere, granting crystal-clear, full-color vision in absolute pitch-black void environments without needing ambient light. Renders the vampire completely immune to darkness penalties, flashbang blinding flares, and optical disorientation spells.
 * **Echolocation Pulse `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit high-frequency, sub-audible acoustic pulses from your throat—mimicking the ultrasonic bio-sonar of cave bats. The sound waves bounce off surrounding geometry, mapping a 3D acoustic blueprint of enclosed building layouts, hidden rooms, vault dimensions, and moving targets behind solid concrete walls up to **100 feet**. Completely bypasses visual illusions (*Phantasm*), smoke, and darkness, revealing invisible or cloaked enemies by their acoustic disruption. *Medium Requirement & Silence Suppression:* Requires a physical atmospheric medium (air, water, gas) to transmit sound waves; fails completely in hard vacuums or sound-dampened dead zones created by *The Cold Hush*. Entering or being engulfed by a silence dead zone immediately suppresses active acoustic sonar pings. However, terrain geometry scanned prior to suppression remains stored in the vampire's memory as a **faded, generalized mental layout map**, losing real-time tracking of moving targets or environmental alterations until atmospheric sound transmission is restored.
 * **Sub-Auditory Tremor Echo `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Microscopic barbs in your inner ear and sole membranes feel sub-audible micro-vibrations echoing through floors, load-bearing beams, and stone foundations. You automatically sense the location, gait, and weight of any moving entity touching the floor or walls within **60 feet**—even through multiple floors or solid granite slabs—preventing stealth ambushes from behind walls, ceiling vents, or beneath floorboards. *Airborne & Levitating Blind Spot:* Sub-Auditory Tremor Echo detects physical kinetic micro-vibrations transmitted through solid surfaces only. Entities completely airborne or levitating (*Abyssal Levitation*, *Vesper Canopy*) do not touch solid surfaces and are **completely invisible** to Tremor Echo (requiring *Echolocation Pulse* or *Thermal Vitae Vision* to detect).
@@ -952,7 +1002,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Earthbreaker `[Innate Passive - 0 Reserves | Duration: Permanent]`:** A rare, god-tier anomaly that shatters the fundamental law of creation. Your soul severs its tether to your birthplace; you are permanently freed from the [Native Soil dependency](#the-native-soil-dependency), immune to "[The Bleed](#the-home-sickness-regression-track-the-bleed)", and no longer require 3kg of earth to survive.
 
 **Travel**
-* **Abyssal Levitation `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Gravity releases its hold upon you. With a silent rise of your coat, you hover effortlessly into the air, stepping across empty sky and soaring over skyscrapers as if walking down a marble staircase. *Levitation Parameters:* Levitation movement speed equals normal base movement speed. Maximum altitude is capped at **1,000 feet above terrain**; ascending higher exposes the vampire to violent atmospheric turbulence and freezing altitude penalties.
+* **Abyssal Levitation `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Gravity releases its hold upon you. With a silent rise of your coat, you hover effortlessly into the air, stepping across empty sky and soaring over skyscrapers as if walking down a marble staircase. *Kinetic Air Recoil & Stability:* Levitation suspends the vampire via supernatural force, maintaining air stability for standard melee strikes and light firearms. However, attempting physical grapples or firing heavy anti-materiel weapons while levitating suffers a **-1 Recoil Instability penalty** unless anchored to a solid surface or supported by *Mind Grip*. *Levitation Parameters:* Levitation movement speed equals normal base movement speed. Maximum altitude is capped at **1,000 feet above terrain**; ascending higher exposes the vampire to violent atmospheric turbulence and freezing altitude penalties.
 * **Veil Flicker `[Activated - 1 Reserve | Duration: Instantaneous (30ft Teleport)]`:** You fold local space in a sharp crack of displaced air and a faint scent of burnt static, instantly vanishing from one spot to reappear 30 feet away behind your prey before their eyes can track your motion.
 * **Umbral Crossing `[Activated - 1 Reserve | Duration: Instantaneous (Shadow Step)]`:** You step backward into a wall shadow and melt into black liquid silk, instantly emerging from a separate shadow across the room like a ghost stepping through a dark doorway.
 * **Spider’s Grace `[Innate Passive - 0 Reserves | Duration: Permanent]`:** Microscopic barbs of vitae adhere your soles and fingertips to any surface. You can sprint vertically up glass skyscrapers, leap across 50-foot rooftops, or drop from a 10-story window landing silently on your feet without a scratch.
@@ -982,7 +1032,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Nerve Lightning `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You hijack the target's neural bio-electrical network, causing a sudden violent electrical short-circuit. The victim suffers blinding pain and muscular spasms, dropping held weapons and collapsing to their knees. *Bio-Neural Target Scope:* Nerve Lightning specifically targets biological neural nervous systems (living mortals, animals, vampires, Reapers). Purely mechanical, non-biological entities (drones, computer mainframes, security cameras) lack a biological neural network and are unaffected.
 
 **Necromancy & Grave Arts**
-* **Corpse Siphon `[Activated - 1 Reserve | Duration: 1 Scene (60s Memory Extraction)]`:** By placing your hand upon a corpse (or dead neural host) deceased within the last 24 hours, you commune with the cold residual echo of the soul/brain, viewing their final 60 seconds of memories or extracting 1 truthful answer to a spoken question. *Skull Contact Requirement:* Corpse Siphon requires direct physical hand contact upon the skull/brain of the deceased host to extract residual neural memories. *Undead Head Interrogation Scope:* Corpse Siphon targets ONLY non-living, truly deceased mortal/host corpses. Invoking Corpse Siphon on a living or torpid decapitated vampire head fails automatically; probing an undead mind requires active mental powers (*Mind Tear*) and must overcome the target's mental defenses.
+* **Corpse Siphon `[Activated - 1 Reserve | Duration: 1 Scene (60s Memory Extraction)]`:** By placing your hand upon a corpse (or dead neural host) deceased within the last 24 hours, you commune with the cold residual echo of the soul/brain, viewing their final 60 seconds of memories or extracting 1 truthful answer to a spoken question. *Head-Touch Neural Requirement:* Corpse Siphon extracts residual neural memories from the brain cortex; the invoking vampire MUST make direct skin-to-skin contact with the **decapitated head itself** (touching a headless torso yields 0 memories). *Undead Head Interrogation Scope:* Corpse Siphon targets ONLY non-living, truly deceased mortal/host corpses. Invoking Corpse Siphon on a living or torpid decapitated vampire head fails automatically; probing an undead mind requires active mental powers (*Mind Tear*) and must overcome the target's mental defenses.
 * **Rise of the Slumbering `[Activated - 1 Reserve | Duration: 1 Scene]`:** You inject a stream of black, necrotic vitae into a freshly deceased body. The corpse re-animates as a mindless, pain-immune minion under your direct command for 1 scene to fight, block doorways, or perform manual labor.
 * **Aura of the Slumbering Legion `[Activated / Sustained - 1 Reserve Activation (1 Scene) | Upkeep: 1 Reserve/Round]`:** You pulse a shockwave of necrotic energy outward. This power re-animates up to **ROUND(VAMPIRE_AGE / 100)** dead human/mortal corpses within a **[10 + ROUND(VAMPIRE_AGE / 100)]** feet diameter sphere centered on yourself. The animated corpses rise as mindless, pain-immune minions under your direct command for **1 scene**. *Optional Sustained Maintenance:* If you burn **1 Blood Reserve per round** to sustain the aura, the re-animation field moves with you as an active aura sphere; any newly slain corpses entering or falling within the sphere during combat are automatically re-animated without spending additional activation blood! *Active Minion Cap & Trailing Minions:* A vampire can only maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active re-animated corpses at any given time. Re-animated corpses that fall outside the trailing edge of a moving aura sphere remain active for the remainder of the 1-scene duration, provided total active minions do not exceed the active minion cap. Recasting the aura while at the cap replaces older minions; any excess animated corpses beyond the cap immediately collapse back into lifeless, inanimate remains.
 * **Grave Rot `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You emit a chilling aura of rapid decay. Organic flesh rots, iron/steel rusts, wood splinters, and synthetic armor degrades instantly within your immediate proximity. *Relic & Anchor Immunity:* Grave Rot degrades mundane physical materials (flesh, iron, wood, Kevlar). Sacred relics, blood archives, and supernatural artifacts possess mystical resilience and are immune to passive Grave Rot decay.
