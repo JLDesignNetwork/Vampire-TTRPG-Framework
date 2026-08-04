@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.38.0-as",
+    "version": "2608.39.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.38.0-as
+# Vampire Ruleset v2608.39.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -585,7 +585,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
     1. *External Blood Ingestion:* A Coven member or Thrall pours **3 drafts of fresh vampire blood** onto the statue's lips/mouth, awakening the vampire in 60 seconds.
     2. *Catastrophic Structural Shock:* If the stone body suffers heavy structural damage (>50 structural impact damage), the petrification fractures, forcibly ejecting the vampire awake in **Stage 3 Torpor**.
   * **Native Soil Maintenance & Earthbreaker:** Vampires possessing [*Earthbreaker*](#immunities--resistances) bypass Native Soil requirements completely while in stone. Vampires without *Earthbreaker* require Thralls or Coven members to maintain their 3kg Native Soil crypt during hibernation; if soil contact is destroyed while petrified, the vampire suffers [The Bleed](#the-home-sickness-regression-track-the-bleed) regression track upon awakening.
-* **Chameleon Facade `[Activated - 1 Reserve | Duration: 1 Scene]`:** Underneath your skin, bone structure and cartilage audibly shift like wet clay. You can alter your facial structure, voice pitch, eye color, height, and fingerprints to perfectly impersonate another mortal or slide past security unnoticed for 1 scene. *Laboratory Bio-Limits:* Chameleon Facade alters physical dermal contours, facial features, vocal pitch, and ridge fingerprints. However, non-physical deep biological markers (blood DNA sequencing, room-temperature non-circulating blood) still reveal vampiric biology under medical/laboratory equipment.
+* **Chameleon Facade `[Activated - 1 Reserve | Duration: 1 Scene]`:** Underneath your skin, bone structure and cartilage audibly shift like wet clay. You can alter your facial structure, voice pitch, eye color, height, and fingerprints to perfectly impersonate another mortal or slide past security unnoticed for 1 scene. *Laboratory Bio-Limits & Thermal FLIR Masking Failure:* Chameleon Facade alters physical dermal contours, facial features, vocal pitch, and ridge fingerprints. However, non-physical deep biological markers (blood DNA sequencing, room-temperature non-circulating blood) still reveal vampiric biology under medical/laboratory equipment. Furthermore, Chameleon Facade does **NOT** generate internal body heat; under FLIR thermal imaging or heat-seeking sensors, the disguised vampire displays as a room-temperature cold blue silhouette, immediately failing thermal optic inspections unless external heating gear or heat-masking magic is used.
 
 **Immunities & Resistances**
 * **Daywalker's Grace `[Activated - 1 Reserve | Duration: Up to 3 Minutes Solar Shield]`:** Ancient protective sigils woven into your blood shield you from the holy fury of the sun. While mortals sizzle in seconds, your skin merely emits a faint vapor, allowing you to walk beneath unfiltered sunlight for up to **3 precious minutes** per exposure to escape death (inflicting dermal steam burns and a persistent -2 action penalty while exposed).

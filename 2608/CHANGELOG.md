@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.39.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 23 Red Team Audit fix for `TODO-49` (Chameleon Facade Thermal FLIR Signature Masking Failure).**
+
+#### Added
+- **Chameleon Facade Thermal FLIR Masking Failure (`TODO-49`):** Codified rule specifying that *Chameleon Facade* alters physical dermal contours, facial features, and vocal pitch, but does NOT generate internal body heat. Under FLIR thermal imaging or heat-seeking sensors, the disguised vampire displays as a room-temperature cold blue silhouette, immediately failing thermal optic inspections unless external heating gear or heat-masking magic is used.
+
+---
+
 ### 2608.38.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 23 Red Team Audit fix for `TODO-48` (Mind Grip Off-Turn Reaction Interception & Supersonic Velocity Bounds).**

@@ -1,5 +1,5 @@
 {
-  "version": "2608.38.0-as",
+  "version": "2608.39.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -534,10 +534,11 @@
       "section": "## Powers -> Alteration (Forms & Shifting)",
       "link": "vampire.md#alteration-forms--shifting",
       "title": "Audit Chameleon Facade Thermal FLIR Signature Masking Failure",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "low",
+      "protection": "protected",
       "existed_since": "2608.36.0-as",
-      "details": "Audit Chameleon Facade thermal profile: clarify that Chameleon Facade alters physical dermal contours but does NOT generate body heat, remaining visible as a cold blue silhouette on thermal FLIR."
+      "details": "Codified Thermal FLIR Masking Failure: Chameleon Facade alters dermal contours and voice pitch but does NOT generate body heat, remaining visible as a cold blue silhouette under FLIR thermal imaging sensors."
     },
     {
       "id": "TODO-50",
