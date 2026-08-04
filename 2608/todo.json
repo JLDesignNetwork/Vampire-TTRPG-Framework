@@ -699,11 +699,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Sanguine Scrying Mirror",
       "link": "supplements/bloodline_magic.md#sanguine-scrying-mirror",
       "title": "Gap: Scrying Mirror 5-Mile Radius Reference Point Ambiguous",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Sanguine Scrying Mirror states the target must be 'within a 5-mile radius' but does not specify whether this radius is measured from the caster's position or the scrying focus object location. Also undefined: whether the caster can take actions during the 10-minute scrying feed or is physically immobilized during the vision. Clarify both ambiguities."
+      "details": "Codified range origin (5-mile radius measured from caster's physical location), Caster Trance State (conversing allowed, moving >5ft or combat breaks feed), and Bloodline Duel counterplay (contested Self-Control check with Age Tier Scaling delta; caster victory shows feed, defender victory blocks feed and gives cardinal trace to defender, tie blocks feed without trace)."
     },
     {
       "id": "TODO-65",

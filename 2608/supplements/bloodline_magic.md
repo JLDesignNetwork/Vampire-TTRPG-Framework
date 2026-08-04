@@ -87,8 +87,13 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Sanguine Scrying Mirror
 * **Cost & Duration:** `1 Reserve | Duration: 10 Minutes Scrying`
-* **Mechanic:** The caster pours 1 draft of blood into a silver bowl or dark obsidian pool, whispering the target's true name or gazing upon an object owned by them. The blood surface dissolves into a crystal-clear visual feed of the target's current surroundings within a **5-mile radius**.
-* **Counterplay:** Targets possessing [Psychic Fortress](../vampire.md#supernatural-powers) automatically sense the scrying probe and display static.
+* **Mechanic:** The caster pours 1 draft of blood into a silver bowl or dark obsidian pool, whispering the target's true name or gazing upon an object owned by them. The blood surface dissolves into a crystal-clear visual feed of the target's current surroundings, provided the target is within a **5-mile radius of the caster's physical location**.
+* **Caster Trance State:** Maintaining the 10-minute scrying feed requires focused concentration. The caster may converse normally and hear their immediate physical surroundings, but moving more than 5 feet away from the bowl or taking combat/defensive actions immediately breaks concentration and ends the scrying feed.
+* **Bloodline Duel Counterplay:** When targeting a vampire possessing mental defenses or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control check) is triggered between the scrying caster and the target:
+  * **Age Tier Scaling ($\Delta$):** Participants gain **+1 to their contested check per Age Tier difference** above their opponent (Elder vs Neonate = +1; Ancient vs Neonate = +2).
+  * **Caster Victory:** The probe pierces the defense and establishes the 10-minute visual feed, but the target senses the breach.
+  * **Defender Victory:** The blood pool clouds with static, blocking the vision. The defender senses the probe and receives a psychic trace of the caster's general cardinal direction.
+  * **Tie:** The vision is blocked by static, but neither party acquires a psychic trace.
 
 ### Ritual of the Crimson Ward
 * **Cost & Duration:** `1 Reserve | Duration: 24 Hours (1 Night)`
