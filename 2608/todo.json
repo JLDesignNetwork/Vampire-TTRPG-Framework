@@ -1,5 +1,5 @@
 {
-  "version": "2608.41.0-as",
+  "version": "2608.42.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -561,6 +561,56 @@
       "protection": "protected",
       "existed_since": "2608.36.0-as",
       "details": "Codified Concentrated Solar Beam Acceleration Multiplier (3x Drain): Ambient natural sunlight drains Daywalker's 180s timer at 1:1 speed, but focused high-intensity solar weaponry (solar lenses, orbital mirrors) overloads sigils, consuming the timer at 3x speed."
+    },
+    {
+      "id": "TODO-52",
+      "section": "## Behavior & Physiology -> Physical Attributes & Speed",
+      "link": "vampire.md#physical-attributes--speed",
+      "title": "Audit Supernatural Kinetic Crash Impact & Wall Collision Recoil Math",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.42.0-as",
+      "details": "Audit high-speed sprint collisions: clarify that sprinting into unyielding solid barriers at supernatural velocity deals 1 Blunt Damage to the barrier; if unbreached, the vampire absorbs kinetic rebound taking 1 Blunt Damage unless shielded by Kinetic Barrier."
+    },
+    {
+      "id": "TODO-53",
+      "section": "## Powers -> Telekinesis & Psychokinesis",
+      "link": "vampire.md#telekinesis--psychokinesis",
+      "title": "Audit Kinetic Crush Mechanical Joint Lock vs Internal Tissue Scope",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.42.0-as",
+      "details": "Audit Kinetic Crush against armor: clarify that Kinetic Crush targeting powered armor or cybernetics crushes external joint servomotors (locking movement) and inflicts standard crushing damage on internal biological limbs."
+    },
+    {
+      "id": "TODO-54",
+      "section": "## Powers -> Advanced Mental & Illusion",
+      "link": "vampire.md#advanced-mental--illusion",
+      "title": "Audit Mind Tear Foundational Bloodline Memory Wiping Prohibition",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.42.0-as",
+      "details": "Audit memory erasure limits: clarify that Mind Tear can erase mundane memories or battle trauma, but CANNOT erase or sever the Sire-Fledgling telepathic compass, Centenary Compulsion, or bloodline heritage."
+    },
+    {
+      "id": "TODO-55",
+      "section": "## Powers -> Alteration (Forms & Shifting)",
+      "link": "vampire.md#alteration-forms--shifting",
+      "title": "Audit Weaver's Eclipse Swarm Mass Dispersal & Partial Destruction Math",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.42.0-as",
+      "details": "Audit spider swarm destruction: clarify that if 25% or more of manifested spiders are incinerated or destroyed before re-forming, the vampire re-forms missing 1 Core Health point per 25% swarm destruction."
+    },
+    {
+      "id": "TODO-56",
+      "section": "## Social -> Secrecy, Covens, and Thralls",
+      "link": "vampire.md#secrecy-covens-and-thralls",
+      "title": "Audit Thrall Blood Bond Diablerie Inheritance vs True Death Withdrawal",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.42.0-as",
+      "details": "Audit Thrall bond after master death: clarify that True Death causes acute Thrall Sanguine Withdrawal, but Full Diablerie allows the Diablerist to absorb bloodline resonance and inherit the blood bond over living Thralls."
     }
   ]
 }

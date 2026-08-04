@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.41.0-as",
+    "version": "2608.42.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.41.0-as
+# Vampire Ruleset v2608.42.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)

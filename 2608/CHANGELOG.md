@@ -8,6 +8,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.42.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release registering Round 24 Red Team Audit vulnerability tasks (`TODO-52` through `TODO-56`).**
+
+#### Registered Audit Tasks (Round 24)
+- **`TODO-52` (`in-progress:audit`):** Audit Supernatural Kinetic Crash Impact & Wall Collision Recoil Math.
+- **`TODO-53` (`in-progress:audit`):** Audit Kinetic Crush Mechanical Joint Lock vs Internal Tissue Scope.
+- **`TODO-54` (`in-progress:audit`):** Audit Mind Tear Foundational Bloodline Memory Wiping Prohibition.
+- **`TODO-55` (`in-progress:audit`):** Audit Weaver's Eclipse Swarm Mass Dispersal & Partial Destruction Math.
+- **`TODO-56` (`in-progress:audit`):** Audit Thrall Blood Bond Diablerie Inheritance vs True Death Withdrawal.
+
+---
+
 ### 2608.41.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release completing Red Team Audit Round 23 with fix for `TODO-51` (Daywalker's Grace Concentrated Solar Beam Acceleration Multiplier).**
