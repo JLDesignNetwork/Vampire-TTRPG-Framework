@@ -8,6 +8,23 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.35.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 21 Red Team Audit fixes (`TODO-37` through `TODO-41`) and registering Round 22 audit tasks.**
+
+#### Added
+- **Grave Rot Synthetic & Cybernetic Scope:** Codified rule specifying that Grave Rot degrades physical structural integrity across all tech eras (iron, steel, Kevlar, synthetic polymers, cybernetic joints), excepting sacred relics, blood archives, and artifacts.
+- **Blood Harmonic Direct Visual Line-of-Sight Limit:** Codified restriction specifying that Blood Harmonic requires direct unmediated visual gaze in physical space; digital screens, mirrors, and CCTV camera feeds filter out the gaze harmonic.
+- **Sanguine Spike Environmental Density Solidification:** Codified rule specifying that blood javelins solidify instantly via supernatural pressure magic and do not dissolve in water, mud, or liquid atmospheres.
+- **The Collective Whisper Supernatural Entity Exclusion:** Clarified that Collective Whisper affects unconditioned mortal minds only; vampires or supernaturals in the crowd are immune and alerted to the caster's location.
+- **Veil Flicker Visual Destination & Spatial Bounce-Back:** Clarified that Veil Flicker requires visual line-of-sight or active sensor mapping; attempting blind teleports into unmapped solid terrain causes spatial bounce-back and 1 Direct Damage.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.35.0-as`.
+- Completed tasks `TODO-37` through `TODO-41` in frontmatter (`"status": "completed"`, `"protection": "protected"`) and registered Round 22 audit tasks `TODO-42` through `TODO-46` in `in-progress:audit` status.
+
+---
+
 ### 2608.34.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 20 Red Team Audit fixes (`TODO-32` through `TODO-36`) and registering Round 21 audit tasks.**
