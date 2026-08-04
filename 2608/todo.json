@@ -633,11 +633,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
       "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
       "title": "Exploit: Grand Rite Blood Reserve Regeneration Cap — 1,000 Gallon Unlimited Exploit",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "critical",
-      "protection": "unprotected",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Grand Rite of Hematic Transmutation allows rival vampires to regenerate 1 Blood Reserve per gallon of transmuted water consumed. With 1,000 gallons available, any vampire can restore up to 1,000 Blood Reserves — bypassing all expenditure cap rules. Codify a per-session ingestion cap (e.g., maximum reserves regained capped by the vampire's standard Reserve pool size per feeding session)."
+      "details": "Codified per-session Blood Reserve regeneration cap: a vampire cannot regenerate more Reserves from transmuted water per feeding session than their standard per-night Reserve pool cap. Clarified duration to 24 hours with explicit reversion rules: water reverts after 24hrs but established Thrall susceptibility bonds persist post-reversion."
     },
     {
       "id": "TODO-59",
