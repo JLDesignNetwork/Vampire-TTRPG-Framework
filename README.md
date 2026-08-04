@@ -1,18 +1,19 @@
-# Vampire TTRPG Framework (v2608.36.0-as)
+# Vampire TTRPG Framework (v2608.47.0-as)
 
-Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.36.0-as`).
+Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.47.0-as`).
 
 ## Overview
 
-This repository contains the master ruleset specification and TODO task dataset for the system-agnostic, multi-genre **Vampire TTRPG Framework**.
+This repository contains the master ruleset specification, generation-specific TODO task dataset, and root project-wide roadmap dataset for the system-agnostic, multi-genre **Vampire TTRPG Framework**.
 
 * **Author:** Jeff Langdon (JL Design Network)
-* **Ruleset Version:** `2608.36.0-as` (Public Alpha)
+* **Ruleset Version:** `2608.47.0-as` (Public Alpha)
 
-### Generation 2608 Workspace Layout
-- 📄 **[Ruleset Document](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire.md):** `2608/vampire.md`
-- 📊 **[TODO Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/todo.json):** `2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
-- 📝 **[Changelog](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/CHANGELOG.md):** `2608/CHANGELOG.md`
+### Repository Workspace Layout
+- 🌐 **[Project-Wide Roadmap Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/todo.json):** `todo.json` (Project-level roadmap & milestone tasks)
+- 📄 **[Generation 2608 Ruleset Document](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire.md):** `2608/vampire.md`
+- 📊 **[Generation 2608 TODO Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/todo.json):** `2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
+- 📝 **[Generation 2608 Changelog](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/CHANGELOG.md):** `2608/CHANGELOG.md`
 
 ## Core Features
 

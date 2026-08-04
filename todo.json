@@ -1,0 +1,66 @@
+{
+  "scope": "project",
+  "project_name": "Vampire TTRPG Framework",
+  "todo": [
+    {
+      "id": "PROJ-01",
+      "section": "## Project Management & Releases",
+      "link": "README.md#project-roadmap",
+      "title": "Create Official Git Release Tag for v2608.47.0-as",
+      "status": "pending:initial",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.47.0-as",
+      "details": "Create an official Git release tag (v2608.47.0-as) on GitHub to mark the completion of Red Team Audit Rounds 22-24 and Generation 2608 Mode 2 refactoring."
+    },
+    {
+      "id": "PROJ-02",
+      "section": "## Framework Expansion & Supplements",
+      "link": "README.md#project-roadmap",
+      "title": "Expand Framework Modules & Core Supplements",
+      "status": "pending:initial",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.47.0-as",
+      "details": "Draft brand-new modular framework supplements to expand lore, spellcasting mechanics, coven governance, and tactical equipment arsenals.",
+      "tasks": [
+        {
+          "id": "PROJ-02.1",
+          "child_of": "PROJ-02",
+          "section": "## Framework Expansion & Supplements",
+          "link": "README.md#project-roadmap",
+          "title": "Draft Bloodline Magic Compendium Supplement",
+          "status": "pending:initial",
+          "priority": "high",
+          "protection": "unprotected",
+          "existed_since": "2608.47.0-as",
+          "details": "Develop a specialized supplement detailing blood rituals, ancient sorcery incantations, and ancestral lineage spells across fantasy and sci-fi eras."
+        },
+        {
+          "id": "PROJ-02.2",
+          "child_of": "PROJ-02",
+          "section": "## Framework Expansion & Supplements",
+          "link": "README.md#project-roadmap",
+          "title": "Draft Coven Law Court Protocols & Legal Code",
+          "status": "pending:initial",
+          "priority": "medium",
+          "protection": "unprotected",
+          "existed_since": "2608.47.0-as",
+          "details": "Codify judicial trial procedures, Coven Council tribunal rulings, Sanctioned Termination dispensations, and Blood Treaty diplomatic protocols."
+        },
+        {
+          "id": "PROJ-02.3",
+          "child_of": "PROJ-02",
+          "section": "## Framework Expansion & Supplements",
+          "link": "README.md#project-roadmap",
+          "title": "Draft Equipment & UV Arsenal Handbook",
+          "status": "pending:initial",
+          "priority": "medium",
+          "protection": "unprotected",
+          "existed_since": "2608.47.0-as",
+          "details": "Catalog vampire hunter countermeasures, UV tactical weaponry, thermal FLIR gear, synthetic blood phials, and anti-vampiric tactical armor."
+        }
+      ]
+    }
+  ]
+}
