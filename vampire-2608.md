@@ -9,6 +9,7 @@
     {
       "id": "TODO-01",
       "section": "## Behavior & Physiology -> Cardiac Hyper-Focus",
+      "link": "vampire-2608.md#physical-attributes--speed",
       "title": "Codify Cardiac Hyper-Focus Mechanic",
       "status": "completed",
       "priority": "high",
@@ -19,6 +20,7 @@
     {
       "id": "TODO-02",
       "section": "## Creation -> Siring Fledglings",
+      "link": "vampire-2608.md#creation",
       "title": "Establish Fledgling Creation & Sire-Bond Mechanics",
       "status": "completed",
       "priority": "high",
@@ -29,6 +31,7 @@
     {
       "id": "TODO-03",
       "section": "## Death -> Solar Track & Decapitation",
+      "link": "vampire-2608.md#death",
       "title": "Detail Sunlight Disintegration & Decapitation Torpor Rules",
       "status": "completed",
       "priority": "critical",
@@ -39,6 +42,7 @@
     {
       "id": "TODO-04",
       "section": "## Mechanics -> Blood Capacity & Aging",
+      "link": "vampire-2608.md#age-hierarchy--reserve-scaling",
       "title": "Codify Age Tiers & Blood Reserve Caps",
       "status": "completed",
       "priority": "critical",
@@ -49,6 +53,7 @@
     {
       "id": "TODO-05",
       "section": "## Mechanics -> Brink of Death",
+      "link": "vampire-2608.md#draining",
       "title": "Define Brink of Death Stages & Torpor Eras",
       "status": "completed",
       "priority": "high",
@@ -59,6 +64,7 @@
     {
       "id": "TODO-06",
       "section": "## Powers -> Behavioral & Supernatural",
+      "link": "vampire-2608.md#supernatural-powers",
       "title": "Expand Power Categories & Innate Framework",
       "status": "completed",
       "priority": "critical",
@@ -69,6 +75,7 @@
     {
       "id": "TODO-07",
       "section": "## Social -> Covens & Laws",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Establish Coven Laws & Sanctuary Traditions",
       "status": "completed",
       "priority": "high",
@@ -79,6 +86,7 @@
     {
       "id": "TODO-08",
       "section": "## Social -> Blood Archives & Thralls",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Detail Blood Archive Phials & Thrall Blood Bonds",
       "status": "completed",
       "priority": "high",
@@ -89,6 +97,7 @@
     {
       "id": "TODO-09",
       "section": "## Types -> Mutations & Reapers",
+      "link": "vampire-2608.md#mutations",
       "title": "Codify Mutant Types, Feral Husks & Spliced Reapers",
       "status": "completed",
       "priority": "high",
@@ -99,6 +108,7 @@
     {
       "id": "TODO-10",
       "section": "## Behavior & Physiology",
+      "link": "vampire-2608.md#behavior",
       "title": "Deepen Historical Lore & Cultural Divide Between Eras",
       "status": "completed",
       "priority": "medium",
@@ -109,6 +119,7 @@
     {
       "id": "TODO-11",
       "section": "## Mechanics -> Drinking & Sustenance",
+      "link": "vampire-2608.md#draining",
       "title": "Establish Ancient Vitae, Permanent Power Gain & Soul Strain Mechanics",
       "status": "completed",
       "priority": "critical",
@@ -119,6 +130,7 @@
     {
       "id": "TODO-12",
       "section": "## Creation",
+      "link": "vampire-2608.md#creation",
       "title": "Implement Creation Limitations & Anti-Mass Siring Rules",
       "status": "completed",
       "priority": "high",
@@ -129,6 +141,7 @@
     {
       "id": "TODO-13",
       "section": "## Types",
+      "link": "vampire-2608.md#age-hierarchy--reserve-scaling",
       "title": "Formalize 3-Tier Age Hierarchy (Neonates, Elders, Ancients)",
       "status": "completed",
       "priority": "high",
@@ -139,6 +152,7 @@
     {
       "id": "TODO-14",
       "section": "## Powers -> Alteration & Sensory",
+      "link": "vampire-2608.md#alteration-forms--shifting",
       "title": "Integrate Round 13 Audit Fixes (Torpor Stasis, Omni-Sensory Flashbang Immunity, Trailing Minions, Natural Critical Guarantee)",
       "status": "completed",
       "priority": "critical",
@@ -149,6 +163,7 @@
     {
       "id": "TODO-15",
       "section": "## Social -> Thralls & Blood Archives",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Integrate Round 14 & Archiver Audit Fixes (Bloodline Duel, Reaper Contagion Thrall +2 Bonus, Archiver Immunity)",
       "status": "completed",
       "priority": "high",
@@ -159,6 +174,7 @@
     {
       "id": "TODO-16",
       "section": "## Creation & Death -> Banes & Native Soil",
+      "link": "vampire-2608.md#the-native-soil-dependency",
       "title": "Integrate Round 15 & 16 Audit Fixes (Structural Intactness Creation, Wooden Stake Torpor Paralysis, Sci-Fi Soil Containment, Millennial Scaling)",
       "status": "completed",
       "priority": "critical",
@@ -169,6 +185,7 @@
     {
       "id": "TODO-17",
       "section": "## Powers -> Advanced Mental & Illusion",
+      "link": "vampire-2608.md#advanced-mental--illusion",
       "title": "Audit Phantasm Mental Illusion vs Cybernetic Optic Implants & Digital HUDs",
       "status": "completed",
       "priority": "medium",
@@ -179,6 +196,7 @@
     {
       "id": "TODO-18",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Corpse Siphon Interrogation Scope on Living / Torpid Decapitated Heads",
       "status": "completed",
       "priority": "high",
@@ -189,6 +207,7 @@
     {
       "id": "TODO-19",
       "section": "## Social -> Secrecy, Covens, and Thralls",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Audit Law of the Sanguine Tithe Hardship Deferral & Forced Draining Rules",
       "status": "completed",
       "priority": "medium",
@@ -199,6 +218,7 @@
     {
       "id": "TODO-20",
       "section": "## Powers -> Immunities & Alteration",
+      "link": "vampire-2608.md#immunities--resistances",
       "title": "Audit Daywalker's Grace Solar Timer Drain During Swarm Pocket-Realm Shift",
       "status": "completed",
       "priority": "high",
@@ -209,6 +229,7 @@
     {
       "id": "TODO-21",
       "section": "## Powers -> Behavioral Powers (Sensory)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Sub-Auditory Tremor Echo Airborne & Levitating Target Blind Spot",
       "status": "completed",
       "priority": "low",
@@ -219,6 +240,7 @@
     {
       "id": "TODO-22",
       "section": "## Powers -> Combat & Elemental Evocation",
+      "link": "vampire-2608.md#combat--elemental-evocation",
       "title": "Audit Nerve Lightning Bio-Electrical Target Scope vs Kinetic Barrier Deflection",
       "status": "completed",
       "priority": "medium",
@@ -229,6 +251,7 @@
     {
       "id": "TODO-23",
       "section": "## Powers -> Alteration (Forms & Shifting)",
+      "link": "vampire-2608.md#alteration-forms--shifting",
       "title": "Audit Chameleon Facade Thermal FLIR Signature Lock",
       "status": "completed",
       "priority": "medium",
@@ -239,6 +262,7 @@
     {
       "id": "TODO-24",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Soul Bind Incorporeal Daylight Anchor Protection",
       "status": "completed",
       "priority": "low",
@@ -249,6 +273,7 @@
     {
       "id": "TODO-25",
       "section": "## Mechanics -> Blood Surge",
+      "link": "vampire-2608.md#age-hierarchy--reserve-scaling",
       "title": "Audit Blood Surge Single-Stat Duration Overwrite Cap",
       "status": "completed",
       "priority": "high",
@@ -259,6 +284,7 @@
     {
       "id": "TODO-26",
       "section": "## Powers -> Behavioral Powers (Emotional)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Visage of the Abyssal Nightmare Fear Stun Immunity Cooldown",
       "status": "completed",
       "priority": "high",
@@ -269,6 +295,7 @@
     {
       "id": "TODO-27",
       "section": "## Powers -> Combined Power Usage & Synergistic Scaling",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Codify Combined Power Usage, Synergistic Bonuses, and Age Tier Synergy Scaling Matrix",
       "status": "completed",
       "priority": "high",
@@ -279,6 +306,7 @@
     {
       "id": "TODO-28",
       "section": "## Powers -> Advanced Mental & Illusion",
+      "link": "vampire-2608.md#advanced-mental--illusion",
       "title": "Audit Puppet Master Motor Control vs Vocal Cord Compliance",
       "status": "completed",
       "priority": "medium",
@@ -289,6 +317,7 @@
     {
       "id": "TODO-29",
       "section": "## Social -> Bloodline Dynamics & Telepathy",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Audit Centenary Compulsion Contradictory Sire Command Supremacy",
       "status": "completed",
       "priority": "medium",
@@ -299,6 +328,7 @@
     {
       "id": "TODO-30",
       "section": "## Social -> Secrecy, Covens, and Thralls",
+      "link": "vampire-2608.md#secrecy-covens-and-thralls",
       "title": "Audit Apex Vault Blood Theft Penalty under Coven Governance",
       "status": "completed",
       "priority": "high",
@@ -309,6 +339,7 @@
     {
       "id": "TODO-31",
       "section": "## Powers -> Behavioral Powers (Sensory)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Echolocation Pulse Active Sonar Cancellation in Silence Dead Zones",
       "status": "completed",
       "priority": "low",
@@ -319,6 +350,7 @@
     {
       "id": "TODO-32",
       "section": "## Powers -> Travel",
+      "link": "vampire-2608.md#travel",
       "title": "Audit Abyssal Levitation Airborne Melee Recoil & Grapple Stability",
       "status": "completed",
       "priority": "medium",
@@ -329,6 +361,7 @@
     {
       "id": "TODO-33",
       "section": "## Powers -> Advanced Mental & Illusion",
+      "link": "vampire-2608.md#advanced-mental--illusion",
       "title": "Audit Bloodline Memory Distant Sire Historical Scope Lock",
       "status": "completed",
       "priority": "high",
@@ -339,6 +372,7 @@
     {
       "id": "TODO-34",
       "section": "## Powers -> Behavioral Powers (Charismatic)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Siren's Cadence Audio Recording Playback Immunity",
       "status": "completed",
       "priority": "medium",
@@ -349,6 +383,7 @@
     {
       "id": "TODO-35",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Corpse Siphon Decapitated Host Head-Touch Requirement",
       "status": "completed",
       "priority": "low",
@@ -359,6 +394,7 @@
     {
       "id": "TODO-36",
       "section": "## Powers -> Behavioral Powers (Sensory)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Electromagnetic Shroud Gaze Passive Optical Fiber Blindspot",
       "status": "completed",
       "priority": "low",
@@ -369,6 +405,7 @@
     {
       "id": "TODO-37",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Grave Rot Synthetic Cybernetic & Polymer Degradation Scope",
       "status": "completed",
       "priority": "medium",
@@ -379,6 +416,7 @@
     {
       "id": "TODO-38",
       "section": "## Powers -> Behavioral Powers (Emotional)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Blood Harmonic Direct Visual Line-of-Sight CCTV Limit",
       "status": "completed",
       "priority": "medium",
@@ -389,6 +427,7 @@
     {
       "id": "TODO-39",
       "section": "## Powers -> Combat & Elemental Evocation",
+      "link": "vampire-2608.md#combat--elemental-evocation",
       "title": "Audit Sanguine Spike Underwater Solidification Integrity",
       "status": "completed",
       "priority": "low",
@@ -399,6 +438,7 @@
     {
       "id": "TODO-40",
       "section": "## Powers -> Behavioral Powers (Thought)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit The Collective Whisper Supernatural Entity Exclusion",
       "status": "completed",
       "priority": "medium",
@@ -409,6 +449,7 @@
     {
       "id": "TODO-41",
       "section": "## Powers -> Travel",
+      "link": "vampire-2608.md#travel",
       "title": "Audit Veil Flicker Line-of-Sight Destination & Solid Obstacle Bounce-Back",
       "status": "completed",
       "priority": "high",
@@ -419,6 +460,7 @@
     {
       "id": "TODO-42",
       "section": "## Powers -> Combat & Elemental Evocation",
+      "link": "vampire-2608.md#combat--elemental-evocation",
       "title": "Audit Grave Chill Cryo-Brittleness Kinetic Impact Vulnerability",
       "status": "completed",
       "priority": "low",
@@ -429,6 +471,7 @@
     {
       "id": "TODO-43",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Soul Bind Incorporeal Sentry Interdimensional Detection Limit",
       "status": "completed",
       "priority": "medium",
@@ -439,6 +482,7 @@
     {
       "id": "TODO-44",
       "section": "## Powers -> Behavioral Powers (Thought)",
+      "link": "vampire-2608.md#behavioral-powers",
       "title": "Audit Cognitive Distortion Target Orientation & Blind Fire Penalty",
       "status": "completed",
       "priority": "medium",
@@ -449,6 +493,7 @@
     {
       "id": "TODO-45",
       "section": "## Powers -> Advanced Mental & Illusion",
+      "link": "vampire-2608.md#advanced-mental--illusion",
       "title": "Audit Phantasm Non-Biological AI & Drone Immunity",
       "status": "completed",
       "priority": "medium",
@@ -459,6 +504,7 @@
     {
       "id": "TODO-46",
       "section": "## Powers -> Necromancy & Grave Arts",
+      "link": "vampire-2608.md#necromancy--grave-arts",
       "title": "Audit Aura of the Slumbering Legion Underwater & Soil Submersion Minion Mobility",
       "status": "completed",
       "priority": "low",
