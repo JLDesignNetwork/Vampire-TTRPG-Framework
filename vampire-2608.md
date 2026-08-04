@@ -469,6 +469,7 @@
     {
       "id": "TODO-47",
       "section": "## Powers -> Combat & Elemental Evocation",
+      "link": "vampire-2608.md#combat--elemental-evocation",
       "title": "Audit Pyre Aura Underwater & Extinguishing Exemption",
       "status": "in-progress:audit",
       "priority": "medium",
@@ -478,6 +479,7 @@
     {
       "id": "TODO-48",
       "section": "## Powers -> Telekinesis & Psychokinesis",
+      "link": "vampire-2608.md#telekinesis--psychokinesis",
       "title": "Audit Mind Grip Reaction Speed & Supersonic Projectile Limit",
       "status": "in-progress:audit",
       "priority": "medium",
@@ -487,6 +489,7 @@
     {
       "id": "TODO-49",
       "section": "## Powers -> Alteration (Forms & Shifting)",
+      "link": "vampire-2608.md#alteration-forms--shifting",
       "title": "Audit Chameleon Facade Thermal FLIR Signature Masking Failure",
       "status": "in-progress:audit",
       "priority": "low",
@@ -496,6 +499,7 @@
     {
       "id": "TODO-50",
       "section": "## Powers -> Healing",
+      "link": "vampire-2608.md#healing",
       "title": "Audit Grand Harmonization of Vitae Severed Limb Regrowth Time",
       "status": "in-progress:audit",
       "priority": "high",
@@ -505,6 +509,7 @@
     {
       "id": "TODO-51",
       "section": "## Powers -> Immunities & Resistances",
+      "link": "vampire-2608.md#immunities--resistances",
       "title": "Audit Daywalker's Grace Concentrated Solar Beam Multiplier",
       "status": "in-progress:audit",
       "priority": "low",
