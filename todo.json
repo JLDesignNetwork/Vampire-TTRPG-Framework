@@ -61,6 +61,20 @@
           "details": "Catalog vampire hunter countermeasures, UV tactical weaponry, thermal FLIR gear, synthetic blood phials, and anti-vampiric tactical armor."
         }
       ]
+    },
+    {
+      "id": "PROJ-03",
+      "section": "## Red Team Quality Assurance",
+      "link": "2608/todo.json",
+      "target_version": "2608",
+      "target_file": "2608/vampire.md",
+      "todo_file": "2608/todo.json",
+      "title": "Generation 2608 Red Team Vulnerability Audits",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.47.0-as",
+      "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audits on the Generation 2608 master ruleset document (2608/vampire.md). Manages and tracks all version-scoped TODO tasks in 2608/todo.json across Rounds 1-24+."
     }
   ]
 }
