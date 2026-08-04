@@ -85,14 +85,14 @@
     {
       "id": "PROJ-04",
       "section": "## Red Team Quality Assurance",
-      "target_version": "2608.48.0-bs",
+      "target_version": "2608.49.0-as",
       "target_file": "2608/supplements/bloodline_magic.md",
       "title": "Red Team Audit — Bloodline Magic Compendium",
-      "status": "pending:audit",
+      "status": "in-progress:audit",
       "priority": "high",
       "protection": "unprotected",
       "existed_since": "2608.48.0-bs",
-      "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Bloodline Magic Compendium supplement (2608/supplements/bloodline_magic.md). Check ritual action economy balance, Blood Reserve cost interactions, coven circle stacking exploits, Tier 3 primordial rite overpowerment risks, and cross-supplement compatibility with vampire.md."
+      "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Bloodline Magic Compendium supplement (2608/supplements/bloodline_magic.md). Check ritual action economy balance, Blood Reserve cost interactions, coven circle stacking exploits, Tier 3 primordial rite overpowerment risks, and cross-supplement compatibility with vampire.md. Findings tracked as TODO-57 through TODO-71 in 2608/todo.json."
     },
     {
       "id": "PROJ-05",

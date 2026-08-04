@@ -1,5 +1,5 @@
 {
-  "version": "2608.48.0-bs",
+  "version": "2608.49.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -616,6 +616,171 @@
       "protection": "protected",
       "existed_since": "2608.42.0-as",
       "details": "Codified Master True Death Withdrawal, Diablerie Bond Inheritance & Thrall Cap Overage Strain: True Death triggers acute Thrall withdrawal; Diablerie inherits blood bonds. Overage Thralls impose -1 daily Reserve regen & -1 Self-Control penalties until resolved via Sanctioned Termination off Coven grounds or Coven Council Dispensation."
+    },
+    {
+      "id": "TODO-57",
+      "section": "## Bloodline Magic Compendium -> Blood Reserve Cost & Sacrificial Upkeep",
+      "link": "supplements/bloodline_magic.md#blood-reserve-cost--sacrificial-upkeep",
+      "title": "Clarify Sacrificial Substitution — Valid Blood Source Definitions",
+      "status": "pending:audit",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Sacrificial Substitution (250ml living blood = 1 Reserve) does not define valid blood sources. Clarify whether Synth-Vitae phials, corpse blood, vampire vitae, or animal blood qualify as substitution sources. Each source type should have explicit eligibility and potency rules."
+    },
+    {
+      "id": "TODO-58",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
+      "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
+      "title": "Exploit: Grand Rite Blood Reserve Regeneration Cap — 1,000 Gallon Unlimited Exploit",
+      "status": "pending:audit",
+      "priority": "critical",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Grand Rite of Hematic Transmutation allows rival vampires to regenerate 1 Blood Reserve per gallon of transmuted water consumed. With 1,000 gallons available, any vampire can restore up to 1,000 Blood Reserves — bypassing all expenditure cap rules. Codify a per-session ingestion cap (e.g., maximum reserves regained capped by the vampire's standard Reserve pool size per feeding session)."
+    },
+    {
+      "id": "TODO-59",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
+      "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
+      "title": "Exploit: Grand Rite Thrall Cap Overage — Instant Mass Enthrallment Edge-Case",
+      "status": "pending:audit",
+      "priority": "critical",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Grand Rite transmuted water makes any mortal drinking it 'instantly susceptible to Thrall Enthrallment.' This could trigger mass involuntary Thrall bonds if the caster is near Thrall Cap, causing Thrall Cap Overage Strain (see TODO-56). Clarify whether drinking transmuted water creates an automatic bond or merely grants susceptibility — and explicitly cross-reference Thrall Cap Overage Strain penalties."
+    },
+    {
+      "id": "TODO-60",
+      "section": "## Bloodline Magic Compendium -> Coven Circle Chants & Age Tier Synergy",
+      "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
+      "title": "Exploit: Coven Circle Fortitude Bonus Stack — No Cap Creates Trivial Auto-Pass",
+      "status": "pending:audit",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Coven Circle Chants grant +1 Ritual Fortitude per secondary participant with no stated cap. A 10-member coven grants +10 to every Ritual Fortitude check (DC 15), making concentration checks trivially auto-passable. Codify a cap on Fortitude bonus stacking (e.g., max +5 bonus regardless of circle size), while retaining the 50% casting time cap."
+    },
+    {
+      "id": "TODO-61",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Ritual of the Crimson Ward",
+      "link": "supplements/bloodline_magic.md#ritual-of-the-crimson-ward",
+      "title": "Edge-Case: Crimson Ward 'Invited' Definition Undefined — Invitation & Revocation Rules Missing",
+      "status": "pending:audit",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "The Crimson Ward triggers for 'uninvited' mortals or vampires but does not define what constitutes an invitation, who can issue one, whether invitations can be revoked, or whether the caster themselves is always considered invited. Codify invitation authority (caster only vs any Coven member), revocation mechanics, and edge-case for Coven exile rendering the caster uninvited in their own warded haven."
+    },
+    {
+      "id": "TODO-62",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Eclipse of the Sanguine Tide",
+      "link": "supplements/bloodline_magic.md#eclipse-of-the-sanguine-tide",
+      "title": "Exploit: Eclipse of the Sanguine Tide — Daywalker's Grace Infinite Stacking via Repeated Casts",
+      "status": "pending:audit",
+      "priority": "high",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Eclipse extends Daywalker's Grace timers by +1 minute for all allied vampires. With multiple successive Ancient casters, repeated Eclipse castings could stack indefinitely, creating effectively infinite Daywalker's Grace coverage. Codify a maximum cumulative extension cap per night (e.g., Daywalker's Grace timer cannot exceed its base 3-minute cap + 2 minutes maximum bonus regardless of Eclipse stacking)."
+    },
+    {
+      "id": "TODO-63",
+      "section": "## Bloodline Magic Compendium -> Ritual Interruption & Backfire Trauma",
+      "link": "supplements/bloodline_magic.md#ritual-interruption--backfire-trauma",
+      "title": "Gap: Concentration Check DC Not Scaled by Age Tier",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Ritual Interruption Concentration Test is hardcoded at DC 15 for all vampires. An Ancient with centuries of ritual practice should maintain concentration more effectively than a Neonate. Codify Age Tier Concentration Resilience: Neonate = DC 15 (Hard), Elder = DC 12 (Medium), Ancient = DC 9 (Easy)."
+    },
+    {
+      "id": "TODO-64",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Sanguine Scrying Mirror",
+      "link": "supplements/bloodline_magic.md#sanguine-scrying-mirror",
+      "title": "Gap: Scrying Mirror 5-Mile Radius Reference Point Ambiguous",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Sanguine Scrying Mirror states the target must be 'within a 5-mile radius' but does not specify whether this radius is measured from the caster's position or the scrying focus object location. Also undefined: whether the caster can take actions during the 10-minute scrying feed or is physically immobilized during the vision. Clarify both ambiguities."
+    },
+    {
+      "id": "TODO-65",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Vitae Purification Filter",
+      "link": "supplements/bloodline_magic.md#vitae-purification-filter",
+      "title": "Gap: Vitae Purification Filter — Multi-Contaminant Scope & Reaper Virus Reference",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Vitae Purification Filter does not specify whether one casting neutralizes all simultaneous contaminants (silver + Reaper virus in the same blood) or only one per Reserve cost. Additionally, 'Reaper virus' is referenced without any prior definition in the core ruleset or supplement — add a lore footnote or cross-reference. Also clarify whether the power operates on blood already inside the caster's system or only on blood being ingested."
+    },
+    {
+      "id": "TODO-66",
+      "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Rhythm of the Ancestral Lineage",
+      "link": "supplements/bloodline_magic.md#rhythm-of-the-ancestral-lineage",
+      "title": "Gap: Ancestral Lineage Communion — Living Sire Conflict & Skill System Alignment",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Rhythm of the Ancestral Lineage does not clarify whether the ritual contacts a living Sire (creating a two-way telepathic security risk) or only deceased ancestral echoes. Additionally, skill categories 'Lore, Strategy, and Arcane Perception checks' are not formally defined in vampire.md — align to the core ruleset's official skill system taxonomy."
+    },
+    {
+      "id": "TODO-67",
+      "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Sanguine Transfusion Lock",
+      "link": "supplements/bloodline_magic.md#sanguine-transfusion-lock",
+      "title": "Contradiction: Sanguine Transfusion Lock Duration Label Inconsistency",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Sanguine Transfusion Lock is labeled 'Duration: Instantaneous (Action Lock)' but the effect persists for '1 combat round,' which is not instantaneous. The label is internally contradictory. Clarify the cost label to 'Duration: 1 Combat Round' and define exactly what 'locks physical limbs' means: can the target still speak, activate powers, or cast their own rituals while locked?"
+    },
+    {
+      "id": "TODO-68",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
+      "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
+      "title": "Contradiction: Grand Rite Duration 'Permanent / 24 Hours' Ambiguous",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Grand Rite of Hematic Transmutation duration is listed as 'Permanent / 24 Hours' with no clarification of which effect is permanent vs temporary. Does the water transmutation last 24 hours before reverting, or is it permanent? Clarify: the transmutation lasts 24 hours before reverting to normal water, and codify what happens to any Thrall susceptibility bonds established during that window after reversion."
+    },
+    {
+      "id": "TODO-69",
+      "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Hematic Curse of Inertia",
+      "link": "supplements/bloodline_magic.md#hematic-curse-of-inertia",
+      "title": "Gap: Hematic Curse Caster Concentration Maintenance Not Specified",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Hematic Curse of Inertia persists for 1 Scene with a per-turn resistance check for the target — but no rule states whether the caster must maintain active concentration for the curse to persist. Clarify: if the caster is incapacitated, enters Torpor, or dies during the curse's duration, the curse immediately ends. Also define whether the curse can be cast on multiple targets simultaneously or is strictly single-target."
+    },
+    {
+      "id": "TODO-70",
+      "section": "## Bloodline Magic Compendium -> Coven Circle Chants & Age Tier Synergy",
+      "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
+      "title": "Gap: Coven Circle — Age Tier Eligibility for Participants Not Defined",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "Coven Circle Chants do not define whether participants must meet a minimum age tier to contribute meaningfully to higher-tier rituals. Codify eligibility: any vampire may participate in Tier 1 circles; Tier 2 circles require at least Elder-tier primary caster; Tier 3 Primordial Rites require an Ancient primary caster, with participants of any tier contributing the standard +1 Fortitude and 10% time reduction."
+    },
+    {
+      "id": "TODO-71",
+      "section": "## Bloodline Magic Compendium -> Foundational Ritual Mechanics",
+      "link": "supplements/bloodline_magic.md#ritual-action-economy--casting-windows",
+      "title": "Gap: No Rule for Ritual Pause, Resume, or Voluntary Cancellation",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "unprotected",
+      "existed_since": "2608.49.0-as",
+      "details": "No rule exists for voluntarily cancelling a ritual mid-cast or pausing and resuming it. Codify: voluntary cancellation before completion forfeits 50% of spent Blood Reserves (half lost, half returned). Rituals cannot be paused and resumed — a cancelled ritual requires a fresh full-duration casting and full Reserve cost to restart."
     }
   ]
 }
