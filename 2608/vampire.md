@@ -4,7 +4,7 @@
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
     "version": "2608.36.0-as",
-    "todo_file": "vampire-2608.todo.json",
+    "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
 }

@@ -10,8 +10,8 @@ This repository contains the master ruleset specification and TODO task dataset 
 * **Ruleset Version:** `2608.36.0-as` (Public Alpha)
 
 ### Generation 2608 Workspace Layout
-- 📄 **[Ruleset Document](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire-2608.md):** `2608/vampire-2608.md`
-- 📊 **[TODO Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire-2608.todo.json):** `2608/vampire-2608.todo.json` (JLDN Todo Schema v2608.15.0-as Mode 2)
+- 📄 **[Ruleset Document](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire.md):** `2608/vampire.md`
+- 📊 **[TODO Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/todo.json):** `2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
 - 📝 **[Changelog](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/CHANGELOG.md):** `2608/CHANGELOG.md`
 
 ## Core Features
