@@ -666,11 +666,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Ritual of the Crimson Ward",
       "link": "supplements/bloodline_magic.md#ritual-of-the-crimson-ward",
       "title": "Edge-Case: Crimson Ward 'Invited' Definition Undefined — Invitation & Revocation Rules Missing",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "high",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "The Crimson Ward triggers for 'uninvited' mortals or vampires but does not define what constitutes an invitation, who can issue one, whether invitations can be revoked, or whether the caster themselves is always considered invited. Codify invitation authority (caster only vs any Coven member), revocation mechanics, and edge-case for Coven exile rendering the caster uninvited in their own warded haven."
+      "details": "Codified Invitation Protocol: caster is permanently self-invited; additional guests verbally designated during active 24hr duration; invitations auto-revoked on caster Torpor or True Death, or by explicit verbal/written decree. Exile edge-case: Coven Council exile does not override caster's personal invitation authority — Coven-sanctioned forced entry requires formal Tribunal dispensation (cross-referenced to coven_law_protocols.md)."
     },
     {
       "id": "TODO-62",

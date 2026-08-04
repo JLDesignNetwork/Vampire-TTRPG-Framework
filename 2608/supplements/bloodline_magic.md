@@ -90,6 +90,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 ### Ritual of the Crimson Ward
 * **Cost & Duration:** `1 Reserve | Duration: 24 Hours (1 Night)`
 * **Mechanic:** The caster paints intricate blood sigils across a doorway, vault, or window frame. Any uninvited mortal or rival vampire attempting to cross the threshold triggers a sudden searing blood burn, inflicting **1 Fire/Thermal Damage** and sounding a psychic alarm to the caster.
+* **Invitation Protocol:** The caster is always permanently self-invited to their own warded threshold. Additional guests may be verbally designated as invited at any time during the ward's active 24-hour duration. Invitations are revoked by the caster's explicit verbal or written decree, or automatically upon the caster's entry into Torpor or True Death. **Exile Edge-Case:** A Coven Council exile ruling does not override the caster's personal invitation authority over their own private haven ward — however, a Coven-sanctioned forced entry override may be requested as a formal Tribunal dispensation (see [Coven Law Court Protocols](./coven_law_protocols.md)).
 
 ### Vitae Purification Filter
 * **Cost & Duration:** `1 Reserve | Duration: Instantaneous`
