@@ -655,11 +655,11 @@
       "section": "## Bloodline Magic Compendium -> Coven Circle Chants & Age Tier Synergy",
       "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
       "title": "Exploit: Coven Circle Fortitude Bonus Stack — No Cap Creates Trivial Auto-Pass",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Coven Circle Chants grant +1 Ritual Fortitude per secondary participant with no stated cap. A 10-member coven grants +10 to every Ritual Fortitude check (DC 15), making concentration checks trivially auto-passable. Codify a cap on Fortitude bonus stacking (e.g., max +5 bonus regardless of circle size), while retaining the 50% casting time cap."
+      "details": "Fixed by cross-referencing core ruleset Coven Power Ritual Nexus Age Tier Caster Caps (vampire.md L490-495): Neonate-led max +2 Fortitude (3 casters), Elder-led max +4 (5 casters), Ancient-led max +6 (7 casters). Avoids contradiction with existing core governance; supplement defers to core ruleset for all stacking cap rules."
     },
     {
       "id": "TODO-61",

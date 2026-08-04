@@ -70,7 +70,7 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
   | **Stale corpse blood** (≥ 1 hour post-death) | **Ineligible** | Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution. |
 
 ### Coven Circle Chants & Age Tier Synergy
-* **Coven Circle Bonus:** Each secondary vampire participating in a ritual circle grants a **+1 bonus to Ritual Fortitude checks** and reduces total casting time by **10%** (max 50% reduction).
+* **Coven Circle Bonus:** Each secondary vampire participating in a ritual circle grants a **+1 bonus to Ritual Fortitude checks** and reduces total casting time by **10%** (max 50% reduction). Participant counts, stacking limits, and bonus caps are governed by the [Coven Power Ritual Nexus](../vampire.md#coven-power-ritual-nexus-multi-caster-stacking--sequential-rotation) rules — including Age Tier Caster Caps: Neonate-led circles max at **+2 Fortitude bonus** (3 casters); Elder-led circles max at **+4** (5 casters); Ancient-led circles max at **+6** (7 casters).
 * **Age Tier Scaling:** Ritual save DCs and potency scale using [Age Tier Superiority Math ($\Delta$)](../vampire.md#combust-vitae): Neonate = Base DC; Elder = +1 DC / +1 Area; Ancient = +2 DC / Double Duration.
 
 ### Ritual Interruption & Backfire Trauma
