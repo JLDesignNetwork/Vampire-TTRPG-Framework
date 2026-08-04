@@ -668,7 +668,7 @@
       "title": "Edge-Case: Crimson Ward 'Invited' Definition Undefined — Invitation & Revocation Rules Missing",
       "status": "pending:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "The Crimson Ward triggers for 'uninvited' mortals or vampires but does not define what constitutes an invitation, who can issue one, whether invitations can be revoked, or whether the caster themselves is always considered invited. Codify invitation authority (caster only vs any Coven member), revocation mechanics, and edge-case for Coven exile rendering the caster uninvited in their own warded haven."
     },
@@ -679,7 +679,7 @@
       "title": "Exploit: Eclipse of the Sanguine Tide — Daywalker's Grace Infinite Stacking via Repeated Casts",
       "status": "pending:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Eclipse extends Daywalker's Grace timers by +1 minute for all allied vampires. With multiple successive Ancient casters, repeated Eclipse castings could stack indefinitely, creating effectively infinite Daywalker's Grace coverage. Codify a maximum cumulative extension cap per night (e.g., Daywalker's Grace timer cannot exceed its base 3-minute cap + 2 minutes maximum bonus regardless of Eclipse stacking)."
     },
@@ -690,7 +690,7 @@
       "title": "Gap: Concentration Check DC Not Scaled by Age Tier",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Ritual Interruption Concentration Test is hardcoded at DC 15 for all vampires. An Ancient with centuries of ritual practice should maintain concentration more effectively than a Neonate. Codify Age Tier Concentration Resilience: Neonate = DC 15 (Hard), Elder = DC 12 (Medium), Ancient = DC 9 (Easy)."
     },
@@ -701,7 +701,7 @@
       "title": "Gap: Scrying Mirror 5-Mile Radius Reference Point Ambiguous",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Sanguine Scrying Mirror states the target must be 'within a 5-mile radius' but does not specify whether this radius is measured from the caster's position or the scrying focus object location. Also undefined: whether the caster can take actions during the 10-minute scrying feed or is physically immobilized during the vision. Clarify both ambiguities."
     },
@@ -712,7 +712,7 @@
       "title": "Gap: Vitae Purification Filter — Multi-Contaminant Scope & Reaper Virus Reference",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Vitae Purification Filter does not specify whether one casting neutralizes all simultaneous contaminants (silver + Reaper virus in the same blood) or only one per Reserve cost. Additionally, 'Reaper virus' is referenced without any prior definition in the core ruleset or supplement — add a lore footnote or cross-reference. Also clarify whether the power operates on blood already inside the caster's system or only on blood being ingested."
     },
@@ -723,7 +723,7 @@
       "title": "Gap: Ancestral Lineage Communion — Living Sire Conflict & Skill System Alignment",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Rhythm of the Ancestral Lineage does not clarify whether the ritual contacts a living Sire (creating a two-way telepathic security risk) or only deceased ancestral echoes. Additionally, skill categories 'Lore, Strategy, and Arcane Perception checks' are not formally defined in vampire.md — align to the core ruleset's official skill system taxonomy."
     },
@@ -734,7 +734,7 @@
       "title": "Contradiction: Sanguine Transfusion Lock Duration Label Inconsistency",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Sanguine Transfusion Lock is labeled 'Duration: Instantaneous (Action Lock)' but the effect persists for '1 combat round,' which is not instantaneous. The label is internally contradictory. Clarify the cost label to 'Duration: 1 Combat Round' and define exactly what 'locks physical limbs' means: can the target still speak, activate powers, or cast their own rituals while locked?"
     },
@@ -745,7 +745,7 @@
       "title": "Contradiction: Grand Rite Duration 'Permanent / 24 Hours' Ambiguous",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Grand Rite of Hematic Transmutation duration is listed as 'Permanent / 24 Hours' with no clarification of which effect is permanent vs temporary. Does the water transmutation last 24 hours before reverting, or is it permanent? Clarify: the transmutation lasts 24 hours before reverting to normal water, and codify what happens to any Thrall susceptibility bonds established during that window after reversion."
     },
@@ -756,7 +756,7 @@
       "title": "Gap: Hematic Curse Caster Concentration Maintenance Not Specified",
       "status": "pending:audit",
       "priority": "medium",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Hematic Curse of Inertia persists for 1 Scene with a per-turn resistance check for the target — but no rule states whether the caster must maintain active concentration for the curse to persist. Clarify: if the caster is incapacitated, enters Torpor, or dies during the curse's duration, the curse immediately ends. Also define whether the curse can be cast on multiple targets simultaneously or is strictly single-target."
     },
@@ -767,7 +767,7 @@
       "title": "Gap: Coven Circle — Age Tier Eligibility for Participants Not Defined",
       "status": "pending:audit",
       "priority": "low",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "Coven Circle Chants do not define whether participants must meet a minimum age tier to contribute meaningfully to higher-tier rituals. Codify eligibility: any vampire may participate in Tier 1 circles; Tier 2 circles require at least Elder-tier primary caster; Tier 3 Primordial Rites require an Ancient primary caster, with participants of any tier contributing the standard +1 Fortitude and 10% time reduction."
     },
@@ -778,7 +778,7 @@
       "title": "Gap: No Rule for Ritual Pause, Resume, or Voluntary Cancellation",
       "status": "pending:audit",
       "priority": "low",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "No rule exists for voluntarily cancelling a ritual mid-cast or pausing and resuming it. Codify: voluntary cancellation before completion forfeits 50% of spent Blood Reserves (half lost, half returned). Rituals cannot be paused and resumed — a cancelled ritual requires a fresh full-duration casting and full Reserve cost to restart."
     }
