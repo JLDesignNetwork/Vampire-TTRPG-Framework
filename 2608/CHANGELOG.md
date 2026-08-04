@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.48.0-bs (2026-08-04) - Official Beta Supported Release
+
+**Official Beta Supported Release transitioning the master core ruleset (2608/vampire.md) from Alpha Supported (-as) to Beta Supported (-bs).**
+
+#### Lifecycle Transition
+- **Beta Supported Milestone (`2608.48.0-bs`):** Transitioned the Generation 2608 core ruleset engine into Beta Supported status following completion of 24 Red Team Audit rounds (56 tasks locked in & protected). The core engine is feature-complete and stabilized for community playtesting.
+
+---
+
 ### 2608.47.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release completing Red Team Audit Round 24 with fix for `TODO-56` (Master True Death Sanguine Withdrawal vs Full Diablerie Bond Inheritance & Thrall Cap Overage Strain).**

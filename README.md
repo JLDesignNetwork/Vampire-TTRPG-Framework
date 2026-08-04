@@ -1,13 +1,13 @@
-# Vampire TTRPG Framework (v2608.47.0-as)
+# Vampire TTRPG Framework (v2608.48.0-bs)
 
-Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.47.0-as`).
+Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.48.0-bs`).
 
 ## Overview
 
 This repository contains the master ruleset specification, generation-specific TODO task dataset, and root project-wide roadmap dataset for the system-agnostic, multi-genre **Vampire TTRPG Framework**.
 
 * **Author:** Jeff Langdon (JL Design Network)
-* **Ruleset Version:** `2608.47.0-as` (Public Alpha)
+* **Ruleset Version:** `2608.48.0-bs` (Official Beta Supported)
 
 ### Repository Workspace Layout
 - 🌐 **[Project-Wide Roadmap Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/todo.json):** `todo.json` (Project-level roadmap & milestone tasks)
