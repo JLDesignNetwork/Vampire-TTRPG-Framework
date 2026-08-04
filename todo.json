@@ -78,7 +78,7 @@
       "title": "Generation 2608 Red Team Vulnerability Audits",
       "status": "in-progress:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.47.0-as",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audits on the Generation 2608 master ruleset document (2608/vampire.md). Manages and tracks all version-scoped TODO tasks in 2608/todo.json across Rounds 1-24+."
     },
@@ -90,7 +90,7 @@
       "title": "Red Team Audit — Bloodline Magic Compendium",
       "status": "in-progress:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.48.0-bs",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Bloodline Magic Compendium supplement (2608/supplements/bloodline_magic.md). Check ritual action economy balance, Blood Reserve cost interactions, coven circle stacking exploits, Tier 3 primordial rite overpowerment risks, and cross-supplement compatibility with vampire.md. Findings tracked as TODO-57 through TODO-71 in 2608/todo.json."
     },
@@ -102,7 +102,7 @@
       "title": "Red Team Audit — Coven Law Court Protocols & Legal Code",
       "status": "pending:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.48.0-bs",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Coven Law Court Protocols & Legal Code supplement (2608/supplements/coven_law_protocols.md). Check tribunal vote manipulation exploits, Sanctioned Release Dispensation loopholes, Blood Treaty diplomatic edge-cases, evidence forgery counterplay, and punishment escalation gaps."
     },
@@ -114,7 +114,7 @@
       "title": "Red Team Audit — Equipment & UV Arsenal Handbook",
       "status": "pending:audit",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "open",
       "existed_since": "2608.48.0-bs",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Equipment & UV Arsenal Handbook supplement (2608/supplements/uv_arsenal_handbook.md). Check UV weapon stacking interactions, Daywalker's Grace immunity edge-cases, Synth-Vitae vs living blood mechanical gaps, armor penetration cross-supplement interactions, and thermal suit vs FLIR counterplay balance."
     }
