@@ -644,11 +644,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
       "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
       "title": "Exploit: Grand Rite Thrall Cap Overage — Instant Mass Enthrallment Edge-Case",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "critical",
-      "protection": "unprotected",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Grand Rite transmuted water makes any mortal drinking it 'instantly susceptible to Thrall Enthrallment.' This could trigger mass involuntary Thrall bonds if the caster is near Thrall Cap, causing Thrall Cap Overage Strain (see TODO-56). Clarify whether drinking transmuted water creates an automatic bond or merely grants susceptibility — and explicitly cross-reference Thrall Cap Overage Strain penalties."
+      "details": "Codified Thrall Susceptibility as a temporary condition (not an automatic bond) making mortals 50% easier to enthrall. Drinking transmuted water does NOT auto-create Thrall bonds — deliberate feeding enthrallment still required. Thrall Cap Overage Strain penalties apply if caster bonds beyond cap. Susceptibility persists 24hrs aligned with transmutation window."
     },
     {
       "id": "TODO-60",

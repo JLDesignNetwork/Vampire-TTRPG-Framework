@@ -118,9 +118,11 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Grand Rite of Hematic Transmutation
 * **Cost & Duration:** `3 Reserves | Duration: 24 Hours (then reverts to water)`
-* **Mechanic:** An Ancient caster conducts a 1-hour ritual over a body of water (well, fountain, reservoir). Transmutes up to **1,000 gallons of water into dark, blood-infused vitae**. Mortals drinking the water become instantly susceptible to [Thrall Enthrallment](../vampire.md#social); rival vampires drinking the liquid regenerate 1 Blood Reserve per gallon.
+* **Mechanic:** An Ancient caster conducts a 1-hour ritual over a body of water (well, fountain, reservoir). Transmutes up to **1,000 gallons of water into dark, blood-infused vitae**. Rival vampires drinking the liquid regenerate 1 Blood Reserve per gallon (subject to Regeneration Cap below).
+* **Thrall Susceptibility (Not Auto-Bond):** Mortals drinking the transmuted water gain the **Susceptibility** condition — a temporary state making them 50% easier to enthrall via a deliberate blood bond feeding act. Drinking transmuted water does **NOT** automatically create a Thrall bond. A vampire must still perform an intentional feeding enthrallment to establish the bond. Standard [Thrall Cap rules](../vampire.md#secrecy-covens-and-thralls) and [Thrall Cap Overage Strain](../vampire.md#secrecy-covens-and-thralls) penalties apply if the caster bonds mortals beyond their cap.
+* **Susceptibility Duration:** The Susceptibility condition persists for **24 hours** (aligned with the transmutation window). After the water reverts to its natural state, no new Susceptibility conditions can be granted — but existing Susceptibility conditions on mortals who already drank persist until their 24-hour window expires.
 * **Regeneration Cap:** A vampire may not regenerate more Blood Reserves from transmuted water in a single feeding session than their standard per-night Reserve pool cap (see [Blood Reserve Math](../vampire.md#blood-reserve-math--expenditure-caps)). Excess transmuted water beyond that cap yields no further regeneration benefit for that vampire until the following night.
-* **Duration Clarification:** The transmutation lasts **24 hours** before all remaining water reverts to its natural state. Any Thrall susceptibility bonds established during the window remain in effect after reversion — but no new bonds can form from water once it reverts.
+* **Duration Clarification:** The transmutation lasts **24 hours** before all remaining water reverts to its natural state. Any Thrall bonds deliberately established during the window remain in effect after reversion.
 
 ### Eclipse of the Sanguine Tide
 * **Cost & Duration:** `3 Reserves | Duration: 1 Entire Night`
