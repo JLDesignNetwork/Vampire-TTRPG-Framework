@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.43.0-as",
+    "version": "2608.44.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.43.0-as
+# Vampire Ruleset v2608.44.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -547,7 +547,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 **Telekinesis & Psychokinesis**
 * **Mind Grip `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You project invisible, crushing hands of mental force. You can lift heavy objects, hurl combatants across the room, or suspend a target mid-air at a distance using pure will. *Mass & Weight Caps:* Mind Grip can lift, suspend, or hurl physical targets weighing up to **250kg (550lbs)** for Neonates, **500kg (1,100lbs)** for Elders, and **1,000kg (1 Ton)** for Ancients. Objects exceeding these mass caps cannot be lifted. *Off-Turn Reaction Interception & Supersonic Velocity Bounds:* Expending an off-turn reaction action allows a conscious vampire to invoke Mind Grip to catch or deflect thrown melee weapons, arrows, crossbow bolts, or subsonic pistol rounds mid-air. However, supersonic rifle and sniper rounds travel faster than neural visual processing; Mind Grip **cannot** catch supersonic gunfire off-turn. Deflecting high-velocity rifle fire requires pre-manifested *Kinetic Barrier* or physical cover.
 * **Kinetic Barrier `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project a dense telekinetic wall around yourself. Incoming bullets, arrows, shrapnel, and thrown weapons drop harmlessly to the floor as they impact your invisible shield. (Sustaining costs 1 Blood Reserve per combat round). *Evocation Deflection:* Kinetic Barrier completely deflects supernatural projectiles (*Sanguine Spikes*) and shadow whips (*Umbral Blades*) without collapsing, provided the defender maintains their 1 Blood Reserve per round upkeep.
-* **Kinetic Crush `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You focus intense telekinetic pressure onto a localized target. You can snap rifle barrels in half, crush heavy padlock mechanisms, or shatter a foe's arm bones from across the room.
+* **Kinetic Crush `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You focus intense telekinetic pressure onto a localized target. You can snap rifle barrels in half, crush heavy padlock mechanisms, or shatter a foe's arm bones from across the room. *Cybernetics & Powered Armor Servomotor Joint Lock Scope:* Targeting a target wearing powered armor, exoskeletons, or cybernetic limbs crushes external joint servomotors and hydraulics, **locking the mechanical joint in place** (disabling powered mobility bonuses and inflicting a -2 penalty to actions with that limb). Furthermore, because telekinetic force projects spatial pressure directly, Kinetic Crush passes through physical armor plates, inflicting standard crushing damage on internal biological bones unless protected by internal *Kinetic Barrier* shielding.
 * **Telekinetic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of psychokinesis. You possess *Mind Grip*, *Kinetic Barrier*, and *Kinetic Crush*, granting absolute mastery over telekinetic lifting, projectile defense, and force crushing in a single Master power slot.
 
 **Advanced Mental & Illusion**

@@ -1,5 +1,5 @@
 {
-  "version": "2608.43.0-as",
+  "version": "2608.44.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -578,10 +578,11 @@
       "section": "## Powers -> Telekinesis & Psychokinesis",
       "link": "vampire.md#telekinesis--psychokinesis",
       "title": "Audit Kinetic Crush Mechanical Joint Lock vs Internal Tissue Scope",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.42.0-as",
-      "details": "Audit Kinetic Crush against armor: clarify that Kinetic Crush targeting powered armor or cybernetics crushes external joint servomotors (locking movement) and inflicts standard crushing damage on internal biological limbs."
+      "details": "Codified Cybernetics & Powered Armor Servomotor Joint Lock Scope: Kinetic Crush crushes external joint servomotors (locking mechanical joints and disabling powered bonuses) while passing through physical armor plates to inflict crushing damage on internal biological bones unless shielded by Kinetic Barrier."
     },
     {
       "id": "TODO-54",

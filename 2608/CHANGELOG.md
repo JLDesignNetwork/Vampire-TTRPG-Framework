@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.44.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 24 Red Team Audit fix for `TODO-53` (Kinetic Crush Cybernetics & Powered Armor Servomotor Joint Lock Scope).**
+
+#### Added
+- **Kinetic Crush Cybernetics & Powered Armor Servomotor Joint Lock Scope (`TODO-53`):** Codified rule specifying that *Kinetic Crush* targeting powered armor or cybernetics crushes external joint servomotors and hydraulics (locking mechanical joints and disabling powered mobility bonuses). Furthermore, because telekinetic force projects spatial pressure directly, Kinetic Crush passes through physical armor plates to inflict crushing damage on internal biological bones unless protected by internal *Kinetic Barrier* shielding.
+
+---
+
 ### 2608.43.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 24 Red Team Audit fix for `TODO-52` (Supernatural Kinetic Crash Impact & Wall Collision Recoil Math).**
