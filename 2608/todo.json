@@ -1,5 +1,5 @@
 {
-  "version": "2608.37.0-as",
+  "version": "2608.38.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -523,10 +523,11 @@
       "section": "## Powers -> Telekinesis & Psychokinesis",
       "link": "vampire.md#telekinesis--psychokinesis",
       "title": "Audit Mind Grip Reaction Speed & Supersonic Projectile Limit",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.36.0-as",
-      "details": "Audit Mind Grip reaction bounds: clarify that Mind Grip can intercept thrown weapons or subsonic projectiles, but supersonic sniper rounds require active Kinetic Barrier."
+      "details": "Codified Off-Turn Reaction Interception & Supersonic Velocity Bounds: Mind Grip can catch thrown weapons, arrows, and subsonic pistol rounds off-turn, but supersonic rifle/sniper rounds exceed neural reaction speeds and require pre-manifested Kinetic Barrier."
     },
     {
       "id": "TODO-49",

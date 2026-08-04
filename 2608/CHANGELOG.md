@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.38.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 23 Red Team Audit fix for `TODO-48` (Mind Grip Off-Turn Reaction Interception & Supersonic Velocity Bounds).**
+
+#### Added
+- **Mind Grip Off-Turn Reaction Interception & Supersonic Velocity Bounds (`TODO-48`):** Codified rule specifying that a conscious vampire can expend an off-turn reaction to catch or deflect thrown melee weapons, arrows, crossbow bolts, or subsonic pistol rounds mid-air using *Mind Grip*. However, supersonic rifle and sniper rounds travel faster than neural visual processing; *Mind Grip* cannot catch supersonic gunfire off-turn, requiring pre-manifested *Kinetic Barrier* or physical cover.
+
+---
+
 ### 2608.37.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 23 Red Team Audit fix for `TODO-47` (Pyre Aura Pressurized Vitae Fuel & Extinguishing Exemption).**
