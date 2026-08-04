@@ -58,7 +58,16 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
 
 ### Blood Reserve Cost & Sacrificial Upkeep
 * **Casting Cost:** Rituals expend stored [Blood Reserves](../vampire.md#blood-reserve-math--expenditure-caps) upon initiation (Tier 1 = 1 Reserve; Tier 2 = 2 Reserves; Tier 3 = 3 Reserves).
-* **Sacrificial Substitution:** A caster may substitute their own blood reserves by draining a living mortal or Thrall during the ritual. Draining 250ml of living blood fulfills **1 Blood Reserve** cost requirement.
+* **Sacrificial Substitution:** A caster may substitute stored Blood Reserves by draining a living creature during the ritual. Blood source eligibility and potency vary by type:
+
+  | Blood Source | Volume Required per Reserve | Notes |
+  | :--- | :--- | :--- |
+  | **Living mortal / Thrall** | 250ml | Standard potency. Full living vitae resonance. |
+  | **Vampire vitae** | 100ml | Concentrated potency. Donor must consent or be restrained. Counts as partial feeding — subject to Coven feeding laws. |
+  | **Living animal blood** | 500ml | Diminished potency. Lacks full sapient vitae resonance. |
+  | **Synth-Vitae phials** | 1 full pouch (500ml) | Reduced potency. Lacks living essence; accepted by blood magic but at half efficiency. |
+  | **Fresh corpse blood** (< 1 hour post-death) | 500ml | Diminished potency. Vitae resonance fading rapidly. |
+  | **Stale corpse blood** (≥ 1 hour post-death) | **Ineligible** | Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution. |
 
 ### Coven Circle Chants & Age Tier Synergy
 * **Coven Circle Bonus:** Each secondary vampire participating in a ritual circle grants a **+1 bonus to Ritual Fortitude checks** and reduces total casting time by **10%** (max 50% reduction).

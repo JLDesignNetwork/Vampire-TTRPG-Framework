@@ -622,11 +622,11 @@
       "section": "## Bloodline Magic Compendium -> Blood Reserve Cost & Sacrificial Upkeep",
       "link": "supplements/bloodline_magic.md#blood-reserve-cost--sacrificial-upkeep",
       "title": "Clarify Sacrificial Substitution — Valid Blood Source Definitions",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Sacrificial Substitution (250ml living blood = 1 Reserve) does not define valid blood sources. Clarify whether Synth-Vitae phials, corpse blood, vampire vitae, or animal blood qualify as substitution sources. Each source type should have explicit eligibility and potency rules."
+      "details": "Codified Sacrificial Substitution blood source eligibility table: Living mortal/Thrall (250ml = 1 Reserve, standard), Vampire vitae (100ml = 1 Reserve, concentrated, subject to Coven feeding laws), Living animal (500ml = 1 Reserve, diminished), Synth-Vitae phial (500ml = 1 Reserve, half-efficiency), Fresh corpse blood <1hr (500ml = 1 Reserve, diminished), Stale corpse blood ≥1hr (Ineligible, inert)."
     },
     {
       "id": "TODO-58",
