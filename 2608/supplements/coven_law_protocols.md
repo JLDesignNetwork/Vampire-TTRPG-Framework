@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.48.0-bs",
+    "version": "2608.49.0-as",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.48.0-bs
+# Coven Law Court Protocols & Legal Code v2608.49.0-as
 - [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
 - [Judicial Tribunal Architecture](#judicial-tribunal-architecture)
   - [The Presiding Magistrate & Tribunal Bench](#the-presiding-magistrate--tribunal-bench)
