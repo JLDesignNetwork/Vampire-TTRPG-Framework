@@ -75,7 +75,10 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
 
 ### Ritual Interruption & Backfire Trauma
 If a ritual caster suffers physical damage, knockback, or psychic attack during casting:
-* **Concentration Test:** The caster MUST pass a **Hard Self-Control check** (DC 15).
+* **Concentration Test:** The caster MUST pass a **Self-Control check** with difficulty scaled by Age Tier:
+  * **Neonate (< 500 yrs):** DC 15 (Hard)
+  * **Elder (500–1,199 yrs):** DC 12 (Medium)
+  * **Ancient (1,200+ yrs):** DC 9 (Easy)
 * **Backfire Trauma:** On failure, the ritual collapses violently: spent Blood Reserves are lost, and the caster suffers **1 Direct Core Health Damage** from uncontained blood backfire.
 
 ---
