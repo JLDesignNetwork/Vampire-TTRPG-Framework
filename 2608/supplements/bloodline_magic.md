@@ -129,9 +129,17 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Cost & Duration:** `3 Reserves | Duration: 1 Entire Night`
 * **Mechanic:** The Ancient channels an explosive crimson beacon into the night sky. A thick, oppressive crimson fog rolls across a **1-mile radius**.
 * **Effects:**
-  * Completely blocks moonlight and star guidance.
-  * Extends [Daywalker's Grace](../vampire.md#immunities--resistances) timers by **+1 minute** for all allied vampires inside the fog zone.
+  * Completely blocks moonlight and star guidance. All allied vampires inside the fog zone gain **+1 to all Perception and Tracking checks** for the Eclipse duration — vitae-sense sharpens as natural light is suppressed while rivals and mortals are blinded.
   * All blood-based powers cast within the eclipse zone receive a **+1 damage/potency bonus**.
+  * **Eclipse Overcap:** Allied vampires inside the fog zone may temporarily exceed their personal [Blood Reserve](../vampire.md#blood-reserve-math--expenditure-caps) cap by an amount scaled to Age Tier:
+
+    | Age Tier | Eclipse Overcap |
+    | :--- | :--- |
+    | **Neonate** (< 500 yrs) | +2 Reserves above personal cap |
+    | **Elder** (500–1,199 yrs) | +3 Reserves above personal cap |
+    | **Ancient** (1,200+ yrs) | +4 Reserves above personal cap |
+
+    Overcap reserves are expended before standard reserves and drain at **double the passive rate** after Eclipse ends at dawn. A vampire may harvest multiple times during the Eclipse night, returning to tithe after each 5-reserve harvest threshold. Standard [Law of the Sanguine Tithe](../vampire.md#social) obligations apply to all reserves *harvested* during the Eclipse window. **No Over-Tithe Credit:** Because the Law of the Sanguine Tithe sets no minimum donation floor, donating more than the obligated amount does not generate tithe credit toward future obligations. Each tithe period is settled independently.
 
 ---
 
