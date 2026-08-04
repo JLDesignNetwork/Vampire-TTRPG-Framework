@@ -137,8 +137,8 @@ todo:
     status: "completed"
     priority: "high"
     protection: "protected"
-    existed_since": "2608.22.0-as"
-    details: "Codified Dual-Master Bloodline Duel system, Thrall Reaper contagion +2 resistance bonus, Blood Archive 1-action + combat overload penalty, Archiver immunity, Primary Reaper lifespan, and Tabula Rasa discipline tiers.",
+    existed_since: "2608.22.0-as"
+    details: "Codified Dual-Master Bloodline Duel system, Thrall Reaper contagion +2 resistance bonus, Blood Archive 1-action + combat overload penalty, Archiver immunity, Primary Reaper lifespan, and Tabula Rasa discipline tiers."
   - id: "TODO-16"
     section: "## Creation & Death -> Banes & Native Soil"
     link: "vampire-2608.md#the-native-soil-dependency"
@@ -318,7 +318,7 @@ todo:
     priority: "low"
     protection: "protected"
     existed_since: "2608.32.0-as"
-    details: "Codified Head-Touch Neural Requirement: Corpse Siphon extracts neural residual memories from the brain cortex; the vampire must make direct skin contact with the decapitated head itself.",,
+    details: "Codified Head-Touch Neural Requirement: Corpse Siphon extracts neural residual memories from the brain cortex; the vampire must make direct skin contact with the decapitated head itself."
   - id: "TODO-36"
     section: "## Powers -> Behavioral Powers (Sensory)"
     link: "vampire-2608.md#behavioral-powers"
