@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.43.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 24 Red Team Audit fix for `TODO-52` (Supernatural Kinetic Crash Impact & Wall Collision Recoil Math).**
+
+#### Added
+- **Supernatural Kinetic Crash Impact & Wall Collision Recoil Math (`TODO-52`):** Codified rule specifying that a vampire sprinting at supernatural velocity (1.5x speed or active *Blood Surge Speed*) who collides directly with an unyielding obstacle (concrete wall, vehicle, steel bulkhead) inflicts **1 Blunt Impact Damage** onto the obstacle's Structural HP. If unbreached, the unyielding barrier reflects kinetic shockwave rebound inflicting **1 Blunt Recoil Damage** on the vampire unless shielded by *Kinetic Barrier* or Ancient *Sovereign Temperament*.
+
+---
+
 ### 2608.42.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release registering Round 24 Red Team Audit vulnerability tasks (`TODO-52` through `TODO-56`).**

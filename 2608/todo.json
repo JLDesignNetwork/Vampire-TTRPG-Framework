@@ -1,5 +1,5 @@
 {
-  "version": "2608.42.0-as",
+  "version": "2608.43.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -567,10 +567,11 @@
       "section": "## Behavior & Physiology -> Physical Attributes & Speed",
       "link": "vampire.md#physical-attributes--speed",
       "title": "Audit Supernatural Kinetic Crash Impact & Wall Collision Recoil Math",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.42.0-as",
-      "details": "Audit high-speed sprint collisions: clarify that sprinting into unyielding solid barriers at supernatural velocity deals 1 Blunt Damage to the barrier; if unbreached, the vampire absorbs kinetic rebound taking 1 Blunt Damage unless shielded by Kinetic Barrier."
+      "details": "Codified Kinetic Crash Impact & Recoil Math: Sprinting into unyielding barriers at supernatural speed deals 1 Blunt Damage to the obstacle; if unbreached, unyielding barriers reflect kinetic rebound inflicting 1 Blunt Recoil Damage on the vampire unless shielded by Kinetic Barrier."
     },
     {
       "id": "TODO-53",

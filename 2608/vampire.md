@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.42.0-as",
+    "version": "2608.43.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.42.0-as
+# Vampire Ruleset v2608.43.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -92,6 +92,7 @@ As decades turn to centuries, vampires experience profound psychological alienat
 Vampires automatically possess supernatural physical enhancements compared to mortals, scaling as their blood matures:
 * **New World Vampires (0–499 years):** Receive a **+1 bonus to Initiative** and **1.5x base movement speed**.
 * **Old World Vampires (500+ years):** Upgrade to a **+2 bonus to Initiative**, **2x base movement speed**, **doubled vertical/horizontal jump distance**, **1 free positioning action** in the first round of combat, and an **extra bonus action** during surprise rounds.
+* **Supernatural Kinetic Crash Impact & Wall Collision Recoil Math:** A vampire sprinting at supernatural velocity (1.5x speed or active *Blood Surge Speed*) who collides directly with a solid, unyielding obstacle (concrete wall, vehicle, steel bulkhead) inflicts **1 Blunt Impact Damage** onto the obstacle's Structural HP. If the barrier's structural integrity is unbreached, the unyielding surface reflects the kinetic shockwave back into the vampire's body, inflicting **1 Blunt Recoil Damage** on the vampire. Wall collision recoil damage is completely absorbed if the vampire is actively shielded by *Kinetic Barrier* or possessing Ancient *Sovereign Temperament*.
 
 ## Creation
 
