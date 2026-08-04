@@ -283,7 +283,7 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
 
 The life of a vampire is broken into 2 phases, [pre-change](#pre-change) and [post-change](#post-change).
 
-#### Pre-Change
+### Pre-Change
 
 Pre-Change represents life before being turned into a vampire—the reservoir where the human soul, moral convictions, and core identity reside.
 
@@ -294,7 +294,7 @@ Pre-Change represents life before being turned into a vampire—the reservoir wh
 * **Anchor Mechanics (Restoring Sanity):** Visiting, protecting, or communing with a Pre-Change Anchor soothes the volatile Beast, **restoring 1 lost Self-Control point per scene**.
 * **Anchor Destruction (Permanent Scarring & Replicas):** If an Anchor is destroyed, corrupted, or killed (such as failing an Anchor Break check), the vampire's soul suffers a severe tear, inflicting a **permanent -1 penalty to all future Self-Control checks**. Rebuilding a destroyed Sanctum estate or replacing a destroyed relic creates a physical replica, but does **NOT** restore the original emotional soul tether or remove the permanent -1 Self-Control penalty.
 
-#### Post-Change
+### Post-Change
 
 Post-Change represents the ongoing struggle between lingering Pre-Change Humanity and the ravenous Post-Change Hunger.
 
@@ -319,7 +319,7 @@ Post-Change represents the ongoing struggle between lingering Pre-Change Humanit
 
 ## Mechanics
 
-#### Draining
+### Draining
 
 Draining is done to destroy the life of the victim, either to outright kill them or for [creation](#creation). Draining does not mean [drinking](#drinking--sustenance-rules) all of the victim's blood. Drinking the last drop must never be done. Consuming the final drop binds the vampire to the victim's death, triggering catastrophic consequences based on the victim's nature:
 1. **Consuming the Final Drop of a Mortal:** Instantly severs the supernatural life tether, causing the vampire to perish immediately beside the mortal (**True Death**).
@@ -444,7 +444,7 @@ Unlike ["The Bleed"](#the-home-sickness-regression-track-the-bleed) (which is tr
   * **Phase 2 Awakening (~250ml / 1 Draft - Physical Rousing):** Consuming a full draft (~250ml) of living blood restores motor function and rouses the body out of paralysis, restoring the vampire to **Stage 3 (Severe Starvation / Feral Degradation)**.
   * **Rousing Frenzy Check (Target Priority):** Because the vampire rouses at Stage 3 Starvation, the sudden surge of vitality triggers an immediate **Self-Control check**. Failure causes the ravenous vampire to instantly attack the nearest blood vessel—prioritizing living mortal blood first, followed by stored blood bags, and finally attempting to bite the rescuer's undead throat if no mortal blood is present!
 
-#### Feeding
+### Feeding
 
 Feeding is solely used for vampire creation. Once a victim has been [drained](#draining), they have to immediately be fed.
 
@@ -473,7 +473,7 @@ Every power within the [Behavioral Powers](#behavioral-powers) and [Supernatural
    * **Cost & Duration:** **1 Blood Reserve to activate + 1 Blood Reserve per upkeep cycle** (1 Reserve/Round in combat, 1 Reserve/Hour for Swarm Pocket-Realms, 1 Reserve/Day for Petrified Slumber).
    * *Per-Round Limit:* Subject to the **Total Per-Round Expenditure Cap** (max 2 reserves spent per round across all actions). If reserves reach 0, sustained powers immediately collapse.
 
-##### Combined Power Usage & Synergistic Scaling Matrix
+### Combined Power Usage & Synergistic Scaling Matrix
 When a vampire invokes two or more powers simultaneously (or multiple vampires pool their magic), their supernatural effects interweave:
 
 1. **Per-Round Expenditure Cap Constraints:** Combining multiple active or sustained powers in combat MUST strictly respect the [Total Per-Round Expenditure Cap](#blood-capacity--passive-awakening-drain) for the vampire's age tier (Neonate = max 2 reserves/round; Elder = max 3 reserves/round; Ancient = max 4 reserves/round).
@@ -703,11 +703,11 @@ Vampire society is generally hidden but heavily structured to ensure survival an
 
 There are 3 types of vampires; [Old World](#old-world), [New World](#new-world), and various [mutations](#mutations).
 
-#### Mutations
+### Mutations
 
 Mutations represent tragic catastrophes during creation, resulting in a fractured, corrupted transformation. Mutations are mechanically triggered by one of three specific failures, producing distinct mutant strains:
 
-##### 1. The Feral Husk (Trigger: Botched Drain / Premature Pull-Away)
+#### 1. The Feral Husk (Trigger: Botched Drain / Premature Pull-Away)
 Created when an Unlearned Sire fails their **Self-Control** check during [Creation](#creation) and pulls away from the victim before Stage 4 of the [Brink of Death progression](#draining). The victim's brain suffers partial necrosis before Sire blood enters, producing a zombie-like predatory husk.
 * **Sensory Profile:** Gaunt, sunken yellow eyes, grey translucent skin tightly stretched over bone, elongated jagged nails, and a perpetually open mouth dripping black bile. Incapable of speech, complex thought, or emotional connection.
 * **Behavioral Traits:** Locked in a **permanent [Feral State](#post-change)**. Cannot be reasoned with, commanded via *Imperious Word*, or pacified by Pre-Change Anchors.
@@ -716,7 +716,7 @@ Created when an Unlearned Sire fails their **Self-Control** check during [Creati
   * **-2 Defense / Cognition:** Lacks tactical awareness, charging blindly into melee.
   * **Pain Immunity:** Immune to pain penalties, fear checks, and psychological stun.
 
-##### 2. The Hollow Abomination (Trigger: Power Fade Collapse)
+#### 2. The Hollow Abomination (Trigger: Power Fade Collapse)
 Created when a young Sire's power count is so low (2–3 total powers) that the [Power Fade](#power-fade--inheritance) math forces the fledgling's starting power slots to 0. The ancient vampiric bloodline collapses into an unstable, hollow shell.
 * **Sensory Profile:** Translucent, paper-thin white skin revealing pulsing black veins underneath; irregular obsidian bone ridges erupting from the spine and jaw. The Abomination emits a constant low-frequency hum of distorted blood static.
 * **Behavioral Traits:** Suffers constant, excruciating physical agony as their corrupted blood tethers attempt to draw non-existent magic. Highly volatile and prone to sudden explosive violence.
@@ -725,7 +725,7 @@ Created when a young Sire's power count is so low (2–3 total powers) that the 
   * **Sanguine Shockwave:** Can expend 1 blood reserve to emit a violent, 15-foot telekinetic explosion of dark blood, knocking back all surrounding enemies up to **20 feet**, knocking them prone, and dealing area damage. *Haven Sanctuary Law Notice:* Sanguine Shockwave hits ALL targets (allies and enemies) within 15 feet. Invoking Sanguine Shockwave inside Haven grounds that hits or bleeds a fellow Coven member strictly violates the [Law of Haven Sanctuary](#secrecy-covens-and-thralls).
   * **Solar Vulnerability:** Takes **double damage** from sunlight (advancing to Round 3 Ash Collapse in 9 seconds instead of 18 seconds).
 
-##### 3. The Spliced Reaper (Trigger: Artificial / Cyber-Gene Tampering)
+#### 3. The Spliced Reaper (Trigger: Artificial / Cyber-Gene Tampering)
 Created when advanced technology or gene-splicing experiments tamper with vampiric DNA, forcing synthetic viral strains or cybernetic filters into the bloodline.
 * **Sensory Profile:** Terrifying apex predator featuring a triple-hinged jaw that unhinges wide, a 6-foot prehensile barbed tongue, jet-black eyes with no iris, and bioluminescent crimson veins.
 * **Behavioral Traits:** Driven by hyper-engineered predatory aggression. Reapers do not respect Coven laws or Sire authority, hunting both mortals and standard vampires indiscriminately.
