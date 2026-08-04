@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.45.0-as",
+    "version": "2608.46.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.45.0-as
+# Vampire Ruleset v2608.46.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -575,7 +575,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Trench Plague `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Your physical form disintegrates into a chittering tide of red-eyed sewer rats. The swarm flows effortlessly beneath floorboards, through sewage pipes, and under locked steel doors, bypassing security barriers completely undetected by mortal guards.
 * **Gnawing Scourge `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** A ravenous horde of scavenger rats surges over an enemy or object. The swarm rapidly chews through Kevlar armor, leather, wooden doors, power lines, and security cables, destroying physical equipment while causing mass panic in crowds.
 * **Verminous Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of subterranean infestation. You possess both *Trench Plague* (`Sustained`) and *Gnawing Scourge* (`Activated`), giving you complete control over rat swarm stealth infiltration, pipe navigation, and equipment sabotage in a single Master power slot.
-* **Weaver’s Eclipse `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Your physical form dissolves into a silent, skittering carpet of thousands of black, venomous spiders. Moving in complete silence, the swarm can effortlessly scale sheer vertical walls, drop from ceilings, and weave razor-thin web traps across doorframes to entangle and paralyze enemies while in transit. *Web Trap Counterplay:* Cobwebs created by Weaver's Eclipse or *Silk & Shadow* paralyze enemies, requiring a **Hard Strength check** to break free. Fire (*Pyromancy*, *Pyre Aura*) or *Kinetic Blasts* destroy web traps instantly.
+* **Weaver’s Eclipse `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Your physical form dissolves into a silent, skittering carpet of thousands of black, venomous spiders. Moving in complete silence, the swarm can effortlessly scale sheer vertical walls, drop from ceilings, and weave razor-thin web traps across doorframes to entangle and paralyze enemies while in transit. *Web Trap Counterplay:* Cobwebs created by Weaver's Eclipse or *Silk & Shadow* paralyze enemies, requiring a **Hard Strength check** to break free. Fire (*Pyromancy*, *Pyre Aura*) or *Kinetic Blasts* destroy web traps instantly. *Swarm Mass Dispersal, Partial Destruction & Automatic Pocket-Realm Ejection Math:* The manifested swarm anchors its physical biomass through pocket-realm spatial projection. Individual lost or stepped-on spiders do not inflict damage. However, if concentrated area-of-effect attacks (flamethrowers, explosions, acid) destroy significant fractions of the swarm before re-forming, the vampire suffers **1 Wound per 25% of total swarm mass destroyed**. Crossing the **Total Dispersal Threshold ($\ge 75\%$ swarm destruction)** triggers an automatic pocket-realm spatial ejection: the remaining swarm mass collapses, forcibly ejecting the vampire out of swarm form into a mangled humanoid torso and collapsing them immediately into **Stage 3 Torpor**.
 * **Arachnid Tide `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** Your body disintegrates into a rushing wave of shadow-spiders that cascades over terrain like dark liquid silk. The swarm inflicts micro-neurotoxic bites that numb a target's limbs, causing paralysis and disorientation before re-coalescing into human form behind them.
 * **Silk & Shadow `[Activated - 1 Reserve | Duration: 1 Scene]`:** You split your mass into a skittering colony of albino and jet-black web-weavers. The spiders can coat an entire room in thick, sticky cobwebs within seconds, extinguishing light sources and obscuring vision while allowing you to sense vibrations anywhere in the webbed zone.
 * **Arachnid Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of spider-swarm mastery. You possess *Weaver’s Eclipse*, *Arachnid Tide*, and *Silk & Shadow*. Whenever you shift into a spider swarm, you choose which specific manifestation or tactical effect to invoke—or combine their traits into a singular, terrifying arachnid storm.

@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.46.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 24 Red Team Audit fix for `TODO-55` (Weaver's Eclipse Swarm Mass Dispersal, Partial Destruction & Automatic Pocket-Realm Ejection Math).**
+
+#### Added
+- **Weaver's Eclipse Swarm Mass Dispersal & Automatic Pocket-Realm Ejection Math (`TODO-55`):** Codified rule specifying that destroying manifested spider swarm mass via area-of-effect attacks (fire, explosions, acid) inflicts **1 Wound per 25% of total swarm mass destroyed**. Crossing the **Total Dispersal Threshold ($\ge 75\%$ swarm destruction)** triggers an automatic pocket-realm spatial ejection: the remaining swarm mass collapses, forcibly ejecting the vampire out of swarm form into a mangled humanoid torso and collapsing them immediately into **Stage 3 Torpor**.
+
+---
+
 ### 2608.45.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 24 Red Team Audit fix for `TODO-54` (Mind Tear Foundational Bloodline & Heritage Memory Wiping Prohibition).**

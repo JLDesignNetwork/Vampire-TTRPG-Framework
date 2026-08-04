@@ -1,5 +1,5 @@
 {
-  "version": "2608.45.0-as",
+  "version": "2608.46.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -600,10 +600,11 @@
       "section": "## Powers -> Alteration (Forms & Shifting)",
       "link": "vampire.md#alteration-forms--shifting",
       "title": "Audit Weaver's Eclipse Swarm Mass Dispersal & Partial Destruction Math",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.42.0-as",
-      "details": "Audit spider swarm destruction: clarify that if 25% or more of manifested spiders are incinerated or destroyed before re-forming, the vampire re-forms missing 1 Core Health point per 25% swarm destruction."
+      "details": "Codified Swarm Mass Dispersal, Partial Destruction & Automatic Pocket-Realm Ejection Math: Destroying swarm mass via AoE fire/explosions inflicts 1 Wound per 25% swarm mass destroyed; reaching >= 75% swarm destruction triggers automatic pocket-realm spatial ejection, re-forming a mangled torso in Stage 3 Torpor."
     },
     {
       "id": "TODO-56",
