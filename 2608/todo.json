@@ -1,5 +1,5 @@
 {
-  "version": "2608.40.0-as",
+  "version": "2608.41.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -556,10 +556,11 @@
       "section": "## Powers -> Immunities & Resistances",
       "link": "vampire.md#immunities--resistances",
       "title": "Audit Daywalker's Grace Concentrated Solar Beam Multiplier",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "low",
+      "protection": "protected",
       "existed_since": "2608.36.0-as",
-      "details": "Audit Daywalker timer acceleration: clarify that focused high-intensity solar beams (magnifying solar lenses, orbital mirrors) consume the 3-minute timer at triple speed (10s burns 30s timer)."
+      "details": "Codified Concentrated Solar Beam Acceleration Multiplier (3x Drain): Ambient natural sunlight drains Daywalker's 180s timer at 1:1 speed, but focused high-intensity solar weaponry (solar lenses, orbital mirrors) overloads sigils, consuming the timer at 3x speed."
     }
   ]
 }

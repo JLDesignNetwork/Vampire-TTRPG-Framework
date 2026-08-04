@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.40.0-as",
+    "version": "2608.41.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.40.0-as
+# Vampire Ruleset v2608.41.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -588,7 +588,8 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Chameleon Facade `[Activated - 1 Reserve | Duration: 1 Scene]`:** Underneath your skin, bone structure and cartilage audibly shift like wet clay. You can alter your facial structure, voice pitch, eye color, height, and fingerprints to perfectly impersonate another mortal or slide past security unnoticed for 1 scene. *Laboratory Bio-Limits & Thermal FLIR Masking Failure:* Chameleon Facade alters physical dermal contours, facial features, vocal pitch, and ridge fingerprints. However, non-physical deep biological markers (blood DNA sequencing, room-temperature non-circulating blood) still reveal vampiric biology under medical/laboratory equipment. Furthermore, Chameleon Facade does **NOT** generate internal body heat; under FLIR thermal imaging or heat-seeking sensors, the disguised vampire displays as a room-temperature cold blue silhouette, immediately failing thermal optic inspections unless external heating gear or heat-masking magic is used.
 
 **Immunities & Resistances**
-* **Daywalker's Grace `[Activated - 1 Reserve | Duration: Up to 3 Minutes Solar Shield]`:** Ancient protective sigils woven into your blood shield you from the holy fury of the sun. While mortals sizzle in seconds, your skin merely emits a faint vapor, allowing you to walk beneath unfiltered sunlight for up to **3 precious minutes** per exposure to escape death (inflicting dermal steam burns and a persistent -2 action penalty while exposed).
+* **Daywalker's Grace `[Activated - 1 Reserve | Duration: Up to 3 Minutes Solar Shield]`:** Ancient protective sigils woven into your blood shield you from the holy fury of the sun. While mortals sizzle in seconds, your skin merely emits a faint vapor, allowing you to walk beneath unfiltered sunlight for up to **3 precious minutes (180 seconds)** per exposure to escape death (inflicting dermal steam burns and a persistent -2 action penalty while exposed).
+  * **Concentrated Solar Beam Acceleration Multiplier (3x Drain):** Standard ambient natural sunlight drains the 180-second timer at normal 1:1 speed. However, focused high-intensity solar weaponry (magnifying solar lenses, parabolic heat-rays, orbital solar mirrors) overloads the blood sigils, consuming the timer at **3x speed** (10 seconds of concentrated beam exposure burns **30 seconds** of shield timer). Expiring the 180-second timer shatters protective sigils, advancing immediately into Round 2 Flesh Ignition!
   * **Required Recovery Window:** After direct solar exposure, the vampire MUST complete a **Recovery Window of 1 full night of undisturbed Native Soil slumber** (or 6 hours in total shadow) before *Daywalker's Grace* can be activated again. Re-exposure before completing the recovery window causes the power to fail, advancing immediately into Round 2 Flesh Ignition! *Strict Recovery Reset:* Any solar exposure before completing the 6-hour shadow / 1-night Native Soil recovery window immediately resets the recovery timer back to 0.
   * **Solar Swarm Transference Timer:** Sunlight shining upon a manifested swarm transfers 100% solar radiation into the Pocket-Realm body, **continuously consuming** the 3-minute Daywalker's Grace timer. Once the 3-minute timer expires, solar combustion erupts inside the Pocket-Realm, forcibly ejecting the vampire into Stage 4 Torpor.
 * **Unholy Primacy `[Innate Passive - 0 Reserves | Duration: Permanent]`:** A rare and powerful trait inherited directly at Creation via bloodline latency. The pinnacle of bane immunity—your blood becomes dense and unyielding. You gain total, combined immunity to holy water, garlic, and crucifixes; holy water rolls off your skin like oil on glass, garlic smells like sweet perfume, and sacred symbols fail to repel or paralyze your march.
