@@ -8,6 +8,23 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.36.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 22 Red Team Audit fixes (`TODO-42` through `TODO-46`) and registering Round 23 audit tasks.**
+
+#### Added
+- **Grave Chill Cryo-Impacts & Structural Fragility:** Codified rule specifying that bludgeoning strikes or Kinetic Blast shockwaves against frozen targets deal +1 bonus impact damage, and parrying with frozen weapons carries a 1-in-6 shatter chance.
+- **Soul Bind Ethereal Vitae Detection:** Codified rule specifying that bound spirits sense ethereal vitae signatures rather than light reflections, detecting manifested swarms and Pocket-Realm tethers.
+- **Cognitive Distortion Disorientation Penalty Scope:** Codified rule specifying that Cognitive Distortion imposes a -2 penalty to all physical attack rolls (melee and ranged) and forces area-of-effect attacks to scatter randomly in direction.
+- **Phantasm Non-Biological AI Immunity:** Clarified that automated AI turrets, combat drones, and non-biological sensors lack organic brain tissue and are completely immune to Phantasm illusions.
+- **Slumbering Legion Physical Excavation Constraints:** Clarified that re-animated corpses retain mortal physical Strength caps; buried corpses take 1 round to claw through loose soil and cannot breach solid concrete without excavation support.
+
+#### Modified
+- Updated H1 title in `vampire-2608.md` to `# Vampire Ruleset v2608.36.0-as`.
+- Completed tasks `TODO-42` through `TODO-46` in frontmatter (`"status": "completed"`, `"protection": "protected"`) and registered Round 23 audit tasks `TODO-47` through `TODO-51` in `in-progress:audit` status.
+
+---
+
 ### 2608.35.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 21 Red Team Audit fixes (`TODO-37` through `TODO-41`) and registering Round 22 audit tasks.**

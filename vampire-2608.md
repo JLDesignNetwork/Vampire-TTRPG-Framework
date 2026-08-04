@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.35.0-as"
+    "version": "2608.36.0-as"
   },
   "todo": [
     {
@@ -420,52 +420,102 @@
       "id": "TODO-42",
       "section": "## Powers -> Combat & Elemental Evocation",
       "title": "Audit Grave Chill Cryo-Brittleness Kinetic Impact Vulnerability",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "low",
+      "protection": "protected",
       "existed_since": "2608.35.0-as",
-      "details": "Audit Grave Chill cryo-impacts: clarify that physical bludgeoning attacks or Kinetic Blast against frozen targets deal +1 bonus impact damage, and parrying with frozen weapons carries a 1-in-6 shatter chance."
+      "details": "Codified Kinetic Impact & Structural Fragility: bludgeoning strikes or Kinetic Blast against frozen targets deal +1 bonus impact damage, and parrying with frozen weapons carries a 1-in-6 shatter chance."
     },
     {
       "id": "TODO-43",
       "section": "## Powers -> Necromancy & Grave Arts",
       "title": "Audit Soul Bind Incorporeal Sentry Interdimensional Detection Limit",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.35.0-as",
-      "details": "Audit Soul Bind sentry detection: clarify that bound spirits sense ethereal vitae signatures rather than light reflections, detecting manifested swarms and Pocket-Realm tethers."
+      "details": "Codified Ethereal Vitae Detection: bound spirits sense ethereal vitae signatures rather than light reflections, detecting manifested swarms and Pocket-Realm tethers."
     },
     {
       "id": "TODO-44",
       "section": "## Powers -> Behavioral Powers (Thought)",
       "title": "Audit Cognitive Distortion Target Orientation & Blind Fire Penalty",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.35.0-as",
-      "details": "Audit Cognitive Distortion penalty scope: clarify that Cognitive Distortion imposes a -2 penalty to all physical attack rolls (melee and ranged) and forces area-of-effect attacks to scatter."
+      "details": "Codified Disorientation Penalty Scope: Cognitive Distortion imposes a -2 penalty to all physical attack rolls (melee and ranged) and forces area-of-effect attacks to scatter."
     },
     {
       "id": "TODO-45",
       "section": "## Powers -> Advanced Mental & Illusion",
       "title": "Audit Phantasm Non-Biological AI & Drone Immunity",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.35.0-as",
-      "details": "Audit Phantasm non-biological target scope: clarify that automated AI turrets, combat drones, and non-biological sensors lack organic brain tissue and are completely immune to Phantasm."
+      "details": "Codified Non-Biological AI Immunity: automated AI turrets, combat drones, and non-biological sensors lack organic brain tissue and are completely immune to Phantasm."
     },
     {
       "id": "TODO-46",
       "section": "## Powers -> Necromancy & Grave Arts",
       "title": "Audit Aura of the Slumbering Legion Underwater & Soil Submersion Minion Mobility",
+      "status": "completed",
+      "priority": "low",
+      "protection": "protected",
+      "existed_since": "2608.35.0-as",
+      "details": "Codified Physical Excavation Constraints: re-animated corpses retain mortal physical Strength caps; buried corpses take 1 round to claw through loose soil and cannot breach solid concrete without excavation."
+    },
+    {
+      "id": "TODO-47",
+      "section": "## Powers -> Combat & Elemental Evocation",
+      "title": "Audit Pyre Aura Underwater & Extinguishing Exemption",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.36.0-as",
+      "details": "Audit Pyre Aura fuel: clarify that Pyre Aura consumes pressurized blood as fuel, burning continuously underwater, in heavy rain, or under fire suppression foam without extinguishing."
+    },
+    {
+      "id": "TODO-48",
+      "section": "## Powers -> Telekinesis & Psychokinesis",
+      "title": "Audit Mind Grip Reaction Speed & Supersonic Projectile Limit",
+      "status": "in-progress:audit",
+      "priority": "medium",
+      "existed_since": "2608.36.0-as",
+      "details": "Audit Mind Grip reaction bounds: clarify that Mind Grip can intercept thrown weapons or subsonic projectiles, but supersonic sniper rounds require active Kinetic Barrier."
+    },
+    {
+      "id": "TODO-49",
+      "section": "## Powers -> Alteration (Forms & Shifting)",
+      "title": "Audit Chameleon Facade Thermal FLIR Signature Masking Failure",
       "status": "in-progress:audit",
       "priority": "low",
-      "existed_since": "2608.35.0-as",
-      "details": "Audit Slumbering Legion excavation: clarify that re-animated corpses retain mortal physical Strength caps; buried corpses take 1 round to claw through loose soil and cannot breach solid concrete without excavation."
+      "existed_since": "2608.36.0-as",
+      "details": "Audit Chameleon Facade thermal profile: clarify that Chameleon Facade alters physical dermal contours but does NOT generate body heat, remaining visible as a cold blue silhouette on thermal FLIR."
+    },
+    {
+      "id": "TODO-50",
+      "section": "## Powers -> Healing",
+      "title": "Audit Grand Harmonization of Vitae Severed Limb Regrowth Time",
+      "status": "in-progress:audit",
+      "priority": "high",
+      "existed_since": "2608.36.0-as",
+      "details": "Audit limb regrowth duration: clarify that re-growing a completely severed major limb requires burning 3 Blood Reserves total over 3 consecutive combat rounds while maintaining concentration."
+    },
+    {
+      "id": "TODO-51",
+      "section": "## Powers -> Immunities & Resistances",
+      "title": "Audit Daywalker's Grace Concentrated Solar Beam Multiplier",
+      "status": "in-progress:audit",
+      "priority": "low",
+      "existed_since": "2608.36.0-as",
+      "details": "Audit Daywalker timer acceleration: clarify that focused high-intensity solar beams (magnifying solar lenses, orbital mirrors) consume the 3-minute timer at triple speed (10s burns 30s timer)."
     }
   ]
 }
 ---
 
-# Vampire Ruleset v2608.35.0-as
+# Vampire Ruleset v2608.36.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -976,7 +1026,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 
 **Thought**
 * **The Collective Whisper `[Activated - 1 Reserve | Duration: 1 Scene]`:** You project a telepathic wave across a crowd that whispers simultaneously into dozens of mortal minds. The crowd reacts as a single organism—collectively dispersing, bursting into unexplained protest, or looking away from a bloody supernatural event as if nothing happened. *Supernatural Entity Exclusion:* The Collective Whisper targets unconditioned mortal minds. Any vampire or supernatural entity inside the crowd automatically senses the telepathic pulse, is immune to the crowd dispersion effect, and receives an instant alert to the invoking vampire's location.
-* **Cognitive Distortion `[Activated - 1 Reserve | Duration: 1 Scene]`:** You flood a target's brain with disorienting psychic white noise. The victim experiences sudden severe vertigo, ringing ears, and blurred double vision, rendering sniper aim impossible and causing investigators to forget what they were searching for.
+* **Cognitive Distortion `[Activated - 1 Reserve | Duration: 1 Scene]`:** You flood a target's brain with disorienting psychic white noise. The victim experiences sudden severe vertigo, ringing ears, and blurred double vision, rendering sniper aim impossible and causing investigators to forget what they were searching for. *Disorientation Penalty Scope:* Cognitive Distortion imposes a **-2 penalty to all physical attack rolls** (melee and ranged) and forces area-of-effect attacks to scatter randomly in direction.
 * **Mind Tear `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You violently bore through a victim's mental barriers like a hot needle through silk. The target's eyes roll back as you pull surface thoughts, hidden passcodes, secret fears, or recent visual memories directly into your own consciousness, leaving the victim with a severe nosebleed.
 
 **Self-Control**
@@ -1004,7 +1054,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 * **Telekinetic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of psychokinesis. You possess *Mind Grip*, *Kinetic Barrier*, and *Kinetic Crush*, granting absolute mastery over telekinetic lifting, projectile defense, and force crushing in a single Master power slot.
 
 **Advanced Mental & Illusion**
-* **Phantasm `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project vivid sensory illusions directly into a target's mind. You can make an ally appear as a monstrous threat, project false gunshots, or create an illusionary wall to hide your escape. *Mental Scope:* Because Phantasm projects directly into the target's brain rather than bending light in physical space, it affects all senses (visual, auditory, olfactory) of the targeted host mind. Automated non-sentient physical machines or optical security cameras are completely immune. *Cybernetic Optic Interaction:* If a target possesses cybernetic camera eyes or digital HUDs wired into their visual cortex, Phantasm affects the organic mind, but raw digital HUD overlays display un-distorted feeds. This visual clash inflicts a severe **-2 perceptual disorientation penalty** for 1 round as the host mind struggles to reconcile the mental illusion with the digital HUD.
+* **Phantasm `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You project vivid sensory illusions directly into a target's mind. You can make an ally appear as a monstrous threat, project false gunshots, or create an illusionary wall to hide your escape. *Mental Scope:* Because Phantasm projects directly into the target's brain rather than bending light in physical space, it affects all senses (visual, auditory, olfactory) of the targeted host mind. Automated non-sentient physical machines or optical security cameras are completely immune. *Non-Biological AI Immunity:* Phantasm operates exclusively upon organic neurological visual/auditory cortices. Non-biological automated AI turrets, combat drones, and security sensors possess zero organic brain tissue and are **completely immune** to Phantasm illusions (displaying true physical reality). *Cybernetic Optic Interaction:* If a target possesses cybernetic camera eyes or digital HUDs wired into their visual cortex, Phantasm affects the organic mind, but raw digital HUD overlays display un-distorted feeds. This visual clash inflicts a severe **-2 perceptual disorientation penalty** for 1 round as the host mind struggles to reconcile the mental illusion with the digital HUD.
 * **Puppet Master `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You violently seize control of a target's motor nervous system like a marionette. The victim remains conscious but helpless as you force their body to pull a trigger, unlock a security vault, or drop their weapons. *Motor Nervous & Anatomical Scope:* Puppet Master operates strictly upon external skeletal push-pull and stabilizer muscles (forcing movement, weapon drops, pulling triggers). It cannot manipulate internal involuntary organs, diaphragmatic respiratory compression, or vocal cord air passage patterns. Consequently, Puppet Master **cannot force vocal compliance, speech, or password recitation** (forcing vocal speech requires *Imperious Word* or mental probe powers like *Mind Tear*). It does NOT grant access to internal brain thoughts, blood reserves, or supernatural power activations; the conscious victim may still attempt mental defenses (*Psychic Fortress*, *Mind Tear*) on their turn.
 * **Psychic Fortress `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You build an impenetrable psychic barrier around your own mind. You are completely immune to mental probes (*Mind Tear*), emotional siphons, and memory wipes (*Lethe's Touch*) attempted by rival vampires. (Sustaining costs 1 Blood Reserve per combat round).
 
@@ -1077,16 +1127,16 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Pyromantic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of blood pyromancy. You possess *Hellfire Orb*, *Combust Vitae*, and *Pyre Aura*, granting absolute mastery over infernal flame generation, blood combustion, and hellfire shields in a single Master power slot.
 * **Sanguine Spike `[Activated - 1 Reserve | Duration: Instantaneous (1 Attack)]`:** You solidify a stream of pressurized vitae into razor-sharp, obsidian-hard blood javelins. You hurl these spikes with supernatural force, piercing heavy body armor and pinning targets to stone walls. *Environmental Density Solidification:* Sanguine Spikes are held together by supernatural pressure and blood density magic. They solidify instantly upon projection and do not dissolve in water, mud, or liquid atmospheres, maintaining standard armor-piercing damage underwater. *Armor Penetration:* Ignores mundane physical armor ratings (Kevlar, steel plate); targets may still attempt Dodge checks or project supernatural energy defenses (*Kinetic Barrier*). *Structural Hardness Math:* Applies strictly to personal body armor worn by combatants. Heavy structural barriers (armored vault doors, tank hulls, reinforced concrete) possess Structural Integrity Hit Points and are not instantly bypassed; Sanguine Spikes deal standard physical damage against the barrier's Structural HP pool.
 * **Umbral Blade `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You extend your physical melee strikes with long, razor-thin whips of solid shadow. These dark blades bypass mundane physical shields and slice effortlessly through metal, armor, and bone. *Armor Penetration:* Ignores mundane physical armor ratings (Kevlar, steel plate); targets may still attempt Dodge checks or project supernatural energy defenses (*Kinetic Barrier*). *Structural Hardness Math:* Applies strictly to personal body armor worn by combatants. Heavy structural barriers (armored vault doors, tank hulls, reinforced concrete) possess Structural Integrity Hit Points and are not instantly bypassed; Umbral Blade strikes deal standard physical damage against the barrier's Structural HP pool.
-* **Grave Chill `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit a flash-freeze wave of tomb cold. Ambient moisture turns to ice instantaneously, coating enemies in frost, slowing their movement to a crawl, and making their weapons brittle.
+* **Grave Chill `[Activated - 1 Reserve | Duration: 1 Scene]`:** You emit a flash-freeze wave of tomb cold. Ambient moisture turns to ice instantaneously, coating enemies in frost, slowing their movement to a crawl, and making their weapons brittle. *Kinetic Impact & Structural Fragility:* Grave Chill coats targets in structural frost; physical bludgeoning attacks or *Kinetic Blast* shockwaves against frozen targets deal **+1 bonus impact damage**, and parrying with frozen weapons carries a 1-in-6 chance of shattering mundane blades.
 * **Kinetic Blast `[Activated - 1 Reserve | Duration: Instantaneous (20ft Knockback)]`:** You release a crushing wave of telekinetic force. The shockwave hurls enemy combatants backward up to **20 feet**, shattering bones, disarming foes, breaching reinforced wooden doors, and knocking targets prone. Targets hitting solid walls suffer minor impact damage; targets near ledges may make a physical Agility/Evasion check to catch a ledge.
 * **Nerve Lightning `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You hijack the target's neural bio-electrical network, causing a sudden violent electrical short-circuit. The victim suffers blinding pain and muscular spasms, dropping held weapons and collapsing to their knees. *Bio-Neural Target Scope:* Nerve Lightning specifically targets biological neural nervous systems (living mortals, animals, vampires, Reapers). Purely mechanical, non-biological entities (drones, computer mainframes, security cameras) lack a biological neural network and are unaffected.
 
 **Necromancy & Grave Arts**
 * **Corpse Siphon `[Activated - 1 Reserve | Duration: 1 Scene (60s Memory Extraction)]`:** By placing your hand upon a corpse (or dead neural host) deceased within the last 24 hours, you commune with the cold residual echo of the soul/brain, viewing their final 60 seconds of memories or extracting 1 truthful answer to a spoken question. *Head-Touch Neural Requirement:* Corpse Siphon extracts residual neural memories from the brain cortex; the invoking vampire MUST make direct skin-to-skin contact with the **decapitated head itself** (touching a headless torso yields 0 memories). *Undead Head Interrogation Scope:* Corpse Siphon targets ONLY non-living, truly deceased mortal/host corpses. Invoking Corpse Siphon on a living or torpid decapitated vampire head fails automatically; probing an undead mind requires active mental powers (*Mind Tear*) and must overcome the target's mental defenses.
 * **Rise of the Slumbering `[Activated - 1 Reserve | Duration: 1 Scene]`:** You inject a stream of black, necrotic vitae into a freshly deceased body. The corpse re-animates as a mindless, pain-immune minion under your direct command for 1 scene to fight, block doorways, or perform manual labor.
-* **Aura of the Slumbering Legion `[Activated / Sustained - 1 Reserve Activation (1 Scene) | Upkeep: 1 Reserve/Round]`:** You pulse a shockwave of necrotic energy outward. This power re-animates up to **ROUND(VAMPIRE_AGE / 100)** dead human/mortal corpses within a **[10 + ROUND(VAMPIRE_AGE / 100)]** feet diameter sphere centered on yourself. The animated corpses rise as mindless, pain-immune minions under your direct command for **1 scene**. *Optional Sustained Maintenance:* If you burn **1 Blood Reserve per round** to sustain the aura, the re-animation field moves with you as an active aura sphere; any newly slain corpses entering or falling within the sphere during combat are automatically re-animated without spending additional activation blood! *Active Minion Cap & Trailing Minions:* A vampire can only maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active re-animated corpses at any given time. Re-animated corpses that fall outside the trailing edge of a moving aura sphere remain active for the remainder of the 1-scene duration, provided total active minions do not exceed the active minion cap. Recasting the aura while at the cap replaces older minions; any excess animated corpses beyond the cap immediately collapse back into lifeless, inanimate remains.
+* **Aura of the Slumbering Legion `[Activated / Sustained - 1 Reserve Activation (1 Scene) | Upkeep: 1 Reserve/Round]`:** You pulse a shockwave of necrotic energy outward. This power re-animates up to **ROUND(VAMPIRE_AGE / 100)** dead human/mortal corpses within a **[10 + ROUND(VAMPIRE_AGE / 100)]** feet diameter sphere centered on yourself. The animated corpses rise as mindless, pain-immune minions under your direct command for **1 scene**. *Optional Sustained Maintenance:* If you burn **1 Blood Reserve per round** to sustain the aura, the re-animation field moves with you as an active aura sphere; any newly slain corpses entering or falling within the sphere during combat are automatically re-animated without spending additional activation blood! *Active Minion Cap & Trailing Minions:* A vampire can only maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active re-animated corpses at any given time. Re-animated corpses that fall outside the trailing edge of a moving aura sphere remain active for the remainder of the 1-scene duration, provided total active minions do not exceed the active minion cap. Recasting the aura while at the cap replaces older minions; any excess animated corpses beyond the cap immediately collapse back into lifeless, inanimate remains. *Physical Excavation Constraints:* Re-animated corpses gain basic motor function but retain mortal physical Strength caps. Corpses submerged under loose dirt take 1 full combat round to claw out; corpses trapped beneath solid concrete slabs or reinforced coffin vaults cannot break free without external excavation support.
 * **Grave Rot `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You emit a chilling aura of rapid decay. Organic flesh rots, iron/steel rusts, wood splinters, and synthetic armor degrades instantly within your immediate proximity. *Synthetic & Cybernetic Scope:* Grave Rot attacks physical structural integrity regardless of tech era, degrading mundane iron, steel, Kevlar, synthetic polymers, and cybernetic limb joints alike (-1 armor/structural penalty per round in the aura). Sacred relics, blood archives, and supernatural artifacts possess mystical resilience and are immune to passive Grave Rot decay.
-* **Soul Bind `[Activated - 1 Reserve | Duration: Permanent Nocturnal Sentry]`:** You bind the restless spirit of a slain mortal to a physical object, grave marker, or terminal node, forcing the phantom to act as a permanent nocturnal sentry that alerts you to intruders. *Active Sentry Cap & Incorporeal Status:* A vampire can maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active bound spirits (minimum 1). Bound spirits function purely as incorporeal nocturnal sentries (warning of intruders); they cannot inflict physical attack damage.
+* **Soul Bind `[Activated - 1 Reserve | Duration: Permanent Nocturnal Sentry]`:** You bind the restless spirit of a slain mortal to a physical object, grave marker, or terminal node, forcing the phantom to act as a permanent nocturnal sentry that alerts you to intruders. *Active Sentry Cap & Incorporeal Status:* A vampire can maintain a maximum total of **ROUND(VAMPIRE_AGE / 100)** active bound spirits (minimum 1). Bound spirits function purely as incorporeal nocturnal sentries (warning of intruders); they cannot inflict physical attack damage. *Ethereal Vitae Detection:* Bound spirits sense ethereal vitae signatures rather than light reflections; manifested swarms (even when tethered to Pocket-Realms) disturb local spiritual aura gradients, allowing bound sentries to alert their master to swarm intruders.
 * **Necromantic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of death manipulation. You possess *Corpse Siphon*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot*, and *Soul Bind*, granting absolute control over post-mortem interrogation, individual and mass corpse animation, decay, and spirit binding in a single Master power slot.
 
 ## Social
