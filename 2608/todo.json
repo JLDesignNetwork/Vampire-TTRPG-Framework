@@ -1,5 +1,5 @@
 {
-  "version": "2608.39.0-as",
+  "version": "2608.40.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -545,10 +545,11 @@
       "section": "## Powers -> Healing",
       "link": "vampire.md#healing",
       "title": "Audit Grand Harmonization of Vitae Severed Limb Regrowth Time",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.36.0-as",
-      "details": "Audit limb regrowth duration: clarify that re-growing a completely severed major limb requires burning 3 Blood Reserves total over 3 consecutive combat rounds while maintaining concentration."
+      "details": "Codified Severed Limb Regrowth Duration & Concentration Math: Re-attaching a retrieved limb costs 1 Reserve in 1 round; re-growing a missing limb from scratch requires 3 Reserves total over 3 consecutive combat rounds under concentration."
     },
     {
       "id": "TODO-51",

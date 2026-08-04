@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.40.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 23 Red Team Audit fix for `TODO-50` (Grand Harmonization of Vitae Severed Limb Regrowth Duration & Concentration Math).**
+
+#### Added
+- **Grand Harmonization of Vitae Severed Limb Regrowth Duration (`TODO-50`):** Codified rule specifying that re-attaching a retrieved severed limb held against the stump requires burning **1 Blood Reserve** to mend in 1 combat round. However, re-growing a completely destroyed or unretrievable major limb (arm, leg) from scratch requires expending **3 Blood Reserves total** over **3 consecutive combat rounds** (1 Reserve/round) while maintaining concentration. Taking damage during regrowth forces a **Hard Self-Control check**; failure interrupts the process, consuming spent reserves without completing limb regrowth.
+
+---
+
 ### 2608.39.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 23 Red Team Audit fix for `TODO-49` (Chameleon Facade Thermal FLIR Signature Masking Failure).**

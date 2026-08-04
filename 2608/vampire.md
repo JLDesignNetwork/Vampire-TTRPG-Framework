@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.39.0-as",
+    "version": "2608.40.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.39.0-as
+# Vampire Ruleset v2608.40.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -607,7 +607,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
 * **Sanguine Knit `[Activated - 1 Reserve | Duration: Instantaneous (1 Wound Mend)]`:** Burning stored blood reserves causes broken bones to snap back into place with wet clicks while deep lacerations knit together in seconds, sealing wounds mid-combat under a sheen of dark crimson mist (max 1 wound/round). *Strict Self-Only Scope:* Sanguine Knit affects **ONLY the invoking vampire**. A vampire cannot spend blood or use Sanguine Knit to mend another vampire, mortal, or thrall. *Control Signal Requirement:* Sanguine Knit is fueled by blood in the heart, but controlled strictly by brain signals from the head. Severing the neck breaks signal transmission; neither the detached head nor the headless torso can invoke Sanguine Knit to seal a severed neck stump while detached.
 * **Mask of Mortality `[Innate Toggle - 0 Reserves | Duration: Continuous Toggle]`:** You suppress your supernatural regeneration, forcing injuries to bleed, scab, and bruise at a mundane human rate to fool medical examiners and maintain your cover in mortal society. *Forensic Detection:* While Mask of Mortality and Sovereign Temperament fool visual inspection and basic vital checks, deep medical blood tests (toxicology panels, DNA sequencing) reveal room-temperature non-circulating blood lacking oxygen, exposing vampiric anatomy to medical laboratory equipment.
 * **Necrotic Vitae `[Activated - 1 Reserve | Duration: 1 Scene]`:** You coat your claws or weapons in corrupted, decaying vitae. Wounds inflicted by you turn black and gangrenous, refusing to close or heal for mortals. Rival vampires wounded by Necrotic Vitae suffer suppressed regeneration—they must burn **2 Blood Reserves per wound** (instead of 1) to mend Necrotic injuries via *Sanguine Knit*.
-* **Grand Harmonization of Vitae (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The apex of biological control. You possess *Sanguine Knit*, *Mask of Mortality*, and *Necrotic Vitae*, manipulating your own lifeblood with absolute mastery. *Strict Self-Only Scope:* Grand Harmonization of Vitae operates exclusively upon the invoking vampire's own body; healing powers cannot be projected or cast upon allies under any circumstances.
+* **Grand Harmonization of Vitae (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The apex of biological control. You possess *Sanguine Knit*, *Mask of Mortality*, and *Necrotic Vitae*, manipulating your own lifeblood with absolute mastery. *Strict Self-Only Scope:* Grand Harmonization of Vitae operates exclusively upon the invoking vampire's own body; healing powers cannot be projected or cast upon allies under any circumstances. *Severed Limb Regrowth Duration & Concentration Math:* Re-attaching a retrieved severed limb held against the stump requires burning **1 Blood Reserve** to mend in 1 combat round. However, re-growing a completely destroyed or unretrievable major limb (arm, leg) from scratch requires expending **3 Blood Reserves total** over **3 consecutive combat rounds** (1 Reserve/round) while maintaining concentration. Taking damage during regrowth forces a **Hard Self-Control check**; failure interrupts the process, consuming the spent reserves without completing limb regrowth.
 
 **Combat & Elemental Evocation**
 * **Supernatural Fuel Source (Pyromancy Vacuum Immunity):** Blood Pyromancy (*Hellfire Orb*, *Combust Vitae*, *Pyre Aura*) consumes pressurized vampiric vitae as fuel rather than atmospheric oxygen. Hellfire Orbs and Pyre Auras burn continuously in zero-oxygen vacuums (orbital space stations, airlocks), underwater, and in toxic gas clouds without extinguishing!
