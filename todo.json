@@ -18,11 +18,11 @@
       "section": "## Framework Expansion & Supplements",
       "link": "README.md#project-roadmap",
       "title": "Expand Framework Modules & Core Supplements",
-      "status": "pending:initial",
+      "status": "completed",
       "priority": "high",
-      "protection": "unprotected",
+      "protection": "protected",
       "existed_since": "2608.47.0-as",
-      "details": "Draft brand-new modular framework supplements to expand lore, spellcasting mechanics, coven governance, and tactical equipment arsenals.",
+      "details": "Drafted brand-new modular framework supplements expanding lore, blood sorcery, coven judicial protocols, and tactical equipment arsenals.",
       "tasks": [
         {
           "id": "PROJ-02.1",
@@ -56,13 +56,15 @@
           "id": "PROJ-02.3",
           "child_of": "PROJ-02",
           "section": "## Framework Expansion & Supplements",
-          "link": "README.md#project-roadmap",
+          "link": "2608/supplements/uv_arsenal_handbook.md",
+          "target_version": "2608.48.0-bs",
+          "target_file": "2608/supplements/uv_arsenal_handbook.md",
           "title": "Draft Equipment & UV Arsenal Handbook",
-          "status": "pending:initial",
+          "status": "completed",
           "priority": "medium",
-          "protection": "unprotected",
+          "protection": "protected",
           "existed_since": "2608.47.0-as",
-          "details": "Catalog vampire hunter countermeasures, UV tactical weaponry, thermal FLIR gear, synthetic blood phials, and anti-vampiric tactical armor."
+          "details": "Drafted Equipment & UV Arsenal Handbook supplement (2608/supplements/uv_arsenal_handbook.md) cataloging hunter UV rifles, flashbangs, thermal FLIR masking suits, and Synth-Vitae plasma packs."
         }
       ]
     },
