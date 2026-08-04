@@ -28,13 +28,15 @@
           "id": "PROJ-02.1",
           "child_of": "PROJ-02",
           "section": "## Framework Expansion & Supplements",
-          "link": "README.md#project-roadmap",
+          "link": "2608/supplements/bloodline_magic.md",
+          "target_version": "2608.48.0-bs",
+          "target_file": "2608/supplements/bloodline_magic.md",
           "title": "Draft Bloodline Magic Compendium Supplement",
-          "status": "pending:initial",
+          "status": "completed",
           "priority": "high",
-          "protection": "unprotected",
+          "protection": "protected",
           "existed_since": "2608.47.0-as",
-          "details": "Develop a specialized supplement detailing blood rituals, ancient sorcery incantations, and ancestral lineage spells across fantasy and sci-fi eras."
+          "details": "Drafted Bloodline Magic Compendium supplement (2608/supplements/bloodline_magic.md) detailing Tier 1-3 blood rituals, incantation action economy, coven circle chants, and sacrificial upkeep."
         },
         {
           "id": "PROJ-02.2",
