@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.45.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 24 Red Team Audit fix for `TODO-54` (Mind Tear Foundational Bloodline & Heritage Memory Wiping Prohibition).**
+
+#### Added
+- **Mind Tear Foundational Bloodline & Heritage Memory Wiping Prohibition (`TODO-54`):** Codified rule specifying that *Mind Tear* and memory manipulation spells (*Lethe's Touch*) can probe or wipe mundane human memories, passcodes, combat trauma, or specific scene events. However, foundational metaphysical bloodline tethers—specifically the Sire-Fledgling telepathic compass, Centenary Compulsion, Pre-Change Anchor identity, and bloodline heritage—are etched into the vampire's undead vitae itself and CANNOT be erased, rewritten, or severed by mental probing or memory wiping under any circumstances.
+
+---
+
 ### 2608.44.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 24 Red Team Audit fix for `TODO-53` (Kinetic Crush Cybernetics & Powered Armor Servomotor Joint Lock Scope).**

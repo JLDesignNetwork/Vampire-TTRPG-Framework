@@ -1,5 +1,5 @@
 {
-  "version": "2608.44.0-as",
+  "version": "2608.45.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -589,10 +589,11 @@
       "section": "## Powers -> Advanced Mental & Illusion",
       "link": "vampire.md#advanced-mental--illusion",
       "title": "Audit Mind Tear Foundational Bloodline Memory Wiping Prohibition",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.42.0-as",
-      "details": "Audit memory erasure limits: clarify that Mind Tear can erase mundane memories or battle trauma, but CANNOT erase or sever the Sire-Fledgling telepathic compass, Centenary Compulsion, or bloodline heritage."
+      "details": "Codified Foundational Bloodline & Heritage Memory Wiping Prohibition: Mind Tear and Lethe's Touch can probe/wipe mundane memories or passcodes, but CANNOT erase or sever Sire-Fledgling telepathic compasses, Centenary Compulsions, Anchors, or bloodline heritage."
     },
     {
       "id": "TODO-55",

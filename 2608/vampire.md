@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.44.0-as",
+    "version": "2608.45.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.44.0-as
+# Vampire Ruleset v2608.45.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -524,7 +524,7 @@ These powers project inward to control the vampire’s Beast or outward to manip
 **Thought**
 * **The Collective Whisper `[Activated - 1 Reserve | Duration: 1 Scene]`:** You project a telepathic wave across a crowd that whispers simultaneously into dozens of mortal minds. The crowd reacts as a single organism—collectively dispersing, bursting into unexplained protest, or looking away from a bloody supernatural event as if nothing happened. *Supernatural Entity Exclusion:* The Collective Whisper targets unconditioned mortal minds. Any vampire or supernatural entity inside the crowd automatically senses the telepathic pulse, is immune to the crowd dispersion effect, and receives an instant alert to the invoking vampire's location.
 * **Cognitive Distortion `[Activated - 1 Reserve | Duration: 1 Scene]`:** You flood a target's brain with disorienting psychic white noise. The victim experiences sudden severe vertigo, ringing ears, and blurred double vision, rendering sniper aim impossible and causing investigators to forget what they were searching for. *Disorientation Penalty Scope:* Cognitive Distortion imposes a **-2 penalty to all physical attack rolls** (melee and ranged) and forces area-of-effect attacks to scatter randomly in direction.
-* **Mind Tear `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You violently bore through a victim's mental barriers like a hot needle through silk. The target's eyes roll back as you pull surface thoughts, hidden passcodes, secret fears, or recent visual memories directly into your own consciousness, leaving the victim with a severe nosebleed.
+* **Mind Tear `[Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You violently bore through a victim's mental barriers like a hot needle through silk. The target's eyes roll back as you pull surface thoughts, hidden passcodes, secret fears, or recent visual memories directly into your own consciousness, leaving the victim with a severe nosebleed. *Foundational Bloodline & Heritage Memory Wiping Prohibition:* Mind Tear and memory manipulation spells (*Lethe's Touch*) can probe or wipe mundane human memories, passcodes, combat trauma, or specific scene events. However, foundational metaphysical bloodline tethers—specifically the **Sire-Fledgling telepathic compass, Centenary Compulsion, Pre-Change Anchor identity, and bloodline heritage**—are etched into the vampire's undead vitae itself and **CANNOT** be erased, rewritten, or severed by mental probing or memory wiping under any circumstances.
 
 **Self-Control**
 * **Sovereign Temperament `[Innate Passive - 0 Reserves | Duration: Permanent]`:** You fortify your mind into an unbreachable fortress. The overwhelming scent of spilled blood becomes a faint whisper, your eyes retain their warm human flush, and even severe physical mutilation fails to ignite the feral Beast within you. *Shatter Bonus:* Grants a **+2 mechanical bonus** when attempting a [Shatter Attempt](#the-centenary-compulsion) to break a Sire's command, but does NOT grant automatic success or bypass the internal hemorrhaging trauma cost.
