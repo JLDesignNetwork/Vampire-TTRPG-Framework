@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.37.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release applying Round 23 Red Team Audit fix for `TODO-47` (Pyre Aura Pressurized Vitae Fuel & Extinguishing Exemption).**
+
+#### Added
+- **Pyre Aura Pressurized Vitae Fuel & Extinguishing Exemption (`TODO-47`):** Codified rule specifying that *Pyre Aura* consumes pressurized vampiric blood as fuel rather than atmospheric oxygen. Pyre Aura burns continuously underwater, in torrents of rain, in zero-oxygen vacuums, or under chemical fire suppression foam without extinguishing. It can only be extinguished by expiring the blood upkeep (0 reserves), entering an antimagic deadzone, or colliding with diametrically opposed ice magic (*Grave Chill* thermal shock collapse).
+
+---
+
 ### 2608.36.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 22 Red Team Audit fixes (`TODO-42` through `TODO-46`) and registering Round 23 audit tasks.**

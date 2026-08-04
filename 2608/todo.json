@@ -1,5 +1,5 @@
 {
-  "version": "2608.36.0-as",
+  "version": "2608.37.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -512,10 +512,11 @@
       "section": "## Powers -> Combat & Elemental Evocation",
       "link": "vampire.md#combat--elemental-evocation",
       "title": "Audit Pyre Aura Underwater & Extinguishing Exemption",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "medium",
+      "protection": "protected",
       "existed_since": "2608.36.0-as",
-      "details": "Audit Pyre Aura fuel: clarify that Pyre Aura consumes pressurized blood as fuel, burning continuously underwater, in heavy rain, or under fire suppression foam without extinguishing."
+      "details": "Codified Pressurized Vitae Fuel & Extinguishing Exemption: Pyre Aura consumes pressurized blood as fuel, burning continuously underwater, in heavy rain, in vacuums, or under fire suppression foam without extinguishing."
     },
     {
       "id": "TODO-48",

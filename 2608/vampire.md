@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.36.0-as",
+    "version": "2608.37.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.36.0-as
+# Vampire Ruleset v2608.37.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -619,7 +619,7 @@ These powers represent the physical, physics-defying magic of the vampiric curse
     * **$\Delta = 0$ (Same Age Tier):** **Standard Internal Flame:** Deals standard internal fire damage (1 wound) and causes temporary combat disorientation.
     * **$\Delta = -1$ (Neonate vs. Elder / Elder vs. Ancient):** **Resisted Fizzle:** Target's dense blood resists ignition; inflicts minor superficial skin scorch (0 wounds), easily suppressed by the target.
     * **$\Delta = -2$ (Neonate vs. Ancient):** **Complete Immunity (Nothing Happens):** The Ancient's primordial blood completely smothers the weak pyromantic spark; the spell fails completely with **zero effect**.
-* **Pyre Aura `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Dark, supernatural hellfire erupts across your body and weapons. Your melee strikes ignite targets on contact, and any attacker foolish enough to strike you in close combat suffers immediate fire lashback. (Sustaining costs 1 Blood Reserve per combat round).
+* **Pyre Aura `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Dark, supernatural hellfire erupts across your body and weapons. Your melee strikes ignite targets on contact, and any attacker foolish enough to strike you in close combat suffers immediate fire lashback. (Sustaining costs 1 Blood Reserve per combat round). *Pressurized Vitae Fuel & Extinguishing Exemption:* Pyre Aura consumes pressurized vampiric blood as fuel rather than atmospheric oxygen. Pyre Aura burns continuously underwater, in torrents of rain, in zero-oxygen vacuums, or under chemical fire suppression foam without extinguishing. It can only be extinguished by expiring the blood upkeep, entering an antimagic deadzone, or colliding with diametrically opposed ice magic (*Grave Chill*).
 * **Pyromantic Primacy (Master Power) `[Innate Composite - 0 Reserves Activation]`:** The pinnacle of blood pyromancy. You possess *Hellfire Orb*, *Combust Vitae*, and *Pyre Aura*, granting absolute mastery over infernal flame generation, blood combustion, and hellfire shields in a single Master power slot.
 * **Sanguine Spike `[Activated - 1 Reserve | Duration: Instantaneous (1 Attack)]`:** You solidify a stream of pressurized vitae into razor-sharp, obsidian-hard blood javelins. You hurl these spikes with supernatural force, piercing heavy body armor and pinning targets to stone walls. *Environmental Density Solidification:* Sanguine Spikes are held together by supernatural pressure and blood density magic. They solidify instantly upon projection and do not dissolve in water, mud, or liquid atmospheres, maintaining standard armor-piercing damage underwater. *Armor Penetration:* Ignores mundane physical armor ratings (Kevlar, steel plate); targets may still attempt Dodge checks or project supernatural energy defenses (*Kinetic Barrier*). *Structural Hardness Math:* Applies strictly to personal body armor worn by combatants. Heavy structural barriers (armored vault doors, tank hulls, reinforced concrete) possess Structural Integrity Hit Points and are not instantly bypassed; Sanguine Spikes deal standard physical damage against the barrier's Structural HP pool.
 * **Umbral Blade `[Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** You extend your physical melee strikes with long, razor-thin whips of solid shadow. These dark blades bypass mundane physical shields and slice effortlessly through metal, armor, and bone. *Armor Penetration:* Ignores mundane physical armor ratings (Kevlar, steel plate); targets may still attempt Dodge checks or project supernatural energy defenses (*Kinetic Barrier*). *Structural Hardness Math:* Applies strictly to personal body armor worn by combatants. Heavy structural barriers (armored vault doors, tank hulls, reinforced concrete) possess Structural Integrity Hit Points and are not instantly bypassed; Umbral Blade strikes deal standard physical damage against the barrier's Structural HP pool.
