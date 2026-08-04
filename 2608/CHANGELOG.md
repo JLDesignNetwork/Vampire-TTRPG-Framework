@@ -8,6 +8,15 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.47.0-as (2026-08-04) - Public Alpha Release
+
+**Public Alpha release completing Red Team Audit Round 24 with fix for `TODO-56` (Master True Death Sanguine Withdrawal vs Full Diablerie Bond Inheritance & Thrall Cap Overage Strain).**
+
+#### Added
+- **Thrall Bond Diablerie Inheritance & Overage Strain (`TODO-56`):** Codified rule specifying that True Death shatters the blood bond, triggering acute Sanguine Withdrawal in Thralls, whereas Full Diablerie allows the Diablerist to inherit the blood bond over living Thralls. Each overage Thrall exceeding capacity imposes a **-1 penalty to daily Blood Reserve regeneration** and a **-1 penalty to Self-Control checks** (Overage Strain) until resolved via **Sanctioned Termination** off Coven grounds or by obtaining a formal **Sanctioned Release Dispensation** from the Coven Council.
+
+---
+
 ### 2608.46.0-as (2026-08-04) - Public Alpha Release
 
 **Public Alpha release applying Round 24 Red Team Audit fix for `TODO-55` (Weaver's Eclipse Swarm Mass Dispersal, Partial Destruction & Automatic Pocket-Realm Ejection Math).**

@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.46.0-as",
+    "version": "2608.47.0-as",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.46.0-as
+# Vampire Ruleset v2608.47.0-as
 - [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
 - [Behavior](#behavior)
   - [Physical Attributes & Speed](#physical-attributes--speed)
@@ -700,6 +700,9 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * *Accessible Master:* If the master is accessible (e.g. Torpid in a coffin), the Thrall bleeds their master's heart/wrist for 1 draft—stealing 1 blood reserve from a Torpid master or interrupting a Re-Rooting recovery with a **+1 day penalty**.
     * *Inaccessible Master (Buried Soil Extraction):* If the master is buried deep underground, the desperate Thrall frantically digs up and ingests the blood-infused Native Soil surrounding the vampire. Consuming the earth staves off the Thrall's withdrawal, but **corrupts the Native Soil micro-ecosystem** and halts the master's Re-Rooting recovery track entirely.
     * *Multiplicative Soil Decay (Multiple Thralls):* Multiple Thralls digging up the same Native Soil grave site stack their destruction: the first Thrall reduces soil life from 30 days to **6 days**, and each subsequent Thrall digging on Day 14 reduces remaining soil life by **50%** (6 days $\rightarrow$ 3 days $\rightarrow$ 1.5 days $\rightarrow$ Total Soil Ruin).
+  * **Master True Death Sanguine Withdrawal vs Full Diablerie Bond Inheritance & Overage Strain:** Upon a master's True Death (sunlight incineration, decapitation), the blood bond shatters instantly; living Thralls lose physical buffs within 48 hours and enter acute [Sanguine Withdrawal](#withdrawal-penalties). However, if a rival vampire commits [Full Diablerie](#diablerie-the-ultimate-taboo) upon the master, the Diablerist absorbs the master's soul resonance, **automatically inheriting the blood bond** over the victim's living Thralls.
+    * **Thrall Cap Overage Drawback (Psychic & Vitae Upkeep Drain):** Any inherited Thralls exceeding the Diablerist's age-tier Thrall capacity create **Thrall Cap Overage Strain**. Each overage Thrall imposes a **-1 penalty to daily Blood Reserve regeneration** and a **-1 penalty to Self-Control checks** due to the psychic clutter of managing multiple conflicting blood bond frequencies simultaneously.
+    * **Coven Law on Overage Release (Sanctioned Termination vs Council Dispensation):** Coven Law strictly forbids abandoning overage Thralls into mortal society due to secrecy breach risks. To resolve Overage Strain, the master must return to or below capacity via **Sanctioned Termination** (execution conducted off Coven sanctum grounds) or by obtaining a formal **Sanctioned Release Dispensation** from the Coven Council (permitting controlled euthanasia or deep memory erasure via *Lethe's Touch*). Abandoning an overage Thrall inside Coven territory without Council authorization is a punishable Coven offense.
 
 ## Types
 

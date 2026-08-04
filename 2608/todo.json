@@ -1,5 +1,5 @@
 {
-  "version": "2608.46.0-as",
+  "version": "2608.47.0-as",
   "todo": [
     {
       "id": "TODO-01",
@@ -611,10 +611,11 @@
       "section": "## Social -> Secrecy, Covens, and Thralls",
       "link": "vampire.md#secrecy-covens-and-thralls",
       "title": "Audit Thrall Blood Bond Diablerie Inheritance vs True Death Withdrawal",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
+      "protection": "protected",
       "existed_since": "2608.42.0-as",
-      "details": "Audit Thrall bond after master death: clarify that True Death causes acute Thrall Sanguine Withdrawal, but Full Diablerie allows the Diablerist to absorb bloodline resonance and inherit the blood bond over living Thralls."
+      "details": "Codified Master True Death Withdrawal, Diablerie Bond Inheritance & Thrall Cap Overage Strain: True Death triggers acute Thrall withdrawal; Diablerie inherits blood bonds. Overage Thralls impose -1 daily Reserve regen & -1 Self-Control penalties until resolved via Sanctioned Termination off Coven grounds or Coven Council Dispensation."
     }
   ]
 }
