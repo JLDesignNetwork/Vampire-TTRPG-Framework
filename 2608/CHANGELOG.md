@@ -4,6 +4,16 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.51.0-bs (2026-08-05) - Beta Supported Release (TOC Refactor & Expansion)
+
+**Beta release executing `TODO-96`, completely refactoring the Table of Contents in `vampire.md` to resolve broken section slugs (`#behavior`, `#new-world`, `#old-world`), adding the missing `Ancients` entry, and expanding the TOC to include all 12 canonical `-mancy` discipline headers.**
+
+#### Refactored & Fixed
+- **Table of Contents Refactor (`vampire.md` - `TODO-96`):** Fixed broken TOC anchor targets for *Behavior & Physiology*, *Neonates (New World)*, and *Elders (Old World)*. Added missing *Ancients (Primordial Old World)* entry.
+- **Expanded Discipline Navigation (`vampire.md` - `TODO-96`):** Embedded sub-navigation for all 12 `-mancy` disciplines (*Hemomancy*, *Necromancy*, *Osteomancy*, *Pyromancy*, *Gravimancy*, *Astromancy*, *Umbramancy*, *Psychomancy*, *Cognimancy*, *Morphomancy*, *Immunomancy*, *Biomancy*) directly into the Table of Contents.
+
+---
+
 ### 2608.50.0-bs (2026-08-05) - Beta Supported Release (Core Ruleset Engine Freeze)
 
 **Major Milestone Beta release completing Phase 2 Red Team Core Audit of `vampire.md`, eliminating duplicate legacy power blocks, clarifying Feral State passive traits, standardizing natural critical success guarantees, and freezing the core ruleset engine at `v2608.50.0-bs`.**
