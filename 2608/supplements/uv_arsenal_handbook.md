@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.54.0-bs",
+    "version": "2608.55.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.54.0-bs
+# Equipment & UV Arsenal Handbook v2608.55.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
