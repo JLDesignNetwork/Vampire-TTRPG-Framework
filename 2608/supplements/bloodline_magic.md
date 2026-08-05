@@ -127,8 +127,9 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Resistance:** Target may attempt a **Hard Fortitude check** at the start of each turn to break the curse.
 
 ### Sanguine Transfusion Lock
-* **Cost & Duration:** `2 Reserves | Duration: Instantaneous (Action Lock)`
-* **Mechanic:** Target wounded enemy bleeding exposed vitae has their blood flow violently locked in place mid-stream. Forces the target to drop held weapons and locks their physical limbs for **1 combat round**.
+* **Cost & Duration:** `2 Reserves | Duration: 1 Combat Round (Action Lock)`
+* **Mechanic:** Target wounded enemy bleeding exposed vitae has their external blood flow violently locked in place mid-stream. Forces the target to drop held weapons and locks their physical limbs for **1 combat round**.
+* **Physical Lock Scope:** While locked, the target cannot perform physical movement, physical attacks, or gesture-based ritual casting. The target retains full consciousness and may still speak or invoke purely mental/telepathic powers ([*Mind Tear*](../vampire.md#behavioral-powers)).
 
 ---
 

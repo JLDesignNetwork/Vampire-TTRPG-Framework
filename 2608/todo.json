@@ -732,11 +732,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Sanguine Transfusion Lock",
       "link": "supplements/bloodline_magic.md#sanguine-transfusion-lock",
       "title": "Contradiction: Sanguine Transfusion Lock Duration Label Inconsistency",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Sanguine Transfusion Lock is labeled 'Duration: Instantaneous (Action Lock)' but the effect persists for '1 combat round,' which is not instantaneous. The label is internally contradictory. Clarify the cost label to 'Duration: 1 Combat Round' and define exactly what 'locks physical limbs' means: can the target still speak, activate powers, or cast their own rituals while locked?"
+      "details": "Corrected cost/duration header to 'Duration: 1 Combat Round (Action Lock)' and codified Physical Lock Scope: target cannot take physical movement, attacks, or gesture-based casting, but retains full consciousness and may speak or invoke purely mental/telepathic powers (Mind Tear)."
     },
     {
       "id": "TODO-68",
