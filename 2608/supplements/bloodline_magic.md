@@ -70,7 +70,15 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
   | **Stale corpse blood** (≥ 1 hour post-death) | **Ineligible** | Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution. |
 
 ### Coven Circle Chants & Age Tier Synergy
-* **Coven Circle Bonus:** Each secondary vampire participating in a ritual circle grants a **+1 bonus to Ritual Fortitude checks** and reduces total casting time by **10%** (max 50% reduction). Participant counts, stacking limits, and bonus caps are governed by the [Coven Power Ritual Nexus](../vampire.md#coven-power-ritual-nexus-multi-caster-stacking--sequential-rotation) rules — including Age Tier Caster Caps: Neonate-led circles max at **+2 Fortitude bonus** (3 casters); Elder-led circles max at **+4** (5 casters); Ancient-led circles max at **+6** (7 casters).
+* **Coven Circle Timing & Upkeep:** Coven Circle Chants require a 1-minute pre-ritual alignment phase to establish the circle. Assisting secondary casters **must remain inside the circle and continue chanting throughout the entire casting window** to sustain circle bonuses. If a secondary member moves away or is disrupted, their contribution immediately ends.
+* **Circle Ritual Bonuses:** Each secondary vampire in the circle grants:
+  * **Casting Time Reduction:** -10% casting time per secondary member (max 50% reduction).
+  * **Concentration Shielding:** +1 bonus per secondary member to the Lead Caster's [Concentration tests](#ritual-interruption--backfire-trauma) if disturbed during casting.
+  * **DC / Potency Stacking:** +1 Coven Stacking Bonus per secondary member to the ritual's save DC or spell check (governed by [Coven Power Ritual Nexus](../vampire.md#coven-power-ritual-nexus-multi-caster-stacking--sequential-rotation)).
+* **Lead Caster Tier Requirements:** Secondary casters of any Age Tier may assist in any circle, but the Lead Caster initiating the ritual MUST meet the minimum Age Tier requirement for the arcana tier:
+  * **Tier 1 Neonate Arcana:** Lead Caster must be **Neonate (<500 yrs) or higher**.
+  * **Tier 2 Elder Arcana:** Lead Caster MUST be an **Elder (500–1,199 yrs)** or Ancient.
+  * **Tier 3 Primordial Rites:** Lead Caster MUST be an **Ancient (1,200+ yrs)**.
 * **Age Tier Scaling:** Ritual save DCs and potency scale using [Age Tier Superiority Math ($\Delta$)](../vampire.md#combust-vitae): Neonate = Base DC; Elder = +1 DC / +1 Area; Ancient = +2 DC / Double Duration.
 
 ### Ritual Interruption & Backfire Trauma

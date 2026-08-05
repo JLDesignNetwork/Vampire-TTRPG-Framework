@@ -765,11 +765,11 @@
       "section": "## Bloodline Magic Compendium -> Coven Circle Chants & Age Tier Synergy",
       "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
       "title": "Gap: Coven Circle — Age Tier Eligibility for Participants Not Defined",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Coven Circle Chants do not define whether participants must meet a minimum age tier to contribute meaningfully to higher-tier rituals. Codify eligibility: any vampire may participate in Tier 1 circles; Tier 2 circles require at least Elder-tier primary caster; Tier 3 Primordial Rites require an Ancient primary caster, with participants of any tier contributing the standard +1 Fortitude and 10% time reduction."
+      "details": "Codified Coven Circle Timing & Upkeep (1-min pre-ritual setup + mandatory continuous chanting during window), normalized Circle Ritual Bonuses (-10% time, +1 concentration shielding, +1 DC stacking per member), and codified Lead Caster Tier Requirements (Tier 1 = Neonate+, Tier 2 = Elder+, Tier 3 = Ancient+; secondary casters of any tier may assist)."
     },
     {
       "id": "TODO-71",
