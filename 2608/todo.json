@@ -924,6 +924,72 @@
       "protection": "protected",
       "existed_since": "2608.49.0-as",
       "details": "Normalized non-canonical 'Ritual Fortitude checks' in Coven Circle Chants to canonical check taxonomy 'Fortitude check' and 'Concentration tests' in bloodline_magic.md L78 per 2608/terminology.md Section 3."
+    },
+    {
+      "id": "TODO-85",
+      "section": "## Terminology Glossary -> Supernatural & Ritual Disciplines",
+      "link": "terminology.md",
+      "title": "Terminology & Taxonomy: Codify 12 Canonical -mancy Disciplines",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Add a dedicated section in 2608/terminology.md defining the 12 canonical -mancy disciplines (Hemomancy, Necromancy, Osteomancy, Pyromancy, Gravimancy, Astromancy, Umbramancy, Psychomancy, Cognimancy, Morphomancy, Immunomancy, Biomancy) with domain scopes and assigned powers/rituals per IDEA-01 specification."
+    },
+    {
+      "id": "TODO-86",
+      "section": "## Core Ruleset -> Supernatural Powers -> Category Headers",
+      "link": "vampire.md#supernatural-powers",
+      "title": "Core Ruleset: Refactor Power Category Headers & Descriptions to 12 -mancy Disciplines",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Reorganize power headers in vampire.md under the 12 -mancy categories. Update power names per approved IDEA-01 spec (Gravity Shield, Grav-Crush, Abyssal Drift, Psychic Grip, Nightmare Visage, Bio-Sonar, Resounding Beat, etc., retaining Spider's Grace, Daywalker's Grace, Sanguine Knit, and old names for Hemomancy, Necromancy, Pyromancy, Immunomancy). Move body-shifting powers to Morphomancy."
+    },
+    {
+      "id": "TODO-87",
+      "section": "## Core Ruleset -> Supernatural Powers -> Osteomancy",
+      "link": "vampire.md#supernatural-powers",
+      "title": "Osteomancy: Codify Standalone Bone Shards, Skeletal Calcification, and Bone Armor Plating",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Codify 3 standalone Osteomancy powers (Bone Shards, Skeletal Calcification, Bone Armor Plating) under ### Osteomancy in vampire.md complete with activation costs, durations, and mechanics per IDEA-01 specification."
+    },
+    {
+      "id": "TODO-88",
+      "section": "## Core Ruleset -> Supernatural Powers & Bloodline Magic -> Astromancy",
+      "link": "vampire.md#supernatural-powers",
+      "title": "Astromancy: Codify Astral Rift Power and Astral Anchor Ritual",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Implement Option 6A by codifying Astral Rift (Power — spatial portal dislocation) in vampire.md and Astral Anchor Ritual (Tier 2 Ritual — spatial beacon recall) in bloodline_magic.md under ### Astromancy per IDEA-01 specification."
+    },
+    {
+      "id": "TODO-89",
+      "section": "## Bloodline Magic Compendium -> Ritual Category Headers",
+      "link": "supplements/bloodline_magic.md",
+      "title": "Bloodline Magic Supplement: Refactor Ritual Headers & Cross-References to -mancy Taxonomy",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Update ritual category section headers and power synergy references in supplements/bloodline_magic.md to align with the 12 canonical -mancy disciplines per IDEA-01 specification."
+    },
+    {
+      "id": "TODO-90",
+      "section": "## Framework Cross-Reference Audit -> Anchor Links",
+      "link": "todo.json",
+      "title": "Framework Cross-Reference Audit: Synchronize Anchor Links across Supplements & Core Ruleset",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Audit and update all cross-references and anchor links in vampire.md, bloodline_magic.md, coven_law_protocols.md, uv_arsenal_handbook.md, and todo.json to point to the new -mancy discipline section anchors."
     }
   ]
 }
