@@ -4,29 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.51.0-bs",
+    "version": "2608.52.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.51.0-bs
-- [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
-- [Judicial Tribunal Architecture](#judicial-tribunal-architecture)
-  - [The Presiding Magistrate & Tribunal Bench](#the-presiding-magistrate--tribunal-bench)
-  - [Evidence Admissibility & Blood Testimony](#evidence-admissibility--blood-testimony)
-  - [The Four Stages of Coven Trial Procedure](#the-four-stages-of-coven-trial-procedure)
-- [Legal Dispensations & Sanction Protocols](#legal-dispensations--sanction-protocols)
-  - [Sanctioned Termination Protocol](#sanctioned-termination-protocol)
-  - [Sanctioned Release Dispensation](#sanctioned-release-dispensation)
-  - [Blood Treaty Diplomatic Accords](#blood-treaty-diplomatic-accords)
-- [Penalties & Punishment Codex](#penalties--punishment-codex)
-  - [Tier 1 Infractions (Sanguine Tithe & Fine)](#tier-1-infractions-sanguine-tithe--fine)
-  - [Tier 2 Infractions (Enforced Torpor Slumber)](#tier-2-infractions-enforced-torpor-slumber)
-  - [Tier 3 Infractions (Tabula Rasa & Sun Fire Execution)](#tier-3-infractions-tabula-rasa--sun-fire-execution)
-- [Integration & Compatibility](#integration--compatibility)
-
----
+# Coven Law Court Protocols & Legal Code v2608.52.0-bs
 
 ## Overview & System-Agnostic Adaptation
 

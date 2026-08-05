@@ -4,29 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.51.0-bs",
+    "version": "2608.52.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.51.0-bs
-- [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
-- [Hunter Tactical Countermeasures](#hunter-tactical-countermeasures)
-  - [High-Intensity UV Laser Rifles & Emitting Spotlights](#high-intensity-uv-laser-rifles--emitting-spotlights)
-  - [Pressurized UV Flashbang Grenades](#pressurized-uv-flashbang-grenades)
-  - [Thermal FLIR Imaging & Optics Scanners](#thermal-flir-imaging--optics-scanners)
-  - [Silver-Nitrate & Alchemical Taint Munitions](#silver-nitrate--alchemical-taint-munitions)
-- [Vampiric Armaments & Field Gear](#vampiric-armaments--field-gear)
-  - [Thermal Vitae Heating Gear & FLIR Suit](#thermal-vitae-heating-gear--flir-suit)
-  - [Obsidian Composite & Sanguine Weave Armor](#obsidian-composite--sanguine-weave-armor)
-  - [Synthetic Blood Pouches (Synth-Vitae) & Injectors](#synthetic-blood-pouches-synth-vitae--injectors)
-- [Tactical Damage & Hardness Interaction Math](#tactical-damage--hardness-interaction-math)
-  - [Personal Body Armor vs Structural Integrity HP](#personal-body-armor-vs-structural-integrity-hp)
-  - [UV Weapon Immunity via Daywalker's Grace](#uv-weapon-immunity-via-daywalkers-grace)
-- [Integration & Compatibility](#integration--compatibility)
-
----
+# Equipment & UV Arsenal Handbook v2608.52.0-bs
 
 ## Overview & System-Agnostic Adaptation
 

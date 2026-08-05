@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.52.0-bs (2026-08-05) - Beta Supported Release (Framework-Wide Auto-TOC Optimization)
+
+**Beta release executing Option A (`TODO-96`), removing manual in-text bullet list TOCs from `vampire.md`, `bloodline_magic.md`, `coven_law_protocols.md`, and `uv_arsenal_handbook.md` to rely exclusively on native auto-generated outline navigation (IDE sidebars, GitHub web navigation, and Pandoc/CSS `--toc` PDF generation).**
+
+#### Refactored & Optimized
+- **Manual TOC Removal (`TODO-96`):** Removed static manual list TOCs across `vampire.md` and all 3 supplement files (`bloodline_magic.md`, `coven_law_protocols.md`, `uv_arsenal_handbook.md`). Staves off duplicate double TOC pages during PDF compilation and eliminates broken TOC slug maintenance.
+
+---
+
 ### 2608.51.0-bs (2026-08-05) - Beta Supported Release (TOC Refactor & Expansion)
 
 **Beta release executing `TODO-96`, completely refactoring the Table of Contents in `vampire.md` to resolve broken section slugs (`#behavior`, `#new-world`, `#old-world`), adding the missing `Ancients` entry, and expanding the TOC to include all 12 canonical `-mancy` discipline headers.**

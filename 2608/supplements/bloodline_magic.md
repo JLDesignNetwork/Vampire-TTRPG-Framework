@@ -4,33 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.51.0-bs",
+    "version": "2608.52.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.51.0-bs
-- [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
-- [Foundational Ritual Mechanics](#foundational-ritual-mechanics)
-  - [Ritual Action Economy & Casting Windows](#ritual-action-economy--casting-windows)
-  - [Blood Reserve Cost & Sacrificial Upkeep](#blood-reserve-cost--sacrificial-upkeep)
-  - [Coven Circle Chants & Age Tier Synergy](#coven-circle-chants--age-tier-synergy)
-  - [Ritual Interruption & Backfire Trauma](#ritual-interruption--backfire-trauma)
-- [Tier 1 Blood Rituals (Neonate Arcana)](#tier-1-blood-rituals-neonate-arcana)
-  - [Sanguine Scrying Mirror](#sanguine-scrying-mirror)
-  - [Ritual of the Crimson Ward](#ritual-of-the-crimson-ward)
-  - [Vitae Purification Filter](#vitae-purification-filter)
-- [Tier 2 Blood Sorcery (Elder Arcana)](#tier-2-blood-sorcery-elder-arcana)
-  - [Rhythm of the Ancestral Lineage](#rhythm-of-the-ancestral-lineage)
-  - [Hematic Curse of Inertia](#hematic-curse-of-inertia)
-  - [Sanguine Transfusion Lock](#sanguine-transfusion-lock)
-- [Tier 3 Primordial Rites (Ancient Arcana)](#tier-3-primordial-rites-ancient-arcana)
-  - [Grand Rite of Hematic Transmutation](#grand-rite-of-hematic-transmutation)
-  - [Eclipse of the Sanguine Tide](#eclipse-of-the-sanguine-tide)
-- [Integration & Compatibility](#integration--compatibility)
-
----
+# Bloodline Magic Compendium v2608.52.0-bs
 
 ## Overview & System-Agnostic Adaptation
 

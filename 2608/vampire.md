@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.51.0-bs",
+    "version": "2608.52.0-bs",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,49 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.51.0-bs
-- [System Agnostic & Multi-Genre Framework](#system-agnostic--multi-genre-framework)
-- [Behavior & Physiology](#behavior--physiology)
-  - [Physical Attributes & Speed](#physical-attributes--speed)
-- [Creation](#creation)
-- [Death](#death)
-  - [Sunlight Lethality Baseline](#sunlight-lethality-baseline)
-  - [Banes & Weaknesses](#banes--weaknesses)
-  - [The Dying Echo](#the-dying-echo)
-  - [The Native Soil Dependency](#the-native-soil-dependency)
-    - [Weaponizing & Sabotaging Native Soil](#weaponizing--sabotaging-native-soil)
-    - [The Home Sickness Regression Track (The Bleed)](#the-home-sickness-regression-track-the-bleed)
-      - [Native Soil Recovery (Re-Rooting)](#native-soil-recovery-re-rooting-track)
-  - [Dismemberment & Decapitation](#dismemberment--decapitation)
-- [Life](#life)
-  - [Pre-Change](#pre-change)
-  - [Post-Change](#post-change)
-- [Mechanics](#mechanics)
-  - [Draining](#draining)
-  - [Drinking & Sustenance Rules](#drinking--sustenance-rules)
-    - [Sustenance & Blood Starvation Rules](#sustenance--blood-starvation-rules)
-  - [Feeding](#feeding)
-- [Powers](#powers)
-  - [Behavioral Powers](#behavioral-powers)
-  - [Supernatural Powers (-mancy Taxonomy)](#supernatural--behavioral-powers--mancy-taxonomy)
-    - [Hemomancy (Blood Magic & Vitae Arts)](#hemomancy-blood-magic--vitae-arts)
-    - [Necromancy (Death, Soul & Undead Manipulation)](#necromancy-death-soul--undead-manipulation)
-    - [Osteomancy (Bone Manipulation & Skeletal Arts)](#osteomancy-bone-manipulation--skeletal-arts)
-    - [Pyromancy (Fire, Thermal Energy & Hellfire Arts)](#pyromancy-fire-thermal-energy--hellfire-arts)
-    - [Gravimancy (Gravity Control, Mass Defiance & Force Fields)](#gravimancy-gravity-control-mass-defiance--force-fields)
-    - [Astromancy (Spatial Folding & Teleportation)](#astromancy-spatial-folding--teleportation)
-    - [Umbramancy (Shadow Traversal & Void Manipulation)](#umbramancy-shadow-traversal--void-manipulation)
-    - [Psychomancy (Mind, Illusion, Telekinesis & Influence)](#psychomancy-mind-illusion-telekinesis--influence)
-    - [Cognimancy (Cognitive Dominance, Memory & Mind Probe)](#cognimancy-cognitive-dominance-memory--mind-probe)
-    - [Morphomancy (Body Shaping, Swarm & Beast Form)](#morphomancy-body-shaping-swarm--beast-form)
-    - [Immunomancy (Resilience, Antimagic & Environmental Immunity)](#immunomancy-resilience-antimagic--environmental-immunity)
-    - [Biomancy (Healing, Biological Grafting & Vital Control)](#biomancy-healing-biological-grafting--vital-control)
-- [Social](#social)
-- [Types](#types)
-  - [Mutations](#mutations)
-  - [Neonates (New World: < 500 Years)](#neonates-new-world--500-years)
-  - [Elders (Old World: 500 to 1,199 Years)](#elders-old-world-500-to-1199-years)
-  - [Ancients (Primordial Old World: 1,200+ Years)](#ancients-primordial-old-world-1200-years)
+# Vampire Ruleset v2608.52.0-bs
 
 ## System Agnostic & Multi-Genre Framework
 
