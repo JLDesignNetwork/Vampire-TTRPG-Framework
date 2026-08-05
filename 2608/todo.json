@@ -792,6 +792,83 @@
       "protection": "open",
       "existed_since": "2608.49.0-as",
       "details": "The Law of the Sanguine Tithe (vampire.md#social) has no minimum donation floor, meaning voluntary over-donation does not generate tithe credit toward future obligations. Codify this explicitly in vampire.md: each tithe period is settled independently; surplus donations above the 1-per-5 obligation are absorbed into the Elder's vault without generating forward credit. Raised during Eclipse of the Sanguine Tide (bloodline_magic.md) multi-harvest loop analysis."
+    },
+    {
+      "id": "TODO-73",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Sanguine Scrying Mirror",
+      "link": "supplements/bloodline_magic.md#sanguine-scrying-mirror",
+      "title": "Three Pillars Audit: Sanguine Scrying Mirror Power Amplification & Age Tier Scaling",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Sanguine Scrying Mirror to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify sensory powers like Thermal Vitae Vision / Crimson Scent; (2) Dual-Layer Benefits: standalone scrying feed + +2 Power Synergy Bonus to Bloodline Duel checks for possessors of base sensory powers; (3) Mandatory Caps: add Age Tier Range Scaling (Neonate 5mi, Elder 15mi, Ancient 50mi)."
+    },
+    {
+      "id": "TODO-74",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Ritual of the Crimson Ward",
+      "link": "supplements/bloodline_magic.md#ritual-of-the-crimson-ward",
+      "title": "Three Pillars Audit: Ritual of the Crimson Ward Power Amplification & Threshold Cap",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Ritual of the Crimson Ward to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify protection/repulsion powers like Sacred Repulsion / Dermal Armor; (2) Dual-Layer Benefits: standalone threshold burn/alarm + +2 Power Synergy Bonus to ward save DC for possessors of protection powers; (3) Mandatory Caps: add Age Tier Threshold Boundary Cap (Neonate 1 threshold, Elder 3 thresholds, Ancient 7 thresholds)."
+    },
+    {
+      "id": "TODO-75",
+      "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Vitae Purification Filter",
+      "link": "supplements/bloodline_magic.md#vitae-purification-filter",
+      "title": "Three Pillars Audit: Vitae Purification Filter Power Amplification & Synergy Bonus",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Vitae Purification Filter to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify blood manipulation powers like Necrotic Vitae / Grand Harmonization of Vitae; (2) Dual-Layer Benefits: standalone draft purification + +2 Power Synergy Bonus to poison resistance checks for possessors of blood control powers; (3) Mandatory Caps: codify per-session emergency purge volume cap."
+    },
+    {
+      "id": "TODO-76",
+      "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Hematic Curse of Inertia",
+      "link": "supplements/bloodline_magic.md#hematic-curse-of-inertia",
+      "title": "Three Pillars Audit: Hematic Curse of Inertia Power Amplification & Target Cap",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Hematic Curse of Inertia to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify slowing/cold powers like Grave Chill; (2) Dual-Layer Benefits: standalone speed-halving/initiative debuff + +2 Power Synergy Bonus to curse save DC for possessors of cold powers; (3) Mandatory Caps: add Age Tier Target Cap (Neonate 1 target, Elder 2 targets, Ancient 3 targets)."
+    },
+    {
+      "id": "TODO-77",
+      "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Sanguine Transfusion Lock",
+      "link": "supplements/bloodline_magic.md#sanguine-transfusion-lock",
+      "title": "Three Pillars Audit: Sanguine Transfusion Lock Power Amplification & Cooldown Cap",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Sanguine Transfusion Lock to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify blood-arresting powers like Instant Cardiac Lock / Kinetic Blast; (2) Dual-Layer Benefits: standalone 1-round limb lock + +2 Power Synergy Bonus to lock check for possessors of blood control powers; (3) Mandatory Caps: add Once per Target per Scene immunity cooldown cap to prevent stunlock loops."
+    },
+    {
+      "id": "TODO-78",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
+      "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
+      "title": "Three Pillars Audit: Grand Rite Power Amplification & Synergy Bonus",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Grand Rite of Hematic Transmutation to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify alchemical/transmutation powers; (2) Dual-Layer Benefits: standalone 1,000-gal vitae transmutation + +2 Power Synergy Bonus to ritual completion checks for possessors of alchemical blood powers."
+    },
+    {
+      "id": "TODO-79",
+      "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Eclipse of the Sanguine Tide",
+      "link": "supplements/bloodline_magic.md#eclipse-of-the-sanguine-tide",
+      "title": "Three Pillars Audit: Eclipse Power Amplification & Synergy Bonus",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Refactor Eclipse of the Sanguine Tide to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify environmental/fog powers like Crimson Mist / Visage of the Abyssal Nightmare; (2) Dual-Layer Benefits: standalone +1 Perception/Tracking + Overcap + +2 Power Synergy Bonus to environmental power DCs cast inside the fog zone."
     }
   ]
 }
