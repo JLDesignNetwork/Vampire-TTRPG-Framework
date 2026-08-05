@@ -6,7 +6,19 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ---
 
-## Generation 2608
+### 2608.49.0-cs (2026-08-05) - Beta Supported Release
+
+**Major Beta release implementing Phase 1 Direct Line-Level Micro-Anchoring (`IDEA-02`, `TODO-91` through `TODO-95`), attaching invisible HTML micro-anchors (`<a id="..."></a>`) across all powers, rituals, protocols, and weapons, and hyper-linking 100% of reference text and cross-references across the framework.**
+
+#### Added
+- **Direct Line-Level Micro-Anchors (`TODO-91` - `TODO-94`):** Inserted invisible HTML micro-anchors (`<a id="slug"></a>`) into every individual power entry (~60 entries in `vampire.md`), blood ritual (~9 entries in `bloodline_magic.md`), coven law/protocol (~20 entries in `coven_law_protocols.md`), and UV weapon/gear item (~15 entries in `uv_arsenal_handbook.md`).
+- **Strategic Roadmap (`.dev/ROADMAP.md`):** Documented the official 4-Phase Strategic Roadmap for Generation 2608 (Phase 1: Micro-Anchoring, Phase 2: Red Team Audit Round 25, Phase 3: PDF & CSS Pipeline, Phase 4: Content Expansion).
+
+#### Refactored & Synchronized
+- **Direct Keyword & Reference Hyperlinking (`TODO-91` - `TODO-95`):** Converted all internal cross-references and keyword mentions (*Mind Tear*, *Sanguine Knit*, *Thermal Vision*, *The Bleed*, *Torpor*, *Shatter Attempt*, *Thrall Cap*, *The Shroud*) across `vampire.md`, `bloodline_magic.md`, `coven_law_protocols.md`, `uv_arsenal_handbook.md`, and `todo.json` to point directly to micro-anchor IDs (`vampire.md#astral-step`).
+- **Private Developer Tracking:** Moved internal planning roadmap to `.dev/ROADMAP.md` and untracked `.dev/` in Git to keep public ruleset folders clean.
+
+---
 
 ### 2608.49.0-bs (2026-08-05) - Beta Supported Release
 
