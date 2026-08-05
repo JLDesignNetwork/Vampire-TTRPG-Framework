@@ -1,3 +1,10 @@
 {
-  "ideas": []
+  "ideas": [
+    {
+      "id": "IDEA-01",
+      "status": "pending",
+      "details": "Revamp category terminology for supernatural powers and rituals using systematic '-mancy' thematic naming (e.g., Hemomancy for Blood Magic/Vitae Arts, Osteomancy for Bone Magic/Necromancy/Grave Arts, Psychomancy for Mental/Illusion Powers, Umbmancy/Shadowmancy for Shadow/Abyssal Arts). Normalize all power category headers and cross-references across core ruleset and supplements once red team audits and active TODO tasks are complete.",
+      "resolution": ""
+    }
+  ]
 }
