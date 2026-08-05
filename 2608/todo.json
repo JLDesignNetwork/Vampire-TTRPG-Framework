@@ -996,11 +996,11 @@
       "section": "## Core Ruleset -> Micro-Anchors -> Powers",
       "link": "vampire.md#supernatural--behavioral-powers--mancy-taxonomy",
       "title": "Core Ruleset: Insert Invisible Micro-Anchors for Powers in vampire.md",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-bs",
-      "details": "Insert invisible HTML micro-anchors (<a id=\"power-slug\"></a>) at the start of all ~60 power bullet lines in 2608/vampire.md per IDEA-02 specification."
+      "details": "Inserted invisible HTML micro-anchors (<a id=\"power-slug\"></a>) for all ~60 power entries and key mechanics rules across vampire.md. Updated internal links to point directly to micro-anchors."
     },
     {
       "id": "TODO-92",
