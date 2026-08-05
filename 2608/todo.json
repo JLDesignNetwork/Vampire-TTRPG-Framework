@@ -1029,11 +1029,11 @@
       "section": "## UV Arsenal Handbook -> Micro-Anchors -> Weapons & Gear",
       "link": "supplements/uv_arsenal_handbook.md",
       "title": "UV Arsenal Handbook: Insert Invisible Micro-Anchors for Weapons & Gear in uv_arsenal_handbook.md",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-bs",
-      "details": "Insert invisible HTML micro-anchors (<a id=\"item-slug\"></a>) for all weapons, gear, and combat technology entries in supplements/uv_arsenal_handbook.md per IDEA-02 specification."
+      "details": "Inserted invisible HTML micro-anchors (<a id=\"item-slug\"></a>) for all weapons, gear, and combat technology entries in uv_arsenal_handbook.md and updated all deep reference links."
     },
     {
       "id": "TODO-95",
