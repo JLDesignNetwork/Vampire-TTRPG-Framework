@@ -547,6 +547,7 @@ Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Eac
 
 ### Astromancy (Spatial Folding & Teleportation)
 * **Astral Step `[Supernatural | Activated - 1 Reserve | Duration: Instantaneous (30ft Teleport)]`:** You fold local space in a sharp crack of displaced air and a faint scent of burnt static, instantly vanishing from one spot to reappear 30 feet away behind your prey before their eyes can track your motion. *Visual Destination Scope & Spatial Bounce-Back:* Astral Step requires direct visual line-of-sight to the destination spot (or active acoustic/thermal mapping via *Bio-Sonar* / *Thermal Vision*). Attempting a blind teleport into unmapped solid terrain causes spatial bounce-back, dropping the vampire at their starting location and inflicting **1 Direct Damage** from spatial displacement shock.
+* **Astral Rift `[Supernatural | Activated - 2 Reserves | Duration: 1 Combat Round (Spatial Portal Tear)]`:** You slice open a visible sub-dimensional tear in physical space between your location and a point up to **50 feet** away within visual line-of-sight. For 1 combat round, allies or fleeing thralls can step through the tear, teleporting instantly across the gap.
 
 ### Umbramancy (Shadow Traversal & Void Manipulation)
 * **Shadow Step `[Supernatural | Activated - 1 Reserve | Duration: Instantaneous (Shadow Step)]`:** You step backward into a wall shadow and melt into black liquid silk, instantly emerging from a separate shadow across the room like a ghost stepping through a dark doorway.

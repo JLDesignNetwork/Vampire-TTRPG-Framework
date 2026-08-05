@@ -172,6 +172,14 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
   * **Physical Lock Scope:** While locked, the target cannot perform physical movement, attacks, or gesture-based casting, but retains full consciousness and may speak or invoke purely mental/telepathic powers ([*Mind Tear*](../vampire.md#behavioral-powers)).
   * **Stunlock Immunity Cap:** A target affected by Transfusion Lock gains temporary vascular immunity and **cannot be targeted by Sanguine Transfusion Lock again for the remainder of the Scene** (preventing continuous stunlock loops).
 
+### Astral Anchor Ritual
+* **Cost & Duration:** `2 Reserves | Duration: 24 Hours (Spatial Beacon)`
+* **Pillar 1 (Power Amplification):** Amplifies spatial folding powers ([*Astral Step*](../vampire.md#supernatural-powers)), weaving a sub-dimensional spatial anchor into a physical surface.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** The caster paints a subterranean blood sigil onto a solid surface. For 24 hours, the caster can burn **1 Blood Reserve** off-turn to instantly dissolve into spatial mist and teleport back to the anchor sigil from up to **5 miles away**.
+  * **Power Synergy Bonus:** Casters who natively possess spatial powers ([*Astral Step*](../vampire.md#supernatural-powers)) receive a **+2 Power Synergy Bonus** that extends the maximum recall range cap from 5 miles to **25 miles**.
+* **Pillar 3 (Defined Caps):** Max 1 active Astral Anchor sigil per caster at any given time; casting a second anchor immediately collapses the previous sigil.
+
 ---
 
 ## Tier 3 Primordial Rites (Ancient Arcana)
