@@ -908,11 +908,11 @@
       "section": "## Core Ruleset -> Supernatural Powers -> Duration Headers",
       "link": "vampire.md#supernatural-powers",
       "title": "Terminology Audit: Standardize Combat Round Duration Labels in Core Ruleset",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Audit all duration headers across vampire.md and supplements, ensuring all combat turn durations use canonical 'Duration: [N] Combat Round(s)' format per 2608/terminology.md Section 1."
+      "details": "Standardized all non-canonical turn and duration references in vampire.md (Visage L521, Phantasm L554, Sanguine Knit L609) to canonical '1 Combat Round' per 2608/terminology.md Section 1."
     },
     {
       "id": "TODO-84",
