@@ -97,7 +97,14 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Sanguine Scrying Mirror
 * **Cost & Duration:** `1 Reserve | Duration: 10 Minutes Scrying`
-* **Mechanic:** The caster pours 1 draft of blood into a silver bowl or dark obsidian pool, whispering the target's true name or gazing upon an object owned by them. The blood surface dissolves into a crystal-clear visual feed of the target's current surroundings, provided the target is within a **5-mile radius of the caster's physical location**.
+* **Pillar 1 (Power Amplification):** Amplifies sensory powers ([*Thermal Vitae Vision*](../vampire.md#sensory), [*Crimson Scent*](../vampire.md#sensory)). By pouring blood into a silver bowl or obsidian pool, the caster projects their physical/vitae senses into a remote scrying feed.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** The blood surface dissolves into a crystal-clear visual feed of the target's current surroundings for 10 minutes.
+  * **Power Synergy Bonus:** Casters who natively possess sensory powers ([*Thermal Vitae Vision*](../vampire.md#sensory), [*Crimson Scent*](../vampire.md#sensory), or [*EM Shroud Gaze*](../vampire.md#sensory)) receive a **+2 Power Synergy Bonus** to all Bloodline Duel checks during scrying probes.
+* **Pillar 3 (Defined Caps & Age Tier Range Scaling):** The maximum scrying radius measured from the caster's physical location scales by Age Tier:
+  * **Neonate Caster (< 500 yrs):** 5-Mile Radius
+  * **Elder Caster (500–1,199 yrs):** 15-Mile Radius
+  * **Ancient Caster (1,200+ yrs):** 50-Mile Radius
 * **Caster Trance State:** Maintaining the 10-minute scrying feed requires focused concentration. The caster may converse normally and hear their immediate physical surroundings, but moving more than 5 feet away from the bowl or taking combat/defensive actions immediately breaks concentration and ends the scrying feed.
 * **Bloodline Duel Counterplay:** When targeting a vampire possessing mental defenses or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control check) is triggered between the scrying caster and the target:
   * **Age Tier Scaling ($\Delta$):** Participants gain **+1 to their contested check per Age Tier difference** above their opponent (Elder vs Neonate = +1; Ancient vs Neonate = +2).

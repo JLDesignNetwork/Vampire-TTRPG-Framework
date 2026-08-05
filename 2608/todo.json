@@ -798,11 +798,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Sanguine Scrying Mirror",
       "link": "supplements/bloodline_magic.md#sanguine-scrying-mirror",
       "title": "Three Pillars Audit: Sanguine Scrying Mirror Power Amplification & Age Tier Scaling",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Refactor Sanguine Scrying Mirror to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify sensory powers like Thermal Vitae Vision / Crimson Scent; (2) Dual-Layer Benefits: standalone scrying feed + +2 Power Synergy Bonus to Bloodline Duel checks for possessors of base sensory powers; (3) Mandatory Caps: add Age Tier Range Scaling (Neonate 5mi, Elder 15mi, Ancient 50mi)."
+      "details": "Refactored Sanguine Scrying Mirror to conform strictly to Three Pillars of Rituals: (1) Power Amplification: explicitly amplifies Thermal Vitae Vision / Crimson Scent; (2) Dual-Layer Benefits: standalone 10-min scrying feed + +2 Power Synergy Bonus to Bloodline Duel checks for sensory power possessors; (3) Mandatory Caps: codified Age Tier Range Scaling (Neonate 5mi, Elder 15mi, Ancient 50mi)."
     },
     {
       "id": "TODO-74",
