@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "documentName": "Vampire Framework Terminology & Glossary",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.55.0-bs",
+    "version": "2608.56.0-bs",
     "parent_ruleset_file": "vampire.md"
   }
 }
 ---
 
-# Vampire Framework Official Terminology & Taxonomy v2608.55.0-bs
+# Vampire Framework Official Terminology & Taxonomy v2608.56.0-bs
 
 This document outlines the official, normalized terminology standard for the **Vampire TTRPG Framework v2608**. All core rulesets, supplements, datasets, and audit workflows MUST adhere strictly to the definitions, units, and conventions codified herein.
 

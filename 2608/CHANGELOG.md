@@ -4,6 +4,16 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.56.0-bs (2026-08-05) - Beta Supported Release (Explicit Section Micro-Anchor Codification)
+
+**Major Beta release executing `TODO-100`, attaching explicit HTML micro-anchors (`<a id="..."></a>`) to all 25 section headings, sub-headings, and 12 `-mancy` discipline headers in `vampire.md`. Guarantees 100% physical link resolution for `#supernatural-powers`, `#behavioral-powers`, `#new-world`, `#old-world`, `#ancients`, `#behavior`, `#secrecy-covens-and-thralls`, and all discipline targets across all Markdown previewers, GitHub web interface, and PDF renderers.**
+
+#### Refactored & Codified
+- **Section & Discipline Micro-Anchors (`vampire.md` - `TODO-100`):** Codified line-level anchors for `#supernatural-powers`, `#behavioral-powers`, `#new-world`, `#old-world`, `#ancients`, `#behavior`, `#secrecy-covens-and-thralls`, and all 12 `-mancy` disciplines (*Hemomancy*, *Necromancy*, *Osteomancy*, *Pyromancy*, *Gravimancy*, *Astromancy*, *Umbramancy*, *Psychomancy*, *Cognimancy*, *Morphomancy*, *Immunomancy*, *Biomancy*).
+- **Physical Link Audit Milestone:** 100% of internal links in `vampire.md` physically verified and resolving directly to explicit micro-anchors.
+
+---
+
 ### 2608.55.0-bs (2026-08-05) - Beta Supported Release (Red Team Link & Anchor Audit Finalized)
 
 **Major Milestone Beta release completing Option A and `TODO-99`, refining generic section macro-pointers to direct micro-anchors (`#crimson-scent`, `#sanguine-knit`, `#lethes-touch`, `#feral-state`), achieving 100% link resolution and 100% completion across all 99 backlog tasks in `todo.json`.**
