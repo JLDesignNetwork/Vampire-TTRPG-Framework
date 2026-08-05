@@ -787,11 +787,11 @@
       "section": "## Social -> The Five Sacred Laws of the Coven -> The Law of the Sanguine Tithe",
       "link": "vampire.md#social",
       "title": "Codify No Over-Tithe Credit Rule in Law of the Sanguine Tithe",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "The Law of the Sanguine Tithe (vampire.md#social) has no minimum donation floor, meaning voluntary over-donation does not generate tithe credit toward future obligations. Codify this explicitly in vampire.md: each tithe period is settled independently; surplus donations above the 1-per-5 obligation are absorbed into the Elder's vault without generating forward credit. Raised during Eclipse of the Sanguine Tide (bloodline_magic.md) multi-harvest loop analysis."
+      "details": "Codified No Over-Tithe Credit Rule (Independent Settlement) sub-bullet in vampire.md L674 under The Law of the Sanguine Tithe: each tithe period is calculated and settled independently; surplus donations are absorbed as voluntary tribute into the Coven Vaults without generating forward credit."
     },
     {
       "id": "TODO-73",
