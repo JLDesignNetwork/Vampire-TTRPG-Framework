@@ -8,6 +8,26 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
 
 ## Generation 2608
 
+### 2608.49.0-bs (2026-08-05) - Beta Supported Release
+
+**Major Beta release codifying the 12 Canonical `-mancy` Discipline Taxonomy (`IDEA-01`), introducing `[Behavioral]` / `[Supernatural]` classification tags across all core powers, expanding Osteomancy and Astromancy disciplines, and standardizing ruleset mechanics.**
+
+#### Added
+- **Canonical `-mancy` Discipline Taxonomy (`TODO-85`, `terminology.md`):** Codified Section 7 in `2608/terminology.md` defining all 12 canonical disciplines (*Hemomancy*, *Necromancy*, *Osteomancy*, *Pyromancy*, *Gravimancy*, *Astromancy*, *Umbramancy*, *Psychomancy*, *Cognimancy*, *Morphomancy*, *Immunomancy*, *Biomancy*), complete with domain scopes and assigned power/ritual rosters.
+- **Osteomancy Standalone Powers (`TODO-87`, `vampire.md`):** Codified 3 standalone Osteomancy powers (*Bone Shards*, *Skeletal Calcification*, *Bone Armor Plating*) under `### Osteomancy` in `vampire.md`.
+- **Astromancy Expansion (`TODO-88`, `vampire.md`, `bloodline_magic.md`):** Codified *Astral Rift* (Power — sub-dimensional portal tear for allies) in `vampire.md` and *Astral Anchor Ritual* (Tier 2 Ritual — 24-hour spatial beacon recall) in `bloodline_magic.md` per Option 6A specification.
+
+#### Changed
+- **Core Ruleset Power Refactoring & Classification Tags (`TODO-86`, `vampire.md`):** Reorganized all power headers in `vampire.md` into the 12 canonical `-mancy` category headers. Tagged every power with its legacy classification (`[Behavioral]` vs `[Supernatural]`) for character creation slot compatibility. Updated power titles per approved naming spec (*Gravity Shield*, *Grav-Crush*, *Abyssal Drift*, *Psychic Grip*, *Nightmare Visage*, *Bio-Sonar*, *Resounding Beat*, *Beast Shift*, *Arachnid Shift*, retaining *Spider's Grace*, *Daywalker's Grace*, *Sanguine Knit*, and old names for Hemomancy, Necromancy, Pyromancy, and Immunomancy). Relocated all body-shifting powers (*Bat Swarm*, *Rat Tide*, *Weaver Swarm*, *Mist Form*, *Beast Shift*, *Arachnid Shift*, *Granite Slumber*, *Chameleon Clay*) to `### Morphomancy`.
+
+#### Refactored / Fixed
+- **Self-Control Mechanics Alignment (`TODO-80`, `vampire.md`):** Replaced non-canonical "Willpower" roll reference with canonical "Self-Control" check in `vampire.md` for breaking Sire compel.
+- **Combat Round Duration Standardization (`TODO-81`, `TODO-83`):** Normalized legacy "1 Round" and "1 Turn" duration labels to canonical `1 Combat Round` in `vampire.md` and `supplements/uv_arsenal_handbook.md`.
+- **Cross-Reference Anchor Synchronization (`TODO-82`):** Updated outdated `#advanced-mental--illusion` links to canonical `#behavioral-powers` anchor in `supplements/coven_law_protocols.md`.
+- **Coven Circle Check Taxonomy (`TODO-84`):** Normalized Coven Circle ritual check terminology in `supplements/bloodline_magic.md`.
+
+---
+
 ### 2608.48.0-bs (2026-08-04) - Official Beta Supported Release
 
 **Official Beta Supported Release transitioning the master core ruleset (2608/vampire.md) from Alpha Supported (-as) to Beta Supported (-bs).**
