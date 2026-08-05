@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.56.0-bs",
+    "version": "2608.57.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.56.0-bs
+# Bloodline Magic Compendium v2608.57.0-bs
 
 ## Overview & System-Agnostic Adaptation
 

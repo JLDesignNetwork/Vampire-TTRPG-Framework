@@ -4,6 +4,20 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.57.0-bs (2026-08-05) - Beta Supported Release (Stale Power Name Reference Corrections)
+
+**Beta release correcting all stale power name references in `vampire.md` left over from the TODO-86 `-mancy` discipline refactor. All three stale names resolved to their canonical current anchors.**
+
+#### Fixed
+- **`Veil Flicker` → `Astral Step`** (`#astral-step`): Digital Shroud sensor counter-power cross-reference corrected (Line 618).
+- **`Bloodline Memory` → `Ancestral Memory`** (`#ancestral-memory`): Tabula Rasa Law cross-reference corrected (Line 635).
+- **`Lethe's Touch` fallback** → `#lethes-touch` direct anchor: Blood Archive Interaction cross-reference corrected (Line 642).
+- **`Sanguine Knit`** (`#sanguine-knit`): Decapitation power-disable cross-reference corrected (Line 244); `Crimson Scent` garlic aura cross-reference corrected (Line 153).
+- **`Daywalker's Grace`** (`#daywalkers-grace`): Sunlight lethality cross-references corrected (Lines 127, 140).
+- **`TODO-101` registered:** Canonical rename of the former `Accelerated Mend` power (a healing-accelerator) is unknown from git history — flagged for manual review and re-link.
+
+---
+
 ### 2608.56.0-bs (2026-08-05) - Beta Supported Release (Explicit Section Micro-Anchor Codification)
 
 **Major Beta release executing `TODO-100`, attaching explicit HTML micro-anchors (`<a id="..."></a>`) to all 25 section headings, sub-headings, and 12 `-mancy` discipline headers in `vampire.md`. Guarantees 100% physical link resolution for `#supernatural-powers`, `#behavioral-powers`, `#new-world`, `#old-world`, `#ancients`, `#behavior`, `#secrecy-covens-and-thralls`, and all discipline targets across all Markdown previewers, GitHub web interface, and PDF renderers.**

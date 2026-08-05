@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.56.0-bs",
+    "version": "2608.57.0-bs",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.56.0-bs
+# Vampire Ruleset v2608.57.0-bs
 
 ## System Agnostic & Multi-Genre Framework
 
@@ -124,7 +124,7 @@ Upon exposure to direct, unfiltered sunlight, a standard vampire without special
   * *Sensory & Physical Effect:* Internal organs char to cinder; bone structure calcifies and shatters into light grey ash.
   * *Mechanical Outcome:* Results in permanent **True Death**.
 
-*(Note: Vampires possessing the [**Daywalker's Grace**](#supernatural-powers) power can withstand direct sunlight for brief, agonizing minutes before ash conversion begins.)*
+*(Note: Vampires possessing the [**Daywalker's Grace**](#daywalkers-grace) power can withstand direct sunlight for brief, agonizing minutes before ash conversion begins.)*
 
 #### Environmental Filtering & Shade Survival
 Solar lethality depends directly upon the intensity and filtering of ambient light:
@@ -137,7 +137,7 @@ Solar lethality depends directly upon the intensity and filtering of ambient lig
 
 #### Artificial UV Light Weapons (Dual-Genre)
 High-intensity artificial ultraviolet light sources operate differently from natural solar radiation:
-* **Hunter UV Spotlights / Military UV Lasers / UV Flashbangs:** Trigger **Round 1 (Dermal Vaporization)** upon impact, causing steam burns and -2 action penalties while exposed. However, artificial UV light does **not** trigger Round 2 combustion or Round 3 ash collapse unless enhanced by solar incantations (*Mytharios*) or orbital UV focal lenses (*The Multiverse*). *Daywalker's Grace Immunity:* Vampires actively invoking [*Daywalker's Grace*](#supernatural-powers) are completely **immune** to artificial UV light weapons without consuming their 3-minute daily solar shield timer.
+* **Hunter UV Spotlights / Military UV Lasers / UV Flashbangs:** Trigger **Round 1 (Dermal Vaporization)** upon impact, causing steam burns and -2 action penalties while exposed. However, artificial UV light does **not** trigger Round 2 combustion or Round 3 ash collapse unless enhanced by solar incantations (*Mytharios*) or orbital UV focal lenses (*The Multiverse*). *Daywalker's Grace Immunity:* Vampires actively invoking [*Daywalker's Grace*](#daywalkers-grace) are completely **immune** to artificial UV light weapons without consuming their 3-minute daily solar shield timer.
 
 ### Banes & Weaknesses
 
@@ -150,14 +150,14 @@ Driving a wooden stake (crafted from oak, rowan, hawthorn, or ash wood) directly
 
 #### 2. Garlic & Allium Toxicity (Botanical Repulsion)
 Garlic contains concentrated botanical compounds that act as a volatile poison against vampiric biology.
-* **Sensory Disruption Aura (50 Feet):** The pungent odor of raw or burned garlic overwhelms vampiric senses. Olfactory tracking powers (such as [*Crimson Scent*](#behavioral-powers)) are completely disabled within 50 feet of a heavy garlic source.
+* **Sensory Disruption Aura (50 Feet):** The pungent odor of raw or burned garlic overwhelms vampiric senses. Olfactory tracking powers (such as [*Crimson Scent*](#crimson-scent)) are completely disabled within 50 feet of a heavy garlic source.
 * **Ingestion Toxicity:** Ingesting garlic causes violent stomach convulsions, esophageal blistering, and severe nausea. The vampire suffers a temporary **lockout of physical blood expenditure** for 1 hour, rendering blood healing and physical stat boosts unusable.
 
 #### 3. Holy Water & Consecrated Liquids (Scared Wounds)
 Holy water and blessed liquids react like concentrated sulfuric acid against vampiric flesh.
 * **Acidic Skin Melting:** Splash contact melts outer dermis and tissue on contact, dealing agonizing burn damage that bypasses mundane physical armor.
 * **Mechanical Weight (Scared Wound):** Leaves severe holy burns that inflict a persistent **-2 debuff** on all physical actions and Self-Control checks while unhealed.
-* **Suppressed Regeneration:** Holy water burns **cannot** be rapidly healed in combat using [*Sanguine Knit*](#supernatural-powers). Healing localized holy burns requires **1 full night of undisturbed slumber in Native Soil** and expending **2 Blood Reserves per holy wound** (double the standard baseline cost of 1 Blood Reserve per physical injury).
+* **Suppressed Regeneration:** Holy water burns **cannot** be rapidly healed in combat using [*Sanguine Knit*](#sanguine-knit). Healing localized holy burns requires **1 full night of undisturbed slumber in Native Soil** and expending **2 Blood Reserves per holy wound** (double the standard baseline cost of 1 Blood Reserve per physical injury).
 
 #### 4. Sacred Geometry & Crucifixes (Sacred Repulsion Aura)
 Faith-infused holy symbols (crucifixes, sacred seals, consecrated icons) project a barrier of spiritual repulsion against the unholy curse.
@@ -235,13 +235,13 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
 ### Dismemberment & Decapitation
 
 #### Dismemberment (Severed Limbs)
-* **Accelerated Re-attachment (Requires Accelerated Mend):** If a severed arm or leg is retrieved and pressed against the stump, a vampire possessing the [*Accelerated Mend*](#supernatural-powers) power can spend blood to supernaturally re-fuse bone, muscle, and nerve endings in **1 combat round**.
+* **Accelerated Re-attachment (Requires Sanguine Knit):** If a severed arm or leg is retrieved and pressed against the stump, a vampire possessing the [*Sanguine Knit*](#sanguine-knit) power can spend blood to supernaturally re-fuse bone, muscle, and nerve endings in **1 combat round**.
 * **Surgical / Medical Sewing:** A severed limb can be manually stitched back onto the shoulder, arm, leg, or hip stump by surgical or medical means. Once bandaged and sewn in place, re-fusing the limb requires **12 hours of physical recovery** (without requiring full Native Soil burial).
-* **Native Soil Re-attachment & Regrowth (Without Accelerated Mend or Surgery):** If a severed limb is completely destroyed (burned or dissolved) or left unstitched, regrowing a new limb requires **24 hours of undisturbed slumber in Native Soil**.
+* **Native Soil Re-attachment & Regrowth (Without Sanguine Knit or Surgery):** If a severed limb is completely destroyed (burned or dissolved) or left unstitched, regrowing a new limb requires **24 hours of undisturbed slumber in Native Soil**.
 * **Autonomous Limb Action:** A severed limb remains supernaturally animated for up to 1 hour post-dismemberment. The vampire can telepathically command the severed limb to twitch, crawl, or grapple enemies.
 
 #### Decapitation (Head Severed)
-* **Life & Power Logic:** The heart is the ultimate source of a vampire's immortal existence (circulating vitae). Because the head is not the source of life, decapitation alone does **not** cause True Death; the vampire remains living indefinitely. However, the head (brain) is the controller of supernatural powers and blood flow. Severing the head breaks signal transmission to the heart, disabling [*Accelerated Mend*](#supernatural-powers) and all other active powers.
+* **Life & Power Logic:** The heart is the ultimate source of a vampire's immortal existence (circulating vitae). Because the head is not the source of life, decapitation alone does **not** cause True Death; the vampire remains living indefinitely. However, the head (brain) is the controller of supernatural powers and blood flow. Severing the head breaks signal transmission to the heart, disabling [*Sanguine Knit*](#sanguine-knit) and all other active powers.
 * **Blood Reserve Disconnect & Brain Torpor (24-Hour Cap):** A severed head is disconnected from the heart reservoir and holds **0 Blood Reserves**. Without blood flow or re-attachment, the severed head can only maintain sensory consciousness for a maximum of **24 hours**. On hour 24, the severed head lapses into **Brain Torpor** (eyes close, ears go deaf, telepathy shuts down) until re-attached to the torso.
 * **Incapacitation:** While decapitated, the body is completely paralyzed and immobile. The severed head remains conscious (eyes can see, ears can hear, mouth can speak), but cannot activate any supernatural powers or move the body.
 * **Re-attachment Methods & Durations:** To re-attach a severed head, the head must be placed back onto the neck stump using one of four specific methods:
@@ -476,6 +476,8 @@ Because all newly created vampires are born into the modern era, they generate t
    * *Narrative Warning (The Hubris of Young Sires):* This mathematical bottleneck is an intentional physiological law designed to deter young, weak vampires from attempting to pass on the curse. A New World sire possessing only 2 or 3 total powers will mathematically force their fledgling down to 0 slots, virtually **guaranteeing a botched, mutated offspring**. To safely sire a healthy fledgling without mutation risk, a Maker should possess at least 4 or 5 total powers.
 5. **Bloodline Latency (Manifestation):** A fledgling does not automatically inherit their exact Maker's powers. Instead, powers are drawn randomly from the broader power pools. This represents dormant ancestral traits awakening within the fledgling's newly turned blood.
 
+<a id="supernatural-powers"></a><a id="behavioral-powers"></a>
+
 #### Supernatural & Behavioral Powers (-mancy Taxonomy)
 
 Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Each power is explicitly tagged with its classification slot type (`[Behavioral]` or `[Supernatural]`) to maintain complete alignment with fledgling character creation and pool rolling mechanics.
@@ -615,7 +617,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * *Power-Fade Collapse Mutants:* Possess corrupted blood tethers. Attempting to enforce or break the compulsion triggers intense physical agony in BOTH mutant and sire. However, if a Power-Fade mutant successfully shatters the compulsion, the bond is permanently severed forever.
 
 **Secrecy, Covens, and Thralls**
-* **The Digital Shroud:** Beyond the traditional myth of casting no reflection in silver-backed mirrors, a vampire's presence causes severe digital distortion. High-resolution cameras, security feeds, and smartphones cannot capture a clear image of a vampire, rendering them as a pixelated blur or corrupted video static. *Sensor Scope & AI Turrets:* The Digital Shroud distorts optical image sensors and facial recognition cameras. However, non-optical physical sensors (infrared thermal sensors, acoustic motion detectors, pressure plates, laser tripwires) and automated AI turrets equipped with FLIR thermal vision still track the cold mass silhouette of a vampire unless the vampire actively invokes [*Crimson Mist*](#alteration-forms--shifting) or [*Veil Flicker*](#supernatural-powers).
+* **The Digital Shroud:** Beyond the traditional myth of casting no reflection in silver-backed mirrors, a vampire's presence causes severe digital distortion. High-resolution cameras, security feeds, and smartphones cannot capture a clear image of a vampire, rendering them as a pixelated blur or corrupted video static. *Sensor Scope & AI Turrets:* The Digital Shroud distorts optical image sensors and facial recognition cameras. However, non-optical physical sensors (infrared thermal sensors, acoustic motion detectors, pressure plates, laser tripwires) and automated AI turrets equipped with FLIR thermal vision still track the cold mass silhouette of a vampire unless the vampire actively invokes [*Crimson Mist*](#alteration-forms--shifting) or [*Astral Step*](#astral-step).
 * **Covens & Governance:** Sires hold absolute authority over their fledglings. Vampires rarely survive long alone, forming Covens for territorial control, collective defense, and bloodline preservation.
   * **Coven Roles & Hierarchy:**
     * **The Apex Elder / Sire:** The absolute ruler of the Coven, holding supreme authority over territory, bloodline decrees, and fledgling assignments.
@@ -632,12 +634,12 @@ Vampire society is generally hidden but heavily structured to ensure survival an
        * *In-Haven Voluntary Donation (Genre-Agnostic Closed-Conduit Protocol):* If a member donates directly from their own body inside haven grounds, open blood dripping is strictly forbidden under Law 2. Transfers must utilize setting-appropriate closed conduits (consecrated spigot/chalice altar in Fantasy, syringe conduit node in Modern, bio-extraction port in Sci-Fi) that seal the puncture upon removal.
        * *Tithe Default & Judicial Escalation:* If a member harvests 0 blood due to severe injury or stasis, a 1-week **Hardship Deferral** is granted automatically. If unpaid for 2 consecutive weeks, the matter escalates to [The Law of Sanguine Justice](#secrecy-covens-and-thralls).
        * *No Over-Tithe Credit Rule (Independent Settlement):* Each tithe period (weekly minimum or 1-per-5 harvested) is calculated and settled independently. Donating surplus blood vessels or reserves in excess of the mandatory obligation is received as voluntary tribute by the Apex Elder and absorbed permanently into the Coven Vaults — generating **zero forward credit** toward future weekly minimums or future harvest obligations.
-    4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Bloodline Memory*](#behavioral-powers)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
+    4. **The Law of the Tabula Rasa (Unwritten Memory):** It is strictly forbidden to write, draw, paint, photograph, or digitally record any image, name, physical description, or record of another vampire—or of oneself. All lineage history, names, and lore must be preserved purely through oral tradition or telepathic memory ([*Ancestral Memory*](#ancestral-memory)). Creating physical or digital records of a vampire is high treason, punished by immediate destruction of the records and severe physical discipline. *Discipline Tiers:* Tabula Rasa violations carry mandatory Coven penalties: Minor/Accidental (single photo/sketch) = **30-Day Power Lockout + 50% Blood Reserve Drain**; Major/Intentional (written journal or digital archive) = **Forced Stage 3 Torpor for 1 Year** + immediate destruction of all records.
        * **The Chronicler's Connection (Synchronized Network):** All Coven Arch-Chroniclers and Blood Scribes share a synchronized telepathic memory network. Wiping or altering the memory of a single Chronicler (e.g. via *Lethe's Touch*) is useless, as their memories are automatically backed up and mirrored across all other Coven Chroniclers worldwide.
        * **The Blood Archive Ritual (Action Economy, Overload & Archiver Immunity):** To maintain chronological physical backups without violating Tabula Rasa, Chroniclers conduct a periodic blood storage ritual: preserving micro-drafts of blood in small, sealed obsidian phials labeled chronologically (*Blood Archives*). Drinking a draft from a Blood Archive phial allows a vampire to "read" that era's recorded events in vivid, first-person sensory detail. Ingesting an Archive phial consumes **1 Action** (standard phial ingestion speed), but processing the abundant sensory data takes time—the psychic memories take effect on the **following round**. Non-vampires gain zero memories from drinking phials. For non-Archiver vampires, processing the intense influx of historical data is sensory-overwhelming: ingesting an Archive phial in mid-combat imposes a **-2 penalty to all actions/concentration for 1 combat round** while the brain digests the sensory overload. *Archiver Immunity:* Arch-Chroniclers and Blood Scribes (*Archivers*) possess conditioned psychic capacity to digest memory streams seamlessly; Archivers are completely **immune** to sensory flood and suffer **0 combat penalties** when ingesting Archive phials.
        * **Zero Nutritional Value & Crystallization:** Blood Archive phials are small historical records and **provide zero nutritional value (0 Blood Reserves)**; they cannot be consumed for sustenance or used to stave off starvation. As centuries pass, the blood inside the phial naturally crystallizes into red glass-like mineral. Crystallized blood retains 100% of its recorded psychic history indefinitely; dissolving or ingesting the red crystal allows a vampire to read that era's memories, but confers zero nutritional reserves or physical buffs.
        * **Mortal Ingestion Profile:** Only vampires can process psychic memories stored in Blood Archive phials. A mortal who drinks an Archive draft gains no memories; instead, they suffer severe vitae poisoning or become instantly enthralled as a [Thrall](#social).
-       * **Lethe's Touch Archive Interaction:** Drinking a Blood Archive draft allows a vampire to experience recorded memories as a third-person observer, but does **NOT** remove or unlock a [*Lethe's Touch*](#behavioral-powers) memory block from their own personal brain.
+       * **Lethe's Touch Archive Interaction:** Drinking a Blood Archive draft allows a vampire to experience recorded memories as a third-person observer, but does **NOT** remove or unlock a [*Lethe's Touch*](#lethes-touch) memory block from their own personal brain.
     5. **The Law of Sanguine Justice (Judicial Authority & Penal Code):** The supreme legal framework governing all Coven trials, legal disputes, vault theft, tithe defaults, and treason.
        * *Judicial Exemption to Haven Sanctuary:* The Coven Tribunal (Apex Elder, Regent Enforcer, and Coven Council) holds the **exclusive lawful authority** to suspend [The Law of Haven Sanctuary](#secrecy-covens-and-thralls) for judicial enforcement inside haven grounds.
        * *Apex Vault High Theft Penalties:* Stealing stored blood reserves or relics from the Apex Elder's vault constitutes High Theft under Sanguine Justice, punished by an immediate **30-Day Power Lockout** AND **doubling the offender's tithe requirement for 1 full year**.
