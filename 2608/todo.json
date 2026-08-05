@@ -776,11 +776,11 @@
       "section": "## Bloodline Magic Compendium -> Foundational Ritual Mechanics",
       "link": "supplements/bloodline_magic.md#ritual-action-economy--casting-windows",
       "title": "Gap: No Rule for Ritual Pause, Resume, or Voluntary Cancellation",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "No rule exists for voluntarily cancelling a ritual mid-cast or pausing and resuming it. Codify: voluntary cancellation before completion forfeits 50% of spent Blood Reserves (half lost, half returned). Rituals cannot be paused and resumed — a cancelled ritual requires a fresh full-duration casting and full Reserve cost to restart."
+      "details": "Codified No Pause & Resume rule (rituals cannot be paused and resumed under any circumstances) and Voluntary Cancellation rule (50% of spent Blood Reserves forfeited into ambient space, 50% retained by caster; restarting requires full recasting)."
     },
     {
       "id": "TODO-72",

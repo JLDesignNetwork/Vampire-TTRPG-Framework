@@ -55,6 +55,8 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
 * **Tier 1 Rituals:** Require **1 Minute (10 Combat Rounds)** of continuous chanting and blood tracing.
 * **Tier 2 Rituals:** Require **10 Minutes** of unbroken concentration.
 * **Tier 3 Primordial Rites:** Require **1 Hour (60 Minutes)** of ritual channeling and coven alignment.
+* **No Pause & Resume:** Blood rituals require continuous, unbroken channeling of vitae. A ritual **cannot be paused and resumed** under any circumstances.
+* **Voluntary Cancellation (50% Refund):** If a caster voluntarily aborts a ritual prior to completion, **50% of the spent Blood Reserves are forfeited** (dissipated into ambient space), while the remaining 50% are retained in the caster's reservoir. Restarting an aborted ritual requires starting a fresh full-duration casting and paying the full Blood Reserve cost.
 
 ### Blood Reserve Cost & Sacrificial Upkeep
 * **Casting Cost:** Rituals expend stored [Blood Reserves](../vampire.md#blood-reserve-math--expenditure-caps) upon initiation (Tier 1 = 1 Reserve; Tier 2 = 2 Reserves; Tier 3 = 3 Reserves).
