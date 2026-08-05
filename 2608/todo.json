@@ -853,11 +853,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
       "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
       "title": "Three Pillars Audit: Grand Rite Power Amplification & Synergy Bonus",
-      "status": "completed",
+      "status": "pending:audit",
       "priority": "medium",
-      "protection": "protected",
+      "protection": "open",
       "existed_since": "2608.49.0-as",
-      "details": "Refactored Grand Rite of Hematic Transmutation to conform strictly to Three Pillars of Rituals: (1) Power Amplification: explicitly amplifies Necrotic Vitae / Grand Harmonization of Vitae; (2) Dual-Layer Benefits: standalone 1,000-gal transmutation + +2 Power Synergy Bonus to ritual completion / concentration checks for alchemical power possessors; (3) Mandatory Caps: 1,000-gal volume cap, 24-hr duration cap, and feeding session Reserve pool cap."
+      "details": "Refactor Grand Rite of Hematic Transmutation to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify alchemical/transmutation powers; (2) Dual-Layer Benefits: standalone 1,000-gal vitae transmutation + +2 Power Synergy Bonus to ritual completion checks for possessors of alchemical blood powers."
     },
     {
       "id": "TODO-79",

@@ -178,15 +178,11 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Grand Rite of Hematic Transmutation
 * **Cost & Duration:** `3 Reserves | Duration: 24 Hours (then reverts to water)`
-* **Pillar 1 (Power Amplification):** Amplifies alchemical blood powers ([*Necrotic Vitae*](../vampire.md#supernatural-powers), [*Grand Harmonization of Vitae*](../vampire.md#supernatural-powers)), projecting biological transmutation magic across macro environmental water reservoirs.
-* **Pillar 2 (Dual-Layer Benefits & Synergy):**
-  * **Standalone Benefit (All Casters):** Conducts a 1-hour ritual over a body of water (well, fountain, reservoir), transmuting up to **1,000 gallons into dark, blood-infused vitae**. Vampires drinking it regenerate 1 Reserve per gallon (subject to Regeneration Cap). Mortals drinking it gain the **Susceptibility** condition (50% easier to enthrall for 24 hours).
-  * **Power Synergy Bonus:** Casters who natively possess alchemical blood powers ([*Necrotic Vitae*](../vampire.md#supernatural-powers) or [*Grand Harmonization of Vitae*](../vampire.md#supernatural-powers)) receive a **+2 Power Synergy Bonus** to the 1-hour ritual completion check and a **+2 bonus to Concentration tests** if disturbed during casting.
-* **Pillar 3 (Defined Caps & Boundaries):**
-  * **Volume Cap:** Transmutes up to 1,000 Gallons max per casting.
-  * **Duration Cap:** Transmutation lasts strictly **24 hours** before all remaining water reverts to its natural state. Thrall bonds established during the window remain in effect post-reversion.
-  * **Regeneration Cap:** A vampire cannot regenerate more Blood Reserves from transmuted water in a single feeding session than their standard per-night Reserve pool cap (see [Blood Reserve Math](../vampire.md#blood-reserve-math--expenditure-caps)).
-* **Thrall Susceptibility Protocol:** Mortals drinking the transmuted water gain **Susceptibility** (50% easier to enthrall via deliberate blood bond feeding). Drinking transmuted water does **NOT** automatically create a Thrall bond — an intentional feeding enthrallment is still required. Standard [Thrall Cap rules](../vampire.md#secrecy-covens-and-thralls) and overage penalties apply.
+* **Mechanic:** An Ancient caster conducts a 1-hour ritual over a body of water (well, fountain, reservoir). Transmutes up to **1,000 gallons of water into dark, blood-infused vitae**. Rival vampires drinking the liquid regenerate 1 Blood Reserve per gallon (subject to Regeneration Cap below).
+* **Thrall Susceptibility (Not Auto-Bond):** Mortals drinking the transmuted water gain the **Susceptibility** condition — a temporary state making them 50% easier to enthrall via a deliberate blood bond feeding act. Drinking transmuted water does **NOT** automatically create a Thrall bond. A vampire must still perform an intentional feeding enthrallment to establish the bond. Standard [Thrall Cap rules](../vampire.md#secrecy-covens-and-thralls) and [Thrall Cap Overage Strain](../vampire.md#secrecy-covens-and-thralls) penalties apply if the caster bonds mortals beyond their cap.
+* **Susceptibility Duration:** The Susceptibility condition persists for **24 hours** (aligned with the transmutation window). After the water reverts to its natural state, no new Susceptibility conditions can be granted — but existing Susceptibility conditions on mortals who already drank persist until their 24-hour window expires.
+* **Regeneration Cap:** A vampire may not regenerate more Blood Reserves from transmuted water in a single feeding session than their standard per-night Reserve pool cap (see [Blood Reserve Math](../vampire.md#blood-reserve-math--expenditure-caps)). Excess transmuted water beyond that cap yields no further regeneration benefit for that vampire until the following night.
+* **Duration Clarification:** The transmutation lasts **24 hours** before all remaining water reverts to its natural state. Any Thrall bonds deliberately established during the window remain in effect after reversion.
 
 ### Eclipse of the Sanguine Tide
 * **Cost & Duration:** `3 Reserves | Duration: 1 Entire Night`
