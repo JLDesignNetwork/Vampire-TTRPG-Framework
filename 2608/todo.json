@@ -919,11 +919,11 @@
       "section": "## Bloodline Magic Compendium -> Foundational Ritual Mechanics",
       "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
       "title": "Terminology Audit: Normalize Coven Circle Check Terminology",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "In bloodline_magic.md L73, normalize 'Ritual Fortitude checks' to canonical check taxonomy 'Fortitude check' per 2608/terminology.md Section 3."
+      "details": "Normalized non-canonical 'Ritual Fortitude checks' in Coven Circle Chants to canonical check taxonomy 'Fortitude check' and 'Concentration tests' in bloodline_magic.md L78 per 2608/terminology.md Section 3."
     }
   ]
 }
