@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.49.0-as",
+    "version": "2608.49.0-cs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.49.0-as
+# Equipment & UV Arsenal Handbook v2608.49.0-cs
 - [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
 - [Hunter Tactical Countermeasures](#hunter-tactical-countermeasures)
   - [High-Intensity UV Laser Rifles & Emitting Spotlights](#high-intensity-uv-laser-rifles--emitting-spotlights)
