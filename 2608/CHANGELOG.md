@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.53.0-bs (2026-08-05) - Beta Supported Release (Core Micro-Anchor Codification)
+
+**Beta release executing `TODO-97`, codifying 8 missing line-level micro-anchors (`<a id="..."></a>`) in `vampire.md` to support granular cross-referencing for core rules, regression tracks, legal codes, and frenzy mechanics.**
+
+#### Added & Codified
+- **Core Micro-Anchors (`vampire.md` - `TODO-97`):** Codified line-level anchors for `#the-bleed`, `#feral-state`, `#diablerie-the-ultimate-taboo`, `#brink-of-death-progression`, `#power-fade-inheritance`, `#shatter-attempt`, `#law-of-haven-sanctuary`, and `#sanguine-withdrawal`.
+
+---
+
 ### 2608.52.0-bs (2026-08-05) - Beta Supported Release (Framework-Wide Auto-TOC Optimization)
 
 **Beta release executing Option A (`TODO-96`), removing manual in-text bullet list TOCs from `vampire.md`, `bloodline_magic.md`, `coven_law_protocols.md`, and `uv_arsenal_handbook.md` to rely exclusively on native auto-generated outline navigation (IDE sidebars, GitHub web navigation, and Pandoc/CSS `--toc` PDF generation).**

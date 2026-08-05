@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.52.0-bs",
+    "version": "2608.53.0-bs",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.52.0-bs
+# Vampire Ruleset v2608.53.0-bs
 
 ## System Agnostic & Multi-Genre Framework
 
@@ -193,7 +193,7 @@ Because a vampire's life force is tethered to their 3kg of Native Soil, compromi
 * **Parasitic / Diseased Infestation:** Introducing cursed or diseased parasites into the soil causes them to feed on the sleeping vampire's blood reserves during daytime slumber. The vampire wakes up at Stage 2 [Blood Starvation](#sustenance--blood-starvation-rules) with no stored blood reserves remaining.
 * **Structural Containment Breach (Sci-Fi / Modern):** Native Soil preserved in high-tech containers (cryo-capsules, hydroponic terrariums) requires an intact structural seal. Shattering the glass casing, puncturing cryo-seal valves, or introducing toxic liquid chemicals breaks the 3kg soil threshold, causing the soil micro-ecosystem to die and initiating [The Bleed](#the-home-sickness-regression-track-the-bleed) after 48 hours.
 
-#### The Home Sickness Regression Track (The Bleed)
+#### <a id="the-bleed"></a>The Home Sickness Regression Track (The Bleed)
 A vampire can survive away from their preserved Native Soil for exactly 7 days. On the 8th consecutive day of absence, "Home Sickness" sets in, triggering a progressive mechanical and narrative decay known as **The Bleed**. Starting on Day 8, and every 3 days thereafter, the vampire suffers a permanent reduction in their capabilities across four distinct stages:
 
 **Stage 1: Fading Vigor (Days 8 - 14)**
@@ -269,24 +269,22 @@ Pre-Change represents life before being turned into a vampire—the reservoir wh
 ### Post-Change
 
 Post-Change represents the ongoing struggle between lingering Pre-Change Humanity and the ravenous Post-Change Hunger.
-
 * **The 5-Stage Humanity vs. Hunger Track:**
   * **Stage 5: Mortal Empathy:** The vampire maintains strong moral boundaries and emotional connection to mortals. No penalties near exposed blood.
   * **Stage 4: Detached Guardian:** The vampire feeds reluctantly, feeling minor irritation at mortal fragility and emotional drama.
   * **Stage 3: Predatory Pragmatism:** The vampire views mortals primarily as blood vessels and hunting livestock. Inflicts a **+1 difficulty penalty** on all empathy or social checks with mortals.
   * **Stage 2: Cold Monster:** Complete emotional numbness set in. The scent of exposed blood triggers an immediate **Self-Control frenzy check**.
   * **Stage 1: Feral Degradation:** The vampire exists on the razor's edge of permanent frenzy. Only active contact with a remaining Pre-Change Anchor prevents total, permanent loss of sanity.
-* **The Feral State:** When blood-starved, severely wounded, or forced to commit horrific atrocities, the vampire must pass a **Humanity / Self-Control** test (see [Behavioral Powers](#behavioral-powers)). Failure plunges the vampire into a **Feral State**:
+* <a id="feral-state"></a>**The Feral State:** When blood-starved, severely wounded, or forced to commit horrific atrocities, the vampire must pass a **Humanity / Self-Control** test (see [Behavioral Powers](#behavioral-powers)). Failure plunges the vampire into a **Feral State**:
   * **Combat Instinct:** The vampire gains heightened physical ferocity (+1 melee damage bonus).
   * **Cognitive Loss:** The vampire loses the ability to use complex mental or emotional [Behavioral Powers](#behavioral-powers) (such as *Lethe’s Touch*, *Siren’s Cadence*, or *Mind Tear*). However, *Innate Passive* sensory and physical traits (such as [*Crimson Scent*](#crimson-scent), [*Thermal Vision*](#thermal-vision), or [*Skeletal Calcification*](#skeletal-calcification)) remain active biological/supernatural baseline functions during frenzy.
   * **Predatory Fixation (Drinking vs. Draining):** The vampire MUST prioritize feeding upon the nearest blood source. Crucially, a blood-starved vampire in a Feral State instinctually **drinks** (restrained feeding to restore reserves to Stage 1), rather than aggressively draining to kill. However, if a Feral vampire consciously or frenziedly chooses to **drain** a victim while starving, their volatile hunger makes stopping at Stage 4 extremely difficult—requiring a **Hard Self-Control check** to avoid accidentally taking the final drop and triggering the True Death Cascade!
   * **The Anchor Break Check:** If a Feral vampire's nearest target or focal point is one of their own **Pre-Change Anchors** (a living loved one, a physical Sanctum/location, a cherished Relic, or a sacred Oath), the human soul violently resists the Beast. The vampire must immediately make a **Hard Self-Control check**:
     * *System-Agnostic "Hard" Check Definition:* A "Hard" difficulty check represents an extreme hurdle against a vampire's predatory instinct. In D20/attribute systems, apply a severe static penalty (-3 to -5 penalty to the roll or +3 to DC). In D10/D6 dice-pool systems, double the required success threshold (e.g., 4 successes instead of 2) or roll at Disadvantage / maximum difficulty tier.
-    * *Success:* Sheer emotional horror snaps the vampire out of the Feral State immediately, halting the frenzy.
-    * *Failure (Anchor Destruction):* The Beast overrides humanity, permanently destroying the Anchor:
-      * **Mortal Anchors:** The frenzied Beast drains and slays the living loved one.
-      * **Sanctum / Location Anchors:** In a bloodless frenzy, the Beast physically desecrates, burns, or demolishes the birthplace/estate.
-      * **Relic / Heirloom Anchors:** The Beast violently smashes, shatters, or snaps the physical heirloom in half.
+    * *Check Success (Soul Defense):* The human soul prevails. The vampire recoils in horror, instantly breaking the frenzy and regaining control for 1 scene.
+    * *Check Failure (Anchor Break & Permanent Soul Tear):* The Beast overpowers the human soul. The vampire attacks or desecrates the Anchor, inflicting permanent damage:
+      * **Mortal Anchor:** The vampire drains the loved one to the Brink of Death or True Death.
+      * **Sanctum Anchor:** The vampire sets fire to or desecrates their ancestral sanctuary.
       * **Ideal / Oath Anchors:** The Beast forces the vampire to commit an unpardonable atrocity that directly and irrecoverably violates their sacred moral oath.
 
 ## Mechanics
@@ -295,9 +293,9 @@ Post-Change represents the ongoing struggle between lingering Pre-Change Humanit
 
 Draining is done to destroy the life of the victim, either to outright kill them or for [creation](#creation). Draining does not mean [drinking](#drinking--sustenance-rules) all of the victim's blood. Drinking the last drop must never be done. Consuming the final drop binds the vampire to the victim's death, triggering catastrophic consequences based on the victim's nature:
 1. **Consuming the Final Drop of a Mortal:** Instantly severs the supernatural life tether, causing the vampire to perish immediately beside the mortal (**True Death**).
-2. **Consuming the Final Drop of an Immortal / Vampire (Diablerie Attempt):** Triggers a violent metaphysical feedback shockwave. The drinker's body and internal organs instantly calcify into grey granite, plunging the vampire into an **Eternal Petrified Torpor (Eternal Slumber)**! (Note: Starving vampires in a Feral State who choose to drain must pass a **Hard Self-Control check** to avoid taking the final drop).
+2. <a id="diablerie-the-ultimate-taboo"></a>**Consuming the Final Drop of an Immortal / Vampire (Diablerie Attempt):** Triggers a violent metaphysical feedback shockwave. The drinker's body and internal organs instantly calcify into grey granite, plunging the vampire into an **Eternal Petrified Torpor (Eternal Slumber)**! (Note: Starving vampires in a Feral State who choose to drain must pass a **Hard Self-Control check** to avoid taking the final drop).
 
-**The Brink of Death Progression**
+<a id="brink-of-death-progression"></a>**The Brink of Death Progression**
 To survive the creation process, the sire must pull away at the absolute brink of death. The victim's body goes through four distinct physiological stages of shutdown during a drain:
 
 1. **Color Fade:** The victim's skin rapidly loses its flush as blood volume drops, turning pallid and ashen.
@@ -465,7 +463,7 @@ When a vampire invokes two or more powers simultaneously (or multiple vampires p
    * **Sequential Rotation Upkeep (1 Reserve/Round Total):** The ritual nexus consumes **1 Blood Reserve per round in total** to maintain. Participating members take turns in sequential round-robin rotation (1 member pays 1 Reserve on their turn while the remaining members pay 0 Reserves that round). Because each member pays 1 Reserve once every $N$ rounds, all members remain under their per-round expenditure caps, retaining cap space for combat actions.
    * **Target Disruption Counterplay:** Disrupting an assisting member (damage, stun, knockback) removes their **+1 Coven Stacking Bonus** and skips them in the rotation sequence. If the current round's paying member is disrupted before paying their 1 Reserve, the next member in the rotation sequence must immediately pay 1 Reserve to prevent the ritual from collapsing.
 
-**Power Fade & Inheritance**
+<a id="power-fade-inheritance"></a>**Power Fade & Inheritance**
 Because all newly created vampires are born into the modern era, they generate their starting power slots using the [New World](#new-world) base. However, the creation process inherently causes a degradation of power from Maker to fledgling known as the "Power Fade." To determine a fledgling's starting powers, follow this process:
 
 1. **Roll Base:** The fledgling rolls the New World base: 1 Supernatural power and 1d2+1 Behavioral powers.
@@ -606,7 +604,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
   * **Lineage Harmonization (Bonus):** Mental and emotional behavioral powers (such as *Siren’s Cadence*, *Imperious Word*, and *Mind Tear*, see [Behavioral Powers](#behavioral-powers)) are significantly more potent when targeting vampires of your own direct bloodline (sires, fledglings, or blood-siblings). The shared blood frequencies make their minds far easier to influence (+2 mechanical success bonus). *Modifier Stacking & Natural Critical Guarantee:* Lineage Harmonization (+2 bonus against direct bloodline) explicitly **STACKS** with [Universal Age Tier Superiority](#mechanics) modifiers (+1 or +2), reflecting how ancient sires possess near-absolute mental dominance over their direct progeny. However, in all mental/social resistance tests, the defending target always retains a minimum **Natural Critical Success Chance (1-in-20 / Natural 20 or Critical Pair)** to resist or break free against impossible odds, ensuring a defender can never be completely counted out regardless of numerical modifier gaps.
   * **Rival Lineage Static (Penalty):** Vampires from rival Old World lineages possess natural mystical static against one another. Attempting to use mind-control powers against a rival bloodline suffers a -2 penalty unless the attacker has previously ingested blood from that rival lineage.
 * **The Centenary Compulsion:** For the first 100 years of their post-change existence, New World vampires suffer from an involuntary psychological and mystical imperative. They will unconsciously do almost anything to please, protect, or obey their sires, making independent rebellion nearly impossible during their first century. *Command Medium Scope:* The Centenary Compulsion forces obedience to a Sire's explicit intent regardless of medium (spoken voice in person, written letter/note, or third-party messenger), provided the fledgling recognizes the command as originating from their Sire. *Contradictory Command Supremacy:* If a Sire issues contradictory or opposing commands in rapid succession (e.g., *"Attack"* followed immediately by *"Halt"*), the fledgling does not enter a psychological paralysis loop; the Sire's **most recent explicit command** immediately supersedes and replaces all previous conflicting directives.
-  * **Breaking the Compulsion (The Shatter Attempt):** A fledgling can attempt a Near-Impossible **Self-Control** check (greatly aided by the *Sovereign Temperament* power, see [Behavioral Powers](#behavioral-powers)) to break their sire's command for a single scene.
+  * <a id="shatter-attempt"></a>**Breaking the Compulsion (The Shatter Attempt):** A fledgling can attempt a Near-Impossible **Self-Control** check (greatly aided by the *Sovereign Temperament* power, see [Behavioral Powers](#behavioral-powers)) to break their sire's command for a single scene.
   * **Low-Reserve Shatter Degradation System (Trauma & Cost):** Defying the blood bond forces the fledgling's blood to boil backward against the ancestral tether. If attempted while Blood Reserves are at half capacity or less, the violent shockwave inflicts severe physiological and magical degradation based on stored reserves:
     * **High Reserves (>50% Capacity):** Burns **50% of remaining Blood Reserves** + physical agony and bleeding for 1 scene.
     * **Half Reserves ($\le$50% Capacity / $\le$5 Reserves):** Inflicts **1 Major Consequence** (Select 1: 1 Power Slot is locked & disabled for **30 days**, OR suffers a permanent **-1 penalty to Self-Control**).
@@ -628,7 +626,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * **The Fledgling / Neonate:** Bound progeny undergoing their 100-year Centenary Compulsion, serving the Coven while learning the night.
   * **The Five Sacred Laws of the Coven:**
     1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is high treason, punishable by immediate True Death.
-    2. **The Law of Haven Sanctuary (Absolute Non-Violence):** All unsanctioned internal bloodletting, physical assault, or combat between vampires within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
+    2. <a id="law-of-haven-sanctuary"></a>**The Law of Haven Sanctuary (Absolute Non-Violence):** All unsanctioned internal bloodletting, physical assault, or combat between vampires within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
     3. **The Law of the Sanguine Tithe (Vault Contribution & Tithing Protocols):** Fledglings and lower members must yield a mandatory portion of their hunting yields to the Apex Elder's vault (**1 Blood Reserve per 5 reserves harvested** during hunts, or a minimum of 1 stored draft per week).
        * *Sealed Tithe Vessel Deposit (Universal Primary Method — All Eras):* Members harvest mortal blood during hunts outside haven grounds and store it in sealed tithe vessels matching setting technology (clay amphorae/flasks in Fantasy, glass carboys/phials in Gothic/Modern, vacuum bio-canisters in Sci-Fi). Deposits into the vault chamber require **0 bloodletting inside haven grounds**.
        * *In-Haven Voluntary Donation (Genre-Agnostic Closed-Conduit Protocol):* If a member donates directly from their own body inside haven grounds, open blood dripping is strictly forbidden under Law 2. Transfers must utilize setting-appropriate closed conduits (consecrated spigot/chalice altar in Fantasy, syringe conduit node in Modern, bio-extraction port in Sci-Fi) that seal the puncture upon removal.
@@ -654,7 +652,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
   * **Dual-Master Conflict (Bloodline Duel):** If a rival vampire attempts to force-feed their vitae to an already bound Thrall, the Thrall becomes the physical vessel for a **Bloodline Duel** between the Original Master and the Intruder Vampire. The outcome is resolved using the [Universal Age Tier Superiority Modifier System](#age-tier-superiority-modifier-system) (Original Master Tier vs Intruder Tier):
     * *Original Master Wins (Higher/Equal Tier or Wins Test):* The intruder blood is violently purged from the Thrall's system. The Thrall remains loyal, but suffers physical nausea and vomiting for 1 scene.
     * *Intruder Wins (Higher Tier / Wins Test):* The Thrall's original master bond is shattered, and the Thrall suffers violent internal hemorrhaging bordering on death (takes **2 Direct Core Health Damage**, placing the Thrall on the Brink of Death).
-  * **Withdrawal Penalties:** If denied vitae past 14 days, the Thrall loses all physical buffs within 48 hours and suffers excruciating withdrawal (fever, shivers, severe paranoia, suicidal depression, and intense craving for vitae). Long-term Thralls suffer a rapid aging catch-up over several months if permanently cut off.
+  * <a id="sanguine-withdrawal"></a>**Withdrawal Penalties:** If denied vitae past 14 days, the Thrall loses all physical buffs within 48 hours and suffers excruciating withdrawal (fever, shivers, severe paranoia, suicidal depression, and intense craving for vitae). Long-term Thralls suffer a rapid aging catch-up over several months if permanently cut off.
   * **Vitae Sabotage & Desperation:** If a master is immobilized in Torpor or buried in Native Soil for Re-Rooting, Thralls approaching Day 14 without feeding face extreme panic. On Day 14, the Thrall must pass a **Self-Control check**.
     * *Failure (Betrayal/Extraction):* Driven by survival instincts to stave off agonizing withdrawal, the Thrall attempts to harvest blood directly from their master.
     * *Accessible Master:* If the master is accessible (e.g. Torpid in a coffin), the Thrall bleeds their master's heart/wrist for 1 draft—stealing 1 blood reserve from a Torpid master or interrupting a Re-Rooting recovery with a **+1 day penalty**.
