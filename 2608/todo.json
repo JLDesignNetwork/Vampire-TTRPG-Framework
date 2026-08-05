@@ -886,11 +886,11 @@
       "section": "## UV Arsenal Handbook -> Flash-Bang Stun Grenade",
       "link": "supplements/uv_arsenal_handbook.md",
       "title": "Terminology Audit: Normalize '1 Round' to '1 Combat Round' in UV Flash-Bang",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "In uv_arsenal_handbook.md L56, replace non-canonical '1 Round Blinding Stun' with canonical '1 Combat Round Blinding Stun' per 2608/terminology.md Section 1."
+      "details": "Normalized non-canonical '1 Round Stun' duration labels to canonical '1 Combat Round Stun' and '1 Combat Round Blinding Stun' in uv_arsenal_handbook.md L55-56 per 2608/terminology.md Section 1."
     },
     {
       "id": "TODO-82",

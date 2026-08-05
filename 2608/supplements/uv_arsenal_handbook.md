@@ -52,8 +52,8 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 * **Immunity:** Vampires actively invoking [Daywalker's Grace](../vampire.md#immunities--resistances) are completely immune to artificial UV weapons.
 
 ### Pressurized UV Flashbang Grenades
-* **Weapon Rating:** `Thrown Area (20ft Radius) | Duration: 1 Round Stun`
-* **Mechanic:** Detonates in a blinding burst of high-frequency UV radiation and sound. Vampires inside the blast zone must make a **Hard Fortitude check** (DC 15); failure inflicts **1 Round Blinding Stun** and triggers dermal steam burns.
+* **Weapon Rating:** `Thrown Area (20ft Radius) | Duration: 1 Combat Round Stun`
+* **Mechanic:** Detonates in a blinding burst of high-frequency UV radiation and sound. Vampires inside the blast zone must make a **Hard Fortitude check** (DC 15); failure inflicts **1 Combat Round Blinding Stun** and triggers dermal steam burns.
 
 ### Thermal FLIR Imaging & Optics Scanners
 * **Equipment Type:** `Optics Sensor / Helmet Overlay`
