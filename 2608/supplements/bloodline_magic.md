@@ -164,8 +164,13 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Sanguine Transfusion Lock
 * **Cost & Duration:** `2 Reserves | Duration: 1 Combat Round (Action Lock)`
-* **Mechanic:** Target wounded enemy bleeding exposed vitae has their external blood flow violently locked in place mid-stream. Forces the target to drop held weapons and locks their physical limbs for **1 combat round**.
-* **Physical Lock Scope:** While locked, the target cannot perform physical movement, physical attacks, or gesture-based ritual casting. The target retains full consciousness and may still speak or invoke purely mental/telepathic powers ([*Mind Tear*](../vampire.md#behavioral-powers)).
+* **Pillar 1 (Power Amplification):** Amplifies blood-arresting and kinetic powers ([*Instant Cardiac Lock*](../vampire.md#torpor), [*Kinetic Blast*](../vampire.md#supernatural-powers)), manipulating exposed external blood flow to freeze an enemy's motor nervous system.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** Target wounded enemy bleeding exposed vitae has their blood flow violently locked in place. Forces target to drop held weapons and locks physical limbs for **1 combat round**.
+  * **Power Synergy Bonus:** Casters who natively possess blood control powers ([*Instant Cardiac Lock*](../vampire.md#torpor) or [*Necrotic Vitae*](../vampire.md#supernatural-powers)) receive a **+2 Power Synergy Bonus** to the lock check / Fortitude resistance DC.
+* **Pillar 3 (Defined Caps & Stunlock Immunity Cap):**
+  * **Physical Lock Scope:** While locked, the target cannot perform physical movement, attacks, or gesture-based casting, but retains full consciousness and may speak or invoke purely mental/telepathic powers ([*Mind Tear*](../vampire.md#behavioral-powers)).
+  * **Stunlock Immunity Cap:** A target affected by Transfusion Lock gains temporary vascular immunity and **cannot be targeted by Sanguine Transfusion Lock again for the remainder of the Scene** (preventing continuous stunlock loops).
 
 ---
 
