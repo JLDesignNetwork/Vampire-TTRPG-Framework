@@ -126,8 +126,13 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Vitae Purification Filter
 * **Cost & Duration:** `1 Reserve (Pre-Ingestion) / 2 Reserves (Emergency Post-Ingestion Purge) | Duration: Instantaneous`
-* **Mechanic:** The caster draws a draft (~250ml) of harvested blood through their palms, channeling bloodline purity magic to instantly neutralize all alchemical poisons, holy water taints, synthetic neurotoxins, or [Reaper virus contagions](../vampire.md#mutations) present in the draft. A single casting neutralizes **all simultaneous contaminant types** within that draft for 1 Reserve.
-* **Emergency Post-Ingestion Purge:** If tainted blood was already swallowed within the last 60 seconds, the caster may expend **2 Blood Reserves** to perform an emergency internal purge, neutralizing the ingested toxins/contagions before they reach the heart reservoir.
+* **Pillar 1 (Power Amplification):** Amplifies internal blood control powers ([*Necrotic Vitae*](../vampire.md#supernatural-powers), [*Grand Harmonization of Vitae*](../vampire.md#supernatural-powers)), projecting biological blood purity magic onto external or ingested blood.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** Drawing a draft (~250ml) of harvested blood through palms instantly neutralizes all alchemical poisons, holy water taints, synthetic neurotoxins, or [Reaper virus contagions](../vampire.md#mutations) present in that draft for 1 Reserve.
+  * **Power Synergy Bonus:** Casters who natively possess blood control powers ([*Necrotic Vitae*](../vampire.md#supernatural-powers) or [*Grand Harmonization of Vitae*](../vampire.md#supernatural-powers)) receive a **+2 Power Synergy Bonus** to all [Fortitude/Constitution checks](../vampire.md#creation) against lingering systemic toxins or contagions.
+* **Pillar 3 (Defined Caps & Boundaries):**
+  * **Volume Cap:** Pre-ingestion purification is capped at **1 draft (~250ml) per casting**.
+  * **Emergency Purge Cap:** Emergency post-ingestion purge (2 Reserves) must occur within **60 seconds** of ingestion and is capped at **max 1 Emergency Purge per Scene**.
 *(Note: Silver is omitted as it poses no supernatural toxicity to vampires; see [Silver (Mythic Misconception)](../vampire.md#banes--weaknesses).)*
 
 ---

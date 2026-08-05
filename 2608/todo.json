@@ -820,11 +820,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Vitae Purification Filter",
       "link": "supplements/bloodline_magic.md#vitae-purification-filter",
       "title": "Three Pillars Audit: Vitae Purification Filter Power Amplification & Synergy Bonus",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Refactor Vitae Purification Filter to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify blood manipulation powers like Necrotic Vitae / Grand Harmonization of Vitae; (2) Dual-Layer Benefits: standalone draft purification + +2 Power Synergy Bonus to poison resistance checks for possessors of blood control powers; (3) Mandatory Caps: codify per-session emergency purge volume cap."
+      "details": "Refactored Vitae Purification Filter to conform strictly to Three Pillars of Rituals: (1) Power Amplification: explicitly amplifies Necrotic Vitae / Grand Harmonization of Vitae; (2) Dual-Layer Benefits: standalone 250ml draft purification + +2 Power Synergy Bonus to poison/contagion resistance checks for blood control power possessors; (3) Mandatory Caps: 1 draft volume cap per casting and max 1 Emergency Purge per Scene cap."
     },
     {
       "id": "TODO-76",
