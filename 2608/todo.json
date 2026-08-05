@@ -721,11 +721,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Rhythm of the Ancestral Lineage",
       "link": "supplements/bloodline_magic.md#rhythm-of-the-ancestral-lineage",
       "title": "Gap: Ancestral Lineage Communion — Living Sire Conflict & Skill System Alignment",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Rhythm of the Ancestral Lineage does not clarify whether the ritual contacts a living Sire (creating a two-way telepathic security risk) or only deceased ancestral echoes. Additionally, skill categories 'Lore, Strategy, and Arcane Perception checks' are not formally defined in vampire.md — align to the core ruleset's official skill system taxonomy."
+      "details": "Codified under Three Pillars of Rituals: amplifies Bloodline Memory to open live real-time communion across blood tether; provides standalone +2 Cognition/Perception/Lore bonus for all casters in room; grants +2 Power Synergy Bonus for possessors of Bloodline Memory; sets Age Tier Progeny Capacity Caps (Neonate 1, Elder 3, Ancient 7); adds Bloodline Duel detection/retaliatory backfire rules and Torpor/Deceased fallback."
     },
     {
       "id": "TODO-67",

@@ -112,7 +112,14 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Rhythm of the Ancestral Lineage
 * **Cost & Duration:** `2 Reserves | Duration: 1 Scene (Communion)`
-* **Mechanic:** By burning blood in an ancient bronze censor or bio-centrifuge, the caster opens a telepathic link across the bloodline, communing with the residual echo of their Sire or ancestral Elders. Grants a **+2 bonus to Lore, Strategy, and Arcane Perception checks** for 1 Scene.
+* **Power Amplification:** Amplifies [Bloodline Memory](../vampire.md#behavioral-powers). By burning blood in an ancient censer or bio-centrifuge, the caster breaks the core *Historical Scope Lock* of *Bloodline Memory*, opening a **live real-time telepathic communion feed** across the blood tether between Sire and progeny.
+* **Standalone Benefit (All Casters):** Burning the blood censer grants a **+2 bonus to Cognition, Perception, and Historical Lore checks** for 1 Scene to the caster and all allied bloodline members in the room (whether they possess *Bloodline Memory* or not).
+* **Power Synergy Bonus:** Casters who natively possess [Bloodline Memory](../vampire.md#behavioral-powers) receive a **+2 Power Synergy Bonus** to all Bloodline Duel checks during live communion.
+* **Age Tier Progeny Capacity Cap:** The number of bloodline progeny a Sire can monitor simultaneously in a single casting scales by Age Tier: Neonate Caster = **1 Target max**; Elder Caster = **Up to 3 Progeny max**; Ancient Caster = **Up to 7 Progeny max**.
+* **Bloodline Duel & Detection Limits:** The caster rolls **1 Bloodline Duel check** against target(s):
+  * **Sire Probing Downward:** Progeny do not automatically notice the probe — requires a **Perception check (DC 14)** to detect. Detected progeny roll Self-Control against the caster's result to sever their link.
+  * **Progeny Probing Upward:** Higher-tier ancestors **automatically detect** the probe instantly. If the ancestor wins the Bloodline Duel, they sever the link, inflict **1 Direct Core Health Damage** (psychic feedback) on the caster, and collapse the ritual.
+* **Torpor/Deceased Cap:** Probing a Sire or progeny in Torpor or True Death hard-caps back to baseline past memories only, adhering strictly to [Bloodline Memory](../vampire.md#behavioral-powers) scope.
 
 ### Hematic Curse of Inertia
 * **Cost & Duration:** `2 Reserves | Duration: 1 Scene`
