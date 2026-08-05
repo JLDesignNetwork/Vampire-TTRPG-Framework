@@ -952,11 +952,11 @@
       "section": "## Core Ruleset -> Supernatural Powers -> Osteomancy",
       "link": "vampire.md#supernatural-powers",
       "title": "Osteomancy: Codify Standalone Bone Shards, Skeletal Calcification, and Bone Armor Plating",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Codify 3 standalone Osteomancy powers (Bone Shards, Skeletal Calcification, Bone Armor Plating) under ### Osteomancy in vampire.md complete with activation costs, durations, and mechanics per IDEA-01 specification."
+      "details": "Codified 3 standalone Osteomancy powers (Bone Shards, Skeletal Calcification, and Bone Armor Plating) under ### Osteomancy in 2608/vampire.md complete with activation costs, durations, and mechanics per IDEA-01 specification."
     },
     {
       "id": "TODO-88",

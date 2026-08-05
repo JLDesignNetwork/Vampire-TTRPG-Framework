@@ -523,7 +523,9 @@ Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Eac
 * **Necromantic Primacy (Master Power) `[Supernatural - Master | Innate Composite - 0 Reserves Activation]`:** The pinnacle of death manipulation. You possess *Corpse Siphon*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot*, and *Soul Bind*, granting absolute control over post-mortem interrogation, individual and mass corpse animation, decay, and spirit binding in a single Master power slot.
 
 ### Osteomancy (Bone Manipulation & Skeletal Arts)
-*Powers that manipulate, harden, grow, or project biological bone structures.*
+* **Bone Shards `[Supernatural | Activated - 1 Reserve | Duration: Instantaneous (1 Attack)]`:** You rapidly calcify and project razor-sharp skeletal bone darts from your knuckles, palms, or forearms. The bone projectiles pierce body armor, dealing piercing physical damage and inflicting painful bone splinters on target flesh.
+* **Skeletal Calcification `[Supernatural | Innate Passive - 0 Reserves | Duration: Permanent]`:** You fortify your internal skeletal framework into high-density calcified bone matter. You gain permanent structural resilience against blunt force trauma, crushing impacts, and bone fractures.
+* **Bone Armor Plating `[Supernatural | Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Interlocking calcified skeletal bone plates erupt outward through your dermis, creating a dense, ivory bone carapace around your torso and limbs (+2 armor rating against physical strikes and kinetic impacts).
 
 ### Pyromancy (Fire, Thermal Energy & Hellfire Arts)
 * **Supernatural Fuel Source (Pyromancy Vacuum Immunity):** Blood Pyromancy (*Hellfire Orb*, *Pyre Aura*, *Thermal Ignition*) consumes pressurized vampiric vitae as fuel rather than atmospheric oxygen. Hellfire Orbs and Pyre Auras burn continuously in zero-oxygen vacuums (orbital space stations, airlocks), underwater, and in toxic gas clouds without extinguishing!
