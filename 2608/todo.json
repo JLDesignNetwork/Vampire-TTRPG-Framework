@@ -930,11 +930,11 @@
       "section": "## Terminology Glossary -> Supernatural & Ritual Disciplines",
       "link": "terminology.md",
       "title": "Terminology & Taxonomy: Codify 12 Canonical -mancy Disciplines",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Add a dedicated section in 2608/terminology.md defining the 12 canonical -mancy disciplines (Hemomancy, Necromancy, Osteomancy, Pyromancy, Gravimancy, Astromancy, Umbramancy, Psychomancy, Cognimancy, Morphomancy, Immunomancy, Biomancy) with domain scopes and assigned powers/rituals per IDEA-01 specification."
+      "details": "Codified Section 7 in 2608/terminology.md establishing the 12 canonical -mancy disciplines (Hemomancy, Necromancy, Osteomancy, Pyromancy, Gravimancy, Astromancy, Umbramancy, Psychomancy, Cognimancy, Morphomancy, Immunomancy, Biomancy) with domain scopes and assigned power/ritual rosters per IDEA-01 specification."
     },
     {
       "id": "TODO-86",

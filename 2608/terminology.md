@@ -83,3 +83,22 @@ This document outlines the official, normalized terminology standard for the **V
 | **Neonate** | New World (< 500 years) | 10 Reserves | 2 Reserves/Round |
 | **Elder** | Old World (500–1,199 years) | 13+ Reserves | 3 Reserves/Round |
 | **Ancient** | Primordial (1,200+ years) | 17+ Reserves | 4 Reserves/Round |
+
+---
+
+## 7. Supernatural & Ritual Disciplines (-mancy Taxonomy)
+
+| Canonical Discipline | Domain & Scope | Core Assigned Powers / Rituals |
+| :--- | :--- | :--- |
+| **Hemomancy** | Blood Magic, Vitae Arts, Transmutation, & Bloodline Scrying | *Sanguine Scrying Mirror*, *Ritual of the Crimson Ward*, *Vitae Purification Filter*, *Hematic Curse*, *Grand Rite* |
+| **Necromancy** | Death, Soul Harvesting, Post-Mortem Interrogation, & Undead Animation | *Corpse Siphon*, *Soul Bind*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot* |
+| **Osteomancy** | Skeletal Manipulation, Bone Darts, Calcification, & Bone Armor | *Bone Shards*, *Skeletal Calcification*, *Bone Armor Plating* |
+| **Pyromancy** | Fire, Thermal Energy, Hellfire, & Pyromantic Combustion | *Hellfire Orb*, *Pyre Aura*, *Thermal Ignition* |
+| **Gravimancy** | Gravity Control, Mass Defiance, Localized Force Shields, & Pressure Implosion | *Gravity Shield*, *Grav-Crush*, *Abyssal Drift*, *Spider's Grace* |
+| **Astromancy** | Spatial Continuum Folding, Teleportation, & Spatial Portals/Anchors | *Astral Step*, *Astral Rift*, *Astral Anchor Ritual* |
+| **Umbramancy** | Shadow Traversal, Void Manipulation, & Light-Absorbing Void Webs | *Umbral Crossing*, *Silk & Shadow* |
+| **Psychomancy** | Telepathy, Emotion Manipulation, Mind Probes, Illusions, & Psychokinesis | *Psychic Grip*, *Mind Tear*, *Lethe's Touch*, *Nightmare Visage*, *Phantasm*, *Puppet Master* |
+| **Cognimancy** | Heightened Perception, Retinal FLIR, Ultrasonic Bio-Sonar, & EM Spectrum Gaze | *Thermal Vision*, *Bio-Sonar*, *EM Gaze*, *Apex Sight*, *Tremor Sense*, *Resounding Beat* |
+| **Morphomancy** | Biological Body Shifting, Swarm Realms, Beast Shifting, & Dermal Clay Alteration | *Mist Form*, *Bat Swarm*, *Rat Tide*, *Weaver Swarm*, *Beast Shift*, *Arachnid Shift*, *Chameleon Clay* |
+| **Immunomancy** | Solar Shielding, Holy Symbol Resistance, Toxin Assimilation, & Native Soil Severance | *Daywalker's Grace*, *Unholy Primacy*, *Anointed Flesh*, *Alchemical Assimilation*, *Earthbreaker* |
+| **Biomancy** | Biological Regeneration, Cellular Healing, Suppressed Mending, & Limb Regrowth | *Sanguine Knit*, *Mortal Mask*, *Gangrene Touch*, *Grand Harmonization of Vitae* |
