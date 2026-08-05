@@ -8,8 +8,8 @@
     },
     {
       "id": "IDEA-02",
-      "status": "pending",
-      "details": "Markdown Linking & Headers: Currently many framework links point to parent category headers rather than specific targeted mechanics/powers because individual powers/items use bold bullet lists without markdown anchor headers. Refactor individual powers, items, protocols, and laws into header elements (e.g., using `#####` or `######` bold headers) across all documents (vampire.md, bloodline_magic.md, coven_law_protocols.md, uv_arsenal_handbook.md), enabling precise, direct anchor linking (`[Power Name](vampire.md#power-name)`).",
+      "status": "approved:specification",
+      "details": "Direct Line-Level Micro-Anchoring: Insert invisible HTML line-level micro-anchors (`<a id=\"power-name\"></a>`) into every individual power, ritual, protocol, law, and weapon across vampire.md, bloodline_magic.md, coven_law_protocols.md, and uv_arsenal_handbook.md. This enables 100% precise, line-level anchor linking (`[Power Name](vampire.md#power-name)`) without altering markdown bullet styling, breaking PDF 2-column page rendering, or polluting PDF bookmark drawers. All cross-references updated to point directly to micro-anchors.",
       "resolution": ""
     }
   ]

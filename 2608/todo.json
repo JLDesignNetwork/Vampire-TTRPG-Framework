@@ -990,6 +990,61 @@
       "protection": "protected",
       "existed_since": "2608.49.0-as",
       "details": "Audited and synchronized all cross-references and anchor links across vampire.md, bloodline_magic.md, coven_law_protocols.md, uv_arsenal_handbook.md, and todo.json to point cleanly to the new 12 -mancy discipline section anchors and updated power names per IDEA-01 specification."
+    },
+    {
+      "id": "TODO-91",
+      "section": "## Core Ruleset -> Micro-Anchors -> Powers",
+      "link": "vampire.md#supernatural--behavioral-powers--mancy-taxonomy",
+      "title": "Core Ruleset: Insert Invisible Micro-Anchors for Powers in vampire.md",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-bs",
+      "details": "Insert invisible HTML micro-anchors (<a id=\"power-slug\"></a>) at the start of all ~60 power bullet lines in 2608/vampire.md per IDEA-02 specification."
+    },
+    {
+      "id": "TODO-92",
+      "section": "## Bloodline Magic Supplement -> Micro-Anchors -> Rituals",
+      "link": "supplements/bloodline_magic.md",
+      "title": "Bloodline Magic Supplement: Insert Invisible Micro-Anchors for Rituals in bloodline_magic.md",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-bs",
+      "details": "Insert invisible HTML micro-anchors (<a id=\"ritual-slug\"></a>) for all rituals across all arcana tiers in supplements/bloodline_magic.md per IDEA-02 specification."
+    },
+    {
+      "id": "TODO-93",
+      "section": "## Coven Law Protocols -> Micro-Anchors -> Laws & Protocols",
+      "link": "supplements/coven_law_protocols.md",
+      "title": "Coven Law Protocols: Insert Invisible Micro-Anchors for Laws & Protocols in coven_law_protocols.md",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-bs",
+      "details": "Insert invisible HTML micro-anchors (<a id=\"protocol-slug\"></a>) for all coven laws and court protocols in supplements/coven_law_protocols.md per IDEA-02 specification."
+    },
+    {
+      "id": "TODO-94",
+      "section": "## UV Arsenal Handbook -> Micro-Anchors -> Weapons & Gear",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "UV Arsenal Handbook: Insert Invisible Micro-Anchors for Weapons & Gear in uv_arsenal_handbook.md",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-bs",
+      "details": "Insert invisible HTML micro-anchors (<a id=\"item-slug\"></a>) for all weapons, gear, and combat technology entries in supplements/uv_arsenal_handbook.md per IDEA-02 specification."
+    },
+    {
+      "id": "TODO-95",
+      "section": "## Framework Micro-Anchor Audit -> Deep Link Synchronization",
+      "link": "todo.json",
+      "title": "Framework Micro-Anchor Cross-Reference Audit: Synchronize Deep Links Across All Supplements",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-bs",
+      "details": "Audit and update all cross-references across vampire.md, bloodline_magic.md, coven_law_protocols.md, uv_arsenal_handbook.md, and todo.json to point directly to micro-anchor IDs (e.g. vampire.md#astral-step) per IDEA-02 specification."
     }
   ]
 }
