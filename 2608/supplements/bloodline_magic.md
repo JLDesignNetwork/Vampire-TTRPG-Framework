@@ -122,9 +122,10 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Torpor/Deceased Cap:** Probing a Sire or progeny in Torpor or True Death hard-caps back to baseline past memories only, adhering strictly to [Bloodline Memory](../vampire.md#behavioral-powers) scope.
 
 ### Hematic Curse of Inertia
-* **Cost & Duration:** `2 Reserves | Duration: 1 Scene`
+* **Cost & Duration:** `2 Reserves | Duration: 1 Scene (Single Target)`
 * **Mechanic:** Target enemy within line of sight feels their internal blood thicken to cold sludge. The victim's movement speed is halved (**0.5x speed**), and their Initiative is reduced by **-2** for 1 Scene.
 * **Resistance:** Target may attempt a **Hard Fortitude check** at the start of each turn to break the curse.
+* **Caster Dependence & Early Termination:** The curse requires ongoing metaphysical tethering from the caster. If the caster is incapacitated, knocked unconscious, plunged into Torpor, or perishes, the curse immediately collapses and the victim's speed and Initiative are restored.
 
 ### Sanguine Transfusion Lock
 * **Cost & Duration:** `2 Reserves | Duration: 1 Combat Round (Action Lock)`

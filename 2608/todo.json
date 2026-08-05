@@ -754,11 +754,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 2 Blood Sorcery -> Hematic Curse of Inertia",
       "link": "supplements/bloodline_magic.md#hematic-curse-of-inertia",
       "title": "Gap: Hematic Curse Caster Concentration Maintenance Not Specified",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Hematic Curse of Inertia persists for 1 Scene with a per-turn resistance check for the target — but no rule states whether the caster must maintain active concentration for the curse to persist. Clarify: if the caster is incapacitated, enters Torpor, or dies during the curse's duration, the curse immediately ends. Also define whether the curse can be cast on multiple targets simultaneously or is strictly single-target."
+      "details": "Codified cost header as 'Duration: 1 Scene (Single Target)' and added Caster Dependence & Early Termination rule: curse requires ongoing metaphysical tethering; if caster is incapacitated, knocked unconscious, plunged into Torpor, or perishes, curse immediately collapses."
     },
     {
       "id": "TODO-70",
