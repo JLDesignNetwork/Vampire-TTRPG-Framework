@@ -868,7 +868,61 @@
       "priority": "medium",
       "protection": "open",
       "existed_since": "2608.49.0-as",
-      "details": "Refactor Eclipse of the Sanguine Tide to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify environmental/fog powers like Crimson Mist / Visage of the Abyssal Nightmare; (2) Dual-Layer Benefits: standalone +1 Perception/Tracking + Overcap + +2 Power Synergy Bonus to environmental power DCs cast inside the fog zone."
+    },
+    {
+      "id": "TODO-80",
+      "section": "## Social -> Secrecy, Covens, and Thralls",
+      "link": "vampire.md#secrecy-covens-and-thralls",
+      "title": "Terminology Audit: Replace Non-Canonical 'Willpower Check' with 'Self-Control Check'",
+      "status": "pending:audit",
+      "priority": "medium",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "In vampire.md L698 (Thrall Day 14 desperate check), replace non-canonical 'Self-Control / Willpower check' with canonical 'Self-Control check' per 2608/terminology.md Section 3."
+    },
+    {
+      "id": "TODO-81",
+      "section": "## UV Arsenal Handbook -> Flash-Bang Stun Grenade",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "Terminology Audit: Normalize '1 Round' to '1 Combat Round' in UV Flash-Bang",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "In uv_arsenal_handbook.md L56, replace non-canonical '1 Round Blinding Stun' with canonical '1 Combat Round Blinding Stun' per 2608/terminology.md Section 1."
+    },
+    {
+      "id": "TODO-82",
+      "section": "## Coven Law Court Protocols -> Evidence Admissibility & Legal Dispensations",
+      "link": "supplements/coven_law_protocols.md",
+      "title": "Terminology Audit: Align Section Anchor Links in Coven Law Protocols",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "In coven_law_protocols.md L58 and L79, update outdated anchor links '#advanced-mental--illusion' to canonical core ruleset anchor '#behavioral-powers'."
+    },
+    {
+      "id": "TODO-83",
+      "section": "## Core Ruleset -> Supernatural Powers -> Duration Headers",
+      "link": "vampire.md#supernatural-powers",
+      "title": "Terminology Audit: Standardize Combat Round Duration Labels in Core Ruleset",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "Audit all duration headers across vampire.md and supplements, ensuring all combat turn durations use canonical 'Duration: [N] Combat Round(s)' format per 2608/terminology.md Section 1."
+    },
+    {
+      "id": "TODO-84",
+      "section": "## Bloodline Magic Compendium -> Foundational Ritual Mechanics",
+      "link": "supplements/bloodline_magic.md#coven-circle-chants--age-tier-synergy",
+      "title": "Terminology Audit: Normalize Coven Circle Check Terminology",
+      "status": "pending:audit",
+      "priority": "low",
+      "protection": "open",
+      "existed_since": "2608.49.0-as",
+      "details": "In bloodline_magic.md L73, normalize 'Ritual Fortitude checks' to canonical check taxonomy 'Fortitude check' per 2608/terminology.md Section 3."
     }
   ]
 }
