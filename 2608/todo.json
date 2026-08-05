@@ -710,11 +710,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Vitae Purification Filter",
       "link": "supplements/bloodline_magic.md#vitae-purification-filter",
       "title": "Gap: Vitae Purification Filter — Multi-Contaminant Scope & Reaper Virus Reference",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Vitae Purification Filter does not specify whether one casting neutralizes all simultaneous contaminants (silver + Reaper virus in the same blood) or only one per Reserve cost. Additionally, 'Reaper virus' is referenced without any prior definition in the core ruleset or supplement — add a lore footnote or cross-reference. Also clarify whether the power operates on blood already inside the caster's system or only on blood being ingested."
+      "details": "Codified multi-contaminant scope (1 Reserve neutralizes all simultaneous toxins/contagions in 1 draft), added Emergency Post-Ingestion Purge within 60s (2 Reserves), cross-referenced Reaper Contagion (vampire.md#mutations), and removed silver reference to eliminate contradiction with Silver Mythic Misconception (vampire.md#banes--weaknesses)."
     },
     {
       "id": "TODO-66",

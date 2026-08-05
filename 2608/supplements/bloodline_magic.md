@@ -101,8 +101,10 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Invitation Protocol:** The caster is always permanently self-invited to their own warded threshold. Additional guests may be verbally designated as invited at any time during the ward's active 24-hour duration. Invitations are revoked by the caster's explicit verbal or written decree, or automatically upon the caster's entry into Torpor or True Death. **Exile Edge-Case:** A Coven Council exile ruling does not override the caster's personal invitation authority over their own private haven ward — however, a Coven-sanctioned forced entry override may be requested as a formal Tribunal dispensation (see [Coven Law Court Protocols](./coven_law_protocols.md)).
 
 ### Vitae Purification Filter
-* **Cost & Duration:** `1 Reserve | Duration: Instantaneous`
-* **Mechanic:** The caster draws a draft of harvested blood through their palms, channeling bloodline purity magic to instantly neutralize alchemical poisons, silver traces, holy water taints, or Reaper virus contagions present in the blood before ingestion.
+* **Cost & Duration:** `1 Reserve (Pre-Ingestion) / 2 Reserves (Emergency Post-Ingestion Purge) | Duration: Instantaneous`
+* **Mechanic:** The caster draws a draft (~250ml) of harvested blood through their palms, channeling bloodline purity magic to instantly neutralize all alchemical poisons, holy water taints, synthetic neurotoxins, or [Reaper virus contagions](../vampire.md#mutations) present in the draft. A single casting neutralizes **all simultaneous contaminant types** within that draft for 1 Reserve.
+* **Emergency Post-Ingestion Purge:** If tainted blood was already swallowed within the last 60 seconds, the caster may expend **2 Blood Reserves** to perform an emergency internal purge, neutralizing the ingested toxins/contagions before they reach the heart reservoir.
+*(Note: Silver is omitted as it poses no supernatural toxicity to vampires; see [Silver (Mythic Misconception)](../vampire.md#banes--weaknesses).)*
 
 ---
 
