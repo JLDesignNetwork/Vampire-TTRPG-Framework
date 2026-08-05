@@ -151,10 +151,16 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Torpor/Deceased Cap:** Probing a Sire or progeny in Torpor or True Death hard-caps back to baseline past memories only, adhering strictly to [Bloodline Memory](../vampire.md#behavioral-powers) scope.
 
 ### Hematic Curse of Inertia
-* **Cost & Duration:** `2 Reserves | Duration: 1 Scene (Single Target)`
-* **Mechanic:** Target enemy within line of sight feels their internal blood thicken to cold sludge. The victim's movement speed is halved (**0.5x speed**), and their Initiative is reduced by **-2** for 1 Scene.
-* **Resistance:** Target may attempt a **Hard Fortitude check** at the start of each turn to break the curse.
-* **Caster Dependence & Early Termination:** The curse requires ongoing metaphysical tethering from the caster. If the caster is incapacitated, knocked unconscious, plunged into Torpor, or perishes, the curse immediately collapses and the victim's speed and Initiative are restored.
+* **Cost & Duration:** `2 Reserves | Duration: 1 Scene`
+* **Pillar 1 (Power Amplification):** Amplifies thermal and slowing powers ([*Grave Chill*](../vampire.md#supernatural-powers)), projecting cryogenic blood thickening magic into an enemy's circulatory system.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** Target enemy within line of sight has their blood thickened to cold sludge. Movement speed is halved (**0.5x speed**), and Initiative is reduced by **-2** for 1 Scene. Target may attempt a **Hard Fortitude check** at the start of each turn to break the curse.
+  * **Power Synergy Bonus:** Casters who natively possess cold/thermal powers ([*Grave Chill*](../vampire.md#supernatural-powers)) receive a **+2 Power Synergy Bonus** to the curse's Fortitude resistance DC.
+* **Pillar 3 (Defined Caps & Age Tier Target Caps):** The maximum number of targets cursed in a single casting scales by Age Tier:
+  * **Neonate Caster (< 500 yrs):** 1 Target max
+  * **Elder Caster (500–1,199 yrs):** Up to 2 Targets max within line of sight
+  * **Ancient Caster (1,200+ yrs):** Up to 3 Targets max within line of sight
+* **Caster Dependence & Early Termination:** The curse requires ongoing metaphysical tethering. If the caster is incapacitated, knocked unconscious, plunged into Torpor, or perishes, the curse immediately collapses and all targets' speed and Initiative are restored.
 
 ### Sanguine Transfusion Lock
 * **Cost & Duration:** `2 Reserves | Duration: 1 Combat Round (Action Lock)`
