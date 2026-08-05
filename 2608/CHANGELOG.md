@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.50.0-bs (2026-08-05) - Beta Supported Release (Core Ruleset Engine Freeze)
+
+**Major Milestone Beta release completing Phase 2 Red Team Core Audit of `vampire.md`, eliminating duplicate legacy power blocks, clarifying Feral State passive traits, standardizing natural critical success guarantees, and freezing the core ruleset engine at `v2608.50.0-bs`.**
+
+#### Refactored & Fixed
+- **Legacy Duplicate Power Block Cleanup (`vampire.md`):** Removed unanchored duplicate `Combat & Elemental Evocation` and `Necromancy & Grave Arts` blocks from the bottom of the power section. Consolidated all orphan powers (*Sanguine Spike*, *Umbral Blade*, *Grave Chill*, *Kinetic Blast*, *Nerve Lightning*) into their official 12 `-mancy` discipline headers (*Hemomancy*, *Umbramancy*, *Pyromancy*, *Gravimancy*, *Biomancy*) with line-level micro-anchors.
+- **Feral State Passive Trait Clarification (`vampire.md`):** Explicitly clarified that *Innate Passive* sensory and physical traits (*Crimson Scent*, *Thermal Vision*, *Skeletal Calcification*) remain active baseline functions during a Feral frenzy.
+- **Universal Natural Critical Success Guarantee (`vampire.md`):** Codified a universal Natural Critical Success Guarantee (1-in-20 / Natural 20 / Critical Pair) under `Universal Age Tier Superiority Modifier System` so defenders always retain a fighting chance in opposed tests.
+
 ---
 
 ### 2608.49.0-cs (2026-08-05) - Beta Supported Release

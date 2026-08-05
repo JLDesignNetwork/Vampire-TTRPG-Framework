@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.49.0-cs",
+    "version": "2608.50.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.49.0-cs
+# Bloodline Magic Compendium v2608.50.0-bs
 - [Overview & System-Agnostic Adaptation](#overview--system-agnostic-adaptation)
 - [Foundational Ritual Mechanics](#foundational-ritual-mechanics)
   - [Ritual Action Economy & Casting Windows](#ritual-action-economy--casting-windows)
