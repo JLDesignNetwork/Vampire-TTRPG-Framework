@@ -743,11 +743,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 3 Primordial Rites -> Grand Rite of Hematic Transmutation",
       "link": "supplements/bloodline_magic.md#grand-rite-of-hematic-transmutation",
       "title": "Contradiction: Grand Rite Duration 'Permanent / 24 Hours' Ambiguous",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Grand Rite of Hematic Transmutation duration is listed as 'Permanent / 24 Hours' with no clarification of which effect is permanent vs temporary. Does the water transmutation last 24 hours before reverting, or is it permanent? Clarify: the transmutation lasts 24 hours before reverting to normal water, and codify what happens to any Thrall susceptibility bonds established during that window after reversion."
+      "details": "Codified duration header as 'Duration: 24 Hours (then reverts to water)' and added explicit Duration Clarification: transmutation lasts 24 hours before all remaining water reverts to natural state; Thrall bonds deliberately established during the 24hr window remain in effect post-reversion."
     },
     {
       "id": "TODO-69",
