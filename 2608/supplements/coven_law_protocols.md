@@ -55,7 +55,7 @@ Coven judicial trials are presided over by a panel of **3 Elder or Ancient Magis
 ### Evidence Admissibility & Blood Testimony
 Vampiric courts enforce strict evidentiary standards:
 * **Blood Archive Phials (`Admissible`):** Uncorrupted memory phials extracted via [Corpse Siphon](../vampire.md#necromancy--grave-arts) or consentual blood extraction serve as absolute legal proof.
-* **Telepathic Probe Logs (`Conditional`):** Memories extracted via [Mind Tear](../vampire.md#advanced-mental--illusion) require verification by the Sanguine Auditor to rule out cognitive forgery or illusion tampering.
+* **Telepathic Probe Logs (`Conditional`):** Memories extracted via [Mind Tear](../vampire.md#behavioral-powers) require verification by the Sanguine Auditor to rule out cognitive forgery or illusion tampering.
 * **Mortal Testimony (`Inadmissible`):** Mundane mortal testimony is legally invalid unless supported by a Thrall blood bond oath or memory phial.
 
 ### The Four Stages of Coven Trial Procedure
@@ -76,7 +76,7 @@ Under Coven Law, executing a fellow vampire or a bound Thrall without legal auth
 ### Sanctioned Release Dispensation
 Resolving [Thrall Cap Overage Strain](../vampire.md#secrecy-covens-and-thralls) without execution requires a formal **Sanctioned Release Dispensation** signed by the Coven Council:
 * **Controlled Euthanasia:** The Thrall is peacefully euthanized via painless alchemical narcotics or sedatives.
-* **Memory Erasure & Discharge:** The vampire uses [Lethe's Touch](../vampire.md#advanced-mental--illusion) under Tribunal supervision to completely erase all memories of vampiric society, releasing the mortal back into human society with a substantial financial severance.
+* **Memory Erasure & Discharge:** The vampire uses [Lethe's Touch](../vampire.md#behavioral-powers) under Tribunal supervision to completely erase all memories of vampiric society, releasing the mortal back into human society with a substantial financial severance.
 
 ### Blood Treaty Diplomatic Accords
 Formal agreements between rival Covens governing hunting perimeters, sanctuary boundaries, and extradition:

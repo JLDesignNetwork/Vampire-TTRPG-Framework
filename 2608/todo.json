@@ -897,11 +897,11 @@
       "section": "## Coven Law Court Protocols -> Evidence Admissibility & Legal Dispensations",
       "link": "supplements/coven_law_protocols.md",
       "title": "Terminology Audit: Align Section Anchor Links in Coven Law Protocols",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "low",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "In coven_law_protocols.md L58 and L79, update outdated anchor links '#advanced-mental--illusion' to canonical core ruleset anchor '#behavioral-powers'."
+      "details": "Updated outdated anchor links '#advanced-mental--illusion' to canonical core ruleset anchor '#behavioral-powers' in coven_law_protocols.md L58 and L79."
     },
     {
       "id": "TODO-83",
