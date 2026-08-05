@@ -1018,11 +1018,11 @@
       "section": "## Coven Law Protocols -> Micro-Anchors -> Laws & Protocols",
       "link": "supplements/coven_law_protocols.md",
       "title": "Coven Law Protocols: Insert Invisible Micro-Anchors for Laws & Protocols in coven_law_protocols.md",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-bs",
-      "details": "Insert invisible HTML micro-anchors (<a id=\"protocol-slug\"></a>) for all coven laws and court protocols in supplements/coven_law_protocols.md per IDEA-02 specification."
+      "details": "Inserted invisible HTML micro-anchors (<a id=\"protocol-slug\"></a>) for all coven laws and court protocols in coven_law_protocols.md and updated all deep reference links."
     },
     {
       "id": "TODO-94",
