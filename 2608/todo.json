@@ -809,11 +809,11 @@
       "section": "## Bloodline Magic Compendium -> Tier 1 Blood Rituals -> Ritual of the Crimson Ward",
       "link": "supplements/bloodline_magic.md#ritual-of-the-crimson-ward",
       "title": "Three Pillars Audit: Ritual of the Crimson Ward Power Amplification & Threshold Cap",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "medium",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.49.0-as",
-      "details": "Refactor Ritual of the Crimson Ward to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify protection/repulsion powers like Sacred Repulsion / Dermal Armor; (2) Dual-Layer Benefits: standalone threshold burn/alarm + +2 Power Synergy Bonus to ward save DC for possessors of protection powers; (3) Mandatory Caps: add Age Tier Threshold Boundary Cap (Neonate 1 threshold, Elder 3 thresholds, Ancient 7 thresholds)."
+      "details": "Refactored Ritual of the Crimson Ward to conform strictly to Three Pillars of Rituals: (1) Power Amplification: explicitly amplifies Sacred Repulsion / Dermal Armor; (2) Dual-Layer Benefits: standalone 1-damage threshold burn/alarm + +2 Power Synergy Bonus to ward burn damage (3 damage total) for protection power possessors; (3) Mandatory Caps: codified Age Tier Threshold Boundary Cap (Neonate 1, Elder 3, Ancient 7 thresholds)."
     },
     {
       "id": "TODO-75",
@@ -868,6 +868,7 @@
       "priority": "medium",
       "protection": "open",
       "existed_since": "2608.49.0-as",
+      "details": "Refactor Eclipse of the Sanguine Tide to conform to the Three Pillars of Rituals: (1) Power Amplification: explicitly amplify environmental/fog powers like Crimson Mist / Visage of the Abyssal Nightmare; (2) Dual-Layer Benefits: standalone +1 Perception/Tracking + Overcap + +2 Power Synergy Bonus to environmental power DCs cast inside the fog zone."
     },
     {
       "id": "TODO-80",

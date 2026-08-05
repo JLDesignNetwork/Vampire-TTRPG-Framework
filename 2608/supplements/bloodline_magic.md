@@ -114,7 +114,14 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Ritual of the Crimson Ward
 * **Cost & Duration:** `1 Reserve | Duration: 24 Hours (1 Night)`
-* **Mechanic:** The caster paints intricate blood sigils across a doorway, vault, or window frame. Any uninvited mortal or rival vampire attempting to cross the threshold triggers a sudden searing blood burn, inflicting **1 Fire/Thermal Damage** and sounding a psychic alarm to the caster.
+* **Pillar 1 (Power Amplification):** Amplifies protection and repulsion powers ([*Sacred Repulsion Aura*](../vampire.md#banes--weaknesses), [*Dermal Armor*](../vampire.md#immunities--resistances)), projecting bloodline defensive tethers onto physical architectural entryways.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** The caster paints blood sigils across a threshold. Any uninvited mortal or rival vampire attempting to cross the threshold triggers a sudden searing blood burn, inflicting **1 Fire/Thermal Damage** and sounding a psychic alarm to the caster.
+  * **Power Synergy Bonus:** Casters who natively possess protection or defensive powers ([*Dermal Armor*](../vampire.md#immunities--resistances) or [*Thermal Insulation*](../vampire.md#immunities--resistances)) receive a **+2 Power Synergy Bonus** to the ward's blood burn damage (inflicting **3 Fire/Thermal Damage** total).
+* **Pillar 3 (Defined Caps & Age Tier Boundary Caps):** The maximum number of physical thresholds warded in a single casting scales by Age Tier:
+  * **Neonate Caster (< 500 yrs):** 1 Threshold max (single doorway or window frame)
+  * **Elder Caster (500–1,199 yrs):** Up to 3 Thresholds max within the same haven
+  * **Ancient Caster (1,200+ yrs):** Up to 7 Thresholds max within the same haven
 * **Invitation Protocol:** The caster is always permanently self-invited to their own warded threshold. Additional guests may be verbally designated as invited at any time during the ward's active 24-hour duration. Invitations are revoked by the caster's explicit verbal or written decree, or automatically upon the caster's entry into Torpor or True Death. **Exile Edge-Case:** A Coven Council exile ruling does not override the caster's personal invitation authority over their own private haven ward — however, a Coven-sanctioned forced entry override may be requested as a formal Tribunal dispensation (see [Coven Law Court Protocols](./coven_law_protocols.md)).
 
 ### Vitae Purification Filter
