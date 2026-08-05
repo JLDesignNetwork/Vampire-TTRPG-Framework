@@ -190,19 +190,23 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ### Eclipse of the Sanguine Tide
 * **Cost & Duration:** `3 Reserves | Duration: 1 Entire Night`
-* **Mechanic:** The Ancient channels an explosive crimson beacon into the night sky. A thick, oppressive crimson fog rolls across a **1-mile radius**.
-* **Effects:**
-  * Completely blocks moonlight and star guidance. All allied vampires inside the fog zone gain **+1 to all Perception and Tracking checks** for the Eclipse duration — vitae-sense sharpens as natural light is suppressed while rivals and mortals are blinded.
-  * All blood-based powers cast within the eclipse zone receive a **+1 damage/potency bonus**.
-  * **Eclipse Overcap:** Allied vampires inside the fog zone may temporarily exceed their personal [Blood Reserve](../vampire.md#blood-reserve-math--expenditure-caps) cap by an amount scaled to Age Tier:
+* **Pillar 1 (Power Amplification):** Amplifies environmental and mist powers ([*Crimson Mist*](../vampire.md#supernatural-powers), [*Visage of the Abyssal Nightmare*](../vampire.md#behavioral-powers)), elevating local mist into a macro 1-mile blood fog envelope.
+* **Pillar 2 (Dual-Layer Benefits & Synergy):**
+  * **Standalone Benefit (All Casters):** The Ancient channels an explosive crimson beacon into the night sky, rolling a thick crimson fog across a **1-mile radius**. Completely blocks moonlight and star guidance. All allied vampires inside gain **+1 to Perception and Tracking checks**, **+1 damage/potency to blood powers**, and [Eclipse Overcap](../vampire.md#blood-reserve-math--expenditure-caps) (+2 Neonate, +3 Elder, +4 Ancient).
+  * **Power Synergy Bonus:** Allied casters inside the fog zone who natively possess environmental or illusion powers ([*Crimson Mist*](../vampire.md#supernatural-powers) or [*Visage of the Abyssal Nightmare*](../vampire.md#behavioral-powers)) receive a **+2 Power Synergy Bonus** to power DCs and save DCs for powers cast inside the fog.
+* **Pillar 3 (Defined Caps & Spatial Boundaries):**
+  * **Radius Cap:** 1-Mile Radius max centered on the initial beacon location.
+  * **Duration Cap:** 1 Entire Night max (dispels automatically at dawn).
+  * **Overcap Decay:** Overcap reserves are expended before standard reserves and drain at **double the passive rate** after Eclipse ends at dawn.
+* **Eclipse Overcap Table:**
 
-    | Age Tier | Eclipse Overcap |
-    | :--- | :--- |
-    | **Neonate** (< 500 yrs) | +2 Reserves above personal cap |
-    | **Elder** (500–1,199 yrs) | +3 Reserves above personal cap |
-    | **Ancient** (1,200+ yrs) | +4 Reserves above personal cap |
+  | Age Tier | Eclipse Overcap |
+  | :--- | :--- |
+  | **Neonate** (< 500 yrs) | +2 Reserves above personal cap |
+  | **Elder** (500–1,199 yrs) | +3 Reserves above personal cap |
+  | **Ancient** (1,200+ yrs) | +4 Reserves above personal cap |
 
-    Overcap reserves are expended before standard reserves and drain at **double the passive rate** after Eclipse ends at dawn. A vampire may harvest multiple times during the Eclipse night, returning to tithe after each 5-reserve harvest threshold. Standard [Law of the Sanguine Tithe](../vampire.md#social) obligations apply to all reserves *harvested* during the Eclipse window. **No Over-Tithe Credit:** Because the Law of the Sanguine Tithe sets no minimum donation floor, donating more than the obligated amount does not generate tithe credit toward future obligations. Each tithe period is settled independently.
+  A vampire may harvest multiple times during the Eclipse night, returning to tithe after each 5-reserve harvest threshold. Standard [Law of the Sanguine Tithe](../vampire.md#social) obligations apply to all reserves *harvested* during the Eclipse window. **No Over-Tithe Credit:** Each tithe period is calculated and settled independently. Donating surplus reserves generates zero forward credit.
 
 ---
 
