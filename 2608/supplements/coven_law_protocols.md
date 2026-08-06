@@ -89,4 +89,4 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.49.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.58.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
