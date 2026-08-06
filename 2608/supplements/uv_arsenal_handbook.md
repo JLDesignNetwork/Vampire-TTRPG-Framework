@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.62.0-bs",
+    "version": "2608.63.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.62.0-bs
+# Equipment & UV Arsenal Handbook v2608.63.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -55,6 +55,9 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 ### <a id="thermal-vitae-heating-gear-and-flir-suit"></a>Thermal Vitae Heating Gear & FLIR Suit
 * **Gear Type:** `Body Armor Overlay / Undergarment`
 * **Mechanic:** Micro-element heating wires generate artificial 37°C (98.6°F) body heat across the wearer's dermis, allowing a vampire to fool military FLIR thermal cameras and heat-seeking sensors even while using [*Chameleon Clay*](../vampire.md#chameleon-clay).
+* **Operational Bounds & Combat Failure:**
+  * **Battery Duration:** The micro-element heating wires require an active power cell, providing a maximum of **6 hours** of continuous heat masking per charge.
+  * **Combat Circuit Breach:** If the wearer suffers a slashing or piercing wound in combat, there is a **1-in-6 chance (1 on a d6)** that the micro-wire grid is severed. A severed circuit immediately disables the heat-masking effect (exposing the cold dermis to FLIR) and triggers an electrical short-circuit that inflicts **1 electrical burn wound** (bypassing armor) and stuns the vampire for 1 combat round if they fail a Medium Fortitude check.
 
 ### <a id="obsidian-composite-and-sanguine-weave-armor"></a>Obsidian Composite & Sanguine Weave Armor
 * **Gear Type:** `Personal Body Armor | Rating: 2 Armor Points`
@@ -83,4 +86,4 @@ Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-gr
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.62.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.63.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).

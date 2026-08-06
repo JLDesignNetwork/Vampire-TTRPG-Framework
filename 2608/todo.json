@@ -1,5 +1,5 @@
 {
-  "version": "2608.62.0-bs",
+  "version": "2608.63.0-bs",
   "todo": [
     {
       "id": "TODO-01",
@@ -1155,6 +1155,17 @@
       "protection": "protected",
       "existed_since": "2608.62.0-bs",
       "details": "Codified UV Stacking & Crossfire Limits under High-Intensity UV Laser Rifles in uv_arsenal_handbook.md to prevent infinite debuff and rapid vaporization stacking by capping penalties and solar track acceleration."
+    },
+    {
+      "id": "TODO-106",
+      "section": "## Vampiric Armaments & Field Gear -> Thermal Vitae Heating Gear & FLIR Suit",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "UV Arsenal Handbook: Codify Thermal Suit Battery & Combat Failure Rules",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.63.0-bs",
+      "details": "Codified 6-hour battery limits and 1-in-6 chance combat short-circuit failure rules for the Thermal Vitae Heating Gear & FLIR Suit in uv_arsenal_handbook.md."
     }
   ]
 }

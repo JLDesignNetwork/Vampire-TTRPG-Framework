@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.63.0-bs (2026-08-06) - Beta Supported Release (Thermal Suit Battery & Combat Failure)
+
+**Beta release executing `TODO-106`. Codified active power cell battery charge limits and a 1d6 combat short-circuit failure mechanism for the Thermal Vitae Heating Gear & FLIR Suit.**
+
+#### Added
+- **`supplements/uv_arsenal_handbook.md`:** Codified battery life bounds (6 hours) and a 1-in-6 chance combat short-circuit breach rule for the Thermal FLIR suit to balance heat-masking stealth.
+
+---
+
 ### 2608.62.0-bs (2026-08-06) - Beta Supported Release (UV Weapon Stacking & Crossfire Limits)
 
 **Beta release executing `TODO-105`. Codified UV Stacking and Crossfire Limits under Hunter Tactical Countermeasures to prevent infinite debuffing and rapid vaporization exploits in multi-hunter encounters.**
