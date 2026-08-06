@@ -4,6 +4,16 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.58.0-bs (2026-08-06) - Beta Supported Release (Accelerated Mend Context Resolution)
+
+**Beta release resolving `TODO-101`. The former `Accelerated Mend` reference in the Dismemberment section was context-mapped: limb re-attachment (1 combat round) correctly references `Grand Harmonization` (`#grand-harmonization`); power-disable on decapitation correctly references `Sanguine Knit` (`#sanguine-knit`). No new power entry required.**
+
+#### Fixed
+- **Lines 238, 240 (`Dismemberment`):** `Sanguine Knit` corrected to `Grand Harmonization` — limb re-attachment is explicitly covered by Grand Harmonization's codified severed-limb regrowth math, not Sanguine Knit (wound-sealing only).
+- **`TODO-101` closed:** `Accelerated Mend` confirmed as a historical forward-reference, resolved by context-dependent canonical power mapping.
+
+---
+
 ### 2608.57.0-bs (2026-08-05) - Beta Supported Release (Stale Power Name Reference Corrections)
 
 **Beta release correcting all stale power name references in `vampire.md` left over from the TODO-86 `-mancy` discipline refactor. All three stale names resolved to their canonical current anchors.**

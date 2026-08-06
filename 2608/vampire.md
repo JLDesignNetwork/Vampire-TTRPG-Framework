@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.57.0-bs",
+    "version": "2608.58.0-bs",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.57.0-bs
+# Vampire Ruleset v2608.58.0-bs
 
 ## System Agnostic & Multi-Genre Framework
 
@@ -235,9 +235,9 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
 ### Dismemberment & Decapitation
 
 #### Dismemberment (Severed Limbs)
-* **Accelerated Re-attachment (Requires Sanguine Knit):** If a severed arm or leg is retrieved and pressed against the stump, a vampire possessing the [*Sanguine Knit*](#sanguine-knit) power can spend blood to supernaturally re-fuse bone, muscle, and nerve endings in **1 combat round**.
+* **Accelerated Re-attachment (Requires Grand Harmonization):** If a severed arm or leg is retrieved and pressed against the stump, a vampire possessing the [*Grand Harmonization*](#grand-harmonization) power can spend blood to supernaturally re-fuse bone, muscle, and nerve endings in **1 combat round**.
 * **Surgical / Medical Sewing:** A severed limb can be manually stitched back onto the shoulder, arm, leg, or hip stump by surgical or medical means. Once bandaged and sewn in place, re-fusing the limb requires **12 hours of physical recovery** (without requiring full Native Soil burial).
-* **Native Soil Re-attachment & Regrowth (Without Sanguine Knit or Surgery):** If a severed limb is completely destroyed (burned or dissolved) or left unstitched, regrowing a new limb requires **24 hours of undisturbed slumber in Native Soil**.
+* **Native Soil Re-attachment & Regrowth (Without Grand Harmonization or Surgery):** If a severed limb is completely destroyed (burned or dissolved) or left unstitched, regrowing a new limb requires **24 hours of undisturbed slumber in Native Soil**.
 * **Autonomous Limb Action:** A severed limb remains supernaturally animated for up to 1 hour post-dismemberment. The vampire can telepathically command the severed limb to twitch, crawl, or grapple enemies.
 
 #### Decapitation (Head Severed)
