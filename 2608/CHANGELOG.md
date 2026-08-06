@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.62.0-bs (2026-08-06) - Beta Supported Release (UV Weapon Stacking & Crossfire Limits)
+
+**Beta release executing `TODO-105`. Codified UV Stacking and Crossfire Limits under Hunter Tactical Countermeasures to prevent infinite debuffing and rapid vaporization exploits in multi-hunter encounters.**
+
+#### Added
+- **`supplements/uv_arsenal_handbook.md`:** Codified UV Stacking & Crossfire Limits under High-Intensity UV Laser Rifles, capping action penalties to a flat -2 and limiting combined exposure damage to a maximum of 3 physical Wounds per combat round.
+
+---
+
 ### 2608.61.0-bs (2026-08-06) - Beta Supported Release (Synth-Vitae Dietary Degradation System)
 
 **Beta release executing `TODO-104`. Codified a mechanical degradation penalty for exclusive Synth-Vitae consumption to prevent infinite synthetic diet exploitation.**

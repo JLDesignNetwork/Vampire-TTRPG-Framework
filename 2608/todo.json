@@ -1,5 +1,5 @@
 {
-  "version": "2608.61.0-bs",
+  "version": "2608.62.0-bs",
   "todo": [
     {
       "id": "TODO-01",
@@ -1144,6 +1144,17 @@
       "protection": "protected",
       "existed_since": "2608.61.0-bs",
       "details": "Codified the Synthetic Diet Degradation System under Synth-Vitae in uv_arsenal_handbook.md to prevent infinite synthetic diet exploitation by imposing progressive penalties after 14 consecutive days of exclusive synthetic diet."
+    },
+    {
+      "id": "TODO-105",
+      "section": "## Hunter Tactical Countermeasures -> High-Intensity UV Laser Rifles & Emitting Spotlights",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "UV Arsenal Handbook: Codify UV Stacking & Crossfire Limits",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.62.0-bs",
+      "details": "Codified UV Stacking & Crossfire Limits under High-Intensity UV Laser Rifles in uv_arsenal_handbook.md to prevent infinite debuff and rapid vaporization stacking by capping penalties and solar track acceleration."
     }
   ]
 }

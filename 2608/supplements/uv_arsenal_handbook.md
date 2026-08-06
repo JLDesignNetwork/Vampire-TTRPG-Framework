@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.61.0-bs",
+    "version": "2608.62.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.61.0-bs
+# Equipment & UV Arsenal Handbook v2608.62.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -33,6 +33,7 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 ### <a id="high-intensity-uv-laser-rifles-and-emitting-spotlights"></a>High-Intensity UV Laser Rifles & Emitting Spotlights
 * **Weapon Rating:** `Ranged Energy | Range: 100ft | Damage: Dermal Vaporization`
 * **Mechanic:** High-intensity artificial UV radiation beams trigger instant **Round 1 Dermal Vaporization** upon contact, inflicting steam burns and a **-2 action penalty** while exposed. Artificial UV does NOT trigger Round 2 combustion unless enhanced by solar incantations or orbital lenses.
+* **UV Stacking & Crossfire Limits:** Being targeted by multiple artificial UV weapons simultaneously does **NOT** accelerate the Solar Track to Round 2 (Flesh Ignition) or Round 3 (Ash Collapse), nor does the action penalty stack beyond the flat **-2 penalty**. However, each additional active UV beam targeting the vampire adds **1 additional physical Wound** from localized steam burns per combat round, up to a maximum cap of **3 Wounds per combat round** from combined artificial UV exposure.
 * **Immunity:** Vampires actively invoking [*Daywalker’s Grace*](../vampire.md#daywalkers-grace) are completely immune to artificial UV weapons.
 
 ### <a id="pressurized-uv-flashbang-grenades"></a>Pressurized UV Flashbang Grenades
@@ -82,4 +83,4 @@ Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-gr
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.61.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.62.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
