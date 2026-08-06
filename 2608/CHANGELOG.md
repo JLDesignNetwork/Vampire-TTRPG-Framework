@@ -4,6 +4,18 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.59.0-bs (2026-08-06) - Beta Supported Release (Coven Law Cross-Supplement Link Audit)
+
+**Beta release executing `TODO-102` and closing `PROJ-05`. Audited and resolved 100% of internal ruleset links and cross-supplement references in Coven Law Court Protocols, Bloodline Magic Compendium, and UV Arsenal Handbook by adding explicit micro-anchors to vampire.md.**
+
+#### Fixed
+- **`vampire.md`:** Resolved all 17 internal broken links and added explicit micro-anchors for age-tier superiority, secrecy, shroud, torpor, thrall cap, and power fade.
+- **`supplements/coven_law_protocols.md`:** Resolved all 10 broken cross-supplement links. Fixed Haven Sanctuary pointer to `#law-of-haven-sanctuary`.
+- **`supplements/bloodline_magic.md`:** Resolved all 10 broken cross-supplement links. Fixed stale `#combust-vitae` link to point to `#age-tier-superiority-modifier-system`.
+- **`supplements/uv_arsenal_handbook.md`:** Resolved all cross-supplement links.
+
+---
+
 ### 2608.58.0-bs (2026-08-06) - Beta Supported Release (Accelerated Mend Context Resolution)
 
 **Beta release resolving `TODO-101`. The former `Accelerated Mend` reference in the Dismemberment section was context-mapped: limb re-attachment (1 combat round) correctly references `Grand Harmonization` (`#grand-harmonization`); power-disable on decapitation correctly references `Sanguine Knit` (`#sanguine-knit`). No new power entry required.**

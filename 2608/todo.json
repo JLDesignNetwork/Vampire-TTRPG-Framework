@@ -1,5 +1,5 @@
 {
-  "version": "2608.58.0-bs",
+  "version": "2608.59.0-bs",
   "todo": [
     {
       "id": "TODO-01",
@@ -1045,6 +1045,83 @@
       "protection": "protected",
       "existed_since": "2608.49.0-bs",
       "details": "Audited and synchronized 100% of micro-anchor cross-references across vampire.md, bloodline_magic.md, coven_law_protocols.md, uv_arsenal_handbook.md, terminology.md, and todo.json per IDEA-02 specification."
+    },
+    {
+      "id": "TODO-96",
+      "section": "## Core Ruleset -> Layout -> Table of Contents",
+      "link": "vampire.md",
+      "title": "vampire.md Table of Contents Outline Navigation Refactor",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.51.0-bs",
+      "details": "Refactored and expanded the Table of Contents in vampire.md, resolving to framework-wide auto-generated outline navigation."
+    },
+    {
+      "id": "TODO-97",
+      "section": "## Core Ruleset -> Micro-Anchors -> Mechanics",
+      "link": "vampire.md",
+      "title": "vampire.md Missing Micro-Anchor Codification",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.53.0-bs",
+      "details": "Codified missing micro-anchors in vampire.md to support cross-reference protocol requirements."
+    },
+    {
+      "id": "TODO-98",
+      "section": "## Core Ruleset -> Micro-Anchors -> Cross-References",
+      "link": "vampire.md",
+      "title": "vampire.md Internal Body Cross-Reference Synchronization",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.54.0-bs",
+      "details": "Synchronized all internal body cross-references to point directly to micro-anchors in vampire.md."
+    },
+    {
+      "id": "TODO-99",
+      "section": "## Core Ruleset -> Micro-Anchors -> Macro-Pointers",
+      "link": "vampire.md",
+      "title": "vampire.md Convert Generic Macro-Pointers to Direct Micro-Anchors",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.55.0-bs",
+      "details": "Converted generic macro-pointers to direct micro-anchors in vampire.md."
+    },
+    {
+      "id": "TODO-100",
+      "section": "## Core Ruleset -> Micro-Anchors -> Headings & Disciplines",
+      "link": "vampire.md",
+      "title": "vampire.md Codify Explicit Section and Discipline Micro-Anchors",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.56.0-bs",
+      "details": "Codified explicit section and discipline micro-anchors framework-wide."
+    },
+    {
+      "id": "TODO-101",
+      "section": "## Core Ruleset -> Dismemberment -> Accelerated Mend",
+      "link": "vampire.md#dismemberment",
+      "title": "Accelerated Mend Context Mapping & Canonical Power Audit",
+      "status": "completed",
+      "priority": "medium",
+      "protection": "protected",
+      "existed_since": "2608.57.0-bs",
+      "details": "Audited and mapped the Accelerated Mend forward-reference to canonical powers Grand Harmonization and Sanguine Knit."
+    },
+    {
+      "id": "TODO-102",
+      "section": "## Supplements -> Coven Law Court Protocols -> Cross-Reference Link Audit",
+      "link": "supplements/coven_law_protocols.md",
+      "title": "Coven Law Court Protocols: Audit and Fix Stale Cross-Supplement Link Anchors",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.59.0-bs",
+      "details": "Audited and resolved all 10 broken cross-supplement links in coven_law_protocols.md and other supplements by injecting the missing micro-anchors in vampire.md."
     }
   ]
 }

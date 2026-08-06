@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.58.0-bs",
+    "version": "2608.59.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.58.0-bs
+# Coven Law Court Protocols & Legal Code v2608.59.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -43,7 +43,7 @@ Vampiric courts enforce strict evidentiary standards:
 * **Mortal Testimony (`Inadmissible`):** Mundane mortal testimony is legally invalid unless supported by a Thrall blood bond oath or memory phial.
 
 ### <a id="four-stages-of-coven-trial-procedure"></a>The Four Stages of Coven Trial Procedure
-1. **The Formal Indictment:** The High Arbiter reads the charges alleging a violation of Coven Law ([The Shroud](../vampire.md#the-shroud), [Haven Sanctuary](../vampire.md#domain-and-haven-sanctuary), or [Diablerie Taboo](../vampire.md#diablerie-the-ultimate-taboo)).
+1. **The Formal Indictment:** The High Arbiter reads the charges alleging a violation of Coven Law ([The Shroud](../vampire.md#the-shroud), [Haven Sanctuary](../vampire.md#law-of-haven-sanctuary), or [Diablerie Taboo](../vampire.md#diablerie-the-ultimate-taboo)).
 2. **Evidence Examination:** The Sanguine Auditor inspects memory phials, crime scene soil, or physical remains.
 3. **The Blood Oath Defense:** The accused (or their designated Advocate) presents defense arguments, alibis, or [Bloodline Alignment Bonuses](../vampire.md#age-tier-superiority).
 4. **Verdict & Sentencing:** The Tribunal Bench casts secret votes using obsidian (guilty) or white quartz (innocent) stones. Sentences are executed immediately.
@@ -89,4 +89,4 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.58.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.59.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).

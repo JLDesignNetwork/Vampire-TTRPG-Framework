@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.58.0-bs",
+    "version": "2608.59.0-bs",
     "todo_file": "todo.json",
     "changelog_file": "CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.58.0-bs
+# Vampire Ruleset v2608.59.0-bs
 
 ## System Agnostic & Multi-Genre Framework
 
@@ -164,7 +164,7 @@ Faith-infused holy symbols (crucifixes, sacred seals, consecrated icons) project
 * **10-Foot Sacred Repulsion Aura:** A brandished holy symbol projects an invisible 10-foot repulsion field. A vampire attempting to enter this 10-foot radius or attack the bearer must pass a **Hard Self-Control check**.
 * **Physical Touch:** Direct skin contact with a holy symbol inflicts immediate chemical searing burns and stuns the vampire for 1 combat round.
 
-#### 5. Silver (Mythic Misconception)
+#### 5. <a id="silver-mythic-misconception"></a>Silver (Mythic Misconception)
 Silver is a mythic misconception. While silver causes allergic silver-nitrate toxicity in lycanthropes (werewolves), silver stakes, blades, and bullets inflict standard physical damage on vampires without causing supernatural banes or suppressed regeneration.
 
 ### The Dying Echo
@@ -178,7 +178,7 @@ When a vampire meets their true death (whether by stake, sunlight, or other leth
   3. The victim's **final emotional state** (rage, terror, peaceful resignation) and their last spoken or thought word.
 *(Note: Active telepathic invocations from a captive severed head override this passive limitation; see [Decapitation Telepathy Broadcast](#decapitation-head-severed)).*
 
-### The Native Soil Dependency
+### <a id="native-soil-dependency"></a><a id="the-native-soil-dependency"></a>The Native Soil Dependency
 A vampire is supernaturally tethered to the exact location of their creation. To maintain their immortality and strength, they must regularly rest in proximity to the soil of that land.
 
 * **Volume Requirement & Slumber Contact:** A vampire requires no less than 3kg (roughly 2 liters) of their native soil. Portable Native Soil (3kg) only satisfies the supernatural tether while the vampire is in **stationary, undisturbed daytime slumber**. Carrying 3kg of soil in clothing, pouches, or footwear during active movement does NOT pause "[The Bleed](#the-home-sickness-regression-track-the-bleed)" timer; the soil must be laid beneath or around the resting body during daytime sleep.
@@ -193,7 +193,7 @@ Because a vampire's life force is tethered to their 3kg of Native Soil, compromi
 * **Parasitic / Diseased Infestation:** Introducing cursed or diseased parasites into the soil causes them to feed on the sleeping vampire's blood reserves during daytime slumber. The vampire wakes up at Stage 2 [Blood Starvation](#sustenance--blood-starvation-rules) with no stored blood reserves remaining.
 * **Structural Containment Breach (Sci-Fi / Modern):** Native Soil preserved in high-tech containers (cryo-capsules, hydroponic terrariums) requires an intact structural seal. Shattering the glass casing, puncturing cryo-seal valves, or introducing toxic liquid chemicals breaks the 3kg soil threshold, causing the soil micro-ecosystem to die and initiating [The Bleed](#the-home-sickness-regression-track-the-bleed) after 48 hours.
 
-#### <a id="the-bleed"></a>The Home Sickness Regression Track (The Bleed)
+#### <a id="the-bleed"></a><a id="the-home-sickness-regression-track-the-bleed"></a>The Home Sickness Regression Track (The Bleed)
 A vampire can survive away from their preserved Native Soil for exactly 7 days. On the 8th consecutive day of absence, "Home Sickness" sets in, triggering a progressive mechanical and narrative decay known as **The Bleed**. Starting on Day 8, and every 3 days thereafter, the vampire suffers a permanent reduction in their capabilities across four distinct stages:
 
 **Stage 1: Fading Vigor (Days 8 - 14)**
@@ -313,6 +313,7 @@ Navigating these cues requires experience or raw willpower.
 
 Drinking is done to sustain the life of the vampire. This is the sucking/drinking of blood from living victims (including animals). When a vampire drinks from a victim, they do so with restraint and in moderation to keep their meal alive. Drinking can be done from both willing and unwilling victims.
 
+<a id="blood-capacity--passive-awakening-drain"></a>
 ##### Blood Capacity, Growth Track & Passive Awakening Drain
 All newly turned vampires begin with a baseline heart reservoir pool of **10 Blood Reserves** (each draft of ~250ml living mortal blood restores 1 Blood Reserve). Over centuries of unlife, as the vampire's undead heart calcifies and deepens its metaphysical blood reservoir, their maximum Blood Reserve capacity permanently expands.
 
@@ -340,6 +341,7 @@ All newly turned vampires begin with a baseline heart reservoir pool of **10 Blo
   * *Thrall Network Maintenance:* Maintaining extensive networks of mortal Thralls and feeding multiple fledglings becomes effortless as reserve capacity expands.
 
 * **Passive Daytime Awakening Burn:** Every night at sunset, awakening from daytime slumber automatically consumes **1 Blood Reserve** to re-energize dead tissues and rouse consciousness.
+<a id="formalized-turn-architecture"></a>
 ##### Action Economy & Combat Turn Structure
 In tactical combat, each vampire operates within a structured Action Economy on their turn:
 1. **1 Main Action:** Execute a physical/weapon attack, cast an `Activated` power (*Hellfire Orb*, *Combust Vitae*, *Kinetic Blast*), or perform a complex skill task.
@@ -347,6 +349,7 @@ In tactical combat, each vampire operates within a structured Action Economy on 
 3. **Continuous Upkeep (Start of Turn):** Expend required maintenance blood (1 Reserve per power) to sustain active `Sustained` powers (*Kinetic Barrier*, *Pyre Aura*, *Crimson Mist*).
 4. **1 Off-Turn Reaction / Defense:** Execute a physical Dodge check or invoke a reactive defense (*Veil Flicker* teleport).
 
+<a id="blood-reserve-math"></a><a id="blood-reserve-math--expenditure-caps"></a>
 ##### Categorized Per-Round Expenditure Caps (Age Tier Scaling)
 To prevent physical vascular burnout while allowing ancient vampires to unleash their vast blood reservoirs, the total maximum blood reserve expenditure per combat round scales directly by **Age Tier**:
 * **Neonate Tier (<500 Years):** Maximum **2 Blood Reserves / Combat Round** across all actions (e.g. 1 Surge + 1 Sustained Power, or 1 Sustained + 1 Healing).
@@ -360,6 +363,7 @@ To prevent physical vascular burnout while allowing ancient vampires to unleash 
   * **Master Power 0-Cost Advantage:** Because Master Powers possess a **0-Reserve initial activation cost**, invoking a Master Power does NOT count toward the per-round expenditure cap on the turn it is cast (blood is spent strictly for subsequent sustained upkeep).
 * **Over-Push Strain (Exhaustion at 0 Reserves):** If a vampire holding **0 Blood Reserves** attempts to perform a Blood Surge, sustain an active power, or heal a physical wound, they suffer **Over-Push Strain**: taking **1 Direct Core Health Damage** (or triggering an immediate Self-Control check to enter the [Feral State](#post-change)).
 
+<a id="age-tier-superiority"></a><a id="age-tier-superiority-modifier-system"></a>
 ##### Universal Age Tier Superiority Modifier System
 Whenever two vampires engage in direct inter-vampire interaction (opposed mental battles, fear checks like *Visage of the Abyssal Nightmare* vs *Sovereign Temperament*, command checks like *Imperious Word*, telepathic probe defense, blood bond enforcement, or physical grapples/struggles), mechanical checks are modified by the relative age difference between the combatants:
 
@@ -456,14 +460,14 @@ When a vampire invokes two or more powers simultaneously (or multiple vampires p
    * **Elders (500–1,199 Years):** **+50% Range & Area Multiplier:** Synergy pairs invoked by Elders expand their effective range or blast radius by +50% (e.g. *Kinetic Blast* knockback expands to 30 feet).
    * **Ancients (1,200+ Years):** **Doubled Range & Area Multiplier (+100%):** Synergy pairs invoked by Ancients double their effective range or area radius, and grant a **+2 Synergy Bonus** instead of +1.
 4. **Opposing Power Neutralization (Elemental Cancellation):** Invoking diametrically opposed supernatural elements simultaneously (*Grave Chill* ice wave vs *Pyre Aura* hellfire) causes thermal shock collapse, instantly **extinguishing and neutralizing both powers** with zero mechanical effect.
-5. **Coven Power Ritual Nexus (Multi-Caster Stacking & Sequential Rotation):**
+5. <a id="coven-power-ritual-nexus-multi-caster-stacking--sequential-rotation"></a>**Coven Power Ritual Nexus (Multi-Caster Stacking & Sequential Rotation):**
    When multiple vampires of the same Coven or bloodline simultaneously cast or sustain the exact same power on the same target, they form a **Coven Power Ritual Nexus**:
    * **Coven Stacking Math:** The Lead Caster establishes the baseline power check/DC. Each assisting caster adds a **+1 Coven Stacking Bonus** to the Lead Caster's check/DC (+1 per assisting member).
    * **Age Tier Caster Caps:** Neonate-led Coven = max **3 Casters** (Max +2 Bonus); Elder-led Coven = max **5 Casters** (Max +4 Bonus); Ancient-led Coven = max **7 Casters** (Max +6 Bonus).
    * **Sequential Rotation Upkeep (1 Reserve/Round Total):** The ritual nexus consumes **1 Blood Reserve per round in total** to maintain. Participating members take turns in sequential round-robin rotation (1 member pays 1 Reserve on their turn while the remaining members pay 0 Reserves that round). Because each member pays 1 Reserve once every $N$ rounds, all members remain under their per-round expenditure caps, retaining cap space for combat actions.
    * **Target Disruption Counterplay:** Disrupting an assisting member (damage, stun, knockback) removes their **+1 Coven Stacking Bonus** and skips them in the rotation sequence. If the current round's paying member is disrupted before paying their 1 Reserve, the next member in the rotation sequence must immediately pay 1 Reserve to prevent the ritual from collapsing.
 
-<a id="power-fade-inheritance"></a>**Power Fade & Inheritance**
+<a id="power-fade-inheritance"></a><a id="power-fade--inheritance"></a>**Power Fade & Inheritance**
 Because all newly created vampires are born into the modern era, they generate their starting power slots using the [New World](#new-world) base. However, the creation process inherently causes a degradation of power from Maker to fledgling known as the "Power Fade." To determine a fledgling's starting powers, follow this process:
 
 1. **Roll Base:** The fledgling rolls the New World base: 1 Supernatural power and 1d2+1 Behavioral powers.
@@ -508,7 +512,7 @@ Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Eac
   * **$\Delta = 0$ (Same Age Tier):** **Standard Internal Flame:** Deals standard internal fire damage (1 wound) and causes temporary combat disorientation.
   * **$\Delta = -1$ (Neonate vs. Elder / Elder vs. Ancient):** **Resisted Fizzle:** Target's dense blood resists ignition; inflicts minor superficial skin scorch (0 wounds), easily suppressed by the target.
   * **$\Delta = -2$ (Neonate vs. Ancient):** **Complete Immunity (Nothing Happens):** The Ancient's primordial blood completely smothers the weak pyromantic spark; the spell fails completely with **zero effect**.
-* **Pyre Aura `[Supernatural | Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Dark, supernatural hellfire erupts across your body and weapons. Your melee strikes ignite targets on contact, and any attacker foolish enough to strike you in close combat suffers immediate fire lashback. (Sustaining costs 1 Blood Reserve per combat round). *Pressurized Vitae Fuel & Extinguishing Exemption:* Pyre Aura consumes pressurized vampiric blood as fuel rather than atmospheric oxygen. Pyre Aura burns continuously underwater, in torrents of rain, in zero-oxygen vacuums, or under chemical fire suppression foam without extinguishing. It can only be extinguished by expiring the blood upkeep, entering an antimagic deadzone, or colliding with diametrically opposed ice magic (*Grave Chill*).
+* <a id="pyre-aura"></a>**Pyre Aura `[Supernatural | Sustained - 1 Reserve Activation + 1 Reserve/Round Upkeep | Duration: Continuous]`:** Dark, supernatural hellfire erupts across your body and weapons. Your melee strikes ignite targets on contact, and any attacker foolish enough to strike you in close combat suffers immediate fire lashback. (Sustaining costs 1 Blood Reserve per combat round). *Pressurized Vitae Fuel & Extinguishing Exemption:* Pyre Aura consumes pressurized vampiric blood as fuel rather than atmospheric oxygen. Pyre Aura burns continuously underwater, in torrents of rain, in zero-oxygen vacuums, or under chemical fire suppression foam without extinguishing. It can only be extinguished by expiring the blood upkeep, entering an antimagic deadzone, or colliding with diametrically opposed ice magic (*Grave Chill*).
 * <a id="grave-chill"></a>**Grave Chill `[Supernatural | Activated - 1 Reserve | Duration: 1 Scene]`:** You emit a flash-freeze wave of tomb cold. Ambient moisture turns to ice instantaneously, coating enemies in frost, slowing their movement to a crawl, and making their weapons brittle. *Kinetic Impact & Structural Fragility:* Grave Chill coats targets in structural frost; physical bludgeoning attacks or [*Kinetic Blast*](#kinetic-blast) shockwaves against frozen targets deal **+1 bonus impact damage**, and parrying with frozen weapons carries a 1-in-6 chance of shattering mundane blades.
 * **Pyromantic Primacy (Master Power) `[Supernatural - Master | Innate Composite - 0 Reserves Activation]`:** The pinnacle of blood pyromancy. You possess *Hellfire Orb*, *Thermal Ignition*, *Pyre Aura*, and *Grave Chill*, granting absolute mastery over infernal flame generation, thermal flash-freezing, blood combustion, and hellfire shields in a single Master power slot.
 
@@ -558,9 +562,9 @@ Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Eac
 * <a id="resonance-tasting"></a>**Resonance Tasting `[Behavioral | Innate Passive - 0 Reserves | Duration: Permanent]`:** You inhale deeply, "tasting" the emotional atmosphere of a room as distinct metallic flavors on your tongue. Fear tastes like bitter copper, lust like sweet honey, and isolation like dry ash, allowing you to instantly isolate vulnerable prey in a dense crowd.
 * <a id="omni-sensory-primacy"></a>**Omni-Sensory Primacy (Master Power) `[Behavioral - Master | Innate Composite - 0 Reserves Activation]`:** The pinnacle of nocturnal perception. You possess [*Crimson Scent*](#crimson-scent), [*Thermal Vision*](#thermal-vision), [*Apex Sight*](#apex-sight), [*Bio-Sonar*](#bio-sonar), and [*Tremor Sense*](#tremor-sense), granting complete multi-spectral mastery over sight, sound, vibration, flashbang immunity, and scent in a single Master power slot.
 
-### Morphomancy (Form Shifting & Swarm Realms)
+### <a id="alteration-forms--shifting"></a>Morphomancy (Form Shifting & Swarm Realms)
 * <a id="pocket-realm-shift-mechanism"></a>**Pocket-Realm Shift Mechanism:** Shifting into a Swarm Form ([*Bat Swarm*](#bat-swarm), [*Rat Tide*](#rat-tide), [*Weaver Swarm*](#weaver-swarm), [*Mist Form*](#mist-form), [*Beast Shift*](#beast-shift)) does NOT physically compress or dissolve the vampire's body. Instead, the vampire's true physical form and all carried inventory instantly teleport into a personal **Pocket-Realm dimension**—an isolated, safe-haven realm unique to that vampire. Simultaneously, a physical manifestation of the swarm appears in reality. The vampire gains full sensory consciousness and telepathic control over the swarm. Re-coalescing exits the Pocket-Realm back into reality at the swarm's location. If 100% of the swarm is destroyed, the vampire is forcibly ejected from the Pocket-Realm into reality at the swarm's last position in **Stage 4 Torpor** ([*Granite Slumber*](#granite-slumber); petrified granite calcification). *Note:* Stage 4 Torpor is a petrified granite state; turning to ash represents absolute, unrecoverable True Death.
-  * **Native Soil Torpor Stasis:** Vampires in ANY form of Torpor (Stage 3 Catatonic Torpor, Stage 4 Granite Slumber, or Starvation Desiccation Torpor) enter a subterranean metabolic stasis that **SUSPENDS** [The Bleed](#the-bleed) regression track until the vampire is roused or awakened.
+  * <a id="torpor"></a><a id="stage-4-torpor"></a>**Native Soil Torpor Stasis:** Vampires in ANY form of Torpor (Stage 3 Catatonic Torpor, Stage 4 Granite Slumber, or Starvation Desiccation Torpor) enter a subterranean metabolic stasis that **SUSPENDS** [The Bleed](#the-bleed) regression track until the vampire is roused or awakened.
   * **Solar Transference & Maintenance:** Sunlight shining upon the manifested swarm in reality transmits 100% of solar radiation/thermal burn through the dimensional tether into the body inside the Pocket-Realm. Sustaining a Pocket-Realm dimension consumes **1 Blood Reserve per hour**; if reserves drop to 0, the vampire is forcibly ejected into reality.
   * **Swarm Form Structural Clearance Specs:** Manifested swarms are physically constrained by structural opening clearances:
     * **Rat Swarms ([*Rat Tide*](#rat-tide), [*Gnawing Scourge*](#gnawing-scourge)):** Require a minimum opening diameter of **2 inches (5cm)** to squeeze through structural gaps or drain pipes.
@@ -616,9 +620,10 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * *Botched Drain Fledglings (Feral):* Lack the cognitive complexity to break or even comprehend the compulsion; they remain mindlessly obedient to their sire's immediate shouts or wander as feral beasts.
     * *Power-Fade Collapse Mutants:* Possess corrupted blood tethers. Attempting to enforce or break the compulsion triggers intense physical agony in BOTH mutant and sire. However, if a Power-Fade mutant successfully shatters the compulsion, the bond is permanently severed forever.
 
+<a id="secrecy-covens-and-thralls"></a>
 **Secrecy, Covens, and Thralls**
 * **The Digital Shroud:** Beyond the traditional myth of casting no reflection in silver-backed mirrors, a vampire's presence causes severe digital distortion. High-resolution cameras, security feeds, and smartphones cannot capture a clear image of a vampire, rendering them as a pixelated blur or corrupted video static. *Sensor Scope & AI Turrets:* The Digital Shroud distorts optical image sensors and facial recognition cameras. However, non-optical physical sensors (infrared thermal sensors, acoustic motion detectors, pressure plates, laser tripwires) and automated AI turrets equipped with FLIR thermal vision still track the cold mass silhouette of a vampire unless the vampire actively invokes [*Crimson Mist*](#alteration-forms--shifting) or [*Astral Step*](#astral-step).
-* **Covens & Governance:** Sires hold absolute authority over their fledglings. Vampires rarely survive long alone, forming Covens for territorial control, collective defense, and bloodline preservation.
+* <a id="coven-structure--governance"></a>**Covens & Governance:** Sires hold absolute authority over their fledglings. Vampires rarely survive long alone, forming Covens for territorial control, collective defense, and bloodline preservation.
   * **Coven Roles & Hierarchy:**
     * **The Apex Elder / Sire:** The absolute ruler of the Coven, holding supreme authority over territory, bloodline decrees, and fledgling assignments.
     * **The Regent Enforcer:** Second-in-command handling martial defense, border patrols, and executing physical discipline upon rogue vampires.
@@ -627,7 +632,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * **The Sanguine Steward:** Oversees mortal Thrall networks, medical blood bank infiltrations, and dietary supply chains.
     * **The Fledgling / Neonate:** Bound progeny undergoing their 100-year Centenary Compulsion, serving the Coven while learning the night.
   * **The Five Sacred Laws of the Coven:**
-    1. **The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is high treason, punishable by immediate True Death.
+    1. <a id="the-shroud"></a>**The Law of the Shroud / Veil:** Absolute enforcement of secrecy. Revealing the supernatural curse to mortal masses is high treason, punishable by immediate True Death.
     2. <a id="law-of-haven-sanctuary"></a>**The Law of Haven Sanctuary (Absolute Non-Violence):** All unsanctioned internal bloodletting, physical assault, or combat between vampires within haven grounds is strictly forbidden under penalty of forced Torpor or exile.
     3. **The Law of the Sanguine Tithe (Vault Contribution & Tithing Protocols):** Fledglings and lower members must yield a mandatory portion of their hunting yields to the Apex Elder's vault (**1 Blood Reserve per 5 reserves harvested** during hunts, or a minimum of 1 stored draft per week).
        * *Sealed Tithe Vessel Deposit (Universal Primary Method — All Eras):* Members harvest mortal blood during hunts outside haven grounds and store it in sealed tithe vessels matching setting technology (clay amphorae/flasks in Fantasy, glass carboys/phials in Gothic/Modern, vacuum bio-canisters in Sci-Fi). Deposits into the vault chamber require **0 bloodletting inside haven grounds**.
@@ -654,14 +659,14 @@ Vampire society is generally hidden but heavily structured to ensure survival an
   * **Dual-Master Conflict (Bloodline Duel):** If a rival vampire attempts to force-feed their vitae to an already bound Thrall, the Thrall becomes the physical vessel for a **Bloodline Duel** between the Original Master and the Intruder Vampire. The outcome is resolved using the [Universal Age Tier Superiority Modifier System](#age-tier-superiority-modifier-system) (Original Master Tier vs Intruder Tier):
     * *Original Master Wins (Higher/Equal Tier or Wins Test):* The intruder blood is violently purged from the Thrall's system. The Thrall remains loyal, but suffers physical nausea and vomiting for 1 scene.
     * *Intruder Wins (Higher Tier / Wins Test):* The Thrall's original master bond is shattered, and the Thrall suffers violent internal hemorrhaging bordering on death (takes **2 Direct Core Health Damage**, placing the Thrall on the Brink of Death).
-  * <a id="sanguine-withdrawal"></a>**Withdrawal Penalties:** If denied vitae past 14 days, the Thrall loses all physical buffs within 48 hours and suffers excruciating withdrawal (fever, shivers, severe paranoia, suicidal depression, and intense craving for vitae). Long-term Thralls suffer a rapid aging catch-up over several months if permanently cut off.
+  * <a id="sanguine-withdrawal"></a><a id="withdrawal-penalties"></a>**Withdrawal Penalties:** If denied vitae past 14 days, the Thrall loses all physical buffs within 48 hours and suffers excruciating withdrawal (fever, shivers, severe paranoia, suicidal depression, and intense craving for vitae). Long-term Thralls suffer a rapid aging catch-up over several months if permanently cut off.
   * **Vitae Sabotage & Desperation:** If a master is immobilized in Torpor or buried in Native Soil for Re-Rooting, Thralls approaching Day 14 without feeding face extreme panic. On Day 14, the Thrall must pass a **Self-Control check**.
     * *Failure (Betrayal/Extraction):* Driven by survival instincts to stave off agonizing withdrawal, the Thrall attempts to harvest blood directly from their master.
     * *Accessible Master:* If the master is accessible (e.g. Torpid in a coffin), the Thrall bleeds their master's heart/wrist for 1 draft—stealing 1 blood reserve from a Torpid master or interrupting a Re-Rooting recovery with a **+1 day penalty**.
     * *Inaccessible Master (Buried Soil Extraction):* If the master is buried deep underground, the desperate Thrall frantically digs up and ingests the blood-infused Native Soil surrounding the vampire. Consuming the earth staves off the Thrall's withdrawal, but **corrupts the Native Soil micro-ecosystem** and halts the master's Re-Rooting recovery track entirely.
     * *Multiplicative Soil Decay (Multiple Thralls):* Multiple Thralls digging up the same Native Soil grave site stack their destruction: the first Thrall reduces soil life from 30 days to **6 days**, and each subsequent Thrall digging on Day 14 reduces remaining soil life by **50%** (6 days $\rightarrow$ 3 days $\rightarrow$ 1.5 days $\rightarrow$ Total Soil Ruin).
   * **Master True Death Sanguine Withdrawal vs Full Diablerie Bond Inheritance & Overage Strain:** Upon a master's True Death (sunlight incineration, decapitation), the blood bond shatters instantly; living Thralls lose physical buffs within 48 hours and enter acute [Sanguine Withdrawal](#withdrawal-penalties). However, if a rival vampire commits [Full Diablerie](#diablerie-the-ultimate-taboo) upon the master, the Diablerist absorbs the master's soul resonance, **automatically inheriting the blood bond** over the victim's living Thralls.
-    * **Thrall Cap Overage Drawback (Psychic & Vitae Upkeep Drain):** Any inherited Thralls exceeding the Diablerist's age-tier Thrall capacity create **Thrall Cap Overage Strain**. Each overage Thrall imposes a **-1 penalty to daily Blood Reserve regeneration** and a **-1 penalty to Self-Control checks** due to the psychic clutter of managing multiple conflicting blood bond frequencies simultaneously.
+    * <a id="thrall-cap"></a>**Thrall Cap Overage Drawback (Psychic & Vitae Upkeep Drain):** Any inherited Thralls exceeding the Diablerist's age-tier Thrall capacity create **Thrall Cap Overage Strain**. Each overage Thrall imposes a **-1 penalty to daily Blood Reserve regeneration** and a **-1 penalty to Self-Control checks** due to the psychic clutter of managing multiple conflicting blood bond frequencies simultaneously.
     * **Coven Law on Overage Release (Sanctioned Termination vs Council Dispensation):** Coven Law strictly forbids abandoning overage Thralls into mortal society due to secrecy breach risks. To resolve Overage Strain, the master must return to or below capacity via **Sanctioned Termination** (execution conducted off Coven sanctum grounds) or by obtaining a formal **Sanctioned Release Dispensation** from the Coven Council (permitting controlled euthanasia or deep memory erasure via *Lethe's Touch*). Abandoning an overage Thrall inside Coven territory without Council authorization is a punishable Coven offense.
 
 ## Types
@@ -681,7 +686,7 @@ Created when an Unlearned Sire fails their **Self-Control** check during [Creati
   * **-2 Defense / Cognition:** Lacks tactical awareness, charging blindly into melee.
   * **Pain Immunity:** Immune to pain penalties, fear checks, and psychological stun.
 
-#### 2. The Hollow Abomination (Trigger: Power Fade Collapse)
+#### 2. <a id="power-fade-collapse-mutation"></a>The Hollow Abomination (Trigger: Power Fade Collapse)
 Created when a young Sire's power count is so low (2–3 total powers) that the [Power Fade](#power-fade--inheritance) math forces the fledgling's starting power slots to 0. The ancient vampiric bloodline collapses into an unstable, hollow shell.
 * **Sensory Profile:** Translucent, paper-thin white skin revealing pulsing black veins underneath; irregular obsidian bone ridges erupting from the spine and jaw. The Abomination emits a constant low-frequency hum of distorted blood static.
 * **Behavioral Traits:** Suffers constant, excruciating physical agony as their corrupted blood tethers attempt to draw non-existent magic. Highly volatile and prone to sudden explosive violence.
@@ -706,7 +711,7 @@ Created when advanced technology or gene-splicing experiments tamper with vampir
     * **Secondary Feral Husks:** Possess a strict lifespan of **24 Hours** before their internal organs liquify into toxic black sludge.
     * **Secondary Spliced Reapers:** Possess a strict lifespan of **7 Days (1 Week)** of active hunting before synthetic genetic decay dissolves their body into grey ash and sludge (unless sustained by continuous drafts of fresh living blood).
 
-#### Neonates (New World: < 500 Years)
+#### <a id="new-world"></a>Neonates (New World: < 500 Years)
 
 Neonates (New World vampires) have existed for less than 500 years [post-change](#post-change). They make up for their relative lack of ancient powers with intense reactions, raw emotion, volatile adaptability, and deep familiarity with mortal society.
 
@@ -717,7 +722,7 @@ Neonates (New World vampires) have existed for less than 500 years [post-change]
 * **Societal Role:** Neonates act as front-line emissaries, hunters, and technological operators. Because they remember mortal life in recent decades, they view mortals as former peers—making them adept at blending into modern cities, operating technology, and managing Thrall networks.
 * **Milestone Rite (Year 100 - The Freedom Rite):** Reaching the 100-year mark is celebrated as the neonate's first major milestone. The [Centenary Compulsion](#social) naturally breaks, freeing the neonate from involuntary sire servitude and unlocking their **1st Thrall capacity slot**.
 
-#### Elders (Old World: 500 to 1,199 Years)
+#### <a id="old-world"></a>Elders (Old World: 500 to 1,199 Years)
 
 Elders (Old World vampires) are ancient lords who have survived between **500 and 1,199 years post-change**. They are formidable, cold, and deeply detached from mortal humanity, viewing living humans as livestock and neonates as temporary pawns.
 

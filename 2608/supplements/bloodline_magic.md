@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.58.0-bs",
+    "version": "2608.59.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.58.0-bs
+# Bloodline Magic Compendium v2608.59.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -61,7 +61,7 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
   * **Tier 1 Neonate Arcana:** Lead Caster must be **Neonate (<500 yrs) or higher**.
   * **Tier 2 Elder Arcana:** Lead Caster MUST be an **Elder (500–1,199 yrs)** or Ancient.
   * **Tier 3 Primordial Rites:** Lead Caster MUST be an **Ancient (1,200+ yrs)**.
-* **Age Tier Scaling:** Ritual save DCs and potency scale using [Age Tier Superiority Math ($\Delta$)](../vampire.md#combust-vitae): Neonate = Base DC; Elder = +1 DC / +1 Area; Ancient = +2 DC / Double Duration.
+* **Age Tier Scaling:** Ritual save DCs and potency scale using [Age Tier Superiority Math ($\Delta$)](../vampire.md#age-tier-superiority-modifier-system): Neonate = Base DC; Elder = +1 DC / +1 Area; Ancient = +2 DC / Double Duration.
 
 ### Ritual Interruption & Backfire Trauma
 If a ritual caster suffers physical damage, knockback, or psychic attack during casting:
@@ -200,4 +200,4 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.58.0-bs**. All ritual rules interact cleanly with [Coven Governance Law](../vampire.md#social), [Torpor Recovery Track](../vampire.md#torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority-modifier-system).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.59.0-bs**. All ritual rules interact cleanly with [Coven Governance Law](../vampire.md#social), [Torpor Recovery Track](../vampire.md#torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority-modifier-system).

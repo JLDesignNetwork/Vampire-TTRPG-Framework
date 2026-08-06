@@ -100,9 +100,9 @@
       "target_version": "2608.48.0-bs",
       "target_file": "2608/supplements/coven_law_protocols.md",
       "title": "Red Team Audit — Coven Law Court Protocols & Legal Code",
-      "status": "pending:audit",
+      "status": "completed",
       "priority": "high",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.48.0-bs",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Coven Law Court Protocols & Legal Code supplement (2608/supplements/coven_law_protocols.md). Check tribunal vote manipulation exploits, Sanctioned Release Dispensation loopholes, Blood Treaty diplomatic edge-cases, evidence forgery counterplay, and punishment escalation gaps."
     },
