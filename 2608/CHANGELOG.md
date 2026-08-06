@@ -4,6 +4,15 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.60.0-bs (2026-08-06) - Beta Supported Release (UV Arsenal Silver Nitrate Contradiction Fix)
+
+**Beta release executing `TODO-103`. Audited and resolved the silver-nitrate contradiction in the Equipment & UV Arsenal Handbook against the core ruleset's "Silver is a mythic misconception" rule.**
+
+#### Fixed
+- **`supplements/uv_arsenal_handbook.md`:** Renamed the countermeasure section to "Consecrated & Holy Alchemical Taint Munitions" and clarified that silver nitrate has zero effect on vampires, while holy alchemical salts or garlic distillates are what actually suppress Sanguine Knit healing in combat.
+
+---
+
 ### 2608.59.0-bs (2026-08-06) - Beta Supported Release (Coven Law Cross-Supplement Link Audit)
 
 **Beta release executing `TODO-102` and closing `PROJ-05`. Audited and resolved 100% of internal ruleset links and cross-supplement references in Coven Law Court Protocols, Bloodline Magic Compendium, and UV Arsenal Handbook by adding explicit micro-anchors to vampire.md.**

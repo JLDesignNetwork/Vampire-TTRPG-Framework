@@ -1,5 +1,5 @@
 {
-  "version": "2608.59.0-bs",
+  "version": "2608.60.0-bs",
   "todo": [
     {
       "id": "TODO-01",
@@ -1122,6 +1122,17 @@
       "protection": "protected",
       "existed_since": "2608.59.0-bs",
       "details": "Audited and resolved all 10 broken cross-supplement links in coven_law_protocols.md and other supplements by injecting the missing micro-anchors in vampire.md."
+    },
+    {
+      "id": "TODO-103",
+      "section": "## Hunter Tactical Countermeasures -> Silver-Nitrate & Alchemical Taint Munitions",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "UV Arsenal Handbook: Resolve Silver-Nitrate Contradiction Against Core Ruleset",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.60.0-bs",
+      "details": "Resolved the silver-nitrate contradiction in uv_arsenal_handbook.md by converting it to consecrated holy alchemical taint munitions that suppress natural Sanguine Knit healing, since silver is a mythic misconception for vampires."
     }
   ]
 }

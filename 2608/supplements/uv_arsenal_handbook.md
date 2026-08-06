@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.59.0-bs",
+    "version": "2608.60.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.59.0-bs
+# Equipment & UV Arsenal Handbook v2608.60.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -43,9 +43,9 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 * **Equipment Type:** `Optics Sensor / Helmet Overlay`
 * **Mechanic:** Detects thermal radiation profiles. Because vampires lack internal body heat (room-temperature cold dermis), vampires appear as cold blue/violet silhouettes surrounded by warm living humans. Instantly exposes disguised vampires using [*Chameleon Clay*](../vampire.md#chameleon-clay) unless wearing thermal heating gear.
 
-### <a id="silver-nitrate-and-alchemical-taint-munitions"></a>Silver-Nitrate & Alchemical Taint Munitions
-* **Weapon Rating:** `Ballistic / Slashing | Damage: Standard Physical + 1 Silver Taint`
-* **Mechanic:** Bullets or blades infused with silver nitrate or holy alchemical salts inflict standard physical damage and coat wounds in toxic residue, suppressing natural regeneration until extracted.
+### <a id="consecrated-and-holy-alchemical-taint-munitions"></a>Consecrated & Holy Alchemical Taint Munitions
+* **Weapon Rating:** `Ballistic / Slashing | Damage: Standard Physical + 1 Holy Taint`
+* **Mechanic:** Bullets or blades infused with consecrated holy alchemical salts or concentrated garlic distillates inflict standard physical damage and coat wounds in unholy residue, suppressing natural [*Sanguine Knit*](../vampire.md#sanguine-knit) regeneration in combat until extracted. (Note: Silver nitrate has zero effect on vampires due to silver being a mythic misconception; see [Silver Misconception](../vampire.md#silver-mythic-misconception)).
 
 ---
 
@@ -79,4 +79,4 @@ Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-gr
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.59.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.60.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
