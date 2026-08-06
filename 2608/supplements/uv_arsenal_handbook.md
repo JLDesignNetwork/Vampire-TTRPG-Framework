@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.60.0-bs",
+    "version": "2608.61.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.60.0-bs
+# Equipment & UV Arsenal Handbook v2608.61.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -63,6 +63,9 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 ### <a id="synthetic-blood-pouches-synth-vitae-and-injectors"></a>Synthetic Blood Pouches (Synth-Vitae) & Injectors
 * **Item Type:** `Consumable Field Refill | Capacity: 1 Reserve per Pouch`
 * **Mechanic:** Bio-engineered synthetic blood pouches restore **1 Blood Reserve** upon consumption or auto-injector use. Synth-Vitae staves off starvation but lacks the full psychological satisfaction of living prey blood.
+* **Synthetic Diet Degradation System:** Synth-Vitae is designed strictly as an emergency field ration, not a permanent dietary replacement. If a vampire feeds exclusively on Synth-Vitae without drinking fresh living blood (mortal or animal) for more than **14 consecutive days**, their vitae begins to lose its mystical connection.
+  * **Mechanical Penalty (Accumulating):** Starting on Day 15, the vampire suffers a **-1 penalty to all supernatural power checks/DCs** and a **-1 penalty to physical blood surge checks** due to the lack of active ancestral life force. This penalty stacks by **-1 for every additional 7 days** of exclusive synthetic diet, up to a maximum penalty of **-3**.
+  * **Cure:** Consuming at least 1 draft of fresh Tier 2+ living mortal blood instantly neutralizes all accumulated synthetic diet penalties, returning the vampire to full efficiency.
 
 ---
 
@@ -79,4 +82,4 @@ Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-gr
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.60.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.61.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).

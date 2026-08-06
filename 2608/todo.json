@@ -1,5 +1,5 @@
 {
-  "version": "2608.60.0-bs",
+  "version": "2608.61.0-bs",
   "todo": [
     {
       "id": "TODO-01",
@@ -1133,6 +1133,17 @@
       "protection": "protected",
       "existed_since": "2608.60.0-bs",
       "details": "Resolved the silver-nitrate contradiction in uv_arsenal_handbook.md by converting it to consecrated holy alchemical taint munitions that suppress natural Sanguine Knit healing, since silver is a mythic misconception for vampires."
+    },
+    {
+      "id": "TODO-104",
+      "section": "## Vampiric Armaments & Field Gear -> Synthetic Blood Pouches (Synth-Vitae) & Injectors",
+      "link": "supplements/uv_arsenal_handbook.md",
+      "title": "UV Arsenal Handbook: Codify Synth-Vitae Dietary Degradation System",
+      "status": "completed",
+      "priority": "high",
+      "protection": "protected",
+      "existed_since": "2608.61.0-bs",
+      "details": "Codified the Synthetic Diet Degradation System under Synth-Vitae in uv_arsenal_handbook.md to prevent infinite synthetic diet exploitation by imposing progressive penalties after 14 consecutive days of exclusive synthetic diet."
     }
   ]
 }

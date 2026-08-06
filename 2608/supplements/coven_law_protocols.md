@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.60.0-bs",
+    "version": "2608.61.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.60.0-bs
+# Coven Law Court Protocols & Legal Code v2608.61.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -89,4 +89,4 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.60.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.61.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
