@@ -112,9 +112,9 @@
       "target_version": "2608.48.0-bs",
       "target_file": "2608/supplements/uv_arsenal_handbook.md",
       "title": "Red Team Audit — Equipment & UV Arsenal Handbook",
-      "status": "in-progress:audit",
+      "status": "completed",
       "priority": "high",
-      "protection": "open",
+      "protection": "protected",
       "existed_since": "2608.48.0-bs",
       "details": "Perform systematic Red Team vulnerability, edge-case, and contradiction audit on the Equipment & UV Arsenal Handbook supplement (2608/supplements/uv_arsenal_handbook.md). Check UV weapon stacking interactions, Daywalker's Grace immunity edge-cases, Synth-Vitae vs living blood mechanical gaps, armor penetration cross-supplement interactions, and thermal suit vs FLIR counterplay balance."
     }
