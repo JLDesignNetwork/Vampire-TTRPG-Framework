@@ -10,15 +10,15 @@ This repository contains the master ruleset specification, generation-specific T
 * **Ruleset Version:** `2608.63.0-bs` (Official Beta Supported)
 
 ### Repository Workspace Layout
-- 🌐 **[Project-Wide Roadmap Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/todo.json):** `todo.json` (Project-level roadmap & milestone tasks)
-- 📄 **[Generation 2608 Ruleset Document](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/vampire.md):** `2608/vampire.md`
-- 📊 **[Generation 2608 TODO Dataset](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/todo.json):** `2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
-- 📝 **[Generation 2608 Changelog](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/CHANGELOG.md):** `2608/CHANGELOG.md`
+- 🌐 **[Project-Wide Roadmap Dataset](todo.json):** `todo.json` (Project-level roadmap & milestone tasks)
+- 📄 **[Generation 2608 Ruleset Document](2608/vampire.md):** `2608/vampire.md`
+- 📊 **[Generation 2608 TODO Dataset](2608/todo.json):** `2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
+- 📝 **[Generation 2608 Changelog](2608/CHANGELOG.md):** `2608/CHANGELOG.md`
 
 ### Generation 2608 Modular Supplements (`2608/supplements/`)
-- 🔮 **[Bloodline Magic Compendium](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/supplements/bloodline_magic.md):** Tier 1–3 blood rituals, incantation action economy, coven circle chants, and sacrificial upkeep.
-- 🏛️ **[Coven Law Court Protocols & Legal Code](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/supplements/coven_law_protocols.md):** Judicial tribunal trials, evidence admissibility, Sanctioned Termination decrees, and Sanctioned Release Dispensations.
-- 🗡️ **[Equipment & UV Arsenal Handbook](file:///Volumes/Kingston-256/Gaming/Vampire-Ruleset/2608/supplements/uv_arsenal_handbook.md):** Vampire hunter UV laser rifles, flashbangs, thermal FLIR masking suits, and Synth-Vitae plasma packs.
+- 🔮 **[Bloodline Magic Compendium](2608/supplements/bloodline_magic.md):** Tier 1–3 blood rituals, incantation action economy, coven circle chants, and sacrificial upkeep.
+- 🏛️ **[Coven Law Court Protocols & Legal Code](2608/supplements/coven_law_protocols.md):** Judicial tribunal trials, evidence admissibility, Sanctioned Termination decrees, and Sanctioned Release Dispensations.
+- 🗡️ **[Equipment & UV Arsenal Handbook](2608/supplements/uv_arsenal_handbook.md):** Vampire hunter UV laser rifles, flashbangs, thermal FLIR masking suits, and Synth-Vitae plasma packs.
 
 ## Core Features
 
