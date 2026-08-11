@@ -2,8 +2,6 @@
 
 # Dev-only internal tooling, agent instructions, and audit protocols
 .dev/
-**/.dev/
 .agents/
-AGENTS.md
-CLAUDE.md
+.claude/
 books/
