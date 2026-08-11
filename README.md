@@ -1,5 +1,16 @@
 # Vampire TTRPG Framework (v2608.63.0-bs)
 
+[![CI Status](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml/badge.svg)](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml)
+[![GVS Version](https://img.shields.io/badge/GVS-2608.63.0--bs-8b0000.svg)](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)
+[![License](https://img.shields.io/badge/License-Proprietary-gold.svg)](LICENSE.md)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
+![System Agnostic](https://img.shields.io/badge/System-Agnostic-4a0e17.svg)
+![Urban Fantasy](https://img.shields.io/badge/Genre-Urban%20Fantasy-1a1a2e.svg)
+![Dark Fantasy](https://img.shields.io/badge/Genre-Dark%20Fantasy-2d132c.svg)
+![Sci-Fi](https://img.shields.io/badge/Genre-Sci--Fi-0f3460.svg)
+![Horror](https://img.shields.io/badge/Genre-Horror-53354a.svg)
+
 Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.63.0-bs`).
 
 ## Overview
