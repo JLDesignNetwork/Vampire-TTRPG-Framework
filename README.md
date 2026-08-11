@@ -22,8 +22,7 @@ This repository contains the master ruleset specification, generation-specific T
 - 🗡️ **[Equipment & UV Arsenal Handbook](docs/2608/supplements/uv_arsenal_handbook.md):** Vampire hunter UV laser rifles, flashbangs, thermal FLIR masking suits, and Synth-Vitae plasma packs.
 
 #### 📦 Published Books & Datasets (`books/2608/`)
-- 📊 **[Generation 2608 TODO Dataset](books/2608/todo.json):** `books/2608/todo.json` (JLDN Todo Schema v2608.16.0-as Mode 2)
-- 📕 **Compiled Rulebooks & HTML/PDF Publications:** `books/2608/` (Ruleset, Supplements, and Layout outputs)
+- 📕 **Compiled Rulebooks & HTML/PDF Publications:** `books/2608/` (Staged internally in `.books/2608/` during development; published upon official release).
 
 ## Core Features
 
@@ -36,4 +35,5 @@ This repository contains the master ruleset specification, generation-specific T
 
 ## License & Attribution
 
-Designed and maintained by Jeff Langdon / JL Design Network. All rights reserved.
+Designed and maintained by Jeff Langdon / JL Design Network. See [LICENSE.md](LICENSE.md) for licensing terms. All rights reserved.
+
