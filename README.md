@@ -33,7 +33,12 @@ This repository contains the master ruleset specification, generation-specific T
 - **Extensive Powers Engine:** Innate, Activated, Sustained, and Master Composite powers across Behavioral and Supernatural disciplines.
 - **Social & Coven Governance:** Coven Laws (Shroud, Haven Sanctuary, Sanguine Tithe, Tabula Rasa, Sanguine Justice), Chronicler Synchronized Network, and Blood Archives.
 
+## Contributing & Community Guidelines
+
+We welcome community feedback, balance errata, and new modular supplement submissions! Please review our **[Contribution Guidelines (CONTRIBUTING.md)](CONTRIBUTING.md)** for details on submission pathways, Markdown formatting standards, and pull request workflows.
+
 ## License & Attribution
 
 Designed and maintained by Jeff Langdon / JL Design Network. See [LICENSE.md](LICENSE.md) for licensing terms. All rights reserved.
+
 
