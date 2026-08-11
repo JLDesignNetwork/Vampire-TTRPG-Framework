@@ -80,6 +80,12 @@ To enable precise, deep cross-referencing without polluting PDF bookmark drawers
 ```
 Cross-references should point directly to these anchors: `[Custom Power Name](path/to/file.md#custom-power-name)`.
 
+### D. JLDN Generational Versioning Schema (GVS)
+All ruleset documents, supplements, and metadata adhere to the **[JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)**:
+* **Version Format:** `[YYMM].[SUBVERSION].[REVISION]-[TAG]` (e.g., `2608.63.0-bs`).
+* **Generation Epoch (`[GEN]`):** Represents the major architectural edition / release era (e.g., `2608` for August 2026).
+* **Active Directory Alignment:** All new supplements must be placed within the active generation directory (`docs/2608/supplements/`) and match the active generation version tag (`2608.63.0-bs`) in their frontmatter.
+
 ---
 
 ## 4. Pull Request & Review Workflow
