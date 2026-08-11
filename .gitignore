@@ -1,7 +1,7 @@
 # Vampire TTRPG Framework — .gitignore
 
-# Dev-only internal tooling, agent instructions, and audit protocols
-.dev/
-.agents/
-.claude/
-books/
+# Ignore all dot-directories (AI agents, dev configs, IDEs)
+.*/
+
+# Exception: allow GitHub workflows/templates if needed in the future
+!.github/
