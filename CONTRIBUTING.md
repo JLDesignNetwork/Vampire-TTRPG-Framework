@@ -78,7 +78,7 @@ To enable precise, deep cross-referencing without polluting PDF bookmark drawers
 ```markdown
 * <a id="custom-power-name"></a>**Custom Power Name [Cost: 2 BP]:** Description of the power...
 ```
-Cross-references should point directly to these anchors: `[Custom Power Name](path/to/file.md#custom-power-name)`.
+Cross-references should point directly to these anchors: `[Custom Power Name](docs/2608/supplements/my_supplement.md#custom-power-name)`.
 
 ### D. JLDN Generational Versioning Schema (GVS)
 All ruleset documents, supplements, and metadata adhere to the **[JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)**:

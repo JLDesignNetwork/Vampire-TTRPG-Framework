@@ -3,5 +3,6 @@
 # Ignore all dot-directories (AI agents, dev configs, IDEs)
 .*/
 
-# Exception: allow GitHub workflows/templates if needed in the future
+# Exception: allow GitHub workflows and CI scripts
 !.github/
+!.github/**
