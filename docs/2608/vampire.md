@@ -5,7 +5,7 @@
     "rulesetName": "Vampire",
     "version": "2608.63.0-bs",
     "backlog_file": "../../.dev/2608/backlog.json",
-    "changelog_file": "CHANGELOG.md"
+    "changelog_file": "../../CHANGELOG.md"
   }
 }
 ---

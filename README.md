@@ -25,7 +25,7 @@ This repository contains the master ruleset specification, generation-specific T
 #### 📖 Source Documents (`docs/2608/`)
 - 📄 **[Generation 2608 Ruleset Document](docs/2608/vampire.md):** `docs/2608/vampire.md`
 - 📚 **[Terminology & Glossary](docs/2608/terminology.md):** `docs/2608/terminology.md`
-- 📝 **[Generation 2608 Changelog](docs/2608/CHANGELOG.md):** `docs/2608/CHANGELOG.md`
+- 📝 **[Master Framework Changelog](CHANGELOG.md):** `CHANGELOG.md`
 
 #### 🔮 Modular Supplements (`docs/2608/supplements/`)
 - 🔮 **[Bloodline Magic Compendium](docs/2608/supplements/bloodline_magic.md):** Tier 1–3 blood rituals, incantation action economy, coven circle chants, and sacrificial upkeep.
@@ -43,6 +43,18 @@ This repository contains the master ruleset specification, generation-specific T
 - **Vampiric Physiology & Banes:** Sunlight Disintegration Progression, Native Soil Dependency, The Bleed, and Decapitation Brain Torpor rules.
 - **Extensive Powers Engine:** Innate, Activated, Sustained, and Master Composite powers across Behavioral and Supernatural disciplines.
 - **Social & Coven Governance:** Coven Laws (Shroud, Haven Sanctuary, Sanguine Tithe, Tabula Rasa, Sanguine Justice), Chronicler Synchronized Network, and Blood Archives.
+
+## 📜 Recent Release History (GVS)
+
+| Version | Release Date | Lifecycle Stage | Key Milestone / Mechanical Scope |
+| :--- | :---: | :---: | :--- |
+| **`2608.63.0-bs`** | 2026-08-06 | `Beta Supported` | Thermal FLIR Suit Battery Limits & Short-Circuit Combat Failure |
+| **`2608.62.0-bs`** | 2026-08-06 | `Beta Supported` | UV Laser Stacking & Multi-Hunter Crossfire Damage Caps |
+| **`2608.61.0-bs`** | 2026-08-06 | `Beta Supported` | Synth-Vitae Dietary Degradation System & Withdrawal |
+| **`2608.60.0-bs`** | 2026-08-06 | `Beta Supported` | Holy Munitions vs Silver Misconception Lore Harmonization |
+| **`2608.56.0-bs`** | 2026-08-05 | `Beta Supported` | 100% Micro-Anchor Resolution & 12-Mancy Discipline Taxonomy |
+
+👉 *For full historical release notes across all versions, see the complete **[CHANGELOG.md](CHANGELOG.md)**.*
 
 ## Contributing & Community Guidelines
 
