@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "documentName": "Vampire Framework Terminology & Glossary",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.64.0-bs",
+    "version": "2608.65.0-bs",
     "parent_ruleset_file": "vampire.md"
   }
 }
 ---
 
-# Vampire Framework Official Terminology & Taxonomy v2608.64.0-bs
+# Vampire Framework Official Terminology & Taxonomy v2608.65.0-bs
 
 This document outlines the official, normalized terminology standard for the **Vampire TTRPG Framework v2608**. All core rulesets, supplements, datasets, and audit workflows MUST adhere strictly to the definitions, units, and conventions codified herein.
 
@@ -36,6 +36,9 @@ This document outlines the official, normalized terminology standard for the **V
 | :--- | :--- | :--- | :--- |
 | **Blood Reserve** | Discrete unit of stored vitae (~250ml living mortal blood equivalent). | Always capitalized as **Blood Reserve** (or **Blood Reserves** in plural). | *"blood point"*, *"vitae point"*, *"mana"* |
 | **Heart Reservoir** | Undead heart organ acting as the biological/magical vault for Blood Reserves. | Base pool 10 Reserves; expands by Age Tier. | *"blood tank"*, *"stomach"* |
+| **Drinking** | Inbound consumption of blood from mortals, animals, or synth-packs to restore Heart Reservoir reserves. | Use strictly for inbound consumption. | *"imbibing"*, *"sipping"* |
+| **Draining** | Predatory extraction of blood from a victim down through the 5 Brink of Death stages. | Use strictly for exsanguination extraction. | *"bleeding out"*, *"milking"* |
+| **Feeding** | Outbound bestowal of a vampire's own supernatural vitae into another subject (Siring, Thralls, Torpor). | Use strictly for outbound vitae bestowal. | *"blood gift"*, *"transfusing"* |
 | **Per-Round Expenditure Cap** | Hard limit on Blood Reserves spent across all actions in 1 combat round (Neonate: 2; Elder: 3; Ancient: 4). | Governs combat spending. | *"spend limit"*, *"max burn"* |
 | **Blood Surge** | Expending 1 Blood Reserve for a temporary +2 bonus to physical attributes/Initiative for 1 round. | Capitalized as **Blood Surge**. | *"boost"*, *"blood pump"* |
 | **Over-Push Strain** | Damage/strain suffered when attempting to spend blood at 0 Reserves (1 Core Health Damage or frenzy check). | Capitalized as **Over-Push Strain**. | *"push strain"*, *"burnout"* |

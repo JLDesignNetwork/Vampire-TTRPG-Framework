@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.64.0-bs",
+    "version": "2608.65.0-bs",
     "backlog_file": "../../.dev/2608/backlog.json",
     "changelog_file": "../../CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.64.0-bs
+# Vampire Ruleset v2608.65.0-bs
 
 ## Chapter 1: Introduction & The Core Framework
 
@@ -434,11 +434,26 @@ Unlike ["The Bleed"](#the-home-sickness-regression-track-the-bleed) (which is tr
   * **Phase 2 Awakening (~250ml / 1 Draft - Physical Rousing):** Consuming a full draft (~250ml) of living blood restores motor function and rouses the body out of paralysis, restoring the vampire to **Stage 3 (Severe Starvation / Feral Degradation)**.
   * **Rousing Frenzy Check (Target Priority):** Because the vampire rouses at Stage 3 Starvation, the sudden surge of vitality triggers an immediate **Self-Control check**. Failure causes the ravenous vampire to instantly attack the nearest blood vessel—prioritizing living mortal blood first, followed by stored blood bags, and finally attempting to bite the rescuer's undead throat if no mortal blood is present!
 
-### Feeding
+<a id="feeding"></a>
+### Feeding (Outbound Vitae Bestowal)
 
-Feeding is solely used for vampire creation. Once a victim has been [drained](#draining), they have to immediately be fed.
+In the taxonomy of the Framework, **Drinking** represents inbound consumption to restore reserves, **Draining** represents predatory extraction to the brink of death, and **Feeding** strictly denotes the outbound bestowal of the vampire's own supernatural vitae into another subject. 
 
-This is achieved by the vampire opening his/her wrist and letting their own blood flow into the mouth of the victim; or if technology allows, syringe injection into the heart of the victim.
+A vampire cannot feed vitae passively; it requires a conscious expenditure of Blood Reserves and physical delivery:
+
+1. **Delivery Vectors (Genre-Agnostic):**
+   * *Mythic / Gothic:* Slitting the wrist, biting the tongue, or allowing vitae to drip into an open wound or ceremonial chalice.
+   * *Modern / Cyberpunk:* Syringe extraction, pneumatic dart injection, or direct intracardiac transfusion.
+
+2. **The Three Applications of Feeding:**
+   * **Creation Transfusion (Siring):** Expending **5 Blood Reserves** immediately following Stage 4 Draining to initiate the 3-phase transformation into a Neonate.
+   * **Enthrallment (Thrall Maintenance):** Expending **1 Blood Reserve** into a mortal to create or renew the 14-day Blood Bond, granting enhanced physical resilience and emotional subjugation.
+   * **Torpor Revitalization (Awakening):** Administering a single drop of vitae onto a Torpid vampire's lips to trigger Phase 1 Sensory Awakening, or a full draft (1 Reserve) directly into their mouth/heart to break Stage 4 Desiccation and restore motor function.
+
+3. **Physiological Consequences for the Feeder & Recipient:**
+   * *Donor Fatigue:* Expending blood during feeding immediately reduces the donor's Heart Reservoir, counting toward their **Per-Round Expenditure Cap** if performed during tactical scenes.
+   * *Recipient Sanguine High:* Mortals who ingest pure vampiric vitae experience an intense, addictive surge of euphoria, elevated heartbeat, and the *Susceptibility* status condition.
+   * *Resonance Transmission:* Undead recipients instantly taste the donor's Age Tier, bloodline purity, and emotional state via natural *Resonance Tasting*.
 
 ## Chapter 6: The Bloodline Arts (Powers)
 

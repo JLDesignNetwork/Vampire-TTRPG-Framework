@@ -4,6 +4,17 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.65.0-bs (2026-08-13) - Beta Supported Release (Outbound Vitae Bestowal & Feeding Codification)
+
+**Beta release executing `DOCS-TODO-108`. Formally codified the Feeding (Outbound Vitae Bestowal) section in Chapter 5 of the core ruleset (`docs/2608/vampire.md`) and standardized the tripartite distinction between Inbound Drinking, Predatory Draining, and Outbound Feeding.**
+
+#### Added
+- **`docs/2608/vampire.md`:** Expanded `### Feeding (Outbound Vitae Bestowal)` in Chapter 5 detailing delivery vectors (Gothic/Mythic wrist-slitting and ceremonial chalices vs. Cyberpunk/Modern syringe extraction and intracardiac injection), the three core applications (Creation Siring Transfusion, Thrall Maintenance Enthrallment, and Torpor Revitalization), and donor fatigue / recipient euphoria consequences.
+- **`docs/2608/terminology.md`:** Added official taxonomy definitions for **Drinking** (inbound consumption), **Draining** (exsanguination extraction across Brink of Death stages), and **Feeding** (outbound vitae bestowal) in Section 2.
+- **`docs/2608/supplements/*.md`:** Synchronized GVS version tags to `2608.65.0-bs` across all modular supplements.
+
+---
+
 ### 2608.64.0-bs (2026-08-13) - Beta Supported Release (Source of Truth 8-Chapter Restructure & Terminology Integration)
 
 **Beta release executing `DOCS-TODO-107`. Synchronized the Markdown Source of Truth (`docs/2608/vampire.md`) with the 8-chapter hierarchy established in `vampire.map` and integrated domain-specific Terminology & Glossary sections across all modular supplements.**
