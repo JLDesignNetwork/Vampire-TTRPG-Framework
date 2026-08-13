@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Equipment & UV Arsenal Handbook",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.63.0-bs",
+    "version": "2608.64.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Equipment & UV Arsenal Handbook v2608.63.0-bs
+# Equipment & UV Arsenal Handbook v2608.64.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -86,4 +86,19 @@ Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-gr
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.63.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.64.0-bs**. All equipment rules interface cleanly with [Sunlight Burn Rules](../vampire.md#daywalkers-grace) and [Blood Reserve Management](../vampire.md#blood-reserve-math).
+
+---
+
+<a id="terminology"></a><a id="glossary"></a>
+## Terminology & Glossary
+
+| Standard Term | Definition & Tactical Scope | Canonical Rule |
+| :--- | :--- | :--- |
+| **UV Weaponry** | Artificial ultraviolet emitters (lasers, spotlights, flashbangs) inflicting dermal steam burns. | Triggers Round 1 Vaporization; cannot trigger ash collapse alone. |
+| **Thermal Masking Suit** | Micro-wire heated combat gear neutralizing cold vampiric FLIR thermal silhouettes. | Requires active battery cell to operate. |
+| **Battery Life Cycle** | 4-Hour continuous operational duration for FLIR thermal suits. | Drops cold instantly upon depletion. |
+| **Synth-Vitae** | Bio-engineered artificial blood substitute restoring 1 Blood Reserve per draft. | Emergency ration; lacks living ancestral life force. |
+| **Synthetic Diet Degradation** | Progressive -1 penalty (up to -3) to blood powers after 14 consecutive days of exclusive synthetic feeding. | Cured instantly by 1 draft of living mortal blood. |
+| **Structural Integrity HP** | Specialized health pool representing unyielding solid barriers (concrete, steel bulkheads). | Distinct from personal worn armor penetration. |
+| **Daywalker's Grace Immunity** | Complete immunity to artificial UV munitions granted while actively channeling Daywalker's Grace. | Does not consume the 3-minute natural solar shield timer. |

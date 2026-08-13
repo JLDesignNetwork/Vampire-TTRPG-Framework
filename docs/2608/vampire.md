@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.63.0-bs",
+    "version": "2608.64.0-bs",
     "backlog_file": "../../.dev/2608/backlog.json",
     "changelog_file": "../../CHANGELOG.md"
   }
@@ -11,9 +11,12 @@
 ---
 
 
-# Vampire Ruleset v2608.63.0-bs
+# Vampire Ruleset v2608.64.0-bs
 
-## System Agnostic & Multi-Genre Framework
+## Chapter 1: Introduction & The Core Framework
+
+<a id="system-agnostic--multi-genre-framework"></a>
+### System Agnostic & Multi-Genre Framework
 
 This document is designed as a system-agnostic template that seamlessly adapts to different genres and game systems (such as high-fantasy settings like *Mytharios* or sci-fi/modern settings like *The Multiverse*). Core rules translate across genres as follows:
 
@@ -27,7 +30,10 @@ This document is designed as a system-agnostic template that seamlessly adapts t
 | **Haunts & Havens** | Underground gothic crypts, stone catacombs, sunless mountain fortresses, obsidian towers | Subterranean bunker vaults, shielded orbital space stations, radiation-proof safehouses, cyber-labs |
 | **Communication & Tech** | Telepathic bloodline resonance, scrying pools, whispered raven messengers | Encrypted bio-comm channels, infrared optical overlays, sub-space neural frequency transmitters |
 
-## Behavior & Physiology
+## Chapter 2: The Curse & Physiology
+
+<a id="behavior"></a><a id="behavior--physiology"></a>
+### Behavior & Physiology
 
 A vampire’s behavior is largely dictated by the struggle between their lingering humanity and their new predatory instincts. The "Hunger" forces them to view mortals inherently as prey, requiring constant mental fortitude. They are fiercely territorial, mapping out distinct hunting grounds, and their nocturnal isolation often leads to a detachment from the daylight mortal world.
 
@@ -53,59 +59,11 @@ A vampire's supernatural apex nature destabilizes living beings in their immedia
 ### Territorial Sanguine Boundaries
 Vampires mark their hunting grounds by leaving microscopic vitae scents on architectural landmarks or establishing feeding perimeters. Invading a rival Coven's established hunting grounds without a formal Blood Treaty imposes a **-1 penalty on stealth rolls** inside the rival's marked territory.
 
-### Nocturnal Detachment (The Daylight Rift)
-As decades turn to centuries, vampires experience profound psychological alienation from sunlit mortal society:
-* **Empathy Decay:** Living human routines (careers, money, mortal romance) come to resemble a fleeting "Mayfly Theater," causing Old World vampires to treat mortals as temporary livestock.
-* **The Daylight Void:** Centuries of enforced daylight slumber distort time perception. Decades feel like passing months, and mortal generations bloom and wither like autumn leaves.
-* **Anchor Empathy Shielding Rule:** Maintaining an active, intact Pre-Change Anchor (a living descendant, cherished heirloom, or sacred oath) **shields** the vampire from automatic Empathy Decay, allowing Elders and Ancients to retain human empathy for as long as their Anchor remains uncorrupted.
-
 ### Physical Attributes & Speed
 Vampires automatically possess supernatural physical enhancements compared to mortals, scaling as their blood matures:
 * **New World Vampires (0–499 years):** Receive a **+1 bonus to Initiative** and **1.5x base movement speed**.
 * **Old World Vampires (500+ years):** Upgrade to a **+2 bonus to Initiative**, **2x base movement speed**, **doubled vertical/horizontal jump distance**, **1 free positioning action** in the first round of combat, and an **extra bonus action** during surprise rounds.
 * **Supernatural Kinetic Crash Impact & Wall Collision Recoil Math:** A vampire sprinting at supernatural velocity (1.5x speed or active *Blood Surge Speed*) who collides directly with a solid, unyielding obstacle (concrete wall, vehicle, steel bulkhead) inflicts **1 Blunt Impact Damage** onto the obstacle's Structural HP. If the barrier's structural integrity is unbreached, the unyielding surface reflects the kinetic shockwave back into the vampire's body, inflicting **1 Blunt Recoil Damage** on the vampire. Wall collision recoil damage is completely absorbed if the vampire is actively shielded by *Kinetic Barrier* or possessing Ancient *Sovereign Temperament*.
-
-## Creation
-
-A vampire can only be created by another vampire through a precise, perilous metabolic transformation. The creation of a neonate requires two mandatory actions: [draining](#draining) the victim to the brink of death and immediately [feeding](#feeding) the victim a draft of the Sire's own supernatural vitae. 
-
-Metaphysically and biologically, transformation progresses through three distinct, terrifying phases:
-
-### Phase 1: The Death Threshold
-Before new immortal life can take root, the victim's mortal vessel must undergo true biological death.
-* **Biological Shutdown:** As mortal blood volume drops to zero during draining, the heart seizes, respiration halts, body temperature plunges to match ambient room temperature, and brain activity ceases.
-* **The 3-Minute Window:** Transformation requires entering complete brain death without incurring cellular necrosis. The Sire has a strict **3-minute biological window** from the moment the victim's heart stops to administer Sire vitae. If blood is not supplied within 3 minutes, irreversible brain rot sets in and the victim dies permanently as a mundane corpse. *Structural Intactness Requirement:* The victim's body MUST be structurally intact (head connected to torso, heart undamaged) during the 3-minute transfusion window. Transfusing vitae into a decapitated or heart-destroyed corpse fails automatically, producing a dead, inanimate corpse.
-
-### Phase 2: The Sanguine Transfusion
-Once Sire vitae enters the deceased body, it acts as superheated, dark biological mercury—igniting dead nervous tissue, liquefying bone marrow, and violently rewriting the victim's genetic essence across seconds.
-
-* **Dual-Genre Delivery Rituals:**
-  * **High Fantasy (*Mytharios*):** Administered directly by slicing the Sire's wrist over the victim's dead lips or pouring concentrated vitae from a consecrated obsidian/gold chalice during a blood ritual.
-  * **Sci-Fi / Modern (*The Multiverse*):** Delivered via pneumatic cardiac syringe directly into the left ventricle or through an automated vascular filtration and transfusion rig.
-* **Physiological Metamorphosis:** The corpse's blood vessels turn obsidian-black as Sire blood diffuses. Organ functions permanently cease, skin tightens into porcelain pale smoothness, and the heart transforms from a pump into a dormant reservoir for stored blood reserves.
-
-### Phase 3: The First Awakening
-Within seconds of transfusion, the neonate experiences a violent, agonizing resurrection.
-
-* **The Oxygen Reflex:** The neonate violently gasps for air—a terrifying instinctual muscle spasm from their former mortal life, despite their lungs no longer requiring oxygen.
-* **Sensory Explosion:** The neonate's eyes flood with hyper-focused night vision, while their auditory nerve explodes with every surrounding heartbeat, dripping faucet, or electric hum within a hundred yards.
-* **Sensory Disorientation & The First Hunger:** The overwhelming sensory shock inflicts a temporary **+2 difficulty penalty** on all complex mental tasks for the neonate's first hour. The neonate experiences an unquenchable, burning throat and **MUST feed on living blood within 1 hour of awakening**. Failure to feed within 1 hour plunges the neonate into an immediate, indiscriminate [Feral State](#post-change).
-
-### Creation Limitations & Anti-Mass Siring Rules
-
-To prevent vampires from rapidly creating armies of neonates overnight, the siring process imposes heavy physical, metaphysical, and psychological tolls upon the Sire:
-
-* **Blood Reserve Cost (5 Blood Reserves):** Siring a fledgling requires draining **5 Blood Reserves** (50% of the Sire's heart reservoir capacity) directly into the victim during Phase 2 (Sanguine Transfusion).
-* **30-Day Bloodline Cooldown (Sanguine Exhaustion):** Siring a fledgling temporarily drains the ancestral magic in the Sire's blood. For **30 days** post-creation, the Sire's blood loses its igniting potency. Attempting to sire another fledgling during this 30-day window automatically botches the transformation, producing a [Feral Husk](#mutations).
-* **3-Year Psychic Rebound & Emotional Echoes:** 
-  * *Acclimatization Period:* For **3 years** post-creation, the Sire's mind must acclimate to the newly formed blood tether.
-  * *Emotional Static Bleed:* During these 3 years, the fledgling's raw emotions (intense hunger, terror, rage, panic) bleed backward through the bond into the Sire's subconscious. The Sire suffers a **+1 difficulty penalty** on Self-Control checks whenever their fledgling is starving or in distress.
-  * *Psychic Overload Hazard:* If a Sire attempts to sire a new fledgling while still experiencing Mental Rebound (within 3 years), the dual blood tethers create a violent psychic overload. The Sire must pass a **Hard Self-Control check**; failure inflicts a **permanent -1 penalty to Cognition** and causes the new fledgling to botch into a [Feral Husk](#mutations).
-* **Progeny Capacity Cap (Simultaneous Sire Bond Limit):** A Sire can only maintain a maximum number of bound fledglings undergoing their 100-year Centenary Compulsion simultaneously based on their age tier:
-  * **Neonates (<500 yrs):** 1 simultaneous fledgling max.
-  * **Elders (500–1,199 yrs):** 3 simultaneous fledglings max.
-  * **Ancients (1,200+ yrs):** 5 simultaneous fledglings max.
-  * *Exceeding Cap:* Attempting to sire beyond this cap forces the oldest fledgling's bond to shatter prematurely or causes a [Power Fade Collapse Mutation](#mutations).
 
 ### Sunlight Lethality Baseline
 
@@ -166,17 +124,6 @@ Faith-infused holy symbols (crucifixes, sacred seals, consecrated icons) project
 
 #### 5. <a id="silver-mythic-misconception"></a>Silver (Mythic Misconception)
 Silver is a mythic misconception. While silver causes allergic silver-nitrate toxicity in lycanthropes (werewolves), silver stakes, blades, and bullets inflict standard physical damage on vampires without causing supernatural banes or suppressed regeneration.
-
-### The Dying Echo
-When a vampire meets their true death (whether by stake, sunlight, or other lethal means), their final emotional thought or dying word from their Pre-Change life erupts into a psychic shockwave. This "Dying Echo" is instantly felt by all vampires within a one-mile radius, regardless of bloodline or affiliation, serving as a grim, involuntary death knell.
-
-* **Daytime Interruption:** If a vampire perishes during daylight hours, the psychic shockwave acts as a violent jolt. Sleeping vampires within the 1-mile radius must pass a **Self-Control** check; failure causes them to wake up in a panic during peak sunlight hours.
-* **Feedback Suppression Rule (Preventing Cascade Loops):** A vampire awakened by a daylight Dying Echo who subsequently perishes during that daytime period does **NOT** trigger a secondary Daylight Interruption shockwave within the same 12-hour daytime window, preventing cascading city-wide death knell feedback loops.
-* **Information Imparted:** The passive Dying Echo does *not* broadcast exact physical GPS coordinates. Instead, receiving vampires instinctively feel:
-  1. An approximate **directional vector** (cardinal heading toward the death site).
-  2. A **distance impression** (whether the death occurred in immediate proximity or near the 1-mile boundary).
-  3. The victim's **final emotional state** (rage, terror, peaceful resignation) and their last spoken or thought word.
-*(Note: Active telepathic invocations from a captive severed head override this passive limitation; see [Decapitation Telepathy Broadcast](#decapitation-head-severed)).*
 
 ### <a id="native-soil-dependency"></a><a id="the-native-soil-dependency"></a>The Native Soil Dependency
 A vampire is supernaturally tethered to the exact location of their creation. To maintain their immortality and strength, they must regularly rest in proximity to the soil of that land.
@@ -240,7 +187,7 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
 * **Native Soil Re-attachment & Regrowth (Without Grand Harmonization or Surgery):** If a severed limb is completely destroyed (burned or dissolved) or left unstitched, regrowing a new limb requires **24 hours of undisturbed slumber in Native Soil**.
 * **Autonomous Limb Action:** A severed limb remains supernaturally animated for up to 1 hour post-dismemberment. The vampire can telepathically command the severed limb to twitch, crawl, or grapple enemies.
 
-#### Decapitation (Head Severed)
+#### <a id="decapitation-head-severed"></a>Decapitation (Head Severed)
 * **Life & Power Logic:** The heart is the ultimate source of a vampire's immortal existence (circulating vitae). Because the head is not the source of life, decapitation alone does **not** cause True Death; the vampire remains living indefinitely. However, the head (brain) is the controller of supernatural powers and blood flow. Severing the head breaks signal transmission to the heart, disabling [*Sanguine Knit*](#sanguine-knit) and all other active powers.
 * **Blood Reserve Disconnect & Brain Torpor (24-Hour Cap):** A severed head is disconnected from the heart reservoir and holds **0 Blood Reserves**. Without blood flow or re-attachment, the severed head can only maintain sensory consciousness for a maximum of **24 hours**. On hour 24, the severed head lapses into **Brain Torpor** (eyes close, ears go deaf, telepathy shuts down) until re-attached to the torso.
 * **Incapacitation:** While decapitated, the body is completely paralyzed and immobile. The severed head remains conscious (eyes can see, ears can hear, mouth can speak), but cannot activate any supernatural powers or move the body.
@@ -251,10 +198,77 @@ Once "The Bleed" has begun, the decay can only be reversed through complete eart
   4. **Manual Holding:** Holding the head tightly against the neck stump without moving takes **24 continuous hours** of manual pressure.
 * **Heart Destruction & Active Telepathic Broadcast:** If the torso/heart of a decapitated vampire is destroyed while their severed head is held captive elsewhere, [The Dying Echo](#the-dying-echo) erupts from the torso's location. The severed head experiences the shockwave in real-time. If the vampire possesses mental or telepathic powers (*Mind Tear*, *Bloodline Memory*, or Sire tethers), the head can expend its final 6-second window to execute an **active, conscious telepathic broadcast**—transmitting a specific 3-word vocal message, captor identity, or exact landmark description to their Sire or Coven, overriding the passive Dying Echo limitation through active mental effort.
 
-## Life
+## Chapter 3: The Embrace & The Aftermath
+
+<a id="creation"></a>
+### Creation
+
+A vampire can only be created by another vampire through a precise, perilous metabolic transformation. The creation of a neonate requires two mandatory actions: [draining](#draining) the victim to the brink of death and immediately [feeding](#feeding) the victim a draft of the Sire's own supernatural vitae. 
+
+Metaphysically and biologically, transformation progresses through three distinct, terrifying phases:
+
+#### Phase 1: The Death Threshold
+Before new immortal life can take root, the victim's mortal vessel must undergo true biological death.
+* **Biological Shutdown:** As mortal blood volume drops to zero during draining, the heart seizes, respiration halts, body temperature plunges to match ambient room temperature, and brain activity ceases.
+* **The 3-Minute Window:** Transformation requires entering complete brain death without incurring cellular necrosis. The Sire has a strict **3-minute biological window** from the moment the victim's heart stops to administer Sire vitae. If blood is not supplied within 3 minutes, irreversible brain rot sets in and the victim dies permanently as a mundane corpse. *Structural Intactness Requirement:* The victim's body MUST be structurally intact (head connected to torso, heart undamaged) during the 3-minute transfusion window. Transfusing vitae into a decapitated or heart-destroyed corpse fails automatically, producing a dead, inanimate corpse.
+
+#### Phase 2: The Sanguine Transfusion
+Once Sire vitae enters the deceased body, it acts as superheated, dark biological mercury—igniting dead nervous tissue, liquefying bone marrow, and violently rewriting the victim's genetic essence across seconds.
+
+* **Dual-Genre Delivery Rituals:**
+  * **High Fantasy (*Mytharios*):** Administered directly by slicing the Sire's wrist over the victim's dead lips or pouring concentrated vitae from a consecrated obsidian/gold chalice during a blood ritual.
+  * **Sci-Fi / Modern (*The Multiverse*):** Delivered via pneumatic cardiac syringe directly into the left ventricle or through an automated vascular filtration and transfusion rig.
+* **Physiological Metamorphosis:** The corpse's blood vessels turn obsidian-black as Sire blood diffuses. Organ functions permanently cease, skin tightens into porcelain pale smoothness, and the heart transforms from a pump into a dormant reservoir for stored blood reserves.
+
+#### Phase 3: The First Awakening
+Within seconds of transfusion, the neonate experiences a violent, agonizing resurrection.
+
+* **The Oxygen Reflex:** The neonate violently gasps for air—a terrifying instinctual muscle spasm from their former mortal life, despite their lungs no longer requiring oxygen.
+* **Sensory Explosion:** The neonate's eyes flood with hyper-focused night vision, while their auditory nerve explodes with every surrounding heartbeat, dripping faucet, or electric hum within a hundred yards.
+* **Sensory Disorientation & The First Hunger:** The overwhelming sensory shock inflicts a temporary **+2 difficulty penalty** on all complex mental tasks for the neonate's first hour. The neonate experiences an unquenchable, burning throat and **MUST feed on living blood within 1 hour of awakening**. Failure to feed within 1 hour plunges the neonate into an immediate, indiscriminate [Feral State](#post-change).
+
+### Creation Limitations & Anti-Mass Siring Rules
+
+To prevent vampires from rapidly creating armies of neonates overnight, the siring process imposes heavy physical, metaphysical, and psychological tolls upon the Sire:
+
+* **Blood Reserve Cost (5 Blood Reserves):** Siring a fledgling requires draining **5 Blood Reserves** (50% of the Sire's heart reservoir capacity) directly into the victim during Phase 2 (Sanguine Transfusion).
+* **30-Day Bloodline Cooldown (Sanguine Exhaustion):** Siring a fledgling temporarily drains the ancestral magic in the Sire's blood. For **30 days** post-creation, the Sire's blood loses its igniting potency. Attempting to sire another fledgling during this 30-day window automatically botches the transformation, producing a [Feral Husk](#mutations).
+* **3-Year Psychic Rebound & Emotional Echoes:** 
+  * *Acclimatization Period:* For **3 years** post-creation, the Sire's mind must acclimate to the newly formed blood tether.
+  * *Emotional Static Bleed:* During these 3 years, the fledgling's raw emotions (intense hunger, terror, rage, panic) bleed backward through the bond into the Sire's subconscious. The Sire suffers a **+1 difficulty penalty** on Self-Control checks whenever their fledgling is starving or in distress.
+  * *Psychic Overload Hazard:* If a Sire attempts to sire a new fledgling while still experiencing Mental Rebound (within 3 years), the dual blood tethers create a violent psychic overload. The Sire must pass a **Hard Self-Control check**; failure inflicts a **permanent -1 penalty to Cognition** and causes the new fledgling to botch into a [Feral Husk](#mutations).
+* **Progeny Capacity Cap (Simultaneous Sire Bond Limit):** A Sire can only maintain a maximum number of bound fledglings undergoing their 100-year Centenary Compulsion simultaneously based on their age tier:
+  * **Neonates (<500 yrs):** 1 simultaneous fledgling max.
+  * **Elders (500–1,199 yrs):** 3 simultaneous fledglings max.
+  * **Ancients (1,200+ yrs):** 5 simultaneous fledglings max.
+  * *Exceeding Cap:* Attempting to sire beyond this cap forces the oldest fledgling's bond to shatter prematurely or causes a [Power Fade Collapse Mutation](#mutations).
+
+### <a id="the-dying-echo"></a>The Dying Echo
+When a vampire meets their true death (whether by stake, sunlight, or other lethal means), their final emotional thought or dying word from their Pre-Change life erupts into a psychic shockwave. This "Dying Echo" is instantly felt by all vampires within a one-mile radius, regardless of bloodline or affiliation, serving as a grim, involuntary death knell.
+
+* **Daytime Interruption:** If a vampire perishes during daylight hours, the psychic shockwave acts as a violent jolt. Sleeping vampires within the 1-mile radius must pass a **Self-Control** check; failure causes them to wake up in a panic during peak sunlight hours.
+* **Feedback Suppression Rule (Preventing Cascade Loops):** A vampire awakened by a daylight Dying Echo who subsequently perishes during that daytime period does **NOT** trigger a secondary Daylight Interruption shockwave within the same 12-hour daytime window, preventing cascading city-wide death knell feedback loops.
+* **Information Imparted:** The passive Dying Echo does *not* broadcast exact physical GPS coordinates. Instead, receiving vampires instinctively feel:
+  1. An approximate **directional vector** (cardinal heading toward the death site).
+  2. A **distance impression** (whether the death occurred in immediate proximity or near the 1-mile boundary).
+  3. The victim's **final emotional state** (rage, terror, peaceful resignation) and their last spoken or thought word.
+*(Note: Active telepathic invocations from a captive severed head override this passive limitation; see [Decapitation Telepathy Broadcast](#decapitation-head-severed)).*
+
+## Chapter 4: The Struggle for Humanity
+
+<a id="nocturnal-detachment"></a>
+### Nocturnal Detachment (The Daylight Rift)
+As decades turn to centuries, vampires experience profound psychological alienation from sunlit mortal society:
+* **Empathy Decay:** Living human routines (careers, money, mortal romance) come to resemble a fleeting "Mayfly Theater," causing Old World vampires to treat mortals as temporary livestock.
+* **The Daylight Void:** Centuries of enforced daylight slumber distort time perception. Decades feel like passing months, and mortal generations bloom and wither like autumn leaves.
+* **Anchor Empathy Shielding Rule:** Maintaining an active, intact Pre-Change Anchor (a living descendant, cherished heirloom, or sacred oath) **shields** the vampire from automatic Empathy Decay, allowing Elders and Ancients to retain human empathy for as long as their Anchor remains uncorrupted.
+
+<a id="life"></a>
+### Life
 
 The life of a vampire is broken into 2 phases, [pre-change](#pre-change) and [post-change](#post-change).
 
+<a id="pre-change"></a>
 ### Pre-Change
 
 Pre-Change represents life before being turned into a vampire—the reservoir where the human soul, moral convictions, and core identity reside.
@@ -266,6 +280,7 @@ Pre-Change represents life before being turned into a vampire—the reservoir wh
 * **Anchor Mechanics (Restoring Sanity):** Visiting, protecting, or communing with a Pre-Change Anchor soothes the volatile Beast, **restoring 1 lost Self-Control point per scene**.
 * **Anchor Destruction (Permanent Scarring & Replicas):** If an Anchor is destroyed, corrupted, or killed (such as failing an Anchor Break check), the vampire's soul suffers a severe tear, inflicting a **permanent -1 penalty to all future Self-Control checks**. Rebuilding a destroyed Sanctum estate or replacing a destroyed relic creates a physical replica, but does **NOT** restore the original emotional soul tether or remove the permanent -1 Self-Control penalty.
 
+<a id="post-change"></a>
 ### Post-Change
 
 Post-Change represents the ongoing struggle between lingering Pre-Change Humanity and the ravenous Post-Change Hunger.
@@ -287,8 +302,9 @@ Post-Change represents the ongoing struggle between lingering Pre-Change Humanit
       * **Sanctum Anchor:** The vampire sets fire to or desecrates their ancestral sanctuary.
       * **Ideal / Oath Anchors:** The Beast forces the vampire to commit an unpardonable atrocity that directly and irrecoverably violates their sacred moral oath.
 
-## Mechanics
+## Chapter 5: Mechanics of the Blood
 
+<a id="mechanics"></a>
 ### Draining
 
 Draining is done to destroy the life of the victim, either to outright kill them or for [creation](#creation). Draining does not mean [drinking](#drinking--sustenance-rules) all of the victim's blood. Drinking the last drop must never be done. Consuming the final drop binds the vampire to the victim's death, triggering catastrophic consequences based on the victim's nature:
@@ -424,7 +440,11 @@ Feeding is solely used for vampire creation. Once a victim has been [drained](#d
 
 This is achieved by the vampire opening his/her wrist and letting their own blood flow into the mouth of the victim; or if technology allows, syringe injection into the heart of the victim.
 
-## Powers
+## Chapter 6: The Bloodline Arts (Powers)
+
+<a id="powers"></a>
+<a id="the-bloodline-arts"></a>
+### Powers
 
 A vampire gains its powers during creation, from the [feeding](#feeding) process. A newly created vampire's power is dictated by the strength of their Maker and the latent traits hidden deep within their bloodline.
 
@@ -600,10 +620,15 @@ Vampiric abilities are categorized into 12 canonical **-mancy** disciplines. Eac
 * <a id="nerve-lightning"></a>**Nerve Lightning `[Supernatural | Activated - 1 Reserve | Duration: Instantaneous (1 Action)]`:** You hijack the target's neural bio-electrical network, causing a sudden violent electrical short-circuit. The victim suffers blinding pain and muscular spasms, dropping held weapons and collapsing to their knees. *Bio-Neural Target Scope:* Nerve Lightning specifically targets biological neural nervous systems (living mortals, animals, vampires, Reapers). Purely mechanical, non-biological entities (drones, computer mainframes, security cameras) lack a biological neural network and are unaffected.
 * <a id="grand-harmonization"></a>**Grand Harmonization `[Supernatural - Master | Innate Composite - 0 Reserves Activation]`:** The apex of biological control. You possess [*Sanguine Knit*](#sanguine-knit), [*Mortal Mask*](#mortal-mask), [*Gangrene Touch*](#gangrene-touch), and [*Nerve Lightning*](#nerve-lightning), manipulating your own lifeblood and biological neural networks with absolute mastery. *Strict Self-Only Scope:* Grand Harmonization operates exclusively upon the invoking vampire's own body; healing powers cannot be projected or cast upon allies under any circumstances. *Severed Limb Regrowth Duration & Concentration Math:* Re-attaching a retrieved severed limb held against the stump requires burning **1 Blood Reserve** to mend in 1 combat round. However, re-growing a completely destroyed or unretrievable major limb (arm, leg) from scratch requires expending **3 Blood Reserves total** over **3 consecutive combat rounds** (1 Reserve/round) while maintaining concentration. Taking damage during regrowth forces a **Hard Self-Control check**; failure interrupts the process, consuming the spent reserves without completing limb regrowth.
 
-## Social
+## Chapter 7: Vampire Society & Politics
+
+<a id="social"></a>
+<a id="vampire-society--politics"></a>
+### Social
+
 Vampire society is generally hidden but heavily structured to ensure survival and secrecy.
 
-**Bloodline Dynamics & Telepathy**
+### Bloodline Dynamics & Telepathy
 * **The Psychic Network:** Vampires are capable of communicating telepathically with one another across short-to-medium distances. However, a profound mystical blind spot exists: **sires and their direct fledglings can never communicate telepathically with each other**, forcing them to rely on spoken words or intermediaries.
 * **The Sire's Compass:** Sires possess an innate, permanent psychic sense of their fledglings' physical locations, acting as an internal compass pointing toward their progeny no matter the distance across the physical world. *Interdimensional Blind Spot:* If a fledgling shifts into a [Pocket-Realm dimension](#alteration-forms--shifting), the compass needle spins erratically in circles, losing tracking until the fledgling re-coalesces back into reality.
 * **Blood Resonance & Synergies:** When vampires of the same bloodline come into close proximity, they instinctively taste and feel the resonance of their shared ancestry.
@@ -621,7 +646,7 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * *Power-Fade Collapse Mutants:* Possess corrupted blood tethers. Attempting to enforce or break the compulsion triggers intense physical agony in BOTH mutant and sire. However, if a Power-Fade mutant successfully shatters the compulsion, the bond is permanently severed forever.
 
 <a id="secrecy-covens-and-thralls"></a>
-**Secrecy, Covens, and Thralls**
+### Secrecy, Covens, and Thralls
 * **The Digital Shroud:** Beyond the traditional myth of casting no reflection in silver-backed mirrors, a vampire's presence causes severe digital distortion. High-resolution cameras, security feeds, and smartphones cannot capture a clear image of a vampire, rendering them as a pixelated blur or corrupted video static. *Sensor Scope & AI Turrets:* The Digital Shroud distorts optical image sensors and facial recognition cameras. However, non-optical physical sensors (infrared thermal sensors, acoustic motion detectors, pressure plates, laser tripwires) and automated AI turrets equipped with FLIR thermal vision still track the cold mass silhouette of a vampire unless the vampire actively invokes [*Crimson Mist*](#alteration-forms--shifting) or [*Astral Step*](#astral-step).
 * <a id="coven-structure--governance"></a>**Covens & Governance:** Sires hold absolute authority over their fledglings. Vampires rarely survive long alone, forming Covens for territorial control, collective defense, and bloodline preservation.
   * **Coven Roles & Hierarchy:**
@@ -669,7 +694,11 @@ Vampire society is generally hidden but heavily structured to ensure survival an
     * <a id="thrall-cap"></a>**Thrall Cap Overage Drawback (Psychic & Vitae Upkeep Drain):** Any inherited Thralls exceeding the Diablerist's age-tier Thrall capacity create **Thrall Cap Overage Strain**. Each overage Thrall imposes a **-1 penalty to daily Blood Reserve regeneration** and a **-1 penalty to Self-Control checks** due to the psychic clutter of managing multiple conflicting blood bond frequencies simultaneously.
     * **Coven Law on Overage Release (Sanctioned Termination vs Council Dispensation):** Coven Law strictly forbids abandoning overage Thralls into mortal society due to secrecy breach risks. To resolve Overage Strain, the master must return to or below capacity via **Sanctioned Termination** (execution conducted off Coven sanctum grounds) or by obtaining a formal **Sanctioned Release Dispensation** from the Coven Council (permitting controlled euthanasia or deep memory erasure via *Lethe's Touch*). Abandoning an overage Thrall inside Coven territory without Council authorization is a punishable Coven offense.
 
-## Types
+## Chapter 8: Vampire Taxonomy & Lineages
+
+<a id="types"></a>
+<a id="vampire-taxonomy--lineages"></a>
+### Types
 
 There are 3 types of vampires; [Old World](#old-world), [New World](#new-world), and various [mutations](#mutations).
 
@@ -711,7 +740,7 @@ Created when advanced technology or gene-splicing experiments tamper with vampir
     * **Secondary Feral Husks:** Possess a strict lifespan of **24 Hours** before their internal organs liquify into toxic black sludge.
     * **Secondary Spliced Reapers:** Possess a strict lifespan of **7 Days (1 Week)** of active hunting before synthetic genetic decay dissolves their body into grey ash and sludge (unless sustained by continuous drafts of fresh living blood).
 
-#### <a id="new-world"></a>Neonates (New World: < 500 Years)
+### <a id="new-world"></a>Neonates (New World: < 500 Years)
 
 Neonates (New World vampires) have existed for less than 500 years [post-change](#post-change). They make up for their relative lack of ancient powers with intense reactions, raw emotion, volatile adaptability, and deep familiarity with mortal society.
 
@@ -722,7 +751,7 @@ Neonates (New World vampires) have existed for less than 500 years [post-change]
 * **Societal Role:** Neonates act as front-line emissaries, hunters, and technological operators. Because they remember mortal life in recent decades, they view mortals as former peers—making them adept at blending into modern cities, operating technology, and managing Thrall networks.
 * **Milestone Rite (Year 100 - The Freedom Rite):** Reaching the 100-year mark is celebrated as the neonate's first major milestone. The [Centenary Compulsion](#social) naturally breaks, freeing the neonate from involuntary sire servitude and unlocking their **1st Thrall capacity slot**.
 
-#### <a id="old-world"></a>Elders (Old World: 500 to 1,199 Years)
+### <a id="old-world"></a>Elders (Old World: 500 to 1,199 Years)
 
 Elders (Old World vampires) are ancient lords who have survived between **500 and 1,199 years post-change**. They are formidable, cold, and deeply detached from mortal humanity, viewing living humans as livestock and neonates as temporary pawns.
 
@@ -733,7 +762,7 @@ Elders (Old World vampires) are ancient lords who have survived between **500 an
 * **Blood Potency:** Produces **Tier 4 Elder Vitae** (3 Blood Reserves per draft, High-Power Surge, Vitae Euphoria addiction risk, 24-hr memory siphon, bypasses rival lineage static).
 * **Governance & Feudal Ideology:** Elders govern Covens with feudal discipline, preserving traditional haven sanctuary laws and territorial boundaries.
 
-#### Ancients (Primordial Old World: 1,200+ Years)
+### <a id="ancients"></a>Ancients (Primordial Old World: 1,200+ Years)
 
 Ancients (Primordial Old World vampires) are legendary figures who have survived for **1,200+ years post-change**. Their very presence distorts ambient reality, and their blood carries god-tier metaphysical weight.
 

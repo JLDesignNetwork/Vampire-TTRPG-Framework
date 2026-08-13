@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.63.0-bs",
+    "version": "2608.64.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.63.0-bs
+# Bloodline Magic Compendium v2608.64.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -200,4 +200,20 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.63.0-bs**. All ritual rules interact cleanly with [Coven Governance Law](../vampire.md#social), [Torpor Recovery Track](../vampire.md#torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority-modifier-system).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.64.0-bs**. All ritual rules interact cleanly with [Coven Governance Law](../vampire.md#social), [Torpor Recovery Track](../vampire.md#torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority-modifier-system).
+
+---
+
+<a id="terminology"></a><a id="glossary"></a>
+## Terminology & Glossary
+
+| Standard Term | Definition & Mechanical Scope | Canonical Rule |
+| :--- | :--- | :--- |
+| **Blood Reserve** | Discrete unit of stored vitae (~250ml living mortal blood equivalent) consumed by rituals. | Governed by [Expenditure Caps](../vampire.md#blood-reserve-math--expenditure-caps). |
+| **Heart Reservoir** | Undead heart organ acting as the biological and magical vault for stored blood reserves. | Base 10 Reserves pool; expands with Age Tier. |
+| **Per-Round Expenditure Cap** | Maximum Blood Reserves a caster can expend in 1 combat round (Neonate: 2; Elder: 3; Ancient: 4). | Limits single-round burst casting. |
+| **Bloodline Resonance** | Ancestral magical frequency shared by vampires of the same lineage, granting +2 bonus to direct bloodline rituals. | Stacks with Age Tier Superiority ($\Delta$). |
+| **Over-Push Strain** | Backlash damage suffered when attempting to cast rituals with 0 Blood Reserves (1 Core Health Damage). | Bypasses superficial armor. |
+| **Ritual Catalyst** | Physical focal object (chalice, silver bowl, micro-fluidic chip) required to ground high-tier rites. | Mandatory for Master and Grand Rites. |
+| **Eclipse Overcap** | Temporary reservoir expansion beyond natural maximum granted during the Crimson Eclipse ritual. | Drains at double rate at dawn. |
+| **Three Pillars of Blood Magic** | Universal design framework: Pillar 1 (Amplification), Pillar 2 (Dual-Layer Benefit), Pillar 3 (Mandatory Caps). | Enforced across all codified rituals. |

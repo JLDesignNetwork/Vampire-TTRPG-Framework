@@ -4,6 +4,19 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.64.0-bs (2026-08-13) - Beta Supported Release (Source of Truth 8-Chapter Restructure & Terminology Integration)
+
+**Beta release executing `DOCS-TODO-107`. Synchronized the Markdown Source of Truth (`docs/2608/vampire.md`) with the 8-chapter hierarchy established in `vampire.map` and integrated domain-specific Terminology & Glossary sections across all modular supplements.**
+
+#### Changed
+- **`docs/2608/vampire.md`:** Restructured core ruleset into 8 explicit Chapter sections (Chapter 1: Intro & Framework, Chapter 2: The Curse & Physiology, Chapter 3: The Embrace & Aftermath, Chapter 4: The Struggle for Humanity, Chapter 5: Mechanics of the Blood, Chapter 6: The Bloodline Arts, Chapter 7: Vampire Society & Politics, Chapter 8: Vampire Taxonomy & Lineages). Relocated Sunlight Lethality, Banes, Native Soil, and Dismemberment out of Creation into Chapter 2; isolated Siring Phases 1–3 and Dying Echo in Chapter 3; aligned Nocturnal Detachment in Chapter 4.
+- **`docs/2608/supplements/bloodline_magic.md`:** Added dedicated domain-specific **Terminology & Glossary** section defining Blood Reserves, Catalysts, Bloodline Resonance, and Three Pillars of Blood Magic.
+- **`docs/2608/supplements/coven_law_protocols.md`:** Added dedicated domain-specific **Terminology & Glossary** section defining Coven Tribunal, Haven Sanctuary, Sanguine Tithe, Tabula Rasa, and Sanctioned Termination.
+- **`docs/2608/supplements/uv_arsenal_handbook.md`:** Added dedicated domain-specific **Terminology & Glossary** section defining UV Weaponry, FLIR Thermal Masking Suits, Synth-Vitae, and Structural Integrity HP.
+- **`docs/2608/terminology.md`:** Bumped GVS version to `2608.64.0-bs`.
+
+---
+
 ### 2608.63.0-bs (2026-08-06) - Beta Supported Release (Thermal Suit Battery & Combat Failure)
 
 **Beta release executing `TODO-106`. Codified active power cell battery charge limits and a 1d6 combat short-circuit failure mechanism for the Thermal Vitae Heating Gear & FLIR Suit.**

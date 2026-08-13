@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.63.0-bs",
+    "version": "2608.64.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.63.0-bs
+# Coven Law Court Protocols & Legal Code v2608.64.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -89,4 +89,20 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.63.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.64.0-bs**. All judicial protocols interface directly with [Coven Governance Laws](../vampire.md#coven-structure--governance) and [Thrall Overage Strain Rules](../vampire.md#thrall-cap).
+
+---
+
+<a id="terminology"></a><a id="glossary"></a>
+## Terminology & Glossary
+
+| Standard Term | Definition & Legal Scope | Canonical Enforcement |
+| :--- | :--- | :--- |
+| **Coven Tribunal** | Supreme judicial panel consisting of Apex Elder, Regent Enforcer, and Coven Council. | Exclusive authority to suspend Haven Sanctuary for trials. |
+| **Law of Haven Sanctuary** | Mandatory non-violence pact prohibiting unsanctioned bloodletting within haven walls. | Violations punished by enforced Torpor or exile. |
+| **Law of the Sanguine Tithe** | Mandatory contribution of 1 Blood Reserve per 5 harvested during hunts. | Defaults escalate to vein extraction or judicial labor. |
+| **Tabula Rasa** | Prohibition on physical/digital records of vampires; also the memory erasure penalty. | Major breaches result in 1-Year Stage 3 Torpor. |
+| **Sanctioned Termination** | Lawfully mandated execution of a rogue vampire or unmanageable overage Thrall. | Must occur off Haven sanctuary grounds. |
+| **Release Dispensation** | Formal Council decree authorizing memory wipe or humane release of a Thrall. | Prevents secrecy breach liability. |
+| **Thrall Overage Strain** | Psychic and reserve penalties (-1 reserve/day, -1 Self-Control) from excess Thralls. | Incurred upon Diablerie inheritance above capacity. |
+| **Enforced Torpor** | Judicial internment via cardiac staking in sealed vaults for 1 to 100 years. | Standard Tier 2 felony penalty. |
