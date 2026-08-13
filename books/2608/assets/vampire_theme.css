@@ -1,0 +1,1219 @@
+/* ==========================================================================
+   Vampire TTRPG Framework — Master Stylesheet
+   ========================================================================== */
+
+/* --- 1. Typography Imports --- */
+/* Playfair Display for elegant, gothic headings; Lato for crisp, modern rules text */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,800;1,600&display=swap');
+
+/* --- 2. Core Variables & Format Toggles --- */
+:root {
+    /* Colors */
+    --desk-bg: #121212;
+    /* Dark workspace behind the pages */
+    --paper-bg: #f5f2eb;
+    /* Pale, slightly aged parchment */
+    --paper-alt: #ebe6db;
+    /* Slightly darker paper for offset boxes */
+    --text-main: #2b2b2b;
+    /* Soft black for reduced eye strain */
+    --blood-red: #7a0000;
+    /* Deep, dried arterial red */
+    --coven-gold: #a68a47;
+    /* Faded, antique gold */
+    --ash-gray: #7a7a7a;
+    /* For minor notes and borders */
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lato', sans-serif;
+    --fs-folio: 9pt;
+    /* running header / footer / folio text size */
+
+    /* Page Dimensions (DEFAULT: US Letter) */
+    --page-width: 8.5in;
+    --page-height: 11in;
+    --page-margin: 0.6in;
+    --footer-clearance: 2.25rem;
+    /* Reserved height for the pinned footer (its own line height + breathing room) — single source of truth so content boxes never need to guess it */
+
+    /* Spacing Scale */
+    --space-sm: 0.5rem;
+    --space-md: 1rem;
+
+    /* Borders */
+    --border-thin: 1px;
+    /* hairline rules: header underline, .leader dots, h2 underline, ritual-box outline */
+    --border-accent: 4px;
+    /* heavier accent borders: rules-box/stat-block/power-card/item-card, blockquote */
+
+    /* Decorative Motifs */
+    --motif-inset: 16px;
+    /* corner-flourish distance from the page edge */
+
+    /* Decorative Motif Icons — plain data-URI SVGs used as masks, painted via background-color so every
+       motif inherits the theme palette. Defined once here and reused for both mask-image and -webkit-mask-image. */
+    --icon-ornate-rule: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 12'%3E%3Crect x='0' y='5' width='40' height='2'/%3E%3Crect x='60' y='5' width='40' height='2'/%3E%3Cpath d='M50 0L57 6L50 12L43 6Z'/%3E%3C/svg%3E");
+    --icon-blood-drop: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 2C12 2 5 11 5 15.5C5 19.09 8.13 22 12 22C15.87 22 19 19.09 19 15.5C19 11 12 2 12 2Z'/%3E%3C/svg%3E");
+    --icon-corner-flourish: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect x='2' y='2' width='3' height='36'/%3E%3Crect x='2' y='2' width='36' height='3'/%3E%3Ccircle cx='11' cy='11' r='2.5'/%3E%3C/svg%3E");
+    --icon-diamond: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 14 14'%3E%3Cpath d='M7 0L14 7L7 14L0 7Z'/%3E%3C/svg%3E");
+}
+
+/* TOGGLE: European A4 Dimensions */
+/* Apply <body class="format-a4"> to use these dimensions */
+body.format-a4 {
+    --page-width: 210mm;
+    --page-height: 297mm;
+    --page-margin: 15mm;
+}
+
+/* --- 3. Print Engine Directives & Book Pagination --- */
+@page {
+    /* Change to 'A4' if printing the European version */
+    size: letter;
+    margin: 0;
+    /* Handled by the .page padding */
+
+    @bottom-center {
+        content: counter(page);
+        font-family: var(--font-body);
+        font-size: var(--fs-folio);
+        color: var(--ash-gray);
+    }
+}
+
+/* Right (Recto) Pages - Odd numbered pages */
+/* Folio sits at the outer edge of the spread: recto's outer edge is on the right */
+@page :right {
+    @bottom-left {
+        content: "Vampire TTRPG Framework";
+        font-family: var(--font-heading);
+        font-size: 8pt;
+        font-style: italic;
+        color: var(--ash-gray);
+    }
+
+    @bottom-right {
+        content: counter(page);
+        font-family: var(--font-body);
+        font-size: var(--fs-folio);
+        font-weight: 700;
+        color: var(--text-main);
+    }
+}
+
+/* Left (Verso) Pages - Even numbered pages */
+/* Verso's outer edge is on the left */
+@page :left {
+    @bottom-right {
+        content: "Vampire TTRPG Framework";
+        font-family: var(--font-heading);
+        font-size: 8pt;
+        font-style: italic;
+        color: var(--ash-gray);
+    }
+
+    @bottom-left {
+        content: counter(page);
+        font-family: var(--font-body);
+        font-size: var(--fs-folio);
+        font-weight: 700;
+        color: var(--text-main);
+    }
+}
+
+/* --- Front Matter: Lower-Roman Numerals --- */
+/* Defined left/right overrides for the counter specifically for front matter */
+@page front-matter:right {
+    @bottom-right {
+        content: counter(page, lower-roman);
+    }
+}
+
+@page front-matter:left {
+    @bottom-left {
+        content: counter(page, lower-roman);
+    }
+}
+
+.front-matter {
+    page: front-matter;
+    /* Assign named page */
+    counter-reset: front-page 0;
+    /* Start at 0 (not 1) — the first .page's own counter-increment brings it to 1 */
+}
+
+/* Force page counter to increment for front matter elements */
+.front-matter .page {
+    counter-increment: front-page;
+}
+
+/* Main body switch back to standard Arabic numerals */
+.main-body {
+    counter-reset: body-page 0 chapter 0;
+}
+
+/* Force page counter to increment for main body and back matter elements; chapter counter increments once per part cover.
+   counter-increment isn't additive across rules — the more specific .partCover selector would otherwise
+   fully replace "body-page" with "chapter" instead of combining with it, so part covers get both in one rule. */
+.main-body .page,
+.back-matter .page:not(.backCover) {
+    counter-increment: body-page;
+}
+
+.main-body .partCover {
+    counter-increment: body-page chapter;
+}
+
+/* Auto-inject the current page's own folio number — never typed by hand, never goes out of sync.
+   Scoped to footer .pageNumber only: TOC/Index entries use .pageNumber for cross-references to OTHER
+   pages, which CSS counters can't resolve, so those stay manually authored. */
+.front-matter .page footer .pageNumber::before {
+    content: counter(front-page, lower-roman);
+}
+
+.main-body .page footer .pageNumber::before,
+.back-matter .page:not(.backCover) footer .pageNumber::before {
+    content: counter(body-page);
+}
+
+/* Spells out "One".."Eight" for the part-cover kicker ("Chapter One"); extend the symbols list if a 9th chapter is added */
+@counter-style chapter-word {
+    system: fixed;
+    symbols: "One" "Two" "Three" "Four" "Five" "Six" "Seven" "Eight";
+    suffix: "";
+}
+
+/* --- 4. Page Architecture --- */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--desk-bg);
+    margin: 0;
+    padding: 3rem 0;
+    /* Space above and below the book on screen */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    /* Visual gap between physical pages */
+}
+
+.page {
+    background-color: var(--paper-bg);
+    color: var(--text-main);
+    box-sizing: border-box;
+    position: relative;
+    width: var(--page-width);
+    min-height: var(--page-height);
+    max-height: var(--page-height);
+    /* min + max locked to the same value enforces a fixed page height for pagination */
+    padding: var(--page-margin);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.9);
+    overflow: hidden;
+    /* Clips overflow so you can see pagination boundaries */
+
+    &:not(:first-of-type) {
+        margin-top: 50px;
+    }
+
+    &:is(.frontCover, .backCover) {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        background-color: var(--desk-bg);
+        color: var(--paper-bg);
+        border: 0.2in solid var(--blood-red);
+        outline: 2px dashed var(--coven-gold);
+        outline-offset: -15px;
+
+        header {
+            h1 {
+                color: var(--blood-red);
+                border-bottom: none;
+                font-size: 45pt;
+                margin-bottom: 0;
+
+                &::after {
+                    content: none;
+                }
+            }
+
+            h2 {
+                color: var(--ash-gray);
+                border-bottom: none;
+
+                &::after {
+                    content: none;
+                }
+            }
+        }
+
+        footer {
+            margin-bottom: 0.5em;
+        }
+    }
+
+    /* Front cover only (not back cover): re-enables the h1 underline suppressed above, in gold instead of
+       the body's blood-red — the title sits on the dark cover background, so gold reads correctly there
+       the way blood-red does on the paper page background. */
+    &.frontCover header h1::after {
+        content: "";
+        background-color: var(--coven-gold);
+    }
+
+    /* Labels a book as a supplement (not the core framework) — front/back cover kicker above the title,
+       and a small inline tag next to the running title on interior pages. */
+    .supplementBadge {
+        display: block;
+        font-family: var(--font-body);
+        font-size: 10pt;
+        font-style: normal;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--coven-gold);
+        margin-bottom: var(--space-sm);
+    }
+
+    /* Chapter/Part cover: ~60% image bleed at top, brief intro copy in the remaining space */
+    &.partCover {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        .partCover-image {
+            /* flex-grow ratio (3:2 = 60/40), not a percentage flex-basis — percentage flex-basis needs a
+               definite container height, and .page only sets min/max-height (not height), so it never
+               resolved and this box was collapsing to its own content size instead of 60% of the page */
+            flex: 3 1 0;
+            min-height: 0;
+            /* Blood-red duotone wash always renders; --chapter-image (set once per chapter, see the Chapter
+               Data Map) shows through beneath it when supplied, so the thick red treatment never disappears
+               even once real art is added — it just becomes a tint over the image instead of a flat gradient */
+            background-image: linear-gradient(160deg, rgba(122, 0, 0, 0.55), rgba(18, 18, 18, 0.65)), var(--chapter-image, none);
+            background-size: cover, cover;
+            background-position: center, center;
+            background-repeat: no-repeat, no-repeat;
+            background-color: var(--desk-bg);
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            padding: var(--page-margin);
+            box-sizing: border-box;
+
+            header {
+                h1 {
+                    color: var(--paper-bg);
+                    border-bottom: none;
+                    font-size: 36pt;
+                    margin-bottom: 0;
+                    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+
+                    &::before {
+                        content: var(--chapter-name);
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+
+                h2 {
+                    color: var(--paper-bg);
+                    border-bottom: none;
+                    opacity: 0.85;
+                    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.7);
+
+                    &::before {
+                        content: "Chapter " counter(chapter, chapter-word);
+                    }
+
+                    &::after {
+                        content: none;
+                    }
+                }
+            }
+        }
+
+        main {
+            flex: 2 1 0;
+            min-height: 0;
+            display: flex;
+            align-items: center;
+            padding: var(--page-margin);
+            /* Extra clearance so copy never runs under the pinned footer */
+            padding-bottom: calc(var(--page-margin) + var(--footer-clearance));
+            box-sizing: border-box;
+
+            p {
+                font-family: var(--font-heading);
+                font-style: italic;
+                font-size: 12pt;
+                margin: 0 auto;
+                max-width: 85%;
+            }
+        }
+    }
+}
+
+/* Leader-line entry lists: one entry per line, title on the left, dotted leader, number on the right.
+   Shared by the TOC (.tocEntries) and the Index (.indexEntries) — same pattern, different content. */
+.tocEntries,
+.indexEntries {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.tocEntries li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4em;
+    margin-bottom: var(--space-sm);
+    font-family: var(--font-body);
+    font-size: 10.5pt;
+    break-inside: avoid;
+}
+
+.indexEntries li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.4em;
+    margin-bottom: 2.5px;
+    font-family: var(--font-body);
+    font-size: 9.5pt;
+    break-inside: avoid;
+}
+
+.index-letter {
+    font-family: var(--font-header);
+    font-size: 11pt;
+    font-weight: 700;
+    color: var(--crimson-vivid);
+    border-bottom: var(--border-thin) solid var(--crimson-dark);
+    margin-top: 8px;
+    margin-bottom: 4px;
+    padding-bottom: 1px;
+    break-after: avoid;
+    break-inside: avoid;
+}
+
+.index-letter:first-of-type {
+    margin-top: 0;
+}
+
+.tocEntries li.toc-chapter {
+    font-weight: 700;
+    margin-top: 6px;
+    margin-bottom: 2px;
+}
+
+.tocEntries li.toc-subentry {
+    padding-left: 0.9em;
+    font-size: 9pt;
+    margin-bottom: 1.5px;
+    color: var(--ash-gray);
+}
+
+.tocEntries li.toc-subentry a {
+    color: var(--ash-gray);
+}
+
+.tocEntries a,
+.indexEntries a {
+    color: var(--text-main);
+}
+
+.indexEntries a {
+    min-width: 0;
+}
+
+.tocEntries a {
+    min-width: 0;
+}
+
+.tocEntries .leader,
+.indexEntries .leader {
+    flex: 1 1 auto;
+    border-bottom: var(--border-thin) dotted var(--ash-gray);
+    margin-bottom: 0.2em;
+}
+
+.tocEntries .pageNumber,
+.indexEntries .pageNumber {
+    white-space: nowrap;
+    color: var(--ash-gray);
+}
+
+/* --- 4b. Chapter Data Map --- */
+/* Single source of truth per chapter: name here drives the part-cover title, the running header, and the
+   footer footnote everywhere that chapter's pages carry a matching data-chapter attribute. Add an
+   --chapter-image (a url()) alongside a name once real chapter art exists — see .partCover-image above
+   for how it layers under the blood-red tint.
+
+   This stylesheet is shared across every book in the release/ directory, and each book numbers its own
+   chapters starting at 1 — so every rule below is scoped by a body.book-* class to keep one book's
+   data-chapter="1" from bleeding into another's. Add a new body.book-* block per book; never a bare
+   [data-chapter="N"] selector here. */
+body.book-template [data-chapter="1"] {
+    --chapter-name: "Behavior & Physiology";
+}
+
+body.book-template [data-chapter="2"] {
+    --chapter-name: "Creation";
+    --chapter-image: url("vampire-draining.svg");
+}
+
+body.book-template [data-chapter="3"] {
+    --chapter-name: "Life & Death";
+}
+
+body.book-template [data-chapter="4"] {
+    --chapter-name: "Mechanics";
+}
+
+body.book-template [data-chapter="5"] {
+    --chapter-name: "Powers";
+}
+
+/* Core ruleset (vampire.html) — chapter titles driven by .dev/2608/book-maps/vampire.map */
+body.book-vampire-ruleset [data-chapter="1"] {
+    --chapter-name: "Introduction & The Core Framework";
+}
+
+body.book-vampire-ruleset [data-chapter="2"] {
+    --chapter-name: "The Curse & Physiology";
+}
+
+body.book-vampire-ruleset [data-chapter="3"] {
+    --chapter-name: "The Embrace & The Aftermath";
+}
+
+body.book-vampire-ruleset [data-chapter="4"] {
+    --chapter-name: "The Struggle for Humanity";
+}
+
+body.book-vampire-ruleset [data-chapter="5"] {
+    --chapter-name: "Mechanics of the Blood";
+}
+
+body.book-vampire-ruleset [data-chapter="6"] {
+    --chapter-name: "The Bloodline Arts";
+}
+
+body.book-vampire-ruleset [data-chapter="7"] {
+    --chapter-name: "Vampire Society & Politics";
+}
+
+body.book-vampire-ruleset [data-chapter="8"] {
+    --chapter-name: "Vampire Taxonomy & Lineages";
+}
+
+/* Supplement: Bloodline Magic Compendium (release/bloodline_magic.html) */
+body.book-bloodline-magic [data-chapter="1"] {
+    --chapter-name: "Overview & System-Agnostic Adaptation";
+}
+
+body.book-bloodline-magic [data-chapter="2"] {
+    --chapter-name: "Foundational Ritual Mechanics";
+}
+
+body.book-bloodline-magic [data-chapter="3"] {
+    --chapter-name: "Tier 1 Blood Rituals";
+}
+
+body.book-bloodline-magic [data-chapter="4"] {
+    --chapter-name: "Tier 2 Blood Sorcery";
+}
+
+body.book-bloodline-magic [data-chapter="5"] {
+    --chapter-name: "Tier 3 Primordial Rites";
+}
+
+body.book-bloodline-magic [data-chapter="6"] {
+    --chapter-name: "Integration & Compatibility";
+}
+
+/* Supplement: Coven Law Court Protocols & Legal Code (release/coven_law_protocols.html) */
+body.book-coven-law [data-chapter="1"] {
+    --chapter-name: "Overview & System-Agnostic Adaptation";
+}
+
+body.book-coven-law [data-chapter="2"] {
+    --chapter-name: "Judicial Tribunal Architecture";
+}
+
+body.book-coven-law [data-chapter="3"] {
+    --chapter-name: "Legal Dispensations & Sanction Protocols";
+}
+
+body.book-coven-law [data-chapter="4"] {
+    --chapter-name: "Penalties & Punishment Codex";
+}
+
+body.book-coven-law [data-chapter="5"] {
+    --chapter-name: "Integration & Compatibility";
+}
+
+/* Supplement: Equipment & UV Arsenal Handbook (release/uv_arsenal_handbook.html) */
+body.book-uv-arsenal [data-chapter="1"] {
+    --chapter-name: "Overview & System-Agnostic Adaptation";
+}
+
+body.book-uv-arsenal [data-chapter="2"] {
+    --chapter-name: "Hunter Tactical Countermeasures";
+}
+
+body.book-uv-arsenal [data-chapter="3"] {
+    --chapter-name: "Vampiric Armaments & Field Gear";
+}
+
+body.book-uv-arsenal [data-chapter="4"] {
+    --chapter-name: "Tactical Damage & Hardness Interaction Math";
+}
+
+body.book-uv-arsenal [data-chapter="5"] {
+    --chapter-name: "Integration & Compatibility";
+}
+
+/* --- 5. Page Chrome: Headers, Footers & Orientation --- */
+/* Running header: covers/TOC/PartCover/Flyleaf style their own header or omit it; this applies to standard chapter/body pages */
+.page:not(.frontCover, .backCover, .partCover, .flyleafPage, .blankPage) header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: var(--border-thin) solid var(--ash-gray);
+    padding-bottom: 0.3rem;
+    margin-bottom: var(--space-md);
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: var(--fs-folio);
+    color: var(--ash-gray);
+}
+
+/* Chapter name auto-fills wherever it's needed on a tagged page — never retyped, never drifts */
+[data-chapter] .runningChapter::before,
+[data-chapter] footer .footnote::before {
+    content: var(--chapter-name);
+}
+
+/* Folio footer: grid (not flex) so the center motif sits at true visual center regardless of
+   footnote/page-number text length; pinned to the bottom margin uniformly on every non-cover page */
+.page:not(.frontCover, .backCover, .flyleafPage, .blankPage) footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    position: absolute;
+    left: var(--page-margin);
+    right: var(--page-margin);
+    bottom: var(--page-margin);
+    padding: 10px 0;
+    /* room for the ::before/::after ornate rules to sit clear of the text */
+    font-family: var(--font-body);
+    font-size: var(--fs-folio);
+    color: var(--ash-gray);
+}
+
+.container>.page:nth-of-type(odd):not(.frontCover):not(.backCover) footer .footnote {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+}
+
+.container>.page:nth-of-type(odd):not(.frontCover):not(.backCover) footer .pageNumber {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+}
+
+/* Graphical rules sandwiching the folio footer, reusing the .ornateRule motif (blood-red here, vs. gold
+   in body copy) so the running footer reads as its own bordered strip rather than bare text. The blood-drop
+   is the footer's only center motif now — it replaces the standalone .footerMotif that used to collide with it. */
+.page:not(.frontCover, .backCover) footer::before,
+.page:not(.frontCover, .backCover) footer::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 14px;
+    background-color: var(--blood-red);
+    /* Three independent mask layers: a fixed-size drop stays crisp while the two line segments
+       stretch to fill their half, each leaving a gap reserved for the drop so they never collide */
+    mask-image: var(--icon-blood-drop), linear-gradient(#000, #000), linear-gradient(#000, #000);
+    -webkit-mask-image: var(--icon-blood-drop), linear-gradient(#000, #000), linear-gradient(#000, #000);
+    mask-repeat: no-repeat, no-repeat, no-repeat;
+    -webkit-mask-repeat: no-repeat, no-repeat, no-repeat;
+    mask-position: center, left center, right center;
+    -webkit-mask-position: center, left center, right center;
+    mask-size: 14px 14px, calc(50% - 12px) 2px, calc(50% - 12px) 2px;
+    -webkit-mask-size: 14px 14px, calc(50% - 12px) 2px, calc(50% - 12px) 2px;
+}
+
+.page:not(.frontCover, .backCover) footer::before {
+    top: 0;
+}
+
+.page:not(.frontCover, .backCover) footer::after {
+    bottom: 0;
+}
+
+/* Content sizing: flex layout so main/article is computed to fill exactly the space between the header and the
+   reserved footer clearance, instead of guessing a fixed height by hand (PartCover has its own bespoke layout above). */
+.page:not(.frontCover, .backCover, .partCover) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: calc(var(--page-margin) + var(--footer-clearance));
+}
+
+.page:not(.frontCover, .backCover, .partCover)>main,
+.page:not(.frontCover, .backCover, .partCover)>article {
+    flex: 1 1 auto;
+    min-height: 0;
+    /* let flex-basis resolve the real height instead of content forcing it larger */
+}
+
+/* Book orientation — recto (right) vs verso (left): each .container holds one numbering sequence,
+   so nth-of-type parity maps directly to recto/verso for its pages */
+.container>.page:nth-of-type(even) header {
+    flex-direction: row-reverse;
+}
+
+.container>.page:nth-of-type(even):not(.frontCover):not(.backCover) footer .footnote {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: right;
+}
+
+.container>.page:nth-of-type(even):not(.frontCover):not(.backCover) footer .pageNumber {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: left;
+}
+
+/* --- 6. Base Typography --- */
+p,
+li,
+td {
+    font-family: var(--font-body);
+    font-size: 10.5pt;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: var(--space-sm);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--blood-red);
+    margin-top: 1.5rem;
+    margin-bottom: var(--space-sm);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 28pt;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 0.4rem;
+}
+
+h2 {
+    font-size: 20pt;
+    color: var(--text-main);
+    padding-bottom: 0.3rem;
+}
+
+/* Graphical replacement for the old CSS-line underline: a crisp center diamond flanked by two lines that
+   stretch to fill the full width of the heading box — same 3-layer mask technique as the folio footer
+   bars (fixed-size icon layer + two independently-stretched gradient "line" layers), which is what lets
+   the flanking lines span edge-to-edge without warping the diamond the way a single `mask-size: contain`
+   image would. Automatic on every h1/h2; explicitly turned off via &::after { content: none; } inside
+   covers/part-cover art, where headings intentionally carry no underline at all. */
+h1::after,
+h2::after {
+    content: "";
+    display: block;
+    margin-top: 0.3rem;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center, left center, right center;
+    mask-position: center, left center, right center;
+    -webkit-mask-image: var(--icon-diamond), linear-gradient(#000, #000), linear-gradient(#000, #000);
+    mask-image: var(--icon-diamond), linear-gradient(#000, #000), linear-gradient(#000, #000);
+}
+
+h1::after {
+    height: 14px;
+    background-color: var(--blood-red);
+    -webkit-mask-size: 14px 14px, calc(50% - 12px) 2px, calc(50% - 12px) 2px;
+    mask-size: 14px 14px, calc(50% - 12px) 2px, calc(50% - 12px) 2px;
+}
+
+h2::after {
+    height: 10px;
+    background-color: var(--coven-gold);
+    -webkit-mask-size: 10px 10px, calc(50% - 9px) 2px, calc(50% - 9px) 2px;
+    mask-size: 10px 10px, calc(50% - 9px) 2px, calc(50% - 9px) 2px;
+}
+
+h3 {
+    font-size: 16pt;
+    font-style: italic;
+}
+
+h4 {
+    font-size: 12pt;
+    font-family: var(--font-body);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+a {
+    color: var(--blood-red);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* --- 7. Layout Helpers --- */
+.two-column,
+.three-column {
+    /* Height comes from flex-grow (see "Page Chrome" above) — no manual calc needed; multicol balances against that resolved height */
+    break-inside: auto;
+    /* Prevents awkward orphan headers across columns */
+}
+
+.two-column {
+    column-count: 2;
+    column-gap: 0.4in;
+    column-rule: 3px double var(--blood-red);
+}
+
+.three-column {
+    column-count: 3;
+    /* Narrower gap/rule than .two-column — three columns need to conserve horizontal space */
+    column-gap: 0.3in;
+    column-rule: 2px double var(--blood-red);
+}
+
+/* Ensure headings inside columns don't break awkwardly, and never split across the column
+   boundary themselves (a wrapped heading's second line landing in the next column) */
+.two-column h2,
+.two-column h3,
+.two-column h4,
+.three-column h2,
+.three-column h3,
+.three-column h4 {
+    break-after: avoid;
+    page-break-after: avoid;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Full-Width / Column-Spanning Component Helper */
+.wide,
+.stat-block.wide,
+.rules-box.wide,
+.power-card.wide,
+.ritual-box.wide,
+.item-card.wide,
+table.wide,
+figure.wide,
+blockquote.wide {
+    column-span: all;
+    -webkit-column-span: all;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    break-inside: avoid;
+    page-break-inside: avoid;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* --- 8. Thematic Components --- */
+/* Lore/Flavor Text Blockquotes */
+blockquote {
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: 11pt;
+    background-color: var(--paper-alt);
+    border-left: var(--border-accent) solid var(--coven-gold);
+    margin: var(--space-md) 0;
+    padding: var(--space-md);
+    box-sizing: border-box;
+}
+
+/* Shared box shell for every callout component; only the border treatment differs between them */
+.rules-box,
+.stat-block,
+.power-card,
+.item-card {
+    background-color: #ffffff;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    padding: var(--space-md);
+    margin: var(--space-md) 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Stat Blocks & Rules Callouts */
+.rules-box,
+.stat-block,
+.power-card {
+    border-top: var(--border-accent) solid var(--blood-red);
+    border-bottom: var(--border-accent) solid var(--blood-red);
+}
+
+/* Ensure boxes and quotes don't get awkwardly split across columns */
+.rules-box,
+.stat-block,
+.power-card,
+.item-card,
+blockquote {
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.rules-box h4,
+.stat-block h4,
+.power-card h4 {
+    margin-top: 0;
+    color: var(--blood-red);
+}
+
+.ritual-box {
+    background-color: #fcf4f4;
+    border: var(--border-thin) dashed var(--blood-red);
+    padding: var(--space-md);
+    margin: var(--space-md) 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+/* Item & Spell Cards — shared shell above provides background/padding/margin/shadow; accent color is the
+   only thing that differs between the item (blood-red) and spell (coven-gold) variants */
+.item-card {
+    border: var(--border-thin) solid var(--ash-gray);
+    border-left: var(--border-accent) solid var(--blood-red);
+}
+
+.item-card--spell {
+    border-left-color: var(--coven-gold);
+}
+
+.item-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-sm);
+    border-bottom: var(--border-thin) dotted var(--ash-gray);
+    padding-bottom: var(--space-sm);
+    margin-bottom: var(--space-sm);
+}
+
+.item-card__name {
+    margin: 0;
+    font-size: 13pt;
+}
+
+.item-card__tag {
+    flex-shrink: 0;
+    font-family: var(--font-body);
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--ash-gray);
+    white-space: nowrap;
+}
+
+.item-card__stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-sm);
+    background-color: var(--paper-alt);
+    padding: var(--space-sm);
+    margin-bottom: var(--space-sm);
+    text-align: center;
+}
+
+.item-card__stats .stat-label {
+    display: block;
+    font-family: var(--font-body);
+    font-size: 7pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--ash-gray);
+}
+
+.item-card__stats .stat-value {
+    display: block;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--text-main);
+}
+
+.item-card__desc {
+    margin-bottom: var(--space-sm);
+}
+
+.item-card__flavor {
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: 9pt;
+    color: var(--ash-gray);
+    margin: 0;
+}
+
+/* Compatibility tags — small bordered chips listing supported genres/settings (System Compatibility & Versioning page) */
+.compatibilityBadges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin: var(--space-md) 0;
+}
+
+.compatibilityBadges .badge {
+    font-family: var(--font-body);
+    font-size: 8pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--coven-gold);
+    border: var(--border-thin) solid var(--coven-gold);
+    border-radius: 3px;
+    padding: 0.25em 0.6em;
+    white-space: nowrap;
+}
+
+/* --- 9. Reference Tables (Stat Tables & Monster Tables) --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-md) 0;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-size: 10.5pt;
+    color: var(--blood-red);
+    margin-bottom: var(--space-sm);
+}
+
+th,
+td {
+    font-family: var(--font-body);
+    font-size: 9.5pt;
+    text-align: left;
+    padding: 0.35rem 0.6rem;
+    border-bottom: var(--border-thin) solid var(--ash-gray);
+}
+
+th {
+    background-color: var(--blood-red);
+    color: var(--paper-bg);
+    font-family: var(--font-heading);
+    font-style: italic;
+    font-weight: 600;
+    font-size: 8pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--paper-alt);
+}
+
+/* Modifier for compact numeric tables (age tiers, blood quality, etc.) — every column but the first is centered */
+.stat-table th:not(:first-child),
+.stat-table td:not(:first-child) {
+    text-align: center;
+}
+
+/* --- 10. Vampire Gothic Decorative Motifs (Inline SVG) --- */
+/* Icon sources live in :root as --icon-* custom properties, reused across mask-image and -webkit-mask-image */
+
+/* Ornate divider: flanking rules with a center diamond flourish. Drop under a heading or between sections. */
+.ornateRule {
+    height: 12px;
+    width: 55%;
+    margin: var(--space-md) auto;
+    background-color: var(--coven-gold);
+    mask-image: var(--icon-ornate-rule);
+    -webkit-mask-image: var(--icon-ornate-rule);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+
+/* Footer motif: small blood-drop glyph, drop inline between the footnote and page number */
+.footerMotif {
+    display: inline-block;
+    width: 9px;
+    height: 11px;
+    vertical-align: middle;
+    background-color: var(--blood-red);
+    mask-image: var(--icon-blood-drop);
+    -webkit-mask-image: var(--icon-blood-drop);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: contain;
+}
+
+/* Gothic corner flourish: applied to opposite corners (top-left / bottom-right, mirrored) of covers and the part-cover image band */
+.frontCover::before,
+.frontCover::after,
+.backCover::before,
+.frontCover::before,
+.frontCover::after,
+.backCover::before,
+.backCover::after,
+.partCover-image::before,
+.partCover-image::after,
+.flyleafPage::before,
+.flyleafPage::after,
+.blankPage::before,
+.blankPage::after {
+    content: "";
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    background-color: var(--coven-gold);
+    mask-image: var(--icon-corner-flourish);
+    -webkit-mask-image: var(--icon-corner-flourish);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.frontCover::before,
+.backCover::before,
+.partCover-image::before,
+.flyleafPage::before,
+.blankPage::before {
+    top: var(--motif-inset);
+    left: var(--motif-inset);
+}
+
+.frontCover::after,
+.backCover::after,
+.partCover-image::after,
+.flyleafPage::after,
+.blankPage::after {
+    bottom: var(--motif-inset);
+    right: var(--motif-inset);
+    transform: rotate(180deg);
+}
+
+.flyleafPage,
+.blankPage {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flyleaf-motif {
+    width: 48px;
+    height: 48px;
+    background-color: var(--blood-red);
+    opacity: 0.25;
+    mask-image: var(--icon-blood-drop);
+    -webkit-mask-image: var(--icon-blood-drop);
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+}
+
+.partCover-image {
+    position: relative;
+}
+
+/* System-Agnostic seal: circular badge, bottom-left corner of the front cover only (opposite the
+   gothic corner-flourish diagonal above, which already occupies top-left/bottom-right) */
+.systemAgnosticSeal {
+    position: absolute;
+    bottom: var(--motif-inset);
+    left: var(--motif-inset);
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    border: var(--border-thin) solid var(--blood-red);
+    outline: 1px dashed var(--coven-gold);
+    outline-offset: -6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-body);
+    font-size: 7pt;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    line-height: 1.3;
+    color: var(--coven-gold);
+}
+
+div.wide h1,
+div.wide h2,
+div.wide h3 {
+    text-align: center;
+}
+
+/* --- 11. Print/PDF Export Optimization --- */
+@media print {
+    body {
+        background-color: transparent;
+        padding: 0;
+        display: block;
+        /* Turns off flexbox */
+        gap: 0;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+        break-after: page;
+        /* Allow precise PDF rendering */
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    /* Remove the extra blank page at the end of the document */
+    .page:last-of-type {
+        page-break-after: auto;
+        break-after: auto;
+    }
+}

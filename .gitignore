@@ -6,11 +6,3 @@
 # Exception: allow GitHub workflows and CI scripts
 !.github/
 !.github/**
-
-# Exception: allow compiled vampire.pdf release
-!.books/
-.books/**
-!.books/2608/
-!.books/2608/pdf/
-!.books/2608/pdf/vampire.pdf
-!books/**/vampire.pdf
