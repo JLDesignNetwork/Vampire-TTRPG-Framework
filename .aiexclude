@@ -1,0 +1,11 @@
+# Hard security boundaries
+.env
+.env.*
+*.key
+*.pem
+*.cert
+*.crt
+auth.json
+*.secret
+*.sqlite
+*.db

@@ -1,8 +1,27 @@
 # Vampire TTRPG Framework — .gitignore
 
-# Ignore all dot-directories (AI agents, dev configs, IDEs)
+# 1. AI Agents, Development Configs & Staging (Gitignored by Default)
 .*/
 
-# Exception: allow GitHub workflows and CI scripts
+# Exception: Allow GitHub Actions workflows and CI scripts
 !.github/
 !.github/**
+
+# 2. Node & Build Dependencies
+node_modules/
+*.log*
+
+# 3. Presentation & Book Build Artifacts
+*.pdf
+books/**/pdf/*.pdf
+.books/**/pdf/*.pdf
+
+# 4. Scratch & Ephemeral Files
+scratch/
+tmp/
+*.tmp
+.agents/scratch/
+
+# 5. OS & File System Artifacts
+.DS_Store
+Thumbs.db

@@ -1,7 +1,8 @@
 # Vampire TTRPG Framework (v2608.65.0-bs)
 
 [![CI Status](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml/badge.svg)](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml)
-[![GVS Version](https://img.shields.io/badge/GVS-2608.64.0--bs-8b0000.svg)](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)
+[![GVS Version](https://img.shields.io/badge/GVS-2608.65.0--bs-8b0000.svg)](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jldesignnetwork)
 [![License](https://img.shields.io/badge/License-Proprietary-gold.svg)](LICENSE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
@@ -61,6 +62,12 @@ This repository contains the master ruleset specification, generation-specific T
 ## Contributing & Community Guidelines
 
 We welcome community feedback, balance errata, and new modular supplement submissions! Please review our **[Contribution Guidelines (CONTRIBUTING.md)](CONTRIBUTING.md)** for details on submission pathways, Markdown formatting standards, and pull request workflows.
+
+## Funding & Support
+
+If you enjoy the Vampire TTRPG Framework and want to support ongoing development, ruleset balancing, and supplement expansion, consider supporting via Buy Me A Coffee:
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jldesignnetwork)
 
 ## License & Attribution
 
