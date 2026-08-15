@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Coven Law Court Protocols & Legal Code",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.65.0-bs",
+    "version": "2608.66.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Coven Law Court Protocols & Legal Code v2608.65.0-bs
+# Coven Law Court Protocols & Legal Code v2608.66.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -45,7 +45,15 @@ Vampiric courts enforce strict evidentiary standards:
 ### <a id="four-stages-of-coven-trial-procedure"></a>The Four Stages of Coven Trial Procedure
 1. **The Formal Indictment:** The High Arbiter reads the charges alleging a violation of Coven Law ([The Shroud](../vampire.md#the-shroud), [Haven Sanctuary](../vampire.md#law-of-haven-sanctuary), or [Diablerie Taboo](../vampire.md#diablerie-the-ultimate-taboo)).
 2. **Evidence Examination:** The Sanguine Auditor inspects memory phials, crime scene soil, or physical remains.
-3. **The Blood Oath Defense:** The accused (or their designated Advocate) presents defense arguments, alibis, or [Bloodline Alignment Bonuses](../vampire.md#age-tier-superiority).
+3. **<a id="bloodline-alignment-defense"></a><a id="bloodline-alignment-bonuses"></a>The Blood Oath Defense & Bloodline Alignment System:** The accused (or their designated Blood Advocate) presents defense arguments, alibis, and legal appeals before the Tribunal Bench:
+   * **The Bloodline Advocate Option:** An accused vampire may formally petition their Sire, Grand-Sire, or an Elder of their direct bloodline to stand before the Tribunal as their **Blood Advocate**. The Advocate conducts the defense check using their own superior [Age Tier Superiority Modifier ($\Delta$)](../vampire.md#age-tier-superiority) and Presence/Self-Control dice pool.
+   * **Bloodline Alignment Modifiers:** All defense checks are modified by the accused's **Bloodline Alignment Standing** before the Coven Bench:
+     * **High-Favor / Founder Lineage (+2 Bonus):** Direct progeny of a presiding Magistrate, Coven Founder, or Ancient in good standing.
+     * **Compliant Lineage (+1 Bonus):** Bloodline with an unbroken record of Sanguine Tithes and zero Sanctuary breaches.
+     * **Neutral / Unaffiliated Lineage (+0 Baseline):** Standard visiting or independent bloodline.
+     * **Rival / Disputed Lineage (-1 Penalty):** Lineage with active border disputes or strained blood treaties.
+     * **Outcast / Heretic Lineage (-2 Penalty):** Progeny of an executed traitor, rogue sire, or botched contagion strain (e.g. Spliced Reaper survivor).
+   * **Sanguine Co-Liability Risk:** If an accused vampire represented by a Blood Advocate is convicted of a **Tier 3 Capital Felony** (Diablerie, High Treason, Shroud Collapse), the Advocate incurs **Shared Judicial Liability**—paying a **Sanguine Reparation Fine** (5 Blood Reserve phials surrendered to the Coven Vaults) and suffering a 1-year downgrade to their own Bloodline Alignment Standing.
 4. **Verdict & Sentencing:** The Tribunal Bench casts secret votes using obsidian (guilty) or white quartz (innocent) stones. Sentences are executed immediately.
 
 ---

@@ -4,6 +4,25 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.66.0-bs (2026-08-15) - Beta Supported Release (Master Power Pick-3, Thermomancy Inversion & Bloodline Alignment Defense)
+
+**Beta release executing `DOCS-TODO-109`. Resolved 5 Red Team Audit findings: established the Universal 3-Power Selection Rule for Master Powers, renamed Pyromancy to Thermomancy and codified Thermodynamic Inversion Synergy, expanded Morphomancy with Echo Shriek and Plague Vector, and codified the Bloodline Alignment & Advocate System in Coven Law.**
+
+#### Added
+- **`docs/2608/vampire.md`:** 
+  - Codified the **Universal 3-Power Selection Rule** across all Master Powers (`Innate Composite [Master Powers - 0 Reserves Activation]`), establishing mathematical parity and diverse build customization (choose any 3 powers from the discipline with 0-Reserve initial activation).
+  - Added **`Echo Shriek`** (ultrasonic 20ft cone stun) and **`Plague Vector`** (necrotic septic infection) to Morphomancy.
+  - Unified fragmented sub-swarm primacies into **`Morphomantic Primacy (Master Power)`**.
+  - Renamed Pyromancy to **`Thermomancy (Thermal Energy, Hellfire & Cryo-Drain Arts)`** and codified the **Thermodynamic Inversion Synergy** (funneling extracted ambient heat from 20-foot *Grave Chill* into the 5-foot *Pyre Aura* core to empower White-Hot Hellfire with +1 Fire Damage).
+  - Codified the **Thermal Shock Fracture** rule for opposing rival Thermomancer clashes.
+- **`docs/2608/supplements/coven_law_protocols.md`:** Formally codified the **Bloodline Alignment & Advocate System** in Stage 3 of Coven Trial Procedure, establishing the Bloodline Advocate option (using Sire Age Tier Superiority $\Delta$), Bloodline Alignment Modifiers (+2 Founder Lineage to -2 Outcast Lineage), and Sanguine Co-Liability risk for Advocates.
+
+#### Changed
+- **`docs/2608/supplements/uv_arsenal_handbook.md`:** Harmonized Terminology table entry for FLIR thermal suit battery life cycle to 6 hours.
+- **`docs/2608/terminology.md`:** Updated discipline taxonomy for Thermomancy, Umbramancy, Biomancy, and Morphomancy; harmonized Torpor definition across Starvation Desiccation, Cardiac Staking, Granite Slumber, and Judicial Internment.
+
+---
+
 ### 2608.65.0-bs (2026-08-13) - Beta Supported Release (Outbound Vitae Bestowal & Feeding Codification)
 
 **Beta release executing `DOCS-TODO-108`. Formally codified the Feeding (Outbound Vitae Bestowal) section in Chapter 5 of the core ruleset (`docs/2608/vampire.md`) and standardized the tripartite distinction between Inbound Drinking, Predatory Draining, and Outbound Feeding.**

@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "documentName": "Vampire Framework Terminology & Glossary",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.65.0-bs",
+    "version": "2608.66.0-bs",
     "parent_ruleset_file": "vampire.md"
   }
 }
 ---
 
-# Vampire Framework Official Terminology & Taxonomy v2608.65.0-bs
+# Vampire Framework Official Terminology & Taxonomy v2608.66.0-bs
 
 This document outlines the official, normalized terminology standard for the **Vampire TTRPG Framework v2608**. All core rulesets, supplements, datasets, and audit workflows MUST adhere strictly to the definitions, units, and conventions codified herein.
 
@@ -65,7 +65,7 @@ This document outlines the official, normalized terminology standard for the **V
 | **Direct Core Health Damage** | Physical/magical wound inflicted directly to core vitality, bypassing superficial armor. | Format as **[N] Direct Core Health Damage**. | *"direct health damage"*, *"hp loss"* |
 | **Fire/Thermal Damage** | Damage inflicted by extreme heat, hellfire, or blood burns. | Format as **[N] Fire/Thermal Damage**. | *"flame dmg"*, *"burns"* |
 | **Solar Exposure** | Fatal radiation damage inflicted by unshielded sunlight (drains reserves/causes flesh ignition). | Capitalized as **Solar Exposure**. | *"sunburn"*, *"daylight damage"* |
-| **Torpor** | Deep, near-death coma (Stage 1 Lethargic to Stage 4 Catatonic). | Capitalized as **Torpor**. | *"vampire coma"*, *"deep sleep"* |
+| **Torpor** | Deep suspended animation coma resulting from Stage 4 Starvation Desiccation, Cardiac Staking paralysis, Granite Slumber petrification, or judicial internment. | Capitalized as **Torpor**. | *"vampire coma"*, *"deep sleep"* |
 
 ---
 
@@ -93,15 +93,15 @@ This document outlines the official, normalized terminology standard for the **V
 
 | Canonical Discipline | Domain & Scope | Core Assigned Powers / Rituals |
 | :--- | :--- | :--- |
-| **Hemomancy** | Blood Magic, Vitae Arts, Transmutation, & Bloodline Scrying | *Sanguine Scrying Mirror*, *Ritual of the Crimson Ward*, *Vitae Purification Filter*, *Hematic Curse*, *Grand Rite* |
-| **Necromancy** | Death, Soul Harvesting, Post-Mortem Interrogation, & Undead Animation | *Corpse Siphon*, *Soul Bind*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot* |
+| **Hemomancy** | Blood Magic, Vitae Arts, Transmutation, & Bloodline Scrying | *Sanguine Spike*, *Sanguine Scrying Mirror*, *Ritual of the Crimson Ward*, *Vitae Purification Filter*, *Hematic Curse*, *Grand Rite* |
+| **Necromancy** | Death, Soul Harvesting, Post-Mortem Interrogation, & Undead Animation | *Corpse Siphon*, *Soul Bind*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot*, *Necromantic Primacy* |
 | **Osteomancy** | Skeletal Manipulation, Bone Darts, Calcification, & Bone Armor | *Bone Shards*, *Skeletal Calcification*, *Bone Armor Plating* |
-| **Pyromancy** | Fire, Thermal Energy, Hellfire, & Pyromantic Combustion | *Hellfire Orb*, *Pyre Aura*, *Thermal Ignition* |
+| **Thermomancy** | Thermal Energy, Hellfire, Endothermic Heat Draining & Cryo-Arts | *Hellfire Orb*, *Pyre Aura*, *Thermal Ignition*, *Grave Chill*, *Thermomantic Primacy* |
 | **Gravimancy** | Gravity Control, Mass Defiance, Localized Force Shields, & Pressure Implosion | *Gravity Shield*, *Grav-Crush*, *Abyssal Drift*, *Spider's Grace* |
 | **Astromancy** | Spatial Continuum Folding, Teleportation, & Spatial Portals/Anchors | *Astral Step*, *Astral Rift*, *Astral Anchor Ritual* |
-| **Umbramancy** | Shadow Traversal, Void Manipulation, & Light-Absorbing Void Webs | *Umbral Crossing*, *Silk & Shadow* |
-| **Psychomancy** | Telepathy, Emotion Manipulation, Mind Probes, Illusions, & Psychokinesis | *Psychic Grip*, *Mind Tear*, *Lethe's Touch*, *Nightmare Visage*, *Phantasm*, *Puppet Master* |
-| **Cognimancy** | Heightened Perception, Retinal FLIR, Ultrasonic Bio-Sonar, & EM Spectrum Gaze | *Thermal Vision*, *Bio-Sonar*, *EM Gaze*, *Apex Sight*, *Tremor Sense*, *Resounding Beat* |
-| **Morphomancy** | Biological Body Shifting, Swarm Realms, Beast Shifting, & Dermal Clay Alteration | *Mist Form*, *Bat Swarm*, *Rat Tide*, *Weaver Swarm*, *Beast Shift*, *Arachnid Shift*, *Chameleon Clay* |
+| **Umbramancy** | Shadow Traversal, Void Manipulation, & Light-Absorbing Void Webs | *Shadow Step*, *Silk & Shadow*, *Umbral Blade* |
+| **Psychomancy** | Telepathy, Emotion Manipulation, Mind Probes, Illusions, & Psychokinesis | *Psychic Grip*, *Mind Tear*, *Lethe's Touch*, *Nightmare Visage*, *Phantasm*, *Puppet Master*, *Psychokinetic Primacy* |
+| **Cognimancy** | Heightened Perception, Retinal FLIR, Ultrasonic Bio-Sonar, & EM Spectrum Gaze | *Thermal Vision*, *Bio-Sonar*, *EM Gaze*, *Apex Sight*, *Tremor Sense*, *Resounding Beat*, *Omni-Sensory Primacy* |
+| **Morphomancy** | Biological Body Shifting, Swarm Realms, Acoustic Shockwaves, & Necrotic Vector | *Mist Form*, *Bat Swarm*, *Siphon Gale*, *Echo Shriek*, *Rat Tide*, *Gnawing Scourge*, *Plague Vector*, *Weaver Swarm*, *Arachnid Shift*, *Beast Shift*, *Chameleon Clay*, *Morphomantic Primacy* |
 | **Immunomancy** | Solar Shielding, Holy Symbol Resistance, Toxin Assimilation, & Native Soil Severance | *Daywalker's Grace*, *Unholy Primacy*, *Anointed Flesh*, *Alchemical Assimilation*, *Earthbreaker* |
-| **Biomancy** | Biological Regeneration, Cellular Healing, Suppressed Mending, & Limb Regrowth | *Sanguine Knit*, *Mortal Mask*, *Gangrene Touch*, *Grand Harmonization of Vitae* |
+| **Biomancy** | Biological Regeneration, Cellular Healing, Suppressed Mending, & Limb Regrowth | *Sanguine Knit*, *Mortal Mask*, *Gangrene Touch*, *Nerve Lightning*, *Grand Harmonization* |
