@@ -95,12 +95,12 @@ This document outlines the official, normalized terminology standard for the **V
 | :--- | :--- | :--- |
 | **Hemomancy** | Blood Magic, Vitae Arts, Transmutation, & Bloodline Scrying | *Sanguine Spike*, *Sanguine Scrying Mirror*, *Ritual of the Crimson Ward*, *Vitae Purification Filter*, *Hematic Curse*, *Grand Rite* |
 | **Necromancy** | Death, Soul Harvesting, Post-Mortem Interrogation, & Undead Animation | *Corpse Siphon*, *Soul Bind*, *Rise of the Slumbering*, *Aura of the Slumbering Legion*, *Grave Rot*, *Necromantic Primacy* |
-| **Osteomancy** | Skeletal Manipulation, Bone Darts, Calcification, & Bone Armor | *Bone Shards*, *Skeletal Calcification*, *Bone Armor Plating* |
+| **Osteomancy** | Skeletal Manipulation, Bone Darts, Calcification, & Bone Armor | *Bone Shards*, *Skeletal Calcification*, *Bone Armor Plating*, *Osteomantic Primacy* |
 | **Thermomancy** | Thermal Energy, Hellfire, Endothermic Heat Draining & Cryo-Arts | *Hellfire Orb*, *Pyre Aura*, *Thermal Ignition*, *Grave Chill*, *Thermomantic Primacy* |
-| **Gravimancy** | Gravity Control, Mass Defiance, Localized Force Shields, & Pressure Implosion | *Gravity Shield*, *Grav-Crush*, *Abyssal Drift*, *Spider's Grace* |
-| **Astromancy** | Spatial Continuum Folding, Teleportation, & Spatial Portals/Anchors | *Astral Step*, *Astral Rift*, *Astral Anchor Ritual* |
-| **Umbramancy** | Shadow Traversal, Void Manipulation, & Light-Absorbing Void Webs | *Shadow Step*, *Silk & Shadow*, *Umbral Blade* |
-| **Psychomancy** | Telepathy, Emotion Manipulation, Mind Probes, Illusions, & Psychokinesis | *Psychic Grip*, *Mind Tear*, *Lethe's Touch*, *Nightmare Visage*, *Phantasm*, *Puppet Master*, *Psychokinetic Primacy* |
+| **Gravimancy** | Gravity Control, Mass Defiance, Localized Force Shields, & Pressure Implosion | *Gravity Shield*, *Grav-Crush*, *Kinetic Blast*, *Abyssal Drift*, *Spider's Grace*, *Gravimantic Primacy* |
+| **Astromancy** | Spatial Continuum Folding, Teleportation, & Spatial Portals/Anchors | *Astral Step*, *Astral Rift*, *Astral Anchor*, *Astromantic Primacy* |
+| **Umbramancy** | Shadow Traversal, Void Manipulation, & Light-Absorbing Void Webs | *Shadow Step*, *Silk & Shadow*, *Umbral Blade*, *Umbral Primacy* |
+| **Psychomancy** | Telepathy, Emotion Manipulation, Mind Probes, Illusions, & Psychokinesis | *Psychic Grip*, *Mind Tear*, *Lethe's Touch*, *Nightmare Visage*, *Phantasm*, *Puppet Master*, *Psychomantic Primacy* |
 | **Cognimancy** | Heightened Perception, Retinal FLIR, Ultrasonic Bio-Sonar, & EM Spectrum Gaze | *Thermal Vision*, *Bio-Sonar*, *EM Gaze*, *Apex Sight*, *Tremor Sense*, *Resounding Beat*, *Omni-Sensory Primacy* |
 | **Morphomancy** | Biological Body Shifting, Swarm Realms, Acoustic Shockwaves, & Necrotic Vector | *Mist Form*, *Bat Swarm*, *Siphon Gale*, *Echo Shriek*, *Rat Tide*, *Gnawing Scourge*, *Plague Vector*, *Weaver Swarm*, *Arachnid Shift*, *Beast Shift*, *Chameleon Clay*, *Morphomantic Primacy* |
 | **Immunomancy** | Solar Shielding, Holy Symbol Resistance, Toxin Assimilation, & Native Soil Severance | *Daywalker's Grace*, *Unholy Primacy*, *Anointed Flesh*, *Alchemical Assimilation*, *Earthbreaker* |
