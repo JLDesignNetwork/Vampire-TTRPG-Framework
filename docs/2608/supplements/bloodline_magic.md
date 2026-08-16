@@ -4,13 +4,13 @@
     "author": "Jeff Langdon",
     "supplementName": "Bloodline Magic Compendium",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.66.0-bs",
+    "version": "2608.67.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
 ---
 
-# Bloodline Magic Compendium v2608.66.0-bs
+# Bloodline Magic Compendium v2608.67.0-bs
 
 ## Overview & System-Agnostic Adaptation
 
@@ -202,7 +202,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.66.0-bs**. All ritual rules interact cleanly with [Coven Governance Laws](../vampire.md#coven-structure--governance), [Torpor Recovery Track](../vampire.md#stage-4-torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.67.0-bs**. All ritual rules interact cleanly with [Coven Governance Laws](../vampire.md#coven-structure--governance), [Torpor Recovery Track](../vampire.md#stage-4-torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority).
 
 ---
 

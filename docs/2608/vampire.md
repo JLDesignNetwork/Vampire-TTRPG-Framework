@@ -3,7 +3,7 @@
   "metadata": {
     "author": "Jeff Langdon",
     "rulesetName": "Vampire",
-    "version": "2608.66.0-bs",
+    "version": "2608.67.0-bs",
     "backlog_file": "../../.dev/2608/backlog.json",
     "changelog_file": "../../CHANGELOG.md"
   }
@@ -11,7 +11,7 @@
 ---
 
 
-# Vampire Ruleset v2608.66.0-bs
+# Vampire Ruleset v2608.67.0-bs
 
 ## Chapter 1: Introduction & The Core Framework
 

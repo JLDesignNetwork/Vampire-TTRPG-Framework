@@ -4,6 +4,24 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.67.0-bs (2026-08-16) - Beta Supported Release (Logic Audit Master Sync, Spliced Reaper Forensic Ruleset & Diablerie Judicial Rousing)
+
+**Beta release executing `DOCS-TODO-110`, `DOCS-TODO-111`, and `DOCS-TODO-112`. Completed comprehensive forensic Logic Audit across core ruleset and modular supplements: codified the Double-Edged Law of Earthbreaker, Universal Law of the Final Drop, forensic Spliced Reaper mechanics, Coven Tribunal Diablerie Rousing Protocol, and universal preserved blood dietary degradation.**
+
+#### Added
+- **`docs/2608/vampire.md`:**
+  - **The Double-Edged Law of Earthbreaker:** Codified that severing the native soil tether permanently frees the vampire from "The Bleed", but grants **zero restorative or healing acceleration benefits from Native Soil** (ineligible for 6-hour soil decapitation or 24-hour soil limb regrowth shortcuts).
+  - **Universal Law of the Final Drop:** Codified that consuming the absolute final drop of **ANY living creature** (mortal human, wild animal, or domestic livestock) severs the supernatural life tether and triggers instant **True Death**, enforcing universal predatory restraint across all prey.
+  - **Spliced Reaper Forensic Mechanics:** Codified saliva-only transmission vector (mouth and 6-foot prehensile barbed tongue), **7-Day Hard Lifespan** for secondary reapers (ash collapse), **threat-priority combat feeding dynamics**, **Final Drop consumption exemption**, **instant ash on decapitation**, **reinforced ribcage plate** (+2 to Stake DC), **zero torpor**, **zero soil dependency**, and **garlic slowing transformation from 60s to ~60 min**.
+  - **Diablerie Judicial Trial & Mandatory Rousing:** Codified that Diablerists are apprehended in granite petrification on-site, and the Coven Tribunal must **rouse the accused via elder vitae to stand trial and offer a defense** before sentencing under Sanguine Justice.
+  - **Progeny Capacity Lifecycle:** Codified that upon a fledgling's True Death, the Sire's locked progeny capacity slot reopens once Sanguine Exhaustion (30 days) and Psychic Rebound (3 years) clear.
+  - **Post-Feeding Flush Mortal Exclusivity:** Codified that the 1–2 hour warm skin flush and Uncanny Valley social camouflage require fresh living mortal blood (synthetic leaves skin cold/pale; animal imparts an animalistic musk).
+- **`docs/2608/supplements/bloodline_magic.md`:** Declared Synth-Vitae and stale corpse blood strictly ineligible for Sacrificial Substitution; synchronized `#spliced-reaper` anchor link for *Vitae Purification Filter*.
+- **`docs/2608/supplements/coven_law_protocols.md`:** Codified the mandatory Tribunal Rousing Rule for petrified Diablerists under Tier 3 capital proceedings; differentiated *The Law of Tabula Rasa* (Law 4) from *Judicial Tabula Rasa* (Tier 3 amnesia penalty); aligned Thrall release with *Phantom Cravings*.
+- **`docs/2608/supplements/uv_arsenal_handbook.md`:** Harmonized universal 14-day Dietary Degradation timer across High Fantasy preserved/alchemical blood phials and Sci-Fi Synth-Vitae.
+
+---
+
 ### 2608.66.0-bs (2026-08-15) - Beta Supported Release (Master Power Pick-3, Thermomancy Inversion & Bloodline Alignment Defense)
 
 **Beta release executing `DOCS-TODO-109`. Resolved 5 Red Team Audit findings: established the Universal 3-Power Selection Rule for Master Powers, renamed Pyromancy to Thermomancy and codified Thermodynamic Inversion Synergy, expanded Morphomancy with Echo Shriek and Plague Vector, and codified the Bloodline Alignment & Advocate System in Coven Law.**
