@@ -23,7 +23,7 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 | Concept | 🗡️ High Fantasy (*Mytharios*) | 🚀 Sci-Fi / Modern (*The Multiverse*) |
 | :--- | :--- | :--- |
 | **Sorcery Catalyst** | Runal obsidian chalices, alchemical silver bowls, sacrificial incantation altars | Bio-synthetic blood centrifuges, laser-carved micro-fluidic chips, neural vitae frequency coders |
-| **Blood Medium** | Spilled mortal/vampiric blood, consecrated grave soil, ancient scrolls | Oxygenated Synth-Vitae phials, cybernetic transfusion tubes, encrypted genetic bio-code |
+| **Blood Medium** | Spilled mortal/vampiric blood, consecrated grave soil, ancient scrolls | Preserved living donor plasma, cybernetic transfusion tubes, encrypted genetic bio-code |
 | **Scrying Optics** | Obsidian scrying pools, silver-backed blood mirrors, raven eyes | Encrypted bio-comm feeds, thermal satellite overlays, optic cyber-drones |
 
 ---
@@ -47,7 +47,7 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
   | **Living mortal / Thrall** | 250ml | Standard potency. Full living vitae resonance. |
   | **Vampire vitae** | 100ml | Concentrated potency. Donor must consent or be restrained. Counts as partial feeding — subject to Coven feeding laws. |
   | **Living animal blood** | 500ml | Diminished potency. Lacks full sapient vitae resonance. |
-  | **Synth-Vitae phials** | 1 full pouch (500ml) | Reduced potency. Lacks living essence; accepted by blood magic but at half efficiency. |
+  | **Synth-Vitae / Artificial blood** | **Ineligible** | Inert synthetic compound. Completely lacks living soul resonance and ancestral magic. Cannot power blood rituals or fulfill Sacrificial Substitution. |
   | **Fresh corpse blood** (< 1 hour post-death) | 500ml | Diminished potency. Vitae resonance fading rapidly. |
   | **Stale corpse blood** (≥ 1 hour post-death) | **Ineligible** | Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution. |
 
