@@ -47,7 +47,7 @@ Unlike instantaneous [Activated Powers](../vampire.md#formalized-turn-architectu
   | **Living mortal / Thrall** | 250ml | Standard potency. Full living vitae resonance. |
   | **Vampire vitae** | 100ml | Concentrated potency. Donor must consent or be restrained. Counts as partial feeding — subject to Coven feeding laws. |
   | **Living animal blood** | 500ml | Diminished potency. Lacks full sapient vitae resonance. |
-  | **Synth-Vitae phials** | 1 full pouch (500ml) | Reduced potency. Lacks living essence; accepted by blood magic but at half efficiency. |
+  | **Synth-Vitae phials** | 1 full pouch (500ml) | Reduced potency. Lacks living essence; accepted by blood magic but at half efficiency (doubles required phials). *Dietary Exemption:* Expending Synth-Vitae as an external ritual sacrificial catalyst does NOT trigger the 14-day nutritional Synthetic Diet Degradation timer, as the vitae is burned as an external catalyst rather than consumed internally. |
   | **Fresh corpse blood** (< 1 hour post-death) | 500ml | Diminished potency. Vitae resonance fading rapidly. |
   | **Stale corpse blood** (≥ 1 hour post-death) | **Ineligible** | Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution. |
 
@@ -86,7 +86,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
   * **Elder Caster (500–1,199 yrs):** 15-Mile Radius
   * **Ancient Caster (1,200+ yrs):** 50-Mile Radius
 * **Caster Trance State:** Maintaining the 10-minute scrying feed requires focused concentration. The caster may converse normally and hear their immediate physical surroundings, but moving more than 5 feet away from the bowl or taking combat/defensive actions immediately breaks concentration and ends the scrying feed.
-* **Bloodline Duel Counterplay:** When targeting a vampire possessing mental defenses or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control check) is triggered between the scrying caster and the target:
+* **Bloodline Duel Counterplay & Psychic Fortress Block:** When targeting a vampire possessing mental defenses or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control check) is triggered between the scrying caster and the target. *Psychic Fortress Block:* If the target is actively sustaining [*Psychic Fortress*](../vampire.md#psychic-fortress), the scrying probe is **automatically blocked**, clouding the mirror pool with impenetrable psychic static without triggering a duel.
   * **Age Tier Scaling ($\Delta$):** Participants gain **+1 to their contested check per Age Tier difference** above their opponent (Elder vs Neonate = +1; Ancient vs Neonate = +2).
   * **Caster Victory:** The probe pierces the defense and establishes the 10-minute visual feed, but the target senses the breach.
   * **Defender Victory:** The blood pool clouds with static, blocking the vision. The defender senses the probe and receives a psychic trace of the caster's general cardinal direction.
