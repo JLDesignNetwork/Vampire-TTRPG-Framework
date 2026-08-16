@@ -90,7 +90,7 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 ### <a id="tier-3-infractions"></a>Tier 3 Infractions (Tabula Rasa & Sun Fire Execution)
 * **Offenses:** Unsanctioned [Diablerie](../vampire.md#diablerie-the-ultimate-taboo), mass Shroud collapse, treasonous collaboration with vampire hunters.
 * **Penalty:**
-  * **Tabula Rasa:** Complete psychic erasure of all memories, skills, and identity via high-level mental sorcery.
+  * **Judicial Tabula Rasa:** Complete psychic erasure of all memories, skills, and identity via high-level mental sorcery (the psychological death sentence penalty).
   * **Sun Fire Execution:** The offender is bound to a solar pillar at dawn, suffering total solar combustion down to ash.
 
 ---
@@ -109,7 +109,8 @@ This supplement is 100% compatible with **Vampire TTRPG Framework v2608.66.0-bs*
 | **Coven Tribunal** | Supreme judicial panel consisting of Apex Elder, Regent Enforcer, and Coven Council. | Exclusive authority to suspend Haven Sanctuary for trials. |
 | **Law of Haven Sanctuary** | Mandatory non-violence pact prohibiting unsanctioned bloodletting within haven walls. | Violations punished by enforced Torpor or exile. |
 | **Law of the Sanguine Tithe** | Mandatory contribution of 1 Blood Reserve per 5 harvested during hunts. | Defaults escalate to vein extraction or judicial labor. |
-| **Tabula Rasa** | Prohibition on physical/digital records of vampires; also the memory erasure penalty. | Major breaches result in 1-Year Stage 3 Torpor. |
+| **The Law of Tabula Rasa** | The Unwritten Memory rule prohibiting physical or digital documentation of vampires. | Major breaches result in 1-Year Stage 3 Torpor. |
+| **Judicial Tabula Rasa** | Total psychic amnesia execution penalty wiping all memories, skills, and identity. | Tier 3 capital felony sentencing. |
 | **Sanctioned Termination** | Lawfully mandated execution of a rogue vampire or unmanageable overage Thrall. | Must occur off Haven sanctuary grounds. |
 | **Release Dispensation** | Formal Council decree authorizing memory wipe or humane release of a Thrall. | Prevents secrecy breach liability. |
 | **Thrall Overage Strain** | Psychic and reserve penalties (-1 reserve/day, -1 Self-Control) from excess Thralls. | Incurred upon Diablerie inheritance above capacity. |
