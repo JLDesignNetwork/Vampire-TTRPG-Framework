@@ -86,11 +86,13 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
   * **Elder Caster (500–1,199 yrs):** 15-Mile Radius
   * **Ancient Caster (1,200+ yrs):** 50-Mile Radius
 * **Caster Trance State:** Maintaining the 10-minute scrying feed requires focused concentration. The caster may converse normally and hear their immediate physical surroundings, but moving more than 5 feet away from the bowl or taking combat/defensive actions immediately breaks concentration and ends the scrying feed.
-* **Bloodline Duel Counterplay:** When targeting a vampire possessing mental defenses or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control check) is triggered between the scrying caster and the target:
-  * **Age Tier Scaling ($\Delta$):** Participants gain **+1 to their contested check per Age Tier difference** above their opponent (Elder vs Neonate = +1; Ancient vs Neonate = +2).
-  * **Caster Victory:** The probe pierces the defense and establishes the 10-minute visual feed, but the target senses the breach.
-  * **Defender Victory:** The blood pool clouds with static, blocking the vision. The defender senses the probe and receives a psychic trace of the caster's general cardinal direction.
-  * **Tie:** The vision is blocked by static, but neither party acquires a psychic trace.
+* **Bloodline Duel Counterplay & Collective Ritual Primacy:** Because blood rituals harness the combined metaphysical power of ancestral blood, they represent an order of magnitude more raw power than isolated individual abilities. When targeting a vampire sustaining active mental defenses ([*Psychic Fortress*](../vampire.md#psychic-fortress), [*Sovereign Temperament*](../vampire.md#sovereign-temperament)) or a rival blood magic caster, an immediate **Bloodline Duel** (contested Self-Control / Willpower check) is triggered to determine if the ritual probe pierces the target's mind:
+  * **Caster Attack Total:** Lead Caster Age Modifier ($\Delta$) + [Coven Circle Stacking Bonus](#coven-circle-chants--age-tier-synergy) (+1 per assisting caster) + Power Synergy Bonus (+2 if possessing sensory powers) + d20/check roll.
+  * **Defender Total:** Defender Age Modifier ($\Delta$) + **Psychic Fortress Defense Bonus (+2)** + d20/check roll.
+  * **Age Tier Scaling ($\Delta$):** Participants gain **+1 per Age Tier difference** above their opponent (Elder vs Neonate = +1; Ancient vs Neonate = +2; Ancient vs Elder = +1).
+  * **Caster Circle Victory:** The collective psychic force overwhelms the target's mental defenses, opening the 10-minute visual feed. The defender immediately senses the mental intrusion and knows their location is compromised.
+  * **Defender Victory:** The defender’s mental fortress holds firm. The ritual blood pool clouds with static, and the defender gains a **Psychic Back-Trace**—sensing the exact cardinal direction and approximate distance of the scrying Coven circle!
+  * **Tie:** The vision is clouded by static, and neither party acquires a psychic trace.
 
 ### <a id="ritual-of-the-crimson-ward"></a>Ritual of the Crimson Ward `(Tier 1 Neonate Arcana — Hemomancy)`
 * **Cost & Duration:** `1 Reserve | Duration: 24 Hours (1 Night)`
