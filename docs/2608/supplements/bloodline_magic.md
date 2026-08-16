@@ -110,7 +110,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Cost & Duration:** `1 Reserve (Pre-Ingestion) / 2 Reserves (Emergency Post-Ingestion Purge) | Duration: Instantaneous`
 * **Pillar 1 (Power Amplification):** Amplifies internal blood control powers ([*Gangrene Touch*](../vampire.md#gangrene-touch), [*Grand Harmonization*](../vampire.md#grand-harmonization)), projecting biological blood purity magic onto external or ingested blood.
 * **Pillar 2 (Dual-Layer Benefits & Synergy):**
-  * **Standalone Benefit (All Casters):** Drawing a draft (~250ml) of harvested blood through palms instantly neutralizes all alchemical poisons, holy water taints, synthetic neurotoxins, or [Reaper virus contagions](../vampire.md#power-fade-collapse-mutation) present in that draft for 1 Reserve.
+  * **Standalone Benefit (All Casters):** Drawing a draft (~250ml) of harvested blood through palms instantly neutralizes all alchemical poisons, holy water taints, synthetic neurotoxins, or [Reaper virus contagions](../vampire.md#spliced-reaper) present in that draft for 1 Reserve.
   * **Power Synergy Bonus:** Casters who natively possess blood control powers ([*Gangrene Touch*](../vampire.md#gangrene-touch) or [*Grand Harmonization*](../vampire.md#grand-harmonization)) receive a **+2 Power Synergy Bonus** to all Fortitude/Constitution checks against lingering systemic toxins or contagions.
 * **Pillar 3 (Defined Caps & Boundaries):**
   * **Volume Cap:** Pre-ingestion purification is capped at **1 draft (~250ml) per casting**.

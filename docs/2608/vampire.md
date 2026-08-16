@@ -784,7 +784,7 @@ Created when a young Sire's power count is so low (2–3 total powers) that the 
   * **Sanguine Shockwave:** Can expend 1 blood reserve to emit a violent, 15-foot telekinetic explosion of dark blood, knocking back all surrounding enemies up to **20 feet**, knocking them prone, and dealing area damage. *Haven Sanctuary Law Notice:* Sanguine Shockwave hits ALL targets (allies and enemies) within 15 feet. Invoking Sanguine Shockwave inside Haven grounds that hits or bleeds a fellow Coven member strictly violates the [Law of Haven Sanctuary](#secrecy-covens-and-thralls).
   * **Solar Vulnerability:** Takes **double damage** from sunlight (advancing to Round 3 Ash Collapse in 9 seconds instead of 18 seconds).
 
-#### 3. The Spliced Reaper (Trigger: Artificial / Cyber-Gene Tampering)
+#### 3. <a id="the-spliced-reaper"></a><a id="spliced-reaper"></a>The Spliced Reaper (Trigger: Artificial / Cyber-Gene Tampering)
 Created when advanced technology or gene-splicing experiments tamper with vampiric DNA, forcing synthetic viral strains or cybernetic filters into the bloodline.
 * **Sensory Profile:** Terrifying apex predator featuring a triple-hinged jaw that unhinges wide, a 6-foot prehensile barbed tongue, jet-black eyes with no iris, and bioluminescent crimson veins.
 * **Behavioral Traits & Feeding Dynamics:** Driven by hyper-engineered predatory aggression. Reapers do not respect Coven laws or Sire authority, hunting both mortals and standard vampires indiscriminately.
