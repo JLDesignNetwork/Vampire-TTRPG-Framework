@@ -88,7 +88,7 @@ Formal agreements between rival Covens governing hunting perimeters, sanctuary b
 * **Penalty:** The offender is staked through the heart and interred in a sealed stone crypt for a period of **1 to 100 years** of enforced [Torpor Slumber](../vampire.md#stage-4-torpor).
 
 ### <a id="tier-3-infractions"></a>Tier 3 Infractions (Tabula Rasa & Sun Fire Execution)
-* **Offenses:** Unsanctioned [Diablerie](../vampire.md#diablerie-the-ultimate-taboo), mass Shroud collapse, treasonous collaboration with vampire hunters.
+* **Offenses:** Unsanctioned [Diablerie](../vampire.md#diablerie-the-ultimate-taboo) *(apprehended in granite torpor and roused via elder vitae to stand trial before the Tribunal)*, mass Shroud collapse, treasonous collaboration with vampire hunters.
 * **Penalty:**
   * **Judicial Tabula Rasa:** Complete psychic erasure of all memories, skills, and identity via high-level mental sorcery (the psychological death sentence penalty).
   * **Sun Fire Execution:** The offender is bound to a solar pillar at dawn, suffering total solar combustion down to ash.
