@@ -200,7 +200,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 
 ## Integration & Compatibility
 
-This supplement is 100% compatible with **Vampire TTRPG Framework v2608.65.0-bs**. All ritual rules interact cleanly with [Coven Governance Law](../vampire.md#social), [Torpor Recovery Track](../vampire.md#torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority-modifier-system).
+This supplement is 100% compatible with **Vampire TTRPG Framework v2608.66.0-bs**. All ritual rules interact cleanly with [Coven Governance Laws](../vampire.md#coven-structure--governance), [Torpor Recovery Track](../vampire.md#stage-4-torpor), and [Age Tier Superiority Mechanics](../vampire.md#age-tier-superiority).
 
 ---
 
