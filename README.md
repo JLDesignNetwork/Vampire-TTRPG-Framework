@@ -49,7 +49,7 @@ This repository contains the master ruleset specification, generation-specific T
 
 | Version | Release Date | Lifecycle Stage | Key Milestone / Mechanical Scope |
 | :--- | :---: | :---: | :--- |
-| **`2608.67.0-bs`** | 2026-08-16 | `Beta Supported` | Logic Audit Master Sync, Spliced Reaper Forensic Ruleset & Diablerie Judicial Rousing |
+| **`2608.67.0-bs`** | 2026-08-17 | `Beta Supported` | Full Tri-Color Audit Complete (🟡 Logic, 🔴 Adversarial, ⚪ Forensic) & GitHub Security Suite |
 | **`2608.66.0-bs`** | 2026-08-15 | `Beta Supported` | Master Power Pick-3, Thermomancy Inversion & Bloodline Alignment Defense |
 | **`2608.65.0-bs`** | 2026-08-13 | `Beta Supported` | Feeding (Outbound Vitae Bestowal) Codification & Taxonomy Integration |
 | **`2608.64.0-bs`** | 2026-08-13 | `Beta Supported` | Source of Truth 8-Chapter Hierarchy Restructure & Supplement Terminology Integration |

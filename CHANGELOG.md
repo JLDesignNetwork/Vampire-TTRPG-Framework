@@ -4,9 +4,9 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
-### 2608.67.0-bs (2026-08-16) - Beta Supported Release (Logic Audit Master Sync, Spliced Reaper Forensic Ruleset & Diablerie Judicial Rousing)
+### 2608.67.0-bs (2026-08-17) - Beta Supported Release (Tri-Color Audit Suite Complete & Security Hardening)
 
-**Beta release executing `DOCS-TODO-110`, `DOCS-TODO-111`, and `DOCS-TODO-112`. Completed comprehensive forensic Logic Audit across core ruleset and modular supplements: codified the Double-Edged Law of Earthbreaker, Universal Law of the Final Drop, forensic Spliced Reaper mechanics, Coven Tribunal Diablerie Rousing Protocol, and universal preserved blood dietary degradation.**
+**Major Beta milestone executing `DOCS-TODO-110` through `DOCS-TODO-115`. Completed the entire JLDN Tri-Color Quality Assurance Suite (🟡 Yellow Team Systemic Logic Audit, 🔴 Red Team Adversarial Exploit Audit, and ⚪ White Team Forensic Traceability Audit) across all 8 core chapters and 3 modular supplements. Deployed full repository security infrastructure (CodeQL SAST, Secret Scanning, Tag & Branch Rulesets, Dependabot alerts, and Security Policy).**
 
 #### Added
 - **`docs/2608/vampire.md`:**
@@ -16,9 +16,33 @@ The versioning follows the [JLDN Generational Versioning Schema](https://github.
   - **Diablerie Judicial Trial & Mandatory Rousing:** Codified that Diablerists are apprehended in granite petrification on-site, and the Coven Tribunal must **rouse the accused via elder vitae to stand trial and offer a defense** before sentencing under Sanguine Justice.
   - **Progeny Capacity Lifecycle:** Codified that upon a fledgling's True Death, the Sire's locked progeny capacity slot reopens once Sanguine Exhaustion (30 days) and Psychic Rebound (3 years) clear.
   - **Post-Feeding Flush Mortal Exclusivity:** Codified that the 1–2 hour warm skin flush and Uncanny Valley social camouflage require fresh living mortal blood (synthetic leaves skin cold/pale; animal imparts an animalistic musk).
-- **`docs/2608/supplements/bloodline_magic.md`:** Declared Synth-Vitae and stale corpse blood strictly ineligible for Sacrificial Substitution; synchronized `#spliced-reaper` anchor link for *Vitae Purification Filter*.
-- **`docs/2608/supplements/coven_law_protocols.md`:** Codified the mandatory Tribunal Rousing Rule for petrified Diablerists under Tier 3 capital proceedings; differentiated *The Law of Tabula Rasa* (Law 4) from *Judicial Tabula Rasa* (Tier 3 amnesia penalty); aligned Thrall release with *Phantom Cravings*.
-- **`docs/2608/supplements/uv_arsenal_handbook.md`:** Harmonized universal 14-day Dietary Degradation timer across High Fantasy preserved/alchemical blood phials and Sci-Fi Synth-Vitae.
+  - **Anatomical Severed Head Speech:** Clarified that a decapitated head lacks pulmonary airflow for acoustic speech, restricting communication to lip mouthing, telepathy, or vascular neck re-fusion (`DOCS-TODO-113.1`).
+  - **Decapitation Brain Torpor & Rousing:** Codified that Brain Torpor at hour 24 does not halt vascular tissue re-fusion, that 1 drop of blood on lips temporarily rouses sensory awareness, and completing neck re-attachment wakes the brain permanently (`DOCS-TODO-113.2`).
+  - **Newborn Neonate 0-Reserve Awakening:** Codified that Sire's 5 infused reserves are 100% metabolized during cellular metamorphosis, leaving the neonate at 0 stored reserves upon waking (`DOCS-TODO-113.3`).
+  - **Reaction Blood Expenditure Round Boundary:** Defined that off-turn reaction blood expenditures (e.g. *Astral Step*) count against the combat round budget spanning from turn start to next turn start (`DOCS-TODO-113.6`).
+  - **Foreign Vitae Poisoning & Orphaned Tether:** Codified that mortal ingestion of Blood Archive drafts inflicts acute Foreign Vitae Poisoning (-2 Sanguine Sickness), Stage 1 Euphoria/Susceptibility, and the Orphaned Blood Tether if the recording Arch-Chronicler is Truly Dead (`DOCS-TODO-113.7`).
+  - **Primary vs Secondary Feral Husk Lifespan:** Codified that Primary Feral Husks (Sire-botched) possess undead immortality in perpetual frenzy, distinct from short-lived 24-hour viral Secondary Feral Husks (`DOCS-TODO-113.8`).
+  - **Master Composite Sustain Upkeep Hardening:** Codified that Master Composite 0-Reserve advantage applies strictly to initial activation and does not waive standard per-round/per-scene upkeep costs (`DOCS-TODO-114.1`).
+  - **Astral Step Combat Ceiling:** Hard-capped *Astral Step* at 1 Action on turn and 1 Reaction off-turn per round, bound by per-round caps and line-of-sight clearance (`DOCS-TODO-114.2`).
+- **`docs/2608/supplements/bloodline_magic.md`:**
+  - **Voluntary Ritual Cancellation Whole-Reserve Floor Rounding:** Codified `FLOOR(Cost / 2)` discrete whole blood reserve math (`DOCS-TODO-113.9`).
+  - **Astral Anchor Ritual Self-Only Scope:** Hardened recall teleportation to strictly Self-Only, preventing mass-party teleportation abuse (`DOCS-TODO-114.3`).
+- **`docs/2608/supplements/coven_law_protocols.md`:**
+  - **Predatory Indifference & Somatic Detox:** Codified that *Lethe's Touch* memory-erased mortals undergo the 14-day somatic withdrawal detox and Phantom Cravings under complete predatory indifference from the Coven (`DOCS-TODO-113.10`).
+- **`docs/2608/supplements/uv_arsenal_handbook.md`:**
+  - **Synthetic Diet Degradation Freeze vs Cure:** Codified that living animal blood freezes the synthetic degradation countdown, while fresh living mortal blood instantly cures all accumulated penalties (`DOCS-TODO-113.11`).
+  - **Daywalker's Grace Artificial UV Standard 1:1 Timer:** Codified that base 3-minute power duration elapses at normal 1:1 speed under artificial UV (`DOCS-TODO-114.4`).
+- **Repository Infrastructure & Security:**
+  - **`SECURITY.md`:** Published official security policy with Private Vulnerability Reporting integration.
+  - **`.github/workflows/codeql.yml`:** Deployed targeted CodeQL Python SAST workflow with weekly schedule and path filtering (0 vulnerabilities detected).
+  - **`.github/dependabot.yml`:** Configured weekly Dependabot security alerts for GitHub Actions with automated PR creation disabled (PNPM exclusive policy).
+  - **`.github/ISSUE_TEMPLATE/`:** Deployed structured community templates for Ruleset Errata (`rule_errata.yml`), Bug Reports (`bug_report.yml`), and Funding/GVS Configs (`config.yml`).
+  - **Rulesets:** Activated `Protected Release Tags` (`refs/tags/v*`) and `Main Branch Protection` (`refs/heads/main`) rulesets with admin bypass.
+
+#### Changed
+- **`CONTRIBUTING.md`:** Synchronized frontmatter examples and active directory version references to GVS `2608.67.0-bs` (`DOCS-TODO-115.1`).
+- **`.dev/2608/book-maps/*.map`:** Synchronized all 4 book map files to `v2608.67.0-bs` and updated `vampire.map` line 82 to Thermomancy (`DOCS-TODO-115.2`).
+- **`.github/workflows/lint.yml`:** Enforced top-level read-only permissions (`permissions: contents: read`) and added 5-minute timeout protection.
 
 ---
 
