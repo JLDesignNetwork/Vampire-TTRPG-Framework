@@ -54,10 +54,6 @@ This repository contains the master ruleset specification, generation-specific T
 | **`2608.65.0-bs`** | 2026-08-13 | `Beta Supported` | Feeding (Outbound Vitae Bestowal) Codification & Taxonomy Integration |
 | **`2608.64.0-bs`** | 2026-08-13 | `Beta Supported` | Source of Truth 8-Chapter Hierarchy Restructure & Supplement Terminology Integration |
 | **`2608.63.0-bs`** | 2026-08-06 | `Beta Supported` | Thermal FLIR Suit Battery Limits & Short-Circuit Combat Failure |
-| **`2608.62.0-bs`** | 2026-08-06 | `Beta Supported` | UV Laser Stacking & Multi-Hunter Crossfire Damage Caps |
-| **`2608.61.0-bs`** | 2026-08-06 | `Beta Supported` | Synth-Vitae Dietary Degradation System & Withdrawal |
-| **`2608.60.0-bs`** | 2026-08-06 | `Beta Supported` | Holy Munitions vs Silver Misconception Lore Harmonization |
-| **`2608.56.0-bs`** | 2026-08-05 | `Beta Supported` | 100% Micro-Anchor Resolution & 12-Mancy Discipline Taxonomy |
 
 👉 *For full historical release notes across all versions, see the complete **[CHANGELOG.md](CHANGELOG.md)**.*
 
