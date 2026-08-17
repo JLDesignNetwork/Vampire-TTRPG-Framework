@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: "☕ Support JLDN Development"
+    url: "https://buymeacoffee.com/jldesignnetwork"
+    about: "Support ongoing ruleset development, community playtesting, and open-source tools."
+  - name: "📜 JLDN Generational Versioning Schema"
+    url: "https://github.com/JLDesignNetwork/Generational-Versioning-Schema"
+    about: "Learn about the GVS taxonomy governing all development hubs and task lifecycles."

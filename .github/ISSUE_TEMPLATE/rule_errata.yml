@@ -1,0 +1,30 @@
+name: "📜 Ruleset Errata & Clarification"
+description: "Report a mechanical gap, ambiguous wording, or rule contradiction in the Vampire TTRPG Framework."
+title: "[ERRATA]: "
+labels: ["ruleset", "errata", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping us balance and refine the Vampire TTRPG Framework!
+        All reported errata are audited by the JLDN Tri-Color Team (🟡 Yellow Logic / 🔴 Red Adversarial / ⚪ White Forensic).
+  - type: input
+    id: section
+    attributes:
+      label: Target Document & Section
+      description: "Which file and section does this rule appear in? (e.g. docs/2608/vampire.md Chapter 5: Action Economy)"
+      placeholder: "docs/2608/vampire.md — Chapter 5"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Description of the Rule Gap / Ambiguity
+      description: "Explain the issue, mechanical conflict, or unintended gameplay interaction."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Proposed Fix or Mechanical Clarification (Optional)
+      description: "How would you suggest phrasing or balancing this mechanic?"

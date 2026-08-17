@@ -1,0 +1,30 @@
+name: "🐛 Tooling & Pipeline Bug Report"
+description: "Report an issue with the build_ruleset.py script, validation tooling, or link formatting."
+title: "[BUG]: "
+labels: ["bug", "tooling", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this template to report defects with repository tooling, build pipelines, or CI actions.
+  - type: input
+    id: environment
+    attributes:
+      label: Operating System & Tooling Version
+      description: "e.g. macOS Sequoia, Python 3.14 (Homebrew), pagedjs-cli"
+      placeholder: "macOS Sequoia (arm64) / Python 3.14"
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: "Commands executed and steps leading to the error."
+    validations:
+      required: true
+  - type: textarea
+    id: error_output
+    attributes:
+      label: Error Log / Terminal Output
+      description: "Paste terminal output or tracebacks here."
+      render: shell
