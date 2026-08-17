@@ -1,7 +1,7 @@
-# Vampire TTRPG Framework (v2608.66.0-bs)
+# Vampire TTRPG Framework (v2608.67.0-bs)
 
 [![CI Status](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml/badge.svg)](https://github.com/JLDesignNetwork/Vampire-TTRPG-Framework/actions/workflows/lint.yml)
-[![GVS Version](https://img.shields.io/badge/GVS-2608.66.0--bs-8b0000.svg)](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)
+[![GVS Version](https://img.shields.io/badge/GVS-2608.67.0--bs-8b0000.svg)](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jldesignnetwork)
 [![License](https://img.shields.io/badge/License-Proprietary-gold.svg)](LICENSE.md)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
@@ -12,14 +12,14 @@
 ![Sci-Fi](https://img.shields.io/badge/Genre-Sci--Fi-0f3460.svg)
 ![Horror](https://img.shields.io/badge/Genre-Horror-53354a.svg)
 
-Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.66.0-bs`).
+Welcome to the **Vampire TTRPG Framework** (JLDN Generational Versioning Schema: `2608.67.0-bs`).
 
 ## Overview
 
 This repository contains the master ruleset specification, generation-specific TODO task dataset, and root project-wide roadmap dataset for the system-agnostic, multi-genre **Vampire TTRPG Framework**.
 
 * **Author:** Jeff Langdon (JL Design Network)
-* **Ruleset Version:** `2608.65.0-bs` (Official Beta Supported)
+* **Ruleset Version:** `2608.67.0-bs` (Official Beta Supported)
 
 ### Repository Workspace Layout
 
@@ -49,6 +49,8 @@ This repository contains the master ruleset specification, generation-specific T
 
 | Version | Release Date | Lifecycle Stage | Key Milestone / Mechanical Scope |
 | :--- | :---: | :---: | :--- |
+| **`2608.67.0-bs`** | 2026-08-16 | `Beta Supported` | Logic Audit Master Sync, Spliced Reaper Forensic Ruleset & Diablerie Judicial Rousing |
+| **`2608.66.0-bs`** | 2026-08-15 | `Beta Supported` | Master Power Pick-3, Thermomancy Inversion & Bloodline Alignment Defense |
 | **`2608.65.0-bs`** | 2026-08-13 | `Beta Supported` | Feeding (Outbound Vitae Bestowal) Codification & Taxonomy Integration |
 | **`2608.64.0-bs`** | 2026-08-13 | `Beta Supported` | Source of Truth 8-Chapter Hierarchy Restructure & Supplement Terminology Integration |
 | **`2608.63.0-bs`** | 2026-08-06 | `Beta Supported` | Thermal FLIR Suit Battery Limits & Short-Circuit Combat Failure |
