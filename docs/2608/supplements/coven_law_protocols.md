@@ -68,7 +68,7 @@ Under Coven Law, executing a fellow vampire or a bound Thrall without legal auth
 ### <a id="sanctioned-release-dispensation"></a>Sanctioned Release Dispensation
 Resolving [Thrall Cap Overage Strain](../vampire.md#thrall-cap) without execution requires a formal **Sanctioned Release Dispensation** signed by the Coven Council:
 * **Controlled Euthanasia:** The Thrall is peacefully euthanized via painless alchemical narcotics or sedatives.
-* **Memory Erasure & Discharge:** The vampire uses [*Lethe’s Touch*](../vampire.md#lethes-touch) under Tribunal supervision to completely erase all memories of vampiric society, releasing the mortal back into human society with a substantial financial severance.
+* **Memory Erasure & Discharge:** The vampire uses [*Lethe’s Touch*](../vampire.md#lethes-touch) under Tribunal supervision to completely erase all conscious memories of vampiric society, names, and haven locations, releasing the mortal back into human society. *Somatic Detox & Predatory Indifference:* Once memory erasure is certified, the Coven bears zero legal or moral concern for the mortal's post-release fate. While the mortal's vascular system endures the 14-day [Sanguine Withdrawal](../vampire.md#sanguine-withdrawal) detox fever and inexplicable **Phantom Cravings**, the foreign vitae naturally metabolizes and burns off. Any mundane toxicology tests detecting anomalous blood markers during this window are routinely dismissed by mortal laboratories as sample contamination or rare autoimmune spikes, maintaining the Shroud with zero ongoing Coven obligations.
 
 ### <a id="blood-treaty-diplomatic-accords"></a>Blood Treaty Diplomatic Accords
 Formal agreements between rival Covens governing hunting perimeters, sanctuary boundaries, and extradition:

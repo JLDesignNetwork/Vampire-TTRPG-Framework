@@ -67,9 +67,10 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 ### <a id="synthetic-blood-pouches-synth-vitae-and-injectors"></a>Synthetic Blood Pouches (Synth-Vitae) & Injectors
 * **Item Type:** `Consumable Field Refill | Capacity: 1 Reserve per Pouch`
 * **Mechanic:** Bio-engineered synthetic blood pouches restore **1 Blood Reserve** upon consumption or auto-injector use. Synth-Vitae staves off starvation but lacks the full psychological satisfaction of living prey blood.
-* **Synthetic & Preserved Diet Degradation System:** Synth-Vitae (and its High Fantasy equivalent, preserved alchemical blood phials) is designed strictly as an emergency field ration, not a permanent dietary replacement. If a vampire feeds exclusively on synthetic or preserved blood without drinking fresh living blood (mortal or animal) for more than **14 consecutive days**, their vitae begins to lose its mystical connection.
+* **Synthetic & Preserved Diet Degradation System:** Synth-Vitae (and its High Fantasy equivalent, preserved alchemical blood phials) is designed strictly as an emergency field ration, not a permanent dietary replacement. If a vampire feeds exclusively on synthetic or preserved blood without drinking fresh living blood for more than **14 consecutive days**, their vitae begins to lose its mystical connection.
   * **Mechanical Penalty (Accumulating):** Starting on Day 15, the vampire suffers a **-1 penalty to all supernatural power checks/DCs** and a **-1 penalty to physical blood surge checks** due to the lack of active ancestral life force. This penalty stacks by **-1 for every additional 7 days** of exclusive synthetic/preserved diet, up to a maximum penalty of **-3**.
-  * **Cure:** Consuming at least 1 draft of fresh Tier 2+ living mortal blood instantly neutralizes all accumulated dietary degradation penalties, returning the vampire to full efficiency.
+  * **Animal Blood (Timer Freeze):** Consuming fresh living animal blood (Tier 1) provides basic living life force, **freezing the degradation timer** and preventing penalties from worsening, but lacks the sapient potency to remove existing penalties.
+  * **Mortal Blood (Full Cure & Reset):** Consuming at least 1 draft of fresh Tier 2+ living mortal blood instantly neutralizes all accumulated dietary degradation penalties, resetting the 14-day timer back to 0.
 
 ---
 
