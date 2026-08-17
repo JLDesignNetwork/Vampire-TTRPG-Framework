@@ -65,7 +65,7 @@ Every supplement file must begin with a standardized JSON frontmatter block:
     "author": "Your Name or Handle",
     "supplementName": "Descriptive Supplement Title",
     "targetRuleset": "Vampire TTRPG Framework",
-    "version": "2608.65.0-bs",
+    "version": "2608.67.0-bs",
     "parent_ruleset_file": "../vampire.md"
   }
 }
@@ -82,9 +82,9 @@ Cross-references should point directly to these anchors: `[Custom Power Name](do
 
 ### D. JLDN Generational Versioning Schema (GVS)
 All ruleset documents, supplements, and metadata adhere to the **[JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema)**:
-* **Version Format:** `[YYMM].[SUBVERSION].[REVISION]-[TAG]` (e.g., `2608.65.0-bs`).
+* **Version Format:** `[YYMM].[SUBVERSION].[REVISION]-[TAG]` (e.g., `2608.67.0-bs`).
 * **Generation Epoch (`[GEN]`):** Represents the major architectural edition / release era (e.g., `2608` for August 2026).
-* **Active Directory Alignment:** All new supplements must be placed within the active generation directory (`docs/2608/supplements/`) and match the active generation version tag (`2608.65.0-bs`) in their frontmatter.
+* **Active Directory Alignment:** All new supplements must be placed within the active generation directory (`docs/2608/supplements/`) and match the active generation version tag (`2608.67.0-bs`) in their frontmatter.
 
 ---
 
