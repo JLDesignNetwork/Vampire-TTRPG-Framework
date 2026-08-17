@@ -158,7 +158,7 @@ If a ritual caster suffers physical damage, knockback, or psychic attack during 
 * **Cost & Duration:** `2 Reserves | Duration: 24 Hours (Spatial Beacon)`
 * **Pillar 1 (Power Amplification):** Amplifies spatial folding powers ([*Astral Step*](../vampire.md#astral-step)), weaving a sub-dimensional spatial anchor into a physical surface.
 * **Pillar 2 (Dual-Layer Benefits & Synergy):**
-  * **Standalone Benefit (All Casters):** The caster paints a subterranean blood sigil onto a solid surface. For 24 hours, the caster can burn **1 Blood Reserve** off-turn to instantly dissolve into spatial mist and teleport back to the anchor sigil from up to **5 miles away**.
+  * **Standalone Benefit (All Casters):** The caster paints a subterranean blood sigil onto a solid surface. For 24 hours, the caster can burn **1 Blood Reserve** off-turn to instantly dissolve into spatial mist and teleport back to the anchor sigil from up to **5 miles away**. *Strict Self-Only Scope:* The recall teleportation transports **ONLY the invoking caster and their personal carried equipment**; it cannot transport additional vampires, allies, thralls, or passengers under any circumstances.
   * **Power Synergy Bonus:** Casters who natively possess spatial powers ([*Astral Step*](../vampire.md#astral-step)) receive a **+2 Power Synergy Bonus** that extends the maximum recall range cap from 5 miles to **25 miles**.
 * **Pillar 3 (Defined Caps):** Max 1 active Astral Anchor sigil per caster at any given time; casting a second anchor immediately collapses the previous sigil.
 

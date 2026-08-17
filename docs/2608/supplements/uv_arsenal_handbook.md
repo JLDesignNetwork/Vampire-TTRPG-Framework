@@ -81,7 +81,7 @@ Following [Separation of Concerns](../vampire.md#system-agnostic--multi-genre-fr
 * **Structural Integrity HP:** Heavy structural barriers (reinforced concrete walls, steel vault doors, armored vehicle hulls) possess structural HP pools and are not bypassed by personal armor penetration rules.
 
 ### UV Weapon Immunity via Daywalker's Grace
-Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-grace) are completely immune to artificial UV spotlights, UV lasers, and UV flashbangs without consuming their 3-minute natural solar shield timer.
+Vampires actively channeling [*Daywalker’s Grace*](../vampire.md#daywalkers-grace) are completely immune to artificial UV spotlights, UV lasers, and UV flashbangs. Artificial UV weapons do **NOT** trigger the 3x concentrated beam acceleration multiplier. However, the power itself remains subject to its standard **3-minute (180-second) maximum active duration** per invocation, elapsing at normal 1:1 speed while active.
 
 ---
 
