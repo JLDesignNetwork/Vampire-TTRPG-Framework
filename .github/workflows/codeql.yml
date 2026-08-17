@@ -1,0 +1,42 @@
+name: "CodeQL Security Scan"
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - "**.py"
+      - ".github/scripts/**"
+      - ".github/workflows/codeql.yml"
+  pull_request:
+    branches: [ "main" ]
+    paths:
+      - "**.py"
+      - ".github/scripts/**"
+  schedule:
+    - cron: "0 4 * * 1" # Weekly every Monday at 04:00 UTC
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  analyze:
+    name: CodeQL Python SAST Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: python
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:python"
