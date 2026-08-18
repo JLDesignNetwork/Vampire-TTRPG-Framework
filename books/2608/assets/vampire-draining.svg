@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 620" role="img" aria-labelledby="vdTitle vdDesc">
+    <title id="vdTitle">A vampire draining a victim</title>
+    <desc id="vdDesc">Gothic silhouette illustration: a cloaked vampire bends over a swooning victim, feeding at the neck, beneath a pale full moon.</desc>
+
+    <defs>
+        <radialGradient id="bgGlow" cx="55%" cy="25%" r="80%">
+            <stop offset="0%" stop-color="#3a0a0a" />
+            <stop offset="55%" stop-color="#1a0505" />
+            <stop offset="100%" stop-color="#0a0505" />
+        </radialGradient>
+
+        <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f5f2eb" stop-opacity="0.95" />
+            <stop offset="70%" stop-color="#ebe0c8" stop-opacity="0.55" />
+            <stop offset="100%" stop-color="#ebe0c8" stop-opacity="0" />
+        </radialGradient>
+
+        <linearGradient id="cloakShade" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1c1414" />
+            <stop offset="100%" stop-color="#050303" />
+        </linearGradient>
+    </defs>
+
+    <!-- Background wash -->
+    <rect x="0" y="0" width="800" height="620" fill="url(#bgGlow)" />
+
+    <!-- Moon, partially eclipsed by the cloak -->
+    <circle cx="610" cy="115" r="80" fill="url(#moonGlow)" />
+    <circle cx="610" cy="115" r="50" fill="#f5f2eb" opacity="0.9" />
+
+    <!-- Ground shadow -->
+    <ellipse cx="430" cy="595" rx="260" ry="18" fill="#000000" opacity="0.5" />
+
+    <!-- Victim: swooning figure, head tilted back, one arm fallen limp -->
+    <g fill="#0d0808">
+        <path d="M 425 300 C 460 325, 478 365, 470 405 C 467 422, 452 432, 438 427 C 450 395, 442 340, 425 300 Z" />
+        <path d="M 360 213 C 330 246, 320 318, 338 390 C 348 442, 375 480, 412 498 L 442 478 C 423 428, 414 358, 424 302 C 429 259, 405 218, 360 213 Z" />
+        <ellipse cx="346" cy="197" rx="25" ry="28" transform="rotate(-25 346 197)" />
+    </g>
+
+    <!-- Vampire: tall cloaked figure enveloping the victim from behind -->
+    <g fill="url(#cloakShade)">
+        <path d="M 432 152 C 344 165, 266 218, 226 334 C 202 402, 192 496, 206 610 L 662 610 C 676 496, 666 402, 642 334 C 602 218, 520 165, 432 152 Z" />
+        <path d="M 397 154 L 362 100 L 406 150 Z" />
+        <path d="M 467 154 L 506 100 L 462 150 Z" />
+        <circle cx="434" cy="130" r="34" />
+    </g>
+
+    <!-- Vampire's arm, curling around to hold the victim close -->
+    <path d="M 457 207 C 429 215, 400 222, 377 215 C 388 235, 411 246, 437 243 C 452 240, 462 224, 457 207 Z" fill="#0d0808" />
+
+    <!-- Bite point + blood, drawn in the theme's blood-red -->
+    <g fill="#7a0000">
+        <circle cx="380" cy="223" r="3.5" />
+        <path d="M 378 233 C 378 233, 369 249, 369 259 C 369 265.63 374.37 271 381 271 C 387.63 271 393 265.63 393 259 C 393 249, 384 233, 384 233 Z" />
+        <path d="M 393 258 C 393 258, 388 268, 388 274 C 388 278 391.13 281 395 281 C 398.87 281 402 278, 402 274 C 402 268, 397 258, 397 258 Z" opacity="0.85" />
+    </g>
+
+    <!-- Gothic frame -->
+    <rect x="16" y="16" width="768" height="588" fill="none" stroke="#a68a47" stroke-width="2" opacity="0.6" />
+    <rect x="24" y="24" width="752" height="572" fill="none" stroke="#a68a47" stroke-width="1" stroke-dasharray="2 6" opacity="0.4" />
+</svg>

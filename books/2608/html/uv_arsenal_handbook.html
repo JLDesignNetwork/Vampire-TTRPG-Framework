@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- #region [SECTION: META] -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipment &amp; UV Arsenal Handbook — Vampire TTRPG Framework</title>
+    <!-- #endregion -->
+    <link rel="stylesheet" href="../assets/vampire_theme.css" />
+</head>
+
+<body class="book-uv-arsenal">
+    <!-- #region [SECTION: FRONT MATTER] -->
+    <div class="container front-matter">
+        <!-- #region [PAGE: FRONT COVER] -->
+        <section class="page frontCover">
+            <header>
+                <span class="supplementBadge">A Vampire TTRPG Framework Supplement</span>
+                <h1>Equipment &amp; UV Arsenal</h1>
+                <h2>Handbook</h2>
+            </header>
+            <footer>
+                <div class="footnote"><span class="footerMotif"></span> &copy;2026 Jeff Langdon &middot; v2608.64.0-bs</div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: FLYLEAF] -->
+        <section class="page flyleafPage">
+            <div class="flyleaf-motif"></div>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: CREDITS] -->
+        <section class="page creditsPage">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter">Credits</span>
+            </header>
+            <main class="two-column">
+                <div class="wide">
+                    <h1>Credits</h1>
+                    <p><strong>Version:</strong> 2608.65.0-bs</p>
+                    <p><strong>Game Design &amp; Writing:</strong> Jeff Langdon</p>
+                    <p><strong>Editing:</strong> Jeff Langdon</p>
+                    <p><strong>Art Direction &amp; Layout:</strong> Jeff Langdon</p>
+                    <p><strong>Playtesting:</strong> The Coven</p>
+                    <p><strong>Special Thanks:</strong> Everyone who bled for this system.</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote">Credits</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: TABLE OF CONTENTS] -->
+        <section class="page toc">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter">Table of Contents</span>
+            </header>
+            <main class="two-column">
+                <div class="wide">
+                    <h1>Table of Contents</h1>
+                </div>
+                <ol class="tocEntries">
+                    <li><a href="#chapter-1">Overview &amp; System-Agnostic Adaptation</a><span
+                            class="leader"></span><span class="pageNumber">1</span></li>
+                    <li><a href="#chapter-2">Hunter Tactical Countermeasures</a><span
+                            class="leader"></span><span class="pageNumber">3</span></li>
+                    <li><a href="#chapter-3">Vampiric Armaments &amp; Field Gear</a><span
+                            class="leader"></span><span class="pageNumber">6</span></li>
+                    <li><a href="#chapter-4">Tactical Damage &amp; Hardness Interaction Math</a><span
+                            class="leader"></span><span class="pageNumber">9</span></li>
+                    <li><a href="#chapter-5">Chapter 5: Integration &amp; Compatibility</a><span
+                            class="leader"></span><span class="pageNumber">10</span></li>
+                </ol>
+            </main>
+            <footer>
+                <div class="footnote">Table of Contents</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region [SECTION: MAIN BODY] -->
+    <div class="container main-body">
+        <!-- #region [CHAPTER: 1 - OVERVIEW & SYSTEM-AGNOSTIC ADAPTATION] -->
+        <!-- #region [PAGE: PART COVER (CH 1)] -->
+        <section class="page partCover" data-chapter="1" id="chapter-1">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Hunters adapt. So does everything they carry. This handbook catalogs the tactical gear, UV
+                    weaponry, thermal countermeasures, and field rations that have accumulated on both sides of the
+                    hunt — and the math that decides who walks away.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="1">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1>Overview &amp; System-Agnostic Adaptation</h1>
+                <p>The <strong>Equipment &amp; UV Arsenal Handbook</strong> is an official, opt-in supplement for the
+                    Vampire TTRPG Framework. It catalogs specialized tactical gear, hunter countermeasures, UV
+                    weaponry, thermal masking suits, and synthetic blood phials.</p>
+                <p>Following Separation of Concerns, this supplement expands upon the core Banes &amp;
+                    Countermeasures and Armor Penetration Rules.</p>
+
+                <h2 id="genre-translation-matrix">Genre Translation Matrix</h2>
+                <table class="stat-table">
+                    <caption>Genre Translation Matrix</caption>
+                    <thead>
+                        <tr>
+                            <th>Equipment Class</th>
+                            <th>High Fantasy (<em>Mytharios</em>)</th>
+                            <th>Sci-Fi / Modern (<em>The Multiverse</em>)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>UV Weaponry</strong></td>
+                            <td>Solar-enchanted mirrors, consecrated sun-crystal lanterns, dawn-lit arrows</td>
+                            <td>Tactical UV laser rifles, military UV spotlight rigs, high-frequency solar frequency
+                                emitters</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Thermal Masking</strong></td>
+                            <td>Salamander-skin cloaks, heated thermal talismans, warm alchemical wraps</td>
+                            <td>Micro-wire thermal heat suits, bio-synthetic warmth pads, FLIR dampening cloaks</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dietary Plasma</strong></td>
+                            <td>Mana-infused blood phials, alchemical blood goblets, preserved sacrificial jars</td>
+                            <td>Synthetic blood pouches (Synth-Vitae), bio-engineered plasma cartridges, cybernetic
+                                blood filters</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 2 - HUNTER TACTICAL COUNTERMEASURES] -->
+        <!-- #region [PAGE: PART COVER (CH 2)] -->
+        <section class="page partCover" data-chapter="2" id="chapter-2">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Every hunter cell keeps a locker of gear built for exactly one purpose: making the night less
+                    survivable for the things that hunt in it. UV lasers, flashbangs, thermal optics, and
+                    consecrated munitions — the standard loadout, and what it actually does to a vampiric target.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="2">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1 id="hunter-tactical-countermeasures">Hunter Tactical Countermeasures</h1>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="high-intensity-uv-laser-rifles-and-emitting-spotlights">
+                            High-Intensity UV Laser Rifles &amp; Emitting Spotlights</h4>
+                        <span class="item-card__tag">Ranged Energy &middot; Standard Issue</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Damage</span><span class="stat-value">Dermal
+                                Vaporization</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">100 ft</span></div>
+                        <div><span class="stat-label">Charge</span><span class="stat-value">Power Cell</span></div>
+                    </div>
+                    <p class="item-card__desc">High-intensity artificial UV radiation beams trigger instant
+                        <strong>Round 1 Dermal Vaporization</strong> upon contact, inflicting steam burns and a
+                        <strong>-2 action penalty</strong> while exposed. Artificial UV does <strong>NOT</strong>
+                        trigger Round 2 combustion unless enhanced by solar incantations or orbital lenses.</p>
+                    <p class="item-card__desc"><strong>UV Stacking &amp; Crossfire Limits:</strong> Being targeted by
+                        multiple artificial UV weapons simultaneously does <strong>NOT</strong> accelerate the Solar
+                        Track to Round 2 (Flesh Ignition) or Round 3 (Ash Collapse), nor does the action penalty
+                        stack beyond the flat <strong>-2 penalty</strong>. However, each additional active UV beam
+                        targeting the vampire adds <strong>1 additional physical Wound</strong> from localized steam
+                        burns per combat round, up to a maximum cap of <strong>3 Wounds per combat round</strong>
+                        from combined artificial UV exposure.</p>
+                    <p class="item-card__flavor">"One beam is a warning shot. Three is a firing squad."</p>
+                </div>
+
+                <div class="rules-box">
+                    <h4>Immunity</h4>
+                    <p>Vampires actively invoking <em>Daywalker's Grace</em> are completely immune to artificial UV
+                        weapons.</p>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="pressurized-uv-flashbang-grenades">Pressurized UV Flashbang
+                            Grenades</h4>
+                        <span class="item-card__tag">Thrown Area &middot; Standard Issue</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Radius</span><span class="stat-value">20 ft</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Round Stun</span>
+                        </div>
+                        <div><span class="stat-label">DC</span><span class="stat-value">Hard Fortitude 15</span>
+                        </div>
+                    </div>
+                    <p class="item-card__desc">Detonates in a blinding burst of high-frequency UV radiation and
+                        sound. Vampires inside the blast zone must make a <strong>Hard Fortitude check</strong> (DC
+                        15); failure inflicts <strong>1 Combat Round Blinding Stun</strong> and triggers dermal steam
+                        burns.</p>
+                    <p class="item-card__flavor">"Pull the pin, close your eyes, count to three. If you can still
+                        see the flash through your eyelids, you're too close."</p>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="thermal-flir-imaging-and-optics-scanners">Thermal FLIR
+                            Imaging &amp; Optics Scanners</h4>
+                        <span class="item-card__tag">Optics Sensor &middot; Helmet Overlay</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Type</span><span class="stat-value">Sensor</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Visual Field</span></div>
+                        <div><span class="stat-label">Charge</span><span class="stat-value">Battery Pack</span>
+                        </div>
+                    </div>
+                    <p class="item-card__desc">Detects thermal radiation profiles. Because vampires lack internal
+                        body heat (room-temperature cold dermis), vampires appear as cold blue/violet silhouettes
+                        surrounded by warm living humans. Instantly exposes disguised vampires using <em>Chameleon
+                            Clay</em> unless wearing thermal heating gear.</p>
+                    <p class="item-card__flavor">"The mask fools the eye. It's never once fooled the scope."</p>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="consecrated-and-holy-alchemical-taint-munitions">Consecrated
+                            &amp; Holy Alchemical Taint Munitions</h4>
+                        <span class="item-card__tag">Ballistic / Slashing &middot; Rare</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Damage</span><span class="stat-value">Standard + 1 Holy
+                                Taint</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Firearm / Melee</span>
+                        </div>
+                        <div><span class="stat-label">Effect</span><span class="stat-value">Suppresses
+                                Regen</span></div>
+                    </div>
+                    <p class="item-card__desc">Bullets or blades infused with consecrated holy alchemical salts or
+                        concentrated garlic distillates inflict standard physical damage and coat wounds in unholy
+                        residue, suppressing natural <em>Sanguine Knit</em> regeneration in combat until extracted.
+                    </p>
+                    <p class="item-card__desc"><em>Note: Silver nitrate has zero effect on vampires due to silver
+                            being a mythic misconception; see the Silver Misconception rules in the core
+                            framework.</em></p>
+                    <p class="item-card__flavor">"The garlic isn't for killing them. It's for making sure the wound
+                        stays open."</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 3 - VAMPIRIC ARMAMENTS & FIELD GEAR] -->
+        <!-- #region [PAGE: PART COVER (CH 3)] -->
+        <section class="page partCover" data-chapter="3" id="chapter-3">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Vampires arm and armor themselves too. Thermal masking rigs, obsidian-composite plate, and the
+                    synthetic blood that keeps a coven fed when the city's too hot to hunt in — the field gear that
+                    lets the undead survive a world built to detect and destroy them.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="3">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1 id="vampiric-armaments-and-field-gear">Vampiric Armaments &amp; Field Gear</h1>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="thermal-vitae-heating-gear-and-flir-suit">Thermal Vitae
+                            Heating Gear &amp; FLIR Suit</h4>
+                        <span class="item-card__tag">Body Armor Overlay &middot; Undergarment</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Effect</span><span class="stat-value">FLIR Masking</span>
+                        </div>
+                        <div><span class="stat-label">Battery</span><span class="stat-value">6 hrs / charge</span>
+                        </div>
+                        <div><span class="stat-label">Failure</span><span class="stat-value">1-in-6 on
+                                Wound</span></div>
+                    </div>
+                    <p class="item-card__desc">Micro-element heating wires generate artificial 37&deg;C (98.6&deg;F)
+                        body heat across the wearer's dermis, allowing a vampire to fool military FLIR thermal
+                        cameras and heat-seeking sensors even while using <em>Chameleon Clay</em>.</p>
+                    <p class="item-card__flavor">"Warm enough to pass a scope. Not warm enough to pass a hug."</p>
+                </div>
+
+                <div class="rules-box">
+                    <h4 id="operational-bounds-and-combat-failure">Operational Bounds &amp; Combat Failure</h4>
+                    <p><strong>Battery Duration:</strong> The micro-element heating wires require an active power
+                        cell, providing a maximum of <strong>6 hours</strong> of continuous heat masking per charge.
+                    </p>
+                    <p><strong>Combat Circuit Breach:</strong> If the wearer suffers a slashing or piercing wound in
+                        combat, there is a <strong>1-in-6 chance (1 on a d6)</strong> that the micro-wire grid is
+                        severed. A severed circuit immediately disables the heat-masking effect (exposing the cold
+                        dermis to FLIR) and triggers an electrical short-circuit that inflicts <strong>1 electrical
+                            burn wound</strong> (bypassing armor) and stuns the vampire for 1 combat round if they
+                        fail a Medium Fortitude check.</p>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="obsidian-composite-and-sanguine-weave-armor">Obsidian
+                            Composite &amp; Sanguine Weave Armor</h4>
+                        <span class="item-card__tag">Personal Body Armor &middot; Uncommon</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Armor</span><span class="stat-value">2 Points</span></div>
+                        <div><span class="stat-label">Scope</span><span class="stat-value">Mundane Only</span>
+                        </div>
+                        <div><span class="stat-label">Type</span><span class="stat-value">Kevlar / Obsidian</span>
+                        </div>
+                    </div>
+                    <p class="item-card__desc">High-density Kevlar and obsidian composite plates absorb mundane
+                        physical attacks (bullets, blades).</p>
+                    <p class="item-card__desc"><strong>Bypass Scope:</strong> Armor ratings apply strictly to mundane
+                        attacks. Supernatural armor-piercing powers like Sanguine Spikes or Umbral Blades ignore
+                        personal body armor.</p>
+                    <p class="item-card__flavor">"Stops a bullet fine. Never stops a claw."</p>
+                </div>
+
+                <div class="item-card">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="synthetic-blood-pouches-synth-vitae-and-injectors">Synthetic
+                            Blood Pouches (Synth-Vitae) &amp; Injectors</h4>
+                        <span class="item-card__tag">Consumable Field Refill &middot; Common</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Restores</span><span class="stat-value">1 Blood
+                                Reserve</span></div>
+                        <div><span class="stat-label">Capacity</span><span class="stat-value">1 / Pouch</span>
+                        </div>
+                        <div><span class="stat-label">Use</span><span class="stat-value">Consume / Inject</span>
+                        </div>
+                    </div>
+                    <p class="item-card__desc">Bio-engineered synthetic blood pouches restore <strong>1 Blood
+                            Reserve</strong> upon consumption or auto-injector use. Synth-Vitae staves off starvation
+                        but lacks the full psychological satisfaction of living prey blood.</p>
+                    <p class="item-card__flavor">"Tastes like nothing. Feeds like something. Barely."</p>
+                </div>
+
+                <div class="rules-box">
+                    <h4 id="synthetic-diet-degradation-system">Synthetic Diet Degradation System</h4>
+                    <p>Synth-Vitae is designed strictly as an emergency field ration, not a permanent dietary
+                        replacement. If a vampire feeds exclusively on Synth-Vitae without drinking fresh living
+                        blood (mortal or animal) for more than <strong>14 consecutive days</strong>, their vitae
+                        begins to lose its mystical connection.</p>
+                    <p><strong>Mechanical Penalty (Accumulating):</strong> Starting on Day 15, the vampire suffers a
+                        <strong>-1 penalty to all supernatural power checks/DCs</strong> and a <strong>-1 penalty to
+                            physical blood surge checks</strong> due to the lack of active ancestral life force. This
+                        penalty stacks by <strong>-1 for every additional 7 days</strong> of exclusive synthetic
+                        diet, up to a maximum penalty of <strong>-3</strong>.</p>
+                    <p><strong>Cure:</strong> Consuming at least 1 draft of fresh Tier 2+ living mortal blood
+                        instantly neutralizes all accumulated synthetic diet penalties, returning the vampire to full
+                        efficiency.</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 4 - TACTICAL DAMAGE & HARDNESS INTERACTION MATH] -->
+        <!-- #region [PAGE: PART COVER (CH 4)] -->
+        <section class="page partCover" data-chapter="4" id="chapter-4">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Where does personal armor stop mattering? When does a vampire's own supernatural defenses render a
+                    weapon useless? The interaction math that keeps hunter gear and vampiric resilience honest at the
+                    table.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="4">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1 id="tactical-damage-and-hardness-interaction-math">Tactical Damage &amp; Hardness Interaction Math
+                </h1>
+
+                <div class="stat-block">
+                    <h4 id="personal-body-armor-vs-structural-integrity-hp">Personal Body Armor vs Structural
+                        Integrity HP</h4>
+                    <p><strong>Personal Armor:</strong> Worn Kevlar or plate armor absorbs personal physical attack
+                        damage.</p>
+                    <p><strong>Structural Integrity HP:</strong> Heavy structural barriers (reinforced concrete
+                        walls, steel vault doors, armored vehicle hulls) possess structural HP pools and are not
+                        bypassed by personal armor penetration rules.</p>
+                </div>
+
+                <div class="rules-box">
+                    <h4 id="uv-weapon-immunity-via-daywalkers-grace">UV Weapon Immunity via Daywalker's Grace</h4>
+                    <p>Vampires actively channeling <em>Daywalker's Grace</em> are completely immune to artificial UV
+                        spotlights, UV lasers, and UV flashbangs without consuming their 3-minute natural solar
+                        shield timer.</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 5 - INTEGRATION & COMPATIBILITY] -->
+        <!-- #region [PAGE: PART COVER (CH 5)] -->
+        <section class="page partCover" data-chapter="5" id="chapter-5">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>None of this exists in a vacuum. A closing look at how this handbook interfaces with the core
+                    framework's sunlight and blood reserve rules.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="5">
+            <header>
+                <span class="runningTitle">Equipment &amp; UV Arsenal Handbook</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1>Integration &amp; Compatibility</h1>
+                <p>This supplement is 100% compatible with <strong>Vampire TTRPG Framework v2608.64.0-bs</strong>.
+                    All equipment rules interface cleanly with Sunlight Burn Rules and Blood Reserve Management.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region [SECTION: BACK MATTER] -->
+    <div class="container back-matter">
+        <!-- #region [PAGE: BACK COVER] -->
+        <section class="page backCover">
+            <header>
+                <span class="supplementBadge">A Vampire TTRPG Framework Supplement</span>
+                <h1>Equipment &amp; UV Arsenal</h1>
+                <h2>Handbook</h2>
+            </header>
+            <main class="two-column">
+                <p>UV lasers that vaporize on contact. Thermal suits with a fuse waiting to blow. Consecrated rounds
+                    that keep a wound from closing. Synth-Vitae that keeps a coven fed until it starts eating away at
+                    them instead.</p>
+                <p>The <strong>Equipment &amp; UV Arsenal Handbook</strong> catalogs the gear on both sides of the
+                    hunt — hunter countermeasures and vampiric field kit alike — with the full interaction math for
+                    every stat block.</p>
+                <p><em>Requires the core Vampire TTRPG Framework rulebook to use.</em></p>
+            </main>
+            <footer>
+                <div class="footnote"><span class="footerMotif"></span> &copy;2026 Jeff Langdon</div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+</body>
+
+</html>

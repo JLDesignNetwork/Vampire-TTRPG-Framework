@@ -4,6 +4,18 @@ All notable changes to the Vampire Ruleset framework are documented in this file
 
 The versioning follows the [JLDN Generational Versioning Schema](https://github.com/JLDesignNetwork/Generational-Versioning-Schema) format (`[YYMM].[SUBVERSION].[REVISION]-[TAG]`).
 
+### 2608.67.1-bs (2026-08-18) - Beta Supported Revision (Orange Team Legacy Modernization & Docs Wiki Alignment)
+
+**Revision update executing `PROJ-TODO-01`. Scaffolded the complete top-level documentation wiki, standardized the `.github/` suite (FUNDING, SECURITY, CONTRIBUTING, CODE OF CONDUCT, PR template, issue templates), consolidated the books presentation layer, and hardened workspace security boundaries.**
+
+#### Added
+- **Documentation Wiki (`docs/`)**: Initialized internal wiki hub containing `docs/index.md` (Wiki Master Index & Navigator), `docs/architecture.md` (8-Chapter topology, Blood Economy system, and supplement map), and `docs/usage.md` (Game master guide, setting adaptation, and PDF compilation instructions).
+- **GitHub Governance Suite (`.github/`)**: Scaffolded `.github/FUNDING.yml`, `.github/SECURITY.md` (standardized contact `jldesignnetwork@icloud.com`), `.github/CONTRIBUTING.md`, `.github/CODE_OF_CONDUCT.md`, `.github/PULL_REQUEST_TEMPLATE.md`, `.github/copilot-instructions.md`, and `.github/ISSUE_TEMPLATE/feature_request.yml`.
+
+#### Changed
+- **`README.md`**: Updated documentation navigator links, synchronized GVS badge to `2608.67.1-bs`, updated contribution link to `.github/CONTRIBUTING.md`, and updated release history table.
+- **Books Layer Consolidation**: Merged presentation artifacts into canonical `books/` directory and purged legacy dotfolder `.books/`.
+
 ### 2608.67.0-bs (2026-08-17) - Beta Supported Release (Tri-Color Audit Suite Complete & Security Hardening)
 
 **Major Beta milestone executing `DOCS-TODO-110` through `DOCS-TODO-115`. Completed the entire JLDN Tri-Color Quality Assurance Suite (🟡 Yellow Team Systemic Logic Audit, 🔴 Red Team Adversarial Exploit Audit, and ⚪ White Team Forensic Traceability Audit) across all 8 core chapters and 3 modular supplements. Deployed full repository security infrastructure (CodeQL SAST, Secret Scanning, Tag & Branch Rulesets, Dependabot alerts, and Security Policy).**

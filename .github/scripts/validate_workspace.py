@@ -32,8 +32,7 @@ def main():
 
     errors = []
 
-    # 1. Index All Markdown Files & Anchors
-    md_files = glob.glob("docs/**/*.md", recursive=True) + ["README.md", "CONTRIBUTING.md", "LICENSE.md", "SECURITY.md"]
+    md_files = glob.glob("docs/**/*.md", recursive=True) + glob.glob(".github/**/*.md", recursive=True) + ["README.md", "LICENSE.md", "CHANGELOG.md"]
     md_files = [os.path.normpath(f) for f in md_files if os.path.exists(f)]
 
     anchor_index = {}

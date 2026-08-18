@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- #region [SECTION: META] -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bloodline Magic Compendium - Vampire TTRPG Framework</title>
+    <!-- #endregion -->
+    <link rel="stylesheet" href="../assets/vampire_theme.css" />
+</head>
+
+<body class="book-bloodline-magic">
+    <!-- #region [SECTION: FRONT MATTER] -->
+    <div class="container front-matter">
+        <!-- #region [PAGE: FRONT COVER] -->
+        <section class="page frontCover">
+            <header>
+                <span class="supplementBadge">A Vampire TTRPG Framework Supplement</span>
+                <h1>Bloodline Magic Compendium</h1>
+                <h2>Rituals of the Blood Arts</h2>
+            </header>
+            <footer>
+                <div class="footnote"><span class="footerMotif"></span> &copy;2026 Jeff Langdon &middot; v2608.64.0-bs</div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: FLYLEAF] -->
+        <section class="page flyleafPage">
+            <div class="flyleaf-motif"></div>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: CREDITS] -->
+        <section class="page creditsPage">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter">Credits</span>
+            </header>
+            <main class="two-column">
+                <div class="wide">
+                    <h1>Credits</h1>
+                    <p><strong>Version:</strong> 2608.65.0-bs</p>
+                    <p><strong>Game Design &amp; Writing:</strong> Jeff Langdon</p>
+                    <p><strong>Editing:</strong> Jeff Langdon</p>
+                    <p><strong>Art Direction &amp; Layout:</strong> Jeff Langdon</p>
+                    <p><strong>Playtesting:</strong> The Coven</p>
+                    <p><strong>Special Thanks:</strong> Everyone who bled for this system.</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote">Credits</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: TABLE OF CONTENTS] -->
+        <section class="page toc">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter">Table of Contents</span>
+            </header>
+            <main class="two-column">
+                <div class="wide">
+                    <h1>Table of Contents</h1>
+                </div>
+                <ol class="tocEntries">
+                    <li><a href="#chapter-1">Overview &amp; System-Agnostic Adaptation</a><span
+                            class="leader"></span><span class="pageNumber">1</span></li>
+                    <li><a href="#chapter-2">Foundational Ritual Mechanics</a><span class="leader"></span><span
+                            class="pageNumber">3</span></li>
+                    <li><a href="#chapter-3">Tier 1 Blood Rituals</a><span class="leader"></span><span
+                            class="pageNumber">6</span></li>
+                    <li><a href="#chapter-4">Tier 2 Blood Sorcery</a><span class="leader"></span><span
+                            class="pageNumber">9</span></li>
+                    <li><a href="#chapter-5">Tier 3 Primordial Rites</a><span class="leader"></span><span
+                            class="pageNumber">12</span></li>
+                    <li><a href="#chapter-6">Integration &amp; Compatibility</a><span class="leader"></span><span
+                            class="pageNumber">15</span></li>
+                    <li><a href="#glossary">Glossary &amp; Terminology</a><span class="leader"></span><span
+                            class="pageNumber">16</span></li>
+                    <li><a href="#index">Index</a><span class="leader"></span><span
+                            class="pageNumber">17</span></li>
+                </ol>
+            </main>
+            <footer>
+                <div class="footnote">Table of Contents</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region [SECTION: MAIN BODY] -->
+    <div class="container main-body">
+        <!-- #region [CHAPTER: 1 - OVERVIEW & SYSTEM-AGNOSTIC ADAPTATION] -->
+        <!-- #region [PAGE: PART COVER (CH 1)] -->
+        <section class="page partCover" data-chapter="1" id="chapter-1">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>An opt-in expansion of vampiric blood powers into structured sorcery incantations, sacrificial
+                    rituals, and ancestral bloodline rites &mdash; built to slot cleanly beneath the core framework
+                    without touching a single one of its mechanics.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="1">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <p>The <strong>Bloodline Magic Compendium</strong> is an official, opt-in supplement for the
+                    <a href="vampire_ruleset.html">Vampire TTRPG Framework</a>. It expands vampiric blood powers into
+                    structured sorcery incantations, sacrificial rituals, and ancestral bloodline rites.</p>
+                <p>Following <a
+                        href="vampire_ruleset.html#system-agnostic-multi-genre-framework">Separation of
+                        Concerns</a>, this supplement does not alter core ruleset mechanics. All rituals consume
+                    standard <a href="vampire_ruleset.html#blood-reserve-math--expenditure-caps">Blood
+                        Reserves</a> and scale using <a
+                        href="vampire_ruleset.html#age-tier-superiority-modifier-system">Universal Age Tier
+                        Superiority Modifiers</a>.</p>
+
+                <h2 id="genre-translation-matrix">Genre Translation Matrix</h2>
+                <table>
+                    <caption>Genre Translation Matrix</caption>
+                    <thead>
+                        <tr>
+                            <th>Concept</th>
+                            <th>&#128481;&#65039; High Fantasy (<em>Mytharios</em>)</th>
+                            <th>&#128640; Sci-Fi / Modern (<em>The Multiverse</em>)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Sorcery Catalyst</strong></td>
+                            <td>Runal obsidian chalices, alchemical silver bowls, sacrificial incantation altars</td>
+                            <td>Bio-synthetic blood centrifuges, laser-carved micro-fluidic chips, neural vitae
+                                frequency coders</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Blood Medium</strong></td>
+                            <td>Spilled mortal/vampiric blood, consecrated grave soil, ancient scrolls</td>
+                            <td>Oxygenated Synth-Vitae phials, cybernetic transfusion tubes, encrypted genetic
+                                bio-code</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scrying Optics</strong></td>
+                            <td>Obsidian scrying pools, silver-backed blood mirrors, raven eyes</td>
+                            <td>Encrypted bio-comm feeds, thermal satellite overlays, optic cyber-drones</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 2 - FOUNDATIONAL RITUAL MECHANICS] -->
+        <!-- #region [PAGE: PART COVER (CH 2)] -->
+        <section class="page partCover" data-chapter="2" id="chapter-2">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Casting windows, sacrificial blood sourcing, coven circle chanting, and the trauma that follows a
+                    ritual broken mid-cast. The scaffolding every rite in this book stands on.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="2">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <div class="rules-box">
+                    <h4 id="ritual-action-economy--casting-windows">Ritual Action Economy &amp; Casting Windows</h4>
+                    <p>Unlike instantaneous <a
+                            href="vampire_ruleset.html#formalized-turn-architecture">Activated Powers</a> cast
+                        during combat turns, Blood Rituals are complex incantations requiring extended
+                        concentration:</p>
+                    <ul>
+                        <li><strong>Tier 1 Rituals:</strong> Require <strong>1 Minute (10 Combat Rounds)</strong> of
+                            continuous chanting and blood tracing.</li>
+                        <li><strong>Tier 2 Rituals:</strong> Require <strong>10 Minutes</strong> of unbroken
+                            concentration.</li>
+                        <li><strong>Tier 3 Primordial Rites:</strong> Require <strong>1 Hour (60 Minutes)</strong> of
+                            ritual channeling and coven alignment.</li>
+                        <li><strong>No Pause &amp; Resume:</strong> Blood rituals require continuous, unbroken
+                            channeling of vitae. A ritual <strong>cannot be paused and resumed</strong> under any
+                            circumstances.</li>
+                        <li><strong>Voluntary Cancellation (50% Refund):</strong> If a caster voluntarily aborts a
+                            ritual prior to completion, <strong>50% of the spent Blood Reserves are
+                                forfeited</strong> (dissipated into ambient space), while the remaining 50% are
+                            retained in the caster's reservoir. Restarting an aborted ritual requires starting a
+                            fresh full-duration casting and paying the full Blood Reserve cost.</li>
+                    </ul>
+                </div>
+
+                <h2 id="blood-reserve-cost--sacrificial-upkeep">Blood Reserve Cost &amp; Sacrificial Upkeep</h2>
+                <p><strong>Casting Cost:</strong> Rituals expend stored <a
+                        href="vampire_ruleset.html#blood-reserve-math--expenditure-caps">Blood Reserves</a> upon
+                    initiation (Tier 1 = 1 Reserve; Tier 2 = 2 Reserves; Tier 3 = 3 Reserves).</p>
+                <p><strong>Sacrificial Substitution:</strong> A caster may substitute stored Blood Reserves by
+                    draining a living creature during the ritual. Blood source eligibility and potency vary by
+                    type:</p>
+                <table>
+                    <caption>Sacrificial Blood Source Eligibility</caption>
+                    <thead>
+                        <tr>
+                            <th>Blood Source</th>
+                            <th>Volume Required per Reserve</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Living mortal / Thrall</td>
+                            <td>250ml</td>
+                            <td>Standard potency. Full living vitae resonance.</td>
+                        </tr>
+                        <tr>
+                            <td>Vampire vitae</td>
+                            <td>100ml</td>
+                            <td>Concentrated potency. Donor must consent or be restrained. Counts as partial
+                                feeding &mdash; subject to Coven feeding laws.</td>
+                        </tr>
+                        <tr>
+                            <td>Living animal blood</td>
+                            <td>500ml</td>
+                            <td>Diminished potency. Lacks full sapient vitae resonance.</td>
+                        </tr>
+                        <tr>
+                            <td>Synth-Vitae phials</td>
+                            <td>1 full pouch (500ml)</td>
+                            <td>Reduced potency. Lacks living essence; accepted by blood magic but at half
+                                efficiency.</td>
+                        </tr>
+                        <tr>
+                            <td>Fresh corpse blood (&lt; 1 hour post-death)</td>
+                            <td>500ml</td>
+                            <td>Diminished potency. Vitae resonance fading rapidly.</td>
+                        </tr>
+                        <tr>
+                            <td>Stale corpse blood (&ge; 1 hour post-death)</td>
+                            <td><strong>Ineligible</strong></td>
+                            <td>Inert. Blood resonance fully dissipated. Cannot fulfill Sacrificial Substitution.
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+
+        <section class="page" data-chapter="2">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h2 id="coven-circle-chants--age-tier-synergy">Coven Circle Chants &amp; Age Tier Synergy</h2>
+                <ul>
+                    <li><strong>Coven Circle Timing &amp; Upkeep:</strong> Coven Circle Chants require a 1-minute
+                        pre-ritual alignment phase to establish the circle. Assisting secondary casters
+                        <strong>must remain inside the circle and continue chanting throughout the entire casting
+                            window</strong> to sustain circle bonuses. If a secondary member moves away or is
+                        disrupted, their contribution immediately ends.</li>
+                    <li><strong>Circle Ritual Bonuses:</strong> Each secondary vampire in the circle grants:
+                        <ul>
+                            <li><strong>Casting Time Reduction:</strong> -10% casting time per secondary member (max
+                                50% reduction).</li>
+                            <li><strong>Concentration Shielding:</strong> +1 bonus per secondary member to the Lead
+                                Caster's <a href="#ritual-interruption--backfire-trauma">Concentration tests</a> if
+                                disturbed during casting.</li>
+                            <li><strong>DC / Potency Stacking:</strong> +1 Coven Stacking Bonus per secondary member
+                                to the ritual's save DC or spell check (governed by <a
+                                    href="vampire_ruleset.html#coven-power-ritual-nexus-multi-caster-stacking--sequential-rotation">Coven
+                                    Power Ritual Nexus</a>).</li>
+                        </ul>
+                    </li>
+                    <li><strong>Lead Caster Tier Requirements:</strong> Secondary casters of any Age Tier may assist
+                        in any circle, but the Lead Caster initiating the ritual MUST meet the minimum Age Tier
+                        requirement for the arcana tier:
+                        <ul>
+                            <li><strong>Tier 1 Neonate Arcana:</strong> Lead Caster must be <strong>Neonate (&lt;500
+                                    yrs) or higher</strong>.</li>
+                            <li><strong>Tier 2 Elder Arcana:</strong> Lead Caster MUST be an <strong>Elder
+                                    (500&ndash;1,199 yrs)</strong> or Ancient.</li>
+                            <li><strong>Tier 3 Primordial Rites:</strong> Lead Caster MUST be an <strong>Ancient
+                                    (1,200+ yrs)</strong>.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Age Tier Scaling:</strong> Ritual save DCs and potency scale using <a
+                            href="vampire_ruleset.html#age-tier-superiority-modifier-system">Age Tier Superiority
+                            Math (&Delta;)</a>: Neonate = Base DC; Elder = +1 DC / +1 Area; Ancient = +2 DC / Double
+                        Duration.</li>
+                </ul>
+
+                <div class="rules-box">
+                    <h4 id="ritual-interruption--backfire-trauma">Ritual Interruption &amp; Backfire Trauma</h4>
+                    <p>If a ritual caster suffers physical damage, knockback, or psychic attack during casting:</p>
+                    <ul>
+                        <li><strong>Concentration Test:</strong> The caster MUST pass a <strong>Self-Control
+                                check</strong> with difficulty scaled by Age Tier:
+                            <ul>
+                                <li><strong>Neonate (&lt; 500 yrs):</strong> DC 15 (Hard)</li>
+                                <li><strong>Elder (500&ndash;1,199 yrs):</strong> DC 12 (Medium)</li>
+                                <li><strong>Ancient (1,200+ yrs):</strong> DC 9 (Easy)</li>
+                            </ul>
+                        </li>
+                        <li><strong>Backfire Trauma:</strong> On failure, the ritual collapses violently: spent
+                            Blood Reserves are lost, and the caster suffers <strong>1 Direct Core Health
+                                Damage</strong> from uncontained blood backfire.</li>
+                    </ul>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 3 - TIER 1 BLOOD RITUALS] -->
+        <!-- #region [PAGE: PART COVER (CH 3)] -->
+        <section class="page partCover" data-chapter="3" id="chapter-3">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Neonate Arcana. The first rites any bloodline sorcerer learns &mdash; scrying through blood,
+                    warding a threshold, and cleansing what should never have been swallowed.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="3">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h2>Tier 1 Blood Rituals (Neonate Arcana)</h2>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                            into a silver bowl or obsidian pool, the caster projects their physical/vitae senses into
+                            a remote scrying feed.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The blood surface dissolves into a
+                            crystal-clear visual feed of the target's current surroundings for 10 minutes.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess sensory powers
+                            (<a href="vampire_ruleset.html#thermal-vision">Thermal Vision</a>, <a
+                                href="vampire_ruleset.html#crimson-scent">Crimson Scent</a>, or <a
+                                href="vampire_ruleset.html#em-gaze">EM Gaze</a>) receive a <strong>+2 Power
+                                Synergy Bonus</strong> to all Bloodline Duel checks during scrying probes.</p>
+                        <p><strong>Age Tier Range Scaling</strong> (max scrying radius from the caster's physical
+                            location):</p>
+                        <ul>
+                            <li><strong>Neonate Caster (&lt; 500 yrs):</strong> 5-Mile Radius</li>
+                            <li><strong>Elder Caster (500&ndash;1,199 yrs):</strong> 15-Mile Radius</li>
+                            <li><strong>Ancient Caster (1,200+ yrs):</strong> 50-Mile Radius</li>
+                        </ul>
+                        <p><strong>Caster Trance State:</strong> Maintaining the 10-minute scrying feed requires
+                            focused concentration. The caster may converse normally and hear their immediate
+                            physical surroundings, but moving more than 5 feet away from the bowl or taking
+                            combat/defensive actions immediately breaks concentration and ends the scrying feed.</p>
+                        <p><strong>Bloodline Duel Counterplay:</strong> When targeting a vampire possessing mental
+                            defenses or a rival blood magic caster, an immediate <strong>Bloodline Duel</strong>
+                            (contested Self-Control check) is triggered between the scrying caster and the target:
+                        </p>
+                        <ul>
+                            <li><strong>Age Tier Scaling (&Delta;):</strong> Participants gain <strong>+1 to their
+                                    contested check per Age Tier difference</strong> above their opponent (Elder vs
+                                Neonate = +1; Ancient vs Neonate = +2).</li>
+                            <li><strong>Caster Victory:</strong> The probe pierces the defense and establishes the
+                                10-minute visual feed, but the target senses the breach.</li>
+                            <li><strong>Defender Victory:</strong> The blood pool clouds with static, blocking the
+                                vision. The defender senses the probe and receives a psychic trace of the caster's
+                                general cardinal direction.</li>
+                            <li><strong>Tie:</strong> The vision is blocked by static, but neither party acquires a
+                                psychic trace.</li>
+                        </ul>
+                    </div>
+                    <p class="item-card__flavor">"The bowl doesn't lie. It just doesn't always tell you who's
+                        watching back."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="ritual-of-the-crimson-ward">Ritual of the Crimson Ward</h4>
+                        <span class="item-card__tag">Tier 1 Neonate Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">1 Reserve</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">24 Hours</span></div>
+                        <div><span class="stat-label">Thresholds</span><span class="stat-value">1&ndash;7</span>
+                        </div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies protection and repulsion powers (<a
+                                href="vampire_ruleset.html#bane-blindness">Bane-Blindness</a>, <a
+                                href="vampire_ruleset.html#anointed-flesh">Anointed Flesh</a>), projecting
+                            bloodline defensive tethers onto physical architectural entryways.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The caster paints blood sigils across a
+                            threshold. Any uninvited mortal or rival vampire attempting to cross the threshold
+                            triggers a sudden searing blood burn, inflicting <strong>1 Fire/Thermal Damage</strong>
+                            and sounding a psychic alarm to the caster.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess protection or defensive
+                            powers (<a href="vampire_ruleset.html#anointed-flesh">Anointed Flesh</a> or <a
+                                href="vampire_ruleset.html#alchemical-assimilation">Alchemical
+                                Assimilation</a>) receive a <strong>+2 Power Synergy Bonus</strong> to the ward's
+                            blood burn damage (inflicting <strong>3 Fire/Thermal Damage</strong> total).</p>
+                        <p><strong>Age Tier Boundary Caps</strong> (maximum thresholds warded in a single casting):
+                        </p>
+                        <ul>
+                            <li><strong>Neonate Caster (&lt; 500 yrs):</strong> 1 Threshold max (single doorway or
+                                window frame)</li>
+                            <li><strong>Elder Caster (500&ndash;1,199 yrs):</strong> Up to 3 Thresholds max within
+                                the same haven</li>
+                            <li><strong>Ancient Caster (1,200+ yrs):</strong> Up to 7 Thresholds max within the same
+                                haven</li>
+                        </ul>
+                        <p><strong>Invitation Protocol:</strong> The caster is always permanently self-invited to
+                            their own warded threshold. Additional guests may be verbally designated as invited at
+                            any time during the ward's active 24-hour duration. Invitations are revoked by the
+                            caster's explicit verbal or written decree, or automatically upon the caster's entry into
+                            Torpor or True Death. <strong>Exile Edge-Case:</strong> A Coven Council exile ruling does
+                            not override the caster's personal invitation authority over their own private haven ward
+                            &mdash; however, a Coven-sanctioned forced entry override may be requested as a formal
+                            Tribunal dispensation (see <a href="coven_law_protocols.html">Coven Law Court
+                                Protocols</a>).</p>
+                    </div>
+                    <p class="item-card__flavor">"Uninvited guests learn the hard way that our doors bite back."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="vitae-purification-filter">Vitae Purification Filter</h4>
+                        <span class="item-card__tag">Tier 1 Neonate Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">1 / 2 Reserve</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">Instant</span></div>
+                        <div><span class="stat-label">Volume</span><span class="stat-value">1 Draft Max</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Cost:</strong> 1 Reserve (Pre-Ingestion) / 2 Reserves (Emergency Post-Ingestion
+                            Purge).</p>
+                        <p><strong>Power Amplification:</strong> Amplifies internal blood control powers (<a
+                                href="vampire_ruleset.html#gangrene-touch">Gangrene Touch</a>, <a
+                                href="vampire_ruleset.html#grand-harmonization">Grand Harmonization</a>),
+                            projecting biological blood purity magic onto external or ingested blood.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> Drawing a draft (~250ml) of harvested
+                            blood through palms instantly neutralizes all alchemical poisons, holy water taints,
+                            synthetic neurotoxins, or <a
+                                href="vampire_ruleset.html#power-fade-collapse-mutation">Reaper virus
+                                contagions</a> present in that draft for 1 Reserve.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess blood control powers
+                            (<a href="vampire_ruleset.html#gangrene-touch">Gangrene Touch</a> or <a
+                                href="vampire_ruleset.html#grand-harmonization">Grand Harmonization</a>) receive
+                            a <strong>+2 Power Synergy Bonus</strong> to all Fortitude/Constitution checks against
+                            lingering systemic toxins or contagions.</p>
+                        <p><strong>Defined Caps &amp; Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Volume Cap:</strong> Pre-ingestion purification is capped at <strong>1 draft
+                                    (~250ml) per casting</strong>.</li>
+                            <li><strong>Emergency Purge Cap:</strong> Emergency post-ingestion purge (2 Reserves)
+                                must occur within <strong>60 seconds</strong> of ingestion and is capped at
+                                <strong>max 1 Emergency Purge per Scene</strong>.</li>
+                        </ul>
+                        <p><em>Note: Silver is omitted as it poses no supernatural toxicity to vampires; see <a
+                                    href="vampire_ruleset.html#silver-mythic-misconception">Silver (Mythic
+                                    Misconception)</a>.</em></p>
+                    </div>
+                    <p class="item-card__flavor">"Drink first, filter second, ask questions never."</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 4 - TIER 2 BLOOD SORCERY] -->
+        <!-- #region [PAGE: PART COVER (CH 4)] -->
+        <section class="page partCover" data-chapter="4" id="chapter-4">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Elder Arcana. Communion across bloodlines, curses that thicken blood to sludge, locks that freeze
+                    a body mid-motion, and anchors that fold space back to a single painted sigil.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="4">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h2>Tier 2 Blood Sorcery (Elder Arcana)</h2>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="rhythm-of-the-ancestral-lineage">Rhythm of the Ancestral
+                            Lineage</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Scene</span></div>
+                        <div><span class="stat-label">Progeny</span><span class="stat-value">1&ndash;7</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies <a
+                                href="vampire_ruleset.html#ancestral-memory">Ancestral Memory</a>. By burning
+                            blood in an ancient censer or bio-centrifuge, the caster breaks the core <em>Historical
+                                Scope Lock</em> of <em>Ancestral Memory</em>, opening a <strong>live real-time
+                                telepathic communion feed</strong> across the blood tether between Sire and progeny.
+                        </p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> Burning the blood censer grants a
+                            <strong>+2 bonus to Cognition, Perception, and Historical Lore checks</strong> for 1
+                            Scene to the caster and all allied bloodline members in the room (whether they possess
+                            <a href="vampire_ruleset.html#ancestral-memory">Ancestral Memory</a> or not).</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess <a
+                                href="vampire_ruleset.html#ancestral-memory">Ancestral Memory</a> receive a
+                            <strong>+2 Power Synergy Bonus</strong> to all Bloodline Duel checks during live
+                            communion.</p>
+                        <p><strong>Age Tier Progeny Capacity Cap</strong> (number of bloodline progeny a Sire can
+                            monitor simultaneously): Neonate Caster = <strong>1 Target max</strong>; Elder Caster =
+                            <strong>Up to 3 Progeny max</strong>; Ancient Caster = <strong>Up to 7 Progeny
+                                max</strong>.</p>
+                        <p><strong>Bloodline Duel &amp; Detection Limits:</strong> The caster rolls <strong>1
+                                Bloodline Duel check</strong> against target(s):</p>
+                        <ul>
+                            <li><strong>Sire Probing Downward:</strong> Progeny do not automatically notice the probe
+                                &mdash; requires a <strong>Perception check (DC 14)</strong> to detect. Detected
+                                progeny roll Self-Control against the caster's result to sever their link.</li>
+                            <li><strong>Progeny Probing Upward:</strong> Higher-tier ancestors <strong>automatically
+                                    detect</strong> the probe instantly. If the ancestor wins the Bloodline Duel,
+                                they sever the link, inflict <strong>1 Direct Core Health Damage</strong> (psychic
+                                feedback) on the caster, and collapse the ritual.</li>
+                        </ul>
+                        <p><strong>Torpor/Deceased Cap:</strong> Probing a Sire or progeny in Torpor or True Death
+                            hard-caps back to baseline past memories only, adhering strictly to <a
+                                href="vampire_ruleset.html#ancestral-memory">Ancestral Memory</a> scope.</p>
+                    </div>
+                    <p class="item-card__flavor">"Every Sire hears their line hum. Some just choose not to
+                        listen."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="hematic-curse-of-inertia">Hematic Curse of Inertia</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Scene</span></div>
+                        <div><span class="stat-label">Targets</span><span class="stat-value">1&ndash;3</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies thermal and decay powers (<a
+                                href="vampire_ruleset.html#grave-rot">Grave Rot</a>), projecting cryogenic blood
+                            thickening magic into an enemy's circulatory system.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> Target enemy within line of sight has
+                            their blood thickened to cold sludge. Movement speed is halved (<strong>0.5x
+                                speed</strong>), and Initiative is reduced by <strong>-2</strong> for 1 Scene.
+                            Target may attempt a <strong>Hard Fortitude check</strong> at the start of each turn to
+                            break the curse.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess decay/necrotic powers
+                            (<a href="vampire_ruleset.html#grave-rot">Grave Rot</a>) receive a <strong>+2 Power
+                                Synergy Bonus</strong> to the curse's Fortitude resistance DC.</p>
+                        <p><strong>Age Tier Target Caps</strong> (maximum targets cursed in a single casting):</p>
+                        <ul>
+                            <li><strong>Neonate Caster (&lt; 500 yrs):</strong> 1 Target max</li>
+                            <li><strong>Elder Caster (500&ndash;1,199 yrs):</strong> Up to 2 Targets max within line
+                                of sight</li>
+                            <li><strong>Ancient Caster (1,200+ yrs):</strong> Up to 3 Targets max within line of
+                                sight</li>
+                        </ul>
+                        <p><strong>Caster Dependence &amp; Early Termination:</strong> The curse requires ongoing
+                            metaphysical tethering. If the caster is incapacitated, knocked unconscious, plunged into
+                            Torpor, or perishes, the curse immediately collapses and all targets' speed and
+                            Initiative are restored.</p>
+                    </div>
+                    <p class="item-card__flavor">"Their blood forgets how to hurry. So do they."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="sanguine-transfusion-lock">Sanguine Transfusion Lock</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Round</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Exposed Vitae</span>
+                        </div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies blood-arresting and gravimetric powers
+                            (<a href="vampire_ruleset.html#grav-crush">Grav-Crush</a>), manipulating exposed
+                            external blood flow to freeze an enemy's motor nervous system.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> Target wounded enemy bleeding exposed
+                            vitae has their blood flow violently locked in place. Forces target to drop held weapons
+                            and locks physical limbs for <strong>1 combat round</strong>.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess blood control powers
+                            (<a href="vampire_ruleset.html#gangrene-touch">Gangrene Touch</a> or <a
+                                href="vampire_ruleset.html#grand-harmonization">Grand Harmonization</a>) receive
+                            a <strong>+2 Power Synergy Bonus</strong> to the lock check / Fortitude resistance DC.
+                        </p>
+                        <p><strong>Physical Lock Scope:</strong> While locked, the target cannot perform physical
+                            movement, attacks, or gesture-based casting, but retains full consciousness and may speak
+                            or invoke purely mental/telepathic powers (<a
+                                href="vampire_ruleset.html#mind-tear">Mind Tear</a>).</p>
+                        <p><strong>Stunlock Immunity Cap:</strong> A target affected by Transfusion Lock gains
+                            temporary vascular immunity and <strong>cannot be targeted by Sanguine Transfusion Lock
+                                again for the remainder of the Scene</strong> (preventing continuous stunlock loops).
+                        </p>
+                    </div>
+                    <p class="item-card__flavor">"The blood stops. The panic doesn't."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="astral-anchor-ritual">Astral Anchor Ritual</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Astromancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">24 Hours</span></div>
+                        <div><span class="stat-label">Recall</span><span class="stat-value">5&ndash;25 Mi</span>
+                        </div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies spatial folding powers (<a
+                                href="vampire_ruleset.html#astral-step">Astral Step</a>), weaving a
+                            sub-dimensional spatial anchor into a physical surface.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The caster paints a subterranean blood
+                            sigil onto a solid surface. For 24 hours, the caster can burn <strong>1 Blood
+                                Reserve</strong> off-turn to instantly dissolve into spatial mist and teleport back
+                            to the anchor sigil from up to <strong>5 miles away</strong>.</p>
+                        <h4 class="item-card__name" id="rite-of-ancestral-communion">Rite of Ancestral Communion</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Scene</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Self / Relic</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies lineage memory and telepathic powers (<a
+                                href="vampire_ruleset.html#blood-memory">Blood Memory</a>, <a
+                                href="vampire_ruleset.html#telepathic-link">Telepathic Link</a>), unlocking ancestral
+                            combat instincts and forgotten lore.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The caster anoints their forehead and a
+                            lineage heirloom with 2 Reserves, opening a psychic link with ancestral memories. They gain
+                            <strong>+2 to Lore and Investigation checks</strong> for 1 scene and may ask the GM <strong>3
+                                historical questions</strong> about the lineage's history.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess lineage or telepathic powers
+                            (<a href="vampire_ruleset.html#blood-memory">Blood Memory</a> or <a
+                                href="vampire_ruleset.html#telepathic-link">Telepathic Link</a>) also gain <strong>1 free
+                                temporary proficiency</strong> in any ancient skill or language for the duration of the
+                            scene.</p>
+                        <p><strong>Defined Caps &amp; Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Questions Cap:</strong> Strictly 3 discrete questions per casting.</li>
+                            <li><strong>Duration Cap:</strong> 1 Scene max.</li>
+                            <li><strong>Frequency Cap:</strong> Cannot be cast more than <strong>once per night</strong>
+                                without suffering 1 Direct Core Health Damage from psychic fatigue.</li>
+                        </ul>
+                    </div>
+                    <p class="item-card__flavor">"Three hundred years of dead ancestors stand behind every blade stroke."
+                    </p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="rite-of-the-hematic-curse">Rite of the Hematic Curse</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">24 Hours</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Line of Sight</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies debilitating and affliction powers (<a
+                                href="vampire_ruleset.html#blood-curse">Vitae Curse</a>, <a
+                                href="vampire_ruleset.html#withering-touch">Withering Touch</a>), thickening an enemy's
+                            blood to sluggish syrup.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The caster points at a visible target within
+                            50 feet and whispers an ancient incantation. Target must make a <strong>Stamina check (DC
+                                15)</strong> or suffer <strong>-2 Movement Speed</strong> and <strong>+1 Blood Reserve
+                                cost</strong> on all activated powers for 24 hours.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters with native affliction powers (<a
+                                href="vampire_ruleset.html#blood-curse">Vitae Curse</a> or <a
+                                href="vampire_ruleset.html#withering-touch">Withering Touch</a>) increase the Stamina DC
+                            from <strong>15 to 17</strong> and inflict <strong>Disadvantage on Initiative rolls</strong>.
+                        </p>
+                        <p><strong>Defined Caps &amp; Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Duration Cap:</strong> Strictly 24 hours (dispelled automatically at next dusk).
+                            </li>
+                            <li><strong>Target Cap:</strong> Affects 1 target per casting.</li>
+                            <li><strong>Immunity:</strong> Vampires of Elder tier (500+ years) or higher test with
+                                Advantage against this curse.</li>
+                        </ul>
+                    </div>
+                    <p class="item-card__flavor">"Your veins are no longer rivers; they are frozen canals."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="rite-of-the-sanguine-anchor">Rite of the Sanguine Anchor</h4>
+                        <span class="item-card__tag">Tier 2 Elder Arcana &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">2 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">Permanent</span></div>
+                        <div><span class="stat-label">Range</span><span class="stat-value">Touch</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies territorial binding and mobility powers (<a
+                                href="vampire_ruleset.html#shadow-step">Shadow Step</a>, <a
+                                href="vampire_ruleset.html#blood-recall">Vitae Recall</a>), creating a persistent teleport
+                            beacon.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The caster paints an anchor sigil onto a
+                            stone surface within their haven. Once established, the caster can sense the status and
+                            security of the anchor point from anywhere within the same city.</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters with native mobility powers (<a
+                                href="vampire_ruleset.html#shadow-step">Shadow Step</a> or <a
+                                href="vampire_ruleset.html#blood-recall">Vitae Recall</a>) can spend 2 Reserves to
+                            <strong>instantly teleport back to the anchor</strong> as an emergency action from up to 5
+                            miles away.</p>
+                        <p><strong>Defined Caps &amp; Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Anchor Cap:</strong> A vampire can maintain at most <strong>2 active anchors</strong>
+                                simultaneously. Establishing a third destroys the oldest.</li>
+                            <li><strong>Destruction:</strong> Physically defacing the painted sigil destroys the anchor
+                                immediately.</li>
+                        </ul>
+                    </div>
+                    <p class="item-card__flavor">"Wherever the night takes me, the sigil takes me home."</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 5 - TIER 3 PRIMORDIAL RITES] -->
+        <!-- #region [PAGE: PART COVER (CH 5)] -->
+        <section class="page partCover" data-chapter="5" id="chapter-5">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>Ancient Arcana. Rites that transmute wells into vitae and blot out the moon over a mile of
+                    unsuspecting city &mdash; reserved for those who have carried the hunger for over a millennium.
+                </p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="5">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h2>Tier 3 Primordial Rites (Ancient Arcana)</h2>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="grand-rite-of-hematic-transmutation">Grand Rite of Hematic
+                            Transmutation</h4>
+                        <span class="item-card__tag">Tier 3 Primordial Rite &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">3 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">24 Hours</span></div>
+                        <div><span class="stat-label">Volume</span><span class="stat-value">1,000 Gal Max</span>
+                        </div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies alchemical blood powers (<a
+                                href="vampire_ruleset.html#gangrene-touch">Gangrene Touch</a>, <a
+                                href="vampire_ruleset.html#grand-harmonization">Grand Harmonization</a>),
+                            projecting biological transmutation magic across macro environmental water reservoirs.
+                        </p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> Conducts a 1-hour ritual over a body of
+                            water (well, fountain, reservoir), transmuting up to <strong>1,000 gallons into dark,
+                                blood-infused vitae</strong>. Vampires drinking it regenerate 1 Reserve per gallon
+                            (subject to Regeneration Cap). Mortals drinking it gain the <strong>Susceptibility</strong>
+                            condition (50% easier to enthrall for 24 hours).</p>
+                        <p><strong>Power Synergy Bonus:</strong> Casters who natively possess alchemical blood powers
+                            (<a href="vampire_ruleset.html#gangrene-touch">Gangrene Touch</a> or <a
+                                href="vampire_ruleset.html#grand-harmonization">Grand Harmonization</a>) receive
+                            a <strong>+2 Power Synergy Bonus</strong> to the 1-hour ritual completion check and a
+                            <strong>+2 bonus to Concentration tests</strong> if disturbed during casting.</p>
+                        <p><strong>Defined Caps &amp; Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Volume Cap:</strong> Transmutes up to 1,000 Gallons max per casting.</li>
+                            <li><strong>Duration Cap:</strong> Transmutation lasts strictly <strong>24
+                                    hours</strong> before all remaining water reverts to its natural state. Thrall
+                                bonds established during the window remain in effect post-reversion.</li>
+                            <li><strong>Regeneration Cap:</strong> A vampire cannot regenerate more Blood Reserves
+                                from transmuted water in a single feeding session than their standard per-night
+                                Reserve pool cap (see <a href="vampire_ruleset.html#blood-reserve-math">Blood
+                                    Reserve Math</a>).</li>
+                        </ul>
+                        <p><strong>Thrall Susceptibility Protocol:</strong> Mortals drinking the transmuted water
+                            gain <strong>Susceptibility</strong> (50% easier to enthrall via deliberate blood bond
+                            feeding). Drinking transmuted water does <strong>NOT</strong> automatically create a
+                            Thrall bond &mdash; an intentional feeding enthrallment is still required. Standard <a
+                                href="vampire_ruleset.html#thrall-cap">Thrall Cap rules</a> and overage penalties
+                            apply.</p>
+                    </div>
+                    <p class="item-card__flavor">"The well remembers what it carried, long after it runs clear
+                        again."</p>
+                </div>
+
+                <div class="item-card item-card--spell">
+                    <div class="item-card__header">
+                        <h4 class="item-card__name" id="eclipse-of-the-sanguine-tide">Eclipse of the Sanguine Tide
+                        </h4>
+                        <span class="item-card__tag">Tier 3 Primordial Rite &middot; Hemomancy</span>
+                    </div>
+                    <div class="item-card__stats">
+                        <div><span class="stat-label">Cost</span><span class="stat-value">3 Reserves</span></div>
+                        <div><span class="stat-label">Duration</span><span class="stat-value">1 Night</span></div>
+                        <div><span class="stat-label">Radius</span><span class="stat-value">1 Mile</span></div>
+                    </div>
+                    <div class="item-card__desc">
+                        <p><strong>Power Amplification:</strong> Amplifies environmental and mist powers (<a
+                                href="vampire_ruleset.html#mist-form">Mist Form</a>, <a
+                                href="vampire_ruleset.html#nightmare-visage">Nightmare Visage</a>), elevating
+                            local mist into a macro 1-mile blood fog envelope.</p>
+                        <p><strong>Standalone Benefit (All Casters):</strong> The Ancient channels an explosive
+                            crimson beacon into the night sky, rolling a thick crimson fog across a <strong>1-mile
+                                radius</strong>. Completely blocks moonlight and star guidance. All allied vampires
+                            inside gain <strong>+1 to Perception and Tracking checks</strong>, <strong>+1
+                                damage/potency to blood powers</strong>, and <a
+                                href="vampire_ruleset.html#blood-reserve-math">Eclipse Overcap</a> (+2 Neonate,
+                            +3 Elder, +4 Ancient).</p>
+                        <p><strong>Power Synergy Bonus:</strong> Allied casters inside the fog zone who natively
+                            possess environmental or illusion powers (<a
+                                href="vampire_ruleset.html#mist-form">Mist Form</a> or <a
+                                href="vampire_ruleset.html#nightmare-visage">Nightmare Visage</a>) receive a
+                            <strong>+2 Power Synergy Bonus</strong> to power DCs and save DCs for powers cast inside
+                            the fog.</p>
+                        <p><strong>Defined Caps &amp; Spatial Boundaries:</strong></p>
+                        <ul>
+                            <li><strong>Radius Cap:</strong> 1-Mile Radius max centered on the initial beacon
+                                location.</li>
+                            <li><strong>Duration Cap:</strong> 1 Entire Night max (dispels automatically at dawn).
+                            </li>
+                            <li><strong>Overcap Decay:</strong> Overcap reserves are expended before standard
+                                reserves and drain at <strong>double the passive rate</strong> after Eclipse ends at
+                                dawn.</li>
+                        </ul>
+                        <table class="stat-table">
+                            <caption>Eclipse Overcap Table</caption>
+                            <thead>
+                                <tr>
+                                    <th>Age Tier</th>
+                                    <th>Eclipse Overcap</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Neonate (&lt; 500 yrs)</td>
+                                    <td>+2 Reserves above personal cap</td>
+                                </tr>
+                                <tr>
+                                    <td>Elder (500&ndash;1,199 yrs)</td>
+                                    <td>+3 Reserves above personal cap</td>
+                                </tr>
+                                <tr>
+                                    <td>Ancient (1,200+ yrs)</td>
+                                    <td>+4 Reserves above personal cap</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p>A vampire may harvest multiple times during the Eclipse night, returning to tithe after
+                            each 5-reserve harvest threshold. Standard <a
+                                href="vampire_ruleset.html#coven-structure--governance">Law of the Sanguine
+                                Tithe</a> obligations apply to all reserves <em>harvested</em> during the Eclipse
+                            window. <strong>No Over-Tithe Credit:</strong> Each tithe period is calculated and
+                            settled independently. Donating surplus reserves generates zero forward credit.</p>
+                    </div>
+                    <p class="item-card__flavor">"When the sky turns to blood, even the moon looks away."</p>
+                </div>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [CHAPTER: 6 - INTEGRATION & COMPATIBILITY] -->
+        <!-- #region [PAGE: PART COVER (CH 6)] -->
+        <section class="page partCover" data-chapter="6" id="chapter-6">
+            <div class="partCover-image">
+                <header>
+                    <h1></h1>
+                    <h2></h2>
+                </header>
+            </div>
+            <main class="two-column">
+                <p>None of this replaces the core framework. It only proves how far a coven can push it once they
+                    learn to bleed with intention.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <section class="page" data-chapter="6">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter"></span>
+            </header>
+            <main class="two-column">
+                <h1>Integration &amp; Compatibility</h1>
+                <p>This supplement is 100% compatible with <strong>Vampire TTRPG Framework
+                        v2608.64.0-bs</strong>. All ritual rules interact cleanly with <a
+                        href="vampire_ruleset.html#social">Coven Governance Law</a>, <a
+                        href="vampire_ruleset.html#torpor">Torpor Recovery Track</a>, and <a
+                        href="vampire_ruleset.html#age-tier-superiority-modifier-system">Age Tier Superiority
+                        Mechanics</a>.</p>
+            </main>
+            <footer>
+                <div class="footnote"></div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region [SECTION: BACK MATTER] -->
+    <div class="container back-matter">
+        <!-- #region [PAGE: GLOSSARY] -->
+        <section class="page glossaryPage" id="glossary">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter">Glossary</span>
+            </header>
+            <main class="two-column">
+                <h2>Glossary &amp; Terminology</h2>
+                <p><strong>Arcana Tiers:</strong> The three structured power grades of blood sorcery: Tier 1 (Neonate Rites), Tier 2 (Elder Sorcery), and Tier 3 (Primordial Rites).</p>
+                <p><strong>Backfire Trauma:</strong> Lethal biological and mental backlash (Direct Core Health Damage) suffered on a critical failure during high-tier ritual casting.</p>
+                <p><strong>Bloodline Conduit:</strong> A living blood descendant or sire link used to extend ritual ranges across vast physical distances.</p>
+                <p><strong>Coven Circle Chant:</strong> Multi-caster cooperative incantation that reduces individual Blood Reserve costs and amplifies casting potency.</p>
+                <p><strong>Hematic Anchor:</strong> A physical focus or prepared circle that anchors sustained ritual enchantments to a physical territory.</p>
+                <p><strong>Incantation Action Economy:</strong> Standard combat action distribution requiring continuous concentration actions across consecutive rounds.</p>
+                <p><strong>Primordial Rite:</strong> Tier 3 cataclysmic blood magic requiring multiple casters, ancient blood, and extended casting rituals.</p>
+                <p><strong>Sacrificial Upkeep:</strong> Blood Reserves or mortal life essence required at regular intervals to sustain an active ritual ward.</p>
+                <p><strong>Sanguine Scrying:</strong> Divinatory Hemomancy using reflective pools of vitae to perceive remote locations or track bloodlines.</p>
+                <p><strong>Transmutation Window:</strong> The operational lifespan (e.g. 24 hours) during which alchemical blood transmutations remain stable.</p>
+            </main>
+            <footer>
+                <div class="footnote">Glossary</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: INDEX] -->
+        <section class="page indexPage" id="index">
+            <header>
+                <span class="runningTitle">Bloodline Magic Compendium</span>
+                <span class="runningChapter">Index</span>
+            </header>
+            <main class="three-column">
+                <h2>Index</h2>
+                <ul class="indexEntries">
+                    <li><a href="#arcana-tiers">Arcana Tiers</a><span class="leader"></span><span class="pageNumber">3</span></li>
+                    <li><a href="#backfire-trauma">Backfire Trauma</a><span class="leader"></span><span class="pageNumber">5</span></li>
+                    <li><a href="#coven-circle-chants">Circle Chants</a><span class="leader"></span><span class="pageNumber">4</span></li>
+                    <li><a href="#grand-rite">Grand Rite</a><span class="leader"></span><span class="pageNumber">14</span></li>
+                    <li><a href="#hematic-curse">Hematic Curse</a><span class="leader"></span><span class="pageNumber">11</span></li>
+                    <li><a href="#ritual-of-the-crimson-ward">Crimson Ward</a><span class="leader"></span><span class="pageNumber">7</span></li>
+                    <li><a href="#sanguine-scrying-mirror">Scrying Mirror</a><span class="leader"></span><span class="pageNumber">6</span></li>
+                    <li><a href="#tier-1-blood-rituals">Tier 1 Rituals</a><span class="leader"></span><span class="pageNumber">6</span></li>
+                    <li><a href="#tier-2-blood-sorcery">Tier 2 Sorcery</a><span class="leader"></span><span class="pageNumber">9</span></li>
+                    <li><a href="#tier-3-primordial-rites">Tier 3 Rites</a><span class="leader"></span><span class="pageNumber">12</span></li>
+                    <li><a href="#vitae-purification-filter">Vitae Filter</a><span class="leader"></span><span class="pageNumber">8</span></li>
+                </ul>
+            </main>
+            <footer>
+                <div class="footnote">Index</div>
+                <div class="pageNumber"></div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+
+        <!-- #region [PAGE: BACK COVER] -->
+        <section class="page backCover">
+            <header>
+                <span class="supplementBadge">A Vampire TTRPG Framework Supplement</span>
+                <h1>Bloodline Magic Compendium</h1>
+                <h2>v2608.64.0-bs</h2>
+            </header>
+            <main class="two-column">
+                <p>Blood is not just a resource. In the right hands, it is a scrying pool, a warded threshold, a
+                    curse that slows the blood in an enemy's veins, and a tide that blots out the moon.</p>
+                <p>The <strong>Bloodline Magic Compendium</strong> catalogs every confirmed Hemomancy rite in
+                    circulation among the covens &mdash; from a Neonate's first scrying mirror to the Primordial
+                    Rites only an Ancient dares complete.</p>
+                <p><em>This is a supplement. It requires the core <strong>Vampire TTRPG Framework</strong> rulebook
+                        to use.</em></p>
+            </main>
+            <footer>
+                <div class="footnote"><span class="footerMotif"></span> &copy;2026 Jeff Langdon</div>
+            </footer>
+        </section>
+        <!-- #endregion -->
+    </div>
+    <!-- #endregion -->
+</body>
+
+</html>

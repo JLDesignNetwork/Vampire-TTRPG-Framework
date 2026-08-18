@@ -1,0 +1,23 @@
+name: "Rule Expansion Proposal"
+description: "Propose a new bloodline discipline, supplement mechanic, or ruleset expansion."
+title: "[PROPOSAL]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for submitting a mechanics proposal for the Vampire TTRPG Framework!
+  - type: textarea
+    id: problem
+    attributes:
+      label: Concept & Narrative Motivation
+      description: What thematic or tactical gameplay gap does this proposal address?
+    validations:
+      required: true
+  - type: textarea
+    id: mechanics
+    attributes:
+      label: Proposed Mechanics & Formulas
+      description: Detail the mechanical execution, Vitae costs, and roll DC benchmarks.
+    validations:
+      required: true
