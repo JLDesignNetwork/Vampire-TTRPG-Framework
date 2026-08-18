@@ -1,0 +1,36 @@
+book: Bloodline Magic Compendium
+source_file: bloodline_magic.md
+chapters:
+  - chapter: 1
+    title: "Overview & System-Agnostic Adaptation"
+    sections:
+      - "Bloodline Magic Compendium v2608.67.0-bs"
+      - "Genre Translation Matrix"
+  - chapter: 2
+    title: "Foundational Ritual Mechanics"
+    sections:
+      - "Ritual Action Economy & Casting Windows"
+      - "Blood Reserve Cost & Sacrificial Upkeep"
+      - "Coven Circle Chants & Age Tier Synergy"
+      - "Ritual Interruption & Backfire Trauma"
+  - chapter: 3
+    title: "Tier 1 Blood Rituals (Neonate Arcana)"
+    sections:
+      - "Sanguine Scrying Mirror `(Tier 1 Neonate Arcana — Hemomancy)`"
+      - "Ritual of the Crimson Ward `(Tier 1 Neonate Arcana — Hemomancy)`"
+      - "Vitae Purification Filter `(Tier 1 Neonate Arcana — Hemomancy)`"
+  - chapter: 4
+    title: "Tier 2 Blood Sorcery (Elder Arcana)"
+    sections:
+      - "Rhythm of the Ancestral Lineage `(Tier 2 Elder Arcana — Hemomancy)`"
+      - "Hematic Curse of Inertia `(Tier 2 Elder Arcana — Hemomancy)`"
+      - "Sanguine Transfusion Lock `(Tier 2 Elder Arcana — Hemomancy)`"
+      - "Astral Anchor Ritual `(Tier 2 Elder Arcana — Astromancy)`"
+  - chapter: 5
+    title: "Tier 3 Primordial Rites (Ancient Arcana)"
+    sections:
+      - "Grand Rite of Hematic Transmutation `(Tier 3 Primordial Rites — Hemomancy)`"
+      - "Eclipse of the Sanguine Tide `(Tier 3 Primordial Rites — Hemomancy)`"
+  - chapter: 6
+    title: "Integration & Compatibility"
+    sections: []

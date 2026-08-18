@@ -1,0 +1,16 @@
+{
+  "ideas": [
+    {
+      "id": "DOCS-IDEA-01",
+      "status": "implemented",
+      "details": "Revamp category terminology across supernatural powers and rituals into a normalized 12-Discipline '-mancy' taxonomy: Hemomancy (Blood Magic), Necromancy (Death/Soul), Osteomancy (Bone Arts), Pyromancy (Fire/Hellfire), Gravimancy (Gravity/Force Shields), Astromancy (Spatial Folding/Teleportation), Umbramancy (Shadow Traversal), Psychomancy (Mind/Illusion/Psychokinesis), Cognimancy (Perception/FLIR/Bio-Sonar), Morphomancy (Form Shifting/Swarms), Immunomancy (Bane Protection/Solar Shields), Biomancy (Healing/Vital Control). All power/ritual names, types, and descriptions normalized per user approval. Key locked terms: Spider's Grace, Daywalker's Grace, Sanguine Knit, Resounding Beat, and body-shifting in Morphomancy.",
+      "resolution": "Fully implemented across framework via DOCS-TODO-85 through DOCS-TODO-90. Codified Section 7 in 2608/terminology.md, refactored 2608/vampire.md power section into the 12 canonical -mancy headers with [Behavioral] / [Supernatural] classification tags, added Osteomancy & Astromancy powers/rituals, updated supplements/bloodline_magic.md, and audited all anchor cross-references."
+    },
+    {
+      "id": "DOCS-IDEA-02",
+      "status": "implemented",
+      "details": "Direct Line-Level Micro-Anchoring: Insert invisible HTML line-level micro-anchors (`<a id=\"power-name\"></a>`) into every individual power, ritual, protocol, law, and weapon across vampire.md, bloodline_magic.md, coven_law_protocols.md, and uv_arsenal_handbook.md. This enables 100% precise, line-level anchor linking (`[Power Name](vampire.md#power-name)`) without altering markdown bullet styling, breaking PDF 2-column page rendering, or polluting PDF bookmark drawers. All cross-references updated to point directly to micro-anchors.",
+      "resolution": "Fully implemented via DOCS-TODO-91 through DOCS-TODO-95 across vampire.md, bloodline_magic.md, coven_law_protocols.md, and uv_arsenal_handbook.md. Inserted invisible micro-anchors for all 60+ powers, 9 rituals, 20 law protocols, and 15 weapons/gear items, and synchronized 100% of deep reference links."
+    }
+  ]
+}

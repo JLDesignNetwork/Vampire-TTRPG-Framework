@@ -1,0 +1,109 @@
+book: Vampire Ruleset
+source_file: vampire.md
+chapters:
+  - chapter: 1
+    title: "Introduction & The Core Framework"
+    sections:
+      - "Vampire Ruleset v2608.67.0-bs"
+      - "System Agnostic & Multi-Genre Framework"
+
+  - chapter: 2
+    title: "The Curse & Physiology"
+    sections:
+      - "Behavior & Physiology"
+      - "Default Biological & Physical Traits"
+      - "The Predatory Aura & Uncanny Valley"
+      - "Night-Stalking & Hunting Psychology"
+      - "Territorial Sanguine Boundaries"
+      - "Physical Attributes & Speed"
+      - "Sunlight Lethality Baseline"
+      - "The 3-Stage Solar Disintegration Track"
+      - "Environmental Filtering & Shade Survival"
+      - "Artificial UV Light Weapons (Dual-Genre)"
+      - "Banes & Weaknesses"
+      - "1. Wooden Stake (Cardiac Lock & Torpor)"
+      - "2. Garlic & Allium Toxicity (Botanical Repulsion)"
+      - "3. Holy Water & Consecrated Liquids (Scared Wounds)"
+      - "4. Sacred Geometry & Crucifixes (Sacred Repulsion Aura)"
+      - "5. Silver (Mythic Misconception)"
+      - "The Native Soil Dependency"
+      - "Weaponizing & Sabotaging Native Soil"
+      - "The Home Sickness Regression Track (The Bleed)"
+      - "Native Soil Recovery (Re-Rooting Track)"
+      - "Dismemberment & Decapitation"
+      - "Dismemberment (Severed Limbs)"
+      - "Decapitation (Head Severed)"
+
+  - chapter: 3
+    title: "The Embrace & The Aftermath"
+    sections:
+      - "Creation"
+      - "Phase 1: The Death Threshold"
+      - "Phase 2: The Sanguine Transfusion"
+      - "Phase 3: The First Awakening"
+      - "Creation Limitations & Anti-Mass Siring Rules"
+      - "The Dying Echo"
+
+  - chapter: 4
+    title: "The Struggle for Humanity"
+    sections:
+      - "Nocturnal Detachment (The Daylight Rift)"
+      - "Life"
+      - "Pre-Change"
+      - "Post-Change"
+
+  - chapter: 5
+    title: "Mechanics of the Blood"
+    sections:
+      - "Mechanics"
+      - "Draining"
+      - "Drinking & Sustenance Rules"
+      - "Blood Capacity, Growth Track & Passive Awakening Drain"
+      - "Action Economy & Combat Turn Structure"
+      - "Categorized Per-Round Expenditure Caps (Age Tier Scaling)"
+      - "Universal Age Tier Superiority Modifier System"
+      - "Blood Quality Tiers"
+      - "The Effects of Drinking Elder Blood (500–1,199 Years)"
+      - "The Effects of Drinking Ancient Blood (1,200+ Years)"
+      - "Blood Surge (Physical Boost)"
+      - "Sustenance & Blood Starvation Rules"
+      - "Feeding"
+
+  - chapter: 6
+    title: "The Bloodline Arts (Powers)"
+    sections:
+      - "Powers"
+      - "Combined Power Usage & Synergistic Scaling Matrix"
+      - "Power Fade & Inheritance"
+      - "Supernatural & Behavioral Powers (-mancy Taxonomy)"
+      - "Hemomancy (Blood Magic & Vitae Arts)"
+      - "Necromancy (Death, Soul & Undead Manipulation)"
+      - "Osteomancy (Bone Manipulation & Skeletal Arts)"
+      - "Thermomancy (Thermal Inversion, Cold & Hellfire Arts)"
+      - "Gravimancy (Gravity Control, Mass Defiance & Force Fields)"
+      - "Astromancy (Spatial Folding & Teleportation)"
+      - "Umbramancy (Shadow Traversal & Void Manipulation)"
+      - "Psychomancy (Mind, Illusion, Telekinesis & Influence)"
+      - "Cognimancy (Perception, FLIR Optics & Bio-Sonar)"
+      - "Morphomancy (Form Shifting & Swarm Realms)"
+      - "Immunomancy (Bane Protection, Wards & Solar Shielding)"
+      - "Biomancy (Healing, Biological Grafting & Vital Control)"
+
+  - chapter: 7
+    title: "Vampire Society & Politics"
+    sections:
+      - "Social"
+      - "Bloodline Dynamics & Telepathy"
+      - "Secrecy, Covens, and Thralls"
+      
+  - chapter: 8
+    title: "Vampire Taxonomy & Lineages"
+    sections:
+      - "Types"
+      - "Mutations"
+      - "1. The Feral Husk (Trigger: Botched Drain / Premature Pull-Away)"
+      - "2. The Hollow Abomination (Trigger: Power Fade Collapse)"
+      - "3. The Spliced Reaper (Trigger: Artificial / Cyber-Gene Tampering)"
+      - "Neonates (New World: < 500 Years)"
+      - "Elders (Old World: 500 to 1,199 Years)"
+      - "Ancients (Primordial Old World: 1,200+ Years)"

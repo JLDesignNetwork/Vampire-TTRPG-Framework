@@ -1,0 +1,29 @@
+book: Coven Law Court Protocols & Legal Code
+source_file: coven_law_protocols.md
+chapters:
+  - chapter: 1
+    title: "Overview & System-Agnostic Adaptation"
+    sections:
+      - "Coven Law Court Protocols & Legal Code v2608.67.0-bs"
+      - "Genre Translation Matrix"
+  - chapter: 2
+    title: "Judicial Tribunal Architecture"
+    sections:
+      - "The Presiding Magistrate & Tribunal Bench"
+      - "Evidence Admissibility & Blood Testimony"
+      - "The Four Stages of Coven Trial Procedure"
+  - chapter: 3
+    title: "Legal Dispensations & Sanction Protocols"
+    sections:
+      - "Sanctioned Termination Protocol"
+      - "Sanctioned Release Dispensation"
+      - "Blood Treaty Diplomatic Accords"
+  - chapter: 4
+    title: "Penalties & Punishment Codex"
+    sections:
+      - "Tier 1 Infractions (Sanguine Tithe & Fine)"
+      - "Tier 2 Infractions (Enforced Torpor Slumber)"
+      - "Tier 3 Infractions (Tabula Rasa & Sun Fire Execution)"
+  - chapter: 5
+    title: "Integration & Compatibility"
+    sections: []

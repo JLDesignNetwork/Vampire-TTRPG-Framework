@@ -1,0 +1,29 @@
+book: Equipment & UV Arsenal Handbook
+source_file: uv_arsenal_handbook.md
+chapters:
+  - chapter: 1
+    title: "Overview & System-Agnostic Adaptation"
+    sections:
+      - "Equipment & UV Arsenal Handbook v2608.67.0-bs"
+      - "Genre Translation Matrix"
+  - chapter: 2
+    title: "Hunter Tactical Countermeasures"
+    sections:
+      - "High-Intensity UV Laser Rifles & Emitting Spotlights"
+      - "Pressurized UV Flashbang Grenades"
+      - "Thermal FLIR Imaging & Optics Scanners"
+      - "Consecrated & Holy Alchemical Taint Munitions"
+  - chapter: 3
+    title: "Vampiric Armaments & Field Gear"
+    sections:
+      - "Thermal Vitae Heating Gear & FLIR Suit"
+      - "Obsidian Composite & Sanguine Weave Armor"
+      - "Synthetic Blood Pouches (Synth-Vitae) & Injectors"
+  - chapter: 4
+    title: "Tactical Damage & Hardness Interaction Math"
+    sections:
+      - "Personal Body Armor vs Structural Integrity HP"
+      - "UV Weapon Immunity via Daywalker's Grace"
+  - chapter: 5
+    title: "Integration & Compatibility"
+    sections: []
